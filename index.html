@@ -414,7 +414,7 @@ const PARTY_MAP = {
   // PDI-P
   "Alex Indra Lukman": "PDI-P", "Sonny T. Danaparamita": "PDI-P", "Mayjen TNI (Purn) Sturman Panjaitan": "PDI-P", "Rokhmin Dahuri": "PDI-P", "I Nyoman Adi Wiryatama": "PDI-P", "Paolus Hadi": "PDI-P", "Agus Ambo Djiwa": "PDI-P", "I Ketut Suwendra": "PDI-P", "Edoardus Kaize": "PDI-P",
   // Golkar
-  "Panggah Susanto": "Golkar", "Robert Joppy Kardinal": "Golkar", "Adrianus Asia Sidot": "Golkar", "Eko Wahyudi": "Golkar", "Firman Subagyo": "Golkar", "Alien Mus", "Dadang M Naser": "Golkar", "Ilham Pangestu": "Golkar",
+  "Panggah Susanto": "Golkar", "Robert Joppy Kardinal": "Golkar", "Adrianus Asia Sidot": "Golkar", "Eko Wahyudi": "Golkar", "Firman Subagyo": "Golkar", "Alien Mus": "Golkar", "Dadang M Naser": "Golkar", "Ilham Pangestu": "Golkar",
   // Gerindra
   "Siti Hediati Soeharto": "Gerindra", "Darori Wonodipuro": "Gerindra", "Dwita Ria Gunadi": "Gerindra", "Endang Setyawati Thohari": "Gerindra", "TA Khalid": "Gerindra", "Sumail Abdullah": "Gerindra", "Melati": "Gerindra",
   // NasDem
@@ -592,16 +592,17 @@ async function loadData() {
     document.getElementById("last-updated-time").textContent = ts;
     document.getElementById("update-ticker").textContent = ts;
 
-    // Load Macro Stats with Optional Chaining
-    document.getElementById("ntp-display").textContent = data.macro_stats?.ntp || 'Data tidak tersedia';
-    document.getElementById("luas-padi-display").textContent = data.macro_stats?.luas_panen_padi || 'Data tidak tersedia';
-    document.getElementById("prod-beras-display").textContent = data.macro_stats?.produksi_beras || 'Data tidak tersedia';
-    document.getElementById("luas-jagung-display").textContent = data.macro_stats?.luas_panen_jagung || 'Data tidak tersedia';
-    document.getElementById("prod-jagung-display").textContent = data.macro_stats?.produksi_jagung || 'Data tidak tersedia';
-    document.getElementById("nelayan-display").textContent = data.macro_stats?.kampung_nelayan || 'Data tidak tersedia';
-    document.getElementById("harga-pangan-display").textContent = data.macro_stats?.harga_pangan_avg || 'Data tidak tersedia';
-    document.getElementById("bantuan-pangan-display").textContent = data.macro_stats?.bantuan_pangan || 'Data tidak tersedia';
-    document.getElementById("sphp-display").textContent = data.macro_stats?.realisasi_sphp || 'Data tidak tersedia';
+// Load Macro Stats with simple fallback
+    const stats = data.macro_stats || {};
+    document.getElementById("ntp-display").textContent = stats.ntp || 'Data tidak tersedia';
+    document.getElementById("luas-padi-display").textContent = stats.luas_panen_padi || 'Data tidak tersedia';
+    document.getElementById("prod-beras-display").textContent = stats.produksi_beras || 'Data tidak tersedia';
+    document.getElementById("luas-jagung-display").textContent = stats.luas_panen_jagung || 'Data tidak tersedia';
+    document.getElementById("prod-jagung-display").textContent = stats.produksi_jagung || 'Data tidak tersedia';
+    document.getElementById("nelayan-display").textContent = stats.kampung_nelayan || 'Data tidak tersedia';
+    document.getElementById("harga-pangan-display").textContent = stats.harga_pangan_avg || 'Data tidak tersedia';
+    document.getElementById("bantuan-pangan-display").textContent = stats.bantuan_pangan || 'Data tidak tersedia';
+    document.getElementById("sphp-display").textContent = stats.realisasi_sphp || 'Data tidak tersedia';
 
   } catch(err) {
     const dot = document.getElementById("feed-status-dot");
