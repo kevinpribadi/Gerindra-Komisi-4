@@ -580,35 +580,28 @@ async function loadData() {
     renderAgency(data.agency_news || []);
     renderMembers(data.member_news || {});
 
-    if (data.harga_beras) {
-      const hbf = "Rp " + Number(data.harga_beras).toLocaleString("id-ID");
-      document.getElementById("beras-display").textContent = hbf;
-      document.getElementById("beras-ticker").textContent = hbf;
-    }
-    if (data.stok_bulog) {
-      const sbf = Number(data.stok_bulog).toLocaleString("id-ID") + " Ton";
-      document.getElementById("bulog-display").textContent = sbf;
-      document.getElementById("bulog-ticker").textContent = sbf;
-    }
-    if (data.last_updated) {
-      const ts = fmtDate(data.last_updated);
-      document.getElementById("last-updated-time").textContent = ts;
-      document.getElementById("update-ticker").textContent = ts;
-    }
+    const berasVal = data.harga_beras ? "Rp " + Number(data.harga_beras).toLocaleString("id-ID") : 'Data tidak tersedia';
+    document.getElementById("beras-display").textContent = berasVal;
+    document.getElementById("beras-ticker").textContent = berasVal;
 
-    // Load Macro Stats
-    if (data.macro_stats) {
-      const ms = data.macro_stats;
-      if (ms.ntp !== undefined) document.getElementById("ntp-display").textContent = ms.ntp;
-      if (ms.luas_panen_padi !== undefined) document.getElementById("luas-padi-display").textContent = ms.luas_panen_padi;
-      if (ms.produksi_beras !== undefined) document.getElementById("prod-beras-display").textContent = ms.produksi_beras;
-      if (ms.luas_panen_jagung !== undefined) document.getElementById("luas-jagung-display").textContent = ms.luas_panen_jagung;
-      if (ms.produksi_jagung !== undefined) document.getElementById("prod-jagung-display").textContent = ms.produksi_jagung;
-      if (ms.kampung_nelayan !== undefined) document.getElementById("nelayan-display").textContent = ms.kampung_nelayan;
-      if (ms.harga_pangan_avg !== undefined) document.getElementById("harga-pangan-display").textContent = ms.harga_pangan_avg;
-      if (ms.bantuan_pangan !== undefined) document.getElementById("bantuan-pangan-display").textContent = ms.bantuan_pangan;
-      if (ms.realisasi_sphp !== undefined) document.getElementById("sphp-display").textContent = ms.realisasi_sphp;
-    }
+    const bulogVal = data.stok_bulog ? Number(data.stok_bulog).toLocaleString("id-ID") + " Ton" : 'Data tidak tersedia';
+    document.getElementById("bulog-display").textContent = bulogVal;
+    document.getElementById("bulog-ticker").textContent = bulogVal;
+
+    const ts = data.last_updated ? fmtDate(data.last_updated) : 'Data tidak tersedia';
+    document.getElementById("last-updated-time").textContent = ts;
+    document.getElementById("update-ticker").textContent = ts;
+
+    // Load Macro Stats with Optional Chaining
+    document.getElementById("ntp-display").textContent = data.macro_stats?.ntp || 'Data tidak tersedia';
+    document.getElementById("luas-padi-display").textContent = data.macro_stats?.luas_panen_padi || 'Data tidak tersedia';
+    document.getElementById("prod-beras-display").textContent = data.macro_stats?.produksi_beras || 'Data tidak tersedia';
+    document.getElementById("luas-jagung-display").textContent = data.macro_stats?.luas_panen_jagung || 'Data tidak tersedia';
+    document.getElementById("prod-jagung-display").textContent = data.macro_stats?.produksi_jagung || 'Data tidak tersedia';
+    document.getElementById("nelayan-display").textContent = data.macro_stats?.kampung_nelayan || 'Data tidak tersedia';
+    document.getElementById("harga-pangan-display").textContent = data.macro_stats?.harga_pangan_avg || 'Data tidak tersedia';
+    document.getElementById("bantuan-pangan-display").textContent = data.macro_stats?.bantuan_pangan || 'Data tidak tersedia';
+    document.getElementById("sphp-display").textContent = data.macro_stats?.realisasi_sphp || 'Data tidak tersedia';
 
   } catch(err) {
     const dot = document.getElementById("feed-status-dot");
