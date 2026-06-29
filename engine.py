@@ -1,11 +1,13 @@
 import feedparser
 import json
 import os
+import re
 import time
+import copy
+import hashlib
 import urllib.parse
-from datetime import datetime
+from datetime import datetime, date
 import requests
-from bs4 import BeautifulSoup
 
 # ============================================================
 # 1. DATA SUMBER: LEMBAGA & KEYWORD (KOMISI IV DPR RI PARTNERS)
@@ -33,295 +35,344 @@ KOMISI4_MEMBERS = {
     "Demokrat": ["Bambang Purwanto", "Ellen Esther Pelealu", "Hasan Saleh", "Muhammad Zulfikar Suhardi"]
 }
 
-# ============================================================
-# 3. HELPER: ANALISIS OTOMATIS PER LEMBAGA
-# ============================================================
-def generate_analysis(agency, title):
-    templates = {
-        "Kementerian Pertanian": {
-            "pro": ["Mendorong peningkatan produksi beras nasional.", "Menguatkan program ketahanan pangan domestik."],
-            "kontra": ["Risiko kelangkaan pupuk subsidi bagi petani kecil.", "Tantangan alokasi anggaran cetak sawah baru."],
-            "tanya": ["Bagaimana pengawasan distribusi pupuk subsidi?", "Kapan target swasembada pangan tercapai?"]
-        },
-        "Kementerian Kehutanan": {
-            "pro": ["Mempercepat rehabilitasi lahan kritis dan reboisasi.", "Memperketat izin pemanfaatan kawasan hutan."],
-            "kontra": ["Potensi konflik lahan dengan masyarakat adat.", "Pengawasan deforestasi ilegal masih lemah di lapangan."],
-            "tanya": ["Sejauh mana realisasi target perhutanan sosial?", "Bagaimana mitigasi kebakaran hutan tahun ini?"]
-        },
-        "Kementerian Kelautan dan Perikanan": {
-            "pro": ["Peningkatan ekspor komoditas perikanan unggulan.", "Pengawasan ketat terhadap illegal fishing."],
-            "kontra": ["Keluhan nelayan tradisional mengenai regulasi zonasi.", "Fluktuasi harga BBM bersubsidi bagi nelayan kecil."],
-            "tanya": ["Bagaimana implementasi penangkapan ikan terukur?", "Apa langkah konkret pemberdayaan nelayan?"]
-        },
-        "Badan Karantina Indonesia": {
-            "pro": ["Pencegahan masuknya hama penyakit hewan dan tumbuhan luar.", "Standardisasi ketat pelabuhan masuk barang impor."],
-            "kontra": ["Keterbatasan personil di pos lintas batas negara.", "Proses sertifikasi karantina dianggap lambat oleh importir."],
-            "tanya": ["Bagaimana kesiapan sistem digitalisasi karantina?"]
-        },
-        "Badan Pangan Nasional": {
-            "pro": ["Stabilisasi harga pangan pokok secara nasional.", "Penyaluran bantuan pangan beras tepat waktu."],
-            "kontra": ["Bergantung pada impor saat produksi lokal merosot.", "Koordinasi data pangan antar lembaga sering berbeda."],
-            "tanya": ["Apakah neraca pangan saat ini aman hingga akhir tahun?"]
-        },
-        "Perum Bulog": {
-            "pro": ["Penyerapan gabah petani lokal berjalan maksimal.", "Stok beras cadangan pemerintah terjaga aman."],
-            "kontra": ["Penyimpanan beras rawan mengalami penurunan mutu/kualitas.", "Keterbatasan kapasitas gudang di beberapa wilayah."],
-            "tanya": ["Berapa ton stok beras impor yang masuk bulan ini?"]
-        }
-    }
-    default = {
-        "pro": [f"Langkah {agency} mendukung ketahanan pangan and sektor produktif.", "Meningkatkan sinergi antar mitra kerja Komisi IV."],
-        "kontra": ["Tantangan implementasi kebijakan di tingkat daerah.", "Ketergantungan pada faktor cuaca dan logistik."],
-        "tanya": ["Sejauh mana efektivitas kebijakan ini dirasakan pelaku usaha?"]
-    }
-    return templates.get(agency, default)
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept": "application/json, text/plain, */*",
+}
 
 # ============================================================
-# 4. FASE 1: TARIK BERITA LEMBAGA
+# HELPERS
+# ============================================================
+def _stat(value, source, source_url, confidence, fetched_at):
+    return {
+        "value": value,
+        "source": source,
+        "source_url": source_url,
+        "confidence": confidence,   # AUDITED | KLAIM_MANAJEMEN | UNAUDITED | FALLBACK
+        "fetched_at": fetched_at,
+    }
+
+def fetch_json(url, params=None, timeout=15):
+    r = requests.get(url, headers=HEADERS, params=params, timeout=timeout)
+    r.raise_for_status()
+    return r.json()
+
+# ============================================================
+# 3. FASE 1: BERITA LEMBAGA (Google News RSS)
 # ============================================================
 def fetch_agency_news():
     results = []
+    errors = []
     for agency, query in AGENCIES.items():
         url = f"https://news.google.com/rss/search?q={urllib.parse.quote(query)}&hl=id&gl=ID&ceid=ID:id"
         print(f"  [LEMBAGA] Menarik data: {agency}...")
         try:
             feed = feedparser.parse(url)
-            if feed.entries and len(feed.entries) > 0:
+            if feed.entries:
                 entry = feed.entries[0]
                 results.append({
                     "agency": agency,
                     "title": entry.title,
                     "link": entry.link,
-                    "published": entry.published,
-                    "analysis": generate_analysis(agency, entry.title)
+                    "link_resolved": None,
+                    "published": entry.get("published", "N/A"),
                 })
             else:
                 results.append({
                     "agency": agency,
                     "title": f"[Sistem Alert] Tidak ada berita terbaru untuk keyword {agency}.",
                     "link": "#",
+                    "link_resolved": None,
                     "published": datetime.now().strftime("%a, %d %b %Y %H:%M:%S GMT"),
-                    "analysis": generate_analysis(agency, "")
                 })
         except Exception as e:
-            print(f"  [WARN] Error fetching {agency}: {e}")
+            msg = f"Gagal fetch {agency}: {e}"
+            print(f"  [WARN] {msg}")
+            errors.append(msg)
             results.append({
                 "agency": agency,
                 "title": f"[Error] Gagal menarik data: {e}",
                 "link": "#",
+                "link_resolved": None,
                 "published": datetime.now().strftime("%a, %d %b %Y %H:%M:%S GMT"),
-                "analysis": generate_analysis(agency, "")
             })
-    return results
+    return results, errors
 
 # ============================================================
-# 5. FASE 2: TARIK BERITA ANGGOTA KOMISI IV
+# 4. FASE 2: BERITA ANGGOTA (Google News RSS)
 # ============================================================
 def fetch_member_news():
     results = {}
+    errors = []
     all_members = [m for members in KOMISI4_MEMBERS.values() for m in members]
-
     print(f"  Memproses {len(all_members)} anggota Komisi IV...")
     for member in all_members:
         try:
             query = urllib.parse.quote(f'"{member}" DPR OR Komisi')
             url = f"https://news.google.com/rss/search?q={query}&hl=id&gl=ID&ceid=ID:id"
             feed = feedparser.parse(url)
-
-            if feed.entries and len(feed.entries) > 0:
+            if feed.entries:
                 entry = feed.entries[0]
                 results[member] = {
                     "title": entry.title,
                     "link": entry.link,
+                    "link_resolved": None,
                     "published": entry.get("published", "N/A"),
                     "fetched_at": datetime.now().isoformat()
                 }
-                print(f"  [OK] {member}: {entry.title[:60]}...")
+                try:
+                    print(f"  [OK] {member}: {entry.title[:60]}...")
+                except UnicodeEncodeError:
+                    print(f"  [OK] {member}: (judul mengandung karakter non-ASCII)")
             else:
                 print(f"  [INFO] Tidak ada berita untuk: {member}")
-
         except Exception as e:
-            print(f"  [WARN] Gagal menarik berita untuk {member}: {e}")
-
-        # Jeda 0.5 detik antar request agar tidak diblokir Google
+            msg = f"Gagal fetch anggota {member}: {e}"
+            print(f"  [WARN] {msg}")
+            errors.append(msg)
         time.sleep(0.5)
-
-    return results
+    return results, errors
 
 # ============================================================
-# 6. FASE 3: TARIK DATA MAKRO PERTANIAN (BPS, KKP, BAPANAS)
+# 5. FASE 3: DATA MAKRO (API resmi + FALLBACK jujur)
 # ============================================================
-def fetch_agriculture_stats():
-    # Fallback values
-    harga_beras = 15500
-    stok_bulog = 1250000
+#
+# Prinsip: hanya angka yang punya sumber API beneran yang jadi live.
+# Sisanya FALLBACK berlabel, BUKAN scrape regex yang menebak.
+#
+# Confidence:
+#   AUDITED         -> rilis resmi BPS (WebAPI)
+#   UNAUDITED       -> data operasional harian (Panel Harga Bapanas)
+#   FALLBACK        -> nilai statis manual, belum/ tidak ada API
+#
+# ------------------------------------------------------------
+# 5a. PANEL HARGA BAPANAS (harga beras) — API harian, tanpa auth
+# ------------------------------------------------------------
+# >>> KONFIRMASI ENDPOINT (2 menit, wajib sebelum deploy):
+#     1. Buka https://panelharga.badanpangan.go.id  -> menu Harga Eceran.
+#     2. DevTools (F12) > tab Network > filter "Fetch/XHR".
+#     3. Ganti tanggal/komoditas; lihat request yang muncul (biasanya ke
+#        host api-panelhargav2.badanpangan.go.id). Salin URL + parameternya.
+#     4. Tempel URL itu ke PANELHARGA_URL, sesuaikan PANELHARGA_PARAMS, dan
+#        sesuaikan _parse_panelharga_beras() dengan bentuk JSON response asli.
+#   Sampai dikonfirmasi, fungsi ini aman gagal -> harga_beras tetap FALLBACK.
+# >>> SAKLAR: integrasi API yang belum dikonfirmasi dimatikan dulu (mode statis jujur).
+#     Flip ke True setelah endpoint/credential dikonfirmasi (lihat report untuk atasan).
+ENABLE_PANELHARGA_API = False
+PANELHARGA_URL = "https://api-panelhargav2.badanpangan.go.id/api/front/harga-pangan-table"
 
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    }
+def _parse_panelharga_beras(data):
+    """Best-effort: telusuri JSON cari komoditas 'Beras' -> harga rata-rata nasional.
+    SESUAIKAN dengan struktur response asli setelah cek DevTools."""
+    candidates = []
+    if isinstance(data, dict):
+        candidates = data.get("data") or data.get("result") or data.get("list") or []
+    elif isinstance(data, list):
+        candidates = data
+    for item in candidates:
+        if not isinstance(item, dict):
+            continue
+        name = str(item.get("name") or item.get("nama") or item.get("komoditas") or "").lower()
+        if "beras" in name:
+            for k in ("today", "harga", "price", "value", "gridharga", "harga_today"):
+                v = item.get(k)
+                if isinstance(v, (int, float)) and v > 0:
+                    return int(v)
+                if isinstance(v, str):
+                    digits = re.sub(r"[^\d]", "", v)
+                    if digits:
+                        return int(digits)
+    return None
 
-    print("  [STATS] Mengambil data harga beras dari Badan Pangan Nasional...")
+def fetch_food_prices(now):
+    errors = []
+    harga_beras = _stat(15500, "BAPANAS, nilai fallback statis",
+                        "https://panelharga.badanpangan.go.id/", "FALLBACK", now)
+    if not ENABLE_PANELHARGA_API:
+        return harga_beras, []   # mode statis disengaja, bukan kegagalan
+    today = date.today().strftime("%d/%m/%Y")
+    params = {"level_harga_id": 3, "period_date": f"{today} - {today}", "province_id": ""}
+    print("  [STATS] Panel Harga Bapanas (harga beras)...")
     try:
-        url = "https://panelharga.badanpangan.go.id/"
-        response = requests.get(url, headers=headers, timeout=10)
-        if response.status_code == 200:
-            import re
-            prices = re.findall(r'1[3-9]\.\d{3}', response.text)
-            if prices:
-                val = int(prices[0].replace('.', ''))
-                harga_beras = val
-                print(f"  [STATS] Berhasil mengambil harga beras dari Bapanas: Rp {harga_beras}")
-            else:
-                match = re.search(r'Beras\s+Premium.*?(\d{2}\.\d{3})', response.text, re.IGNORECASE | re.DOTALL)
-                if match:
-                    harga_beras = int(match.group(1).replace('.', ''))
-                    print(f"  [STATS] Berhasil mengambil harga beras Premium dari Bapanas: Rp {harga_beras}")
-                else:
-                    print("  [STATS] Tidak menemukan kecocokan harga beras di halaman Bapanas, menggunakan fallback.")
+        data = fetch_json(PANELHARGA_URL, params=params)
+        val = _parse_panelharga_beras(data)
+        if val:
+            harga_beras = _stat(val, "BAPANAS Panel Harga (API)",
+                                "https://panelharga.badanpangan.go.id/", "UNAUDITED", now)
+            print(f"  [STATS] Harga beras (API): Rp {val}")
         else:
-            print(f"  [WARN] Respon non-200 dari Bapanas: {response.status_code}")
+            errors.append("panelharga: komoditas 'beras' tidak ditemukan / parser belum disesuaikan")
     except Exception as e:
-        print(f"  [WARN] Gagal mengambil harga beras dari Bapanas: {e}. Menggunakan fallback.")
+        errors.append(f"panelharga gagal: {e}")
+        print(f"  [WARN] panelharga gagal: {e}")
+    return harga_beras, errors
 
-    print("  [STATS] Mengambil data stok beras Bulog...")
+# ------------------------------------------------------------
+# 5b. BPS WebAPI (NTP) — data resmi, BUTUH API KEY GRATIS
+# ------------------------------------------------------------
+# >>> SETUP (sekali):
+#     1. Daftar di https://webapi.bps.go.id, buat aplikasi -> dapat API key.
+#     2. Simpan key sebagai GitHub Secret bernama BPS_API_KEY
+#        (Settings > Secrets and variables > Actions).
+#     3. Cari variable ID untuk "Nilai Tukar Petani" di katalog WebAPI,
+#        isi NTP_VAR_ID di bawah.
+#   Tanpa key/var_id, NTP aman jatuh ke FALLBACK.
+ENABLE_BPS_API = False
+BPS_KEY = os.environ.get("BPS_API_KEY", "").strip()
+NTP_VAR_ID = ""  # << isi var id NTP dari katalog BPS WebAPI
+
+def _parse_bps_latest(data):
+    """Ambil nilai periode terbaru dari response 'dynamic data' BPS.
+    Struktur BPS rumit (datacontent ber-key gabungan id); VERIFIKASI dengan
+    response asli. Heuristik: ambil value pada key dengan tahun/periode terbesar."""
+    dc = data.get("datacontent") if isinstance(data, dict) else None
+    if not isinstance(dc, dict) or not dc:
+        return None
     try:
-        url = "https://www.bulog.co.id/siaran-pers/"
-        response = requests.get(url, headers=headers, timeout=10)
-        if response.status_code == 200:
-            soup = BeautifulSoup(response.text, 'html.parser')
-            import re
-            text = soup.get_text()
-            match = re.search(r'stok\s+(?:beras\s+)?(?:mencapai\s+)?([\d\.,]+)\s+(?:juta\s+)?ton', text, re.IGNORECASE)
-            if match:
-                val_str = match.group(1).replace(',', '.')
-                try:
-                    val = float(val_str)
-                    if "juta" in match.group(0).lower():
-                        stok_bulog = int(val * 1000000)
-                    else:
-                        stok_bulog = int(val)
-                    print(f"  [STATS] Berhasil mengambil stok beras Bulog: {stok_bulog} Ton")
-                except Exception as ex:
-                    print(f"  [WARN] Gagal parsing angka stok Bulog: {ex}")
-            else:
-                print("  [STATS] Tidak menemukan kecocokan stok beras di halaman Bulog, menggunakan fallback.")
+        latest_key = sorted(dc.keys())[-1]   # heuristik kasar: key terbesar = periode terbaru
+        return float(dc[latest_key])
+    except Exception:
+        return None
+
+def fetch_bps_ntp(now):
+    errors = []
+    ntp = _stat(110.5, "BPS, nilai fallback statis", "https://www.bps.go.id/", "FALLBACK", now)
+    if not ENABLE_BPS_API or not BPS_KEY or not NTP_VAR_ID:
+        return ntp, errors   # mode statis disengaja, bukan kegagalan
+    url = (f"https://webapi.bps.go.id/v1/api/list/model/data/lang/ind/"
+           f"domain/0000/var/{NTP_VAR_ID}/key/{BPS_KEY}/")
+    print("  [STATS] BPS WebAPI (NTP)...")
+    try:
+        data = fetch_json(url)
+        val = _parse_bps_latest(data)
+        if val is not None:
+            ntp = _stat(round(val, 2), "BPS WebAPI", "https://www.bps.go.id/", "AUDITED", now)
+            print(f"  [STATS] NTP (BPS API): {val}")
         else:
-            print(f"  [WARN] Respon non-200 dari Bulog: {response.status_code}")
+            errors.append("BPS: datacontent kosong / format tak terduga")
     except Exception as e:
-        print(f"  [WARN] Gagal mengambil stok beras Bulog: {e}. Menggunakan fallback.")
+        errors.append(f"BPS NTP gagal: {e}")
+        print(f"  [WARN] BPS NTP gagal: {e}")
+    return ntp, errors
 
-    return harga_beras, stok_bulog
-
-
-def fetch_macro_stats():
-    # Fallback values
-    stats = {
-        "ntp": 110.5,
-        "luas_panen_padi": "10.2 Juta Ha",
-        "produksi_beras": "31.5 Juta Ton",
-        "luas_panen_jagung": "4.1 Juta Ha",
-        "produksi_jagung": "14.4 Juta Ton",
-        "kampung_nelayan": "12 Lokasi Selesai",
-        "harga_pangan_avg": "Stabil (Inflasi 0.2%)",
-        "bantuan_pangan": "85% Tersalurkan",
-        "realisasi_sphp": "750.000 Ton"
+# ------------------------------------------------------------
+# 5c. STAT FALLBACK JUJUR (belum ada API publik bersih)
+#     Update manual berkala. Label tetap FALLBACK -> UI menandai abu-abu.
+# ------------------------------------------------------------
+def build_macro_stats(now, ntp_stat):
+    return {
+        "ntp":               ntp_stat,
+        "luas_panen_padi":   _stat("10.2 Juta Ha",        "BPS, fallback statis",     "https://www.bps.go.id/",        "FALLBACK", now),
+        "produksi_beras":    _stat("31.5 Juta Ton",       "BPS, fallback statis",     "https://www.bps.go.id/",        "FALLBACK", now),
+        "luas_panen_jagung": _stat("4.1 Juta Ha",         "BPS, fallback statis",     "https://www.bps.go.id/",        "FALLBACK", now),
+        "produksi_jagung":   _stat("14.4 Juta Ton",       "BPS, fallback statis",     "https://www.bps.go.id/",        "FALLBACK", now),
+        "kampung_nelayan":   _stat("12 Lokasi Selesai",   "KKP, fallback statis",     "https://kkp.go.id/",            "FALLBACK", now),
+        "harga_pangan_avg":  _stat("Stabil (Inflasi 0.2%)","BAPANAS, fallback statis","https://badanpangan.go.id/",    "FALLBACK", now),
+        "bantuan_pangan":    _stat("85% Tersalurkan",     "BAPANAS, fallback statis", "https://badanpangan.go.id/",    "FALLBACK", now),
+        "realisasi_sphp":    _stat("750.000 Ton",         "Bulog, fallback statis",   "https://www.bulog.co.id/",      "FALLBACK", now),
     }
-
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-    }
-
-    # Scraping BPS for NTP
-    print("  [STATS] Mengambil data Nilai Tukar Petani (NTP) dari BPS...")
-    try:
-        url = "https://www.bps.go.id/"
-        response = requests.get(url, headers=headers, timeout=10)
-        if response.status_code == 200:
-            import re
-            match = re.search(r'Nilai\s+Tukar\s+Petani\s*.*?(\d{3}[\.,]\d+)', response.text, re.IGNORECASE)
-            if match:
-                stats["ntp"] = float(match.group(1).replace(',', '.'))
-                print(f"  [STATS] Berhasil mengambil NTP dari BPS: {stats['ntp']}")
-    except Exception as e:
-        print(f"  [WARN] Gagal mengambil NTP dari BPS: {e}. Menggunakan fallback.")
-
-    # Scraping KKP for Kampung Nelayan
-    print("  [STATS] Mengambil data Kampung Nelayan dari KKP...")
-    try:
-        url = "https://kkp.go.id/artikel/"
-        response = requests.get(url, headers=headers, timeout=10)
-        if response.status_code == 200:
-            import re
-            soup = BeautifulSoup(response.text, 'html.parser')
-            text = soup.get_text()
-            match = re.search(r'Kampung\s+Nelayan\s+Modern.*?(\d+)\s+Lokasi', text, re.IGNORECASE)
-            if match:
-                stats["kampung_nelayan"] = f"{match.group(1)} Lokasi Selesai"
-                print(f"  [STATS] Berhasil mengambil Kampung Nelayan KKP: {stats['kampung_nelayan']}")
-    except Exception as e:
-        print(f"  [WARN] Gagal mengambil Kampung Nelayan KKP: {e}. Menggunakan fallback.")
-
-    # Scraping Bapanas for Bantuan Pangan
-    print("  [STATS] Mengambil data Bantuan Pangan dari Badan Pangan Nasional...")
-    try:
-        url = "https://badanpangan.go.id/"
-        response = requests.get(url, headers=headers, timeout=10)
-        if response.status_code == 200:
-            import re
-            text = response.text
-            match = re.search(r'penyaluran\s+bantuan\s+pangan.*?(\d+)%', text, re.IGNORECASE)
-            if match:
-                stats["bantuan_pangan"] = f"{match.group(1)}% Tersalurkan"
-                print(f"  [STATS] Berhasil mengambil Bantuan Pangan: {stats['bantuan_pangan']}")
-    except Exception as e:
-        print(f"  [WARN] Gagal mengambil Bantuan Pangan Bapanas: {e}. Menggunakan fallback.")
-
-    return stats
 
 # ============================================================
-# 7. MAIN: GABUNGKAN SEMUA OUTPUT KE live_data.json
+# 6. COMMIT-ON-DIFF: skip tulis kalau konten (tanpa timestamp) sama
+# ============================================================
+def _strip_volatile(obj):
+    if isinstance(obj, dict):
+        return {k: _strip_volatile(v) for k, v in obj.items()
+                if k not in ("fetched_at", "last_updated")}
+    if isinstance(obj, list):
+        return [_strip_volatile(x) for x in obj]
+    return obj
+
+def _fingerprint(output):
+    norm = _strip_volatile(output)
+    blob = json.dumps(norm, sort_keys=True, ensure_ascii=False).encode("utf-8")
+    return hashlib.sha256(blob).hexdigest()
+
+# ============================================================
+# 7. MAIN
 # ============================================================
 def fetch_data():
     print("=" * 50)
-    print("NPCC ENGINE KOMISI IV DIMULAI")
+    print("ENGINE KOMISI IV DIMULAI")
     print("=" * 50)
+    now = datetime.now().isoformat()
+    all_errors = []
 
-    print("\n>>> FASE 1: Menarik Data Berita Lembaga Mitra Komisi IV...")
-    agency_news = fetch_agency_news()
-    print(f"[FASE 1 SELESAI] {len(agency_news)} lembaga berhasil diproses.")
+    print("\n>>> FASE 1: Berita Lembaga Mitra...")
+    agency_news, e1 = fetch_agency_news()
+    all_errors += e1
+    real_agency = sum(1 for a in agency_news
+                      if not a["title"].startswith(("[Sistem Alert]", "[Error]")) and a["link"] != "#")
+    phase1 = "failed" if real_agency == 0 else ("partial" if real_agency < len(AGENCIES) else "ok")
+    print(f"[FASE 1] {real_agency}/{len(AGENCIES)} lembaga dapat berita real.")
 
-    print("\n>>> FASE 2: Menarik Berita Anggota Komisi IV...")
-    member_news = fetch_member_news()
-    print(f"[FASE 2 SELESAI] {len(member_news)} anggota berhasil diproses.")
+    print("\n>>> FASE 2: Berita Anggota...")
+    member_news, e2 = fetch_member_news()
+    all_errors += e2
+    total_members = sum(len(v) for v in KOMISI4_MEMBERS.values())
+    phase2 = "failed" if len(member_news) == 0 else (
+        "partial" if (e2 or len(member_news) < total_members * 0.5) else "ok")
+    print(f"[FASE 2] {len(member_news)}/{total_members} anggota dapat berita.")
 
-    print("\n>>> FASE 3: Menarik Data Makro Pertanian (Harga Beras & Stok Bulog)...")
-    harga_beras, stok_bulog = fetch_agriculture_stats()
-    print(f"[FASE 3 SELESAI] Harga Beras: Rp {harga_beras}, Stok Bulog: {stok_bulog} Ton.")
+    print("\n>>> FASE 3: Data Makro (API + fallback)...")
+    harga_beras, e3a = fetch_food_prices(now)
+    ntp_stat, e3b = fetch_bps_ntp(now)
+    all_errors += e3a + e3b
+    macro_stats = build_macro_stats(now, ntp_stat)
+    stok_bulog = _stat(1250000, "Bulog, nilai fallback statis", "https://www.bulog.co.id/", "FALLBACK", now)
 
-    print("\n>>> FASE 3b: Menarik Data Statistik Makro Sektoral (9 Metrik)...")
-    macro_stats = fetch_macro_stats()
-    print(f"[FASE 3b SELESAI] Sektor Makro berhasil diproses.")
+    # status fase 3 = berapa target API aktif yang benar-benar live.
+    # Kalau semua API dimatikan (mode statis disengaja), itu bukan kegagalan -> "ok".
+    live_targets = []
+    if ENABLE_PANELHARGA_API:
+        live_targets.append(harga_beras)
+    if ENABLE_BPS_API and BPS_KEY and NTP_VAR_ID:
+        live_targets.append(ntp_stat)
+    if not live_targets:
+        phase3 = "ok"
+        print("[FASE 3] Mode statis (FALLBACK), tidak ada target API aktif.")
+    else:
+        live_ok = sum(1 for s in live_targets if s["confidence"] in ("UNAUDITED", "AUDITED"))
+        phase3 = "failed" if live_ok == 0 else ("partial" if live_ok < len(live_targets) else "ok")
+        print(f"[FASE 3] {live_ok}/{len(live_targets)} target API live.")
 
-    # Gabungkan ke satu output
     output = {
         "agency_news": agency_news,
         "member_news": member_news,
         "harga_beras": harga_beras,
-        "stok_bulog": stok_bulog,
+        "stok_bulog":  stok_bulog,
         "macro_stats": macro_stats,
-        "last_updated": datetime.now().isoformat()
+        "scrape_status": {
+            "phase_1_agency":  phase1,
+            "phase_2_members": phase2,
+            "phase_3_macro":   phase3,
+            "errors": all_errors[-20:],
+        },
+        "last_updated": now,
     }
 
-    output_path = os.path.join(os.path.dirname(__file__), 'live_data.json')
+    output_path = os.path.join(os.path.dirname(__file__), "live_data.json")
+
+    # commit-on-diff: bandingkan fingerprint tanpa timestamp
+    new_fp = _fingerprint(output)
+    old_fp = None
+    if os.path.exists(output_path):
+        try:
+            with open(output_path, encoding="utf-8") as f:
+                old_fp = _fingerprint(json.load(f))
+        except Exception:
+            old_fp = None
+    if new_fp == old_fp:
+        print("\n[SKIP] Konten tidak berubah, live_data.json tidak ditulis ulang "
+              "(mencegah commit kosong tiap jam).")
+        return
+
     try:
-        with open(output_path, 'w', encoding='utf-8') as f:
+        with open(output_path, "w", encoding="utf-8") as f:
             json.dump(output, f, ensure_ascii=False, indent=4)
-        print(f"\n[SUKSES] live_data.json diperbarui pada {datetime.now().strftime('%H:%M:%S WIB')}")
-        print(f"         - {len(agency_news)} berita lembaga")
-        print(f"         - {len(member_news)} berita anggota")
-        print(f"         - 9 data makro statistik")
+        print(f"\n[SUKSES] live_data.json diperbarui {datetime.now().strftime('%H:%M:%S')}")
     except Exception as e:
-        print(f"[GAGAL] Error saat menyimpan data: {e}")
+        print(f"[GAGAL] Simpan data: {e}")
 
 if __name__ == "__main__":
     fetch_data()
