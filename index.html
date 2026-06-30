@@ -8,6 +8,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet" />
+  <!-- jsPDF dimuat lazy saat tombol "Unduh Ringkasan" diklik (lihat ensureJsPDF) -->
+
   <style>
     /* ============================================================
        DESIGN TOKENS – Fraksi Gerindra Official Theme
@@ -817,6 +819,131 @@
       main { padding: 16px 12px 32px; }
       .commission-label { display: none; }
     }
+
+    /* ============================================================
+       TOOLBAR: SEARCH + STATUS WIDGET (fitur baru)
+       ============================================================ */
+    .toolbar {
+      display: flex;
+      gap: 16px;
+      align-items: stretch;
+      margin-bottom: 22px;
+      flex-wrap: wrap;
+    }
+    .search-wrap { flex: 1 1 360px; display: flex; flex-direction: column; gap: 6px; }
+    .search-box { position: relative; display: flex; align-items: center; }
+    .search-box svg { position: absolute; left: 14px; width: 16px; height: 16px; fill: var(--text-muted); pointer-events: none; }
+    .search-input {
+      width: 100%;
+      font-family: var(--font-main);
+      font-size: 13px;
+      padding: 12px 38px 12px 40px;
+      border: 1.5px solid var(--border-mid);
+      border-radius: 10px;
+      background: var(--bg-white);
+      color: var(--text-primary);
+      transition: border-color .2s, box-shadow .2s;
+    }
+    .search-input:focus { outline: none; border-color: var(--red-primary); box-shadow: 0 0 0 3px rgba(185,28,28,.12); }
+    .search-clear {
+      position: absolute; right: 10px;
+      width: 22px; height: 22px;
+      border: none; border-radius: 50%;
+      background: var(--border-light); color: var(--text-secondary);
+      cursor: pointer; font-size: 14px; line-height: 1;
+      display: none; align-items: center; justify-content: center;
+    }
+    .search-clear.show { display: flex; }
+    .search-meta { font-size: 11px; color: var(--text-muted); min-height: 14px; padding-left: 2px; }
+    .search-meta strong { color: var(--red-primary); }
+
+    .status-widget {
+      flex: 0 0 auto;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      background: var(--bg-white);
+      border: 1px solid var(--border-light);
+      border-left: 4px solid var(--red-primary);
+      border-radius: 10px;
+      padding: 10px 16px;
+      box-shadow: var(--shadow-sm);
+    }
+    .sw-info { display: flex; flex-direction: column; gap: 3px; }
+    .sw-line { display: flex; align-items: center; gap: 7px; font-size: 12px; color: var(--text-secondary); }
+    .sw-label { font-size: 10px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; color: var(--text-muted); }
+    .sw-time { font-size: 12px; color: var(--text-primary); }
+    .sw-age-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+    .sw-age-dot.green { background: var(--green); }
+    .sw-age-dot.amber { background: var(--amber); }
+    .sw-age-dot.red   { background: #ef4444; }
+    .sw-age { font-size: 11px; font-weight: 600; }
+    .sw-actions { display: flex; flex-direction: column; gap: 6px; }
+    .btn-refresh, .btn-pdf {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-family: var(--font-heading);
+      font-size: 11px; font-weight: 700; letter-spacing: .4px;
+      padding: 7px 12px; border-radius: 8px; cursor: pointer;
+      border: 1.5px solid var(--red-primary);
+      white-space: nowrap; transition: all .2s;
+    }
+    .btn-refresh { background: var(--red-primary); color: #fff; }
+    .btn-refresh:hover { background: var(--red-dark); }
+    .btn-pdf { background: var(--bg-white); color: var(--red-primary); }
+    .btn-pdf:hover { background: var(--red-light); }
+    .btn-refresh svg, .btn-pdf svg { width: 13px; height: 13px; fill: currentColor; }
+
+    /* ============================================================
+       ASISTEN DATA (floating, deterministik)
+       ============================================================ */
+    .ast-fab {
+      position: fixed; right: 22px; bottom: 22px; z-index: 500;
+      width: 56px; height: 56px; border-radius: 50%;
+      background: var(--red-primary); color: #fff; border: none;
+      box-shadow: 0 6px 20px rgba(185,28,28,.4);
+      cursor: pointer; display: flex; align-items: center; justify-content: center;
+      transition: transform .2s, background .2s;
+    }
+    .ast-fab:hover { background: var(--red-dark); transform: scale(1.05); }
+    .ast-fab svg { width: 26px; height: 26px; fill: #fff; }
+    .ast-panel {
+      position: fixed; right: 22px; bottom: 88px; z-index: 500;
+      width: 360px; max-width: calc(100vw - 44px);
+      height: 480px; max-height: calc(100vh - 130px);
+      background: var(--bg-white);
+      border: 1px solid var(--border-light);
+      border-radius: 14px;
+      box-shadow: 0 12px 40px rgba(0,0,0,.22);
+      display: none; flex-direction: column; overflow: hidden;
+    }
+    .ast-panel.show { display: flex; }
+    .ast-head {
+      background: var(--red-primary); color: #fff;
+      padding: 12px 16px; display: flex; align-items: center; justify-content: space-between;
+    }
+    .ast-head-title { font-family: var(--font-heading); font-size: 13px; font-weight: 800; }
+    .ast-head-sub { font-size: 10px; color: rgba(255,255,255,.85); margin-top: 1px; }
+    .ast-close { background: none; border: none; color: #fff; font-size: 20px; cursor: pointer; line-height: 1; }
+    .ast-log { flex: 1; overflow-y: auto; padding: 14px; display: flex; flex-direction: column; gap: 10px; background: var(--bg-page); }
+    .ast-msg { font-size: 12.5px; line-height: 1.55; padding: 10px 12px; border-radius: 10px; max-width: 90%; word-wrap: break-word; }
+    .ast-msg.user { align-self: flex-end; background: var(--red-primary); color: #fff; }
+    .ast-msg.bot { align-self: flex-start; background: var(--bg-white); border: 1px solid var(--border-light); color: var(--text-primary); }
+    .ast-msg.bot a { color: var(--red-primary); font-weight: 600; }
+    .ast-badge { display: inline-block; font-size: 9px; font-weight: 700; padding: 1px 6px; border-radius: 10px; letter-spacing: .3px; vertical-align: middle; }
+    .ast-badge.fallback  { color: #6b7280; background: #f3f4f6; border: 1px solid #e5e7eb; }
+    .ast-badge.unaudited { color: #b45309; background: #fef3c7; border: 1px solid #f59e0b; }
+    .ast-badge.audited   { color: #15803d; background: #dcfce7; border: 1px solid #86efac; }
+    .ast-note { font-size: 10.5px; color: var(--text-muted); font-style: italic; }
+    .ast-src { font-size: 10.5px; color: var(--text-muted); }
+    .ast-form { display: flex; gap: 8px; padding: 12px; border-top: 1px solid var(--border-light); background: var(--bg-white); }
+    .ast-input { flex: 1; font-family: var(--font-main); font-size: 12.5px; padding: 9px 12px; border: 1.5px solid var(--border-mid); border-radius: 8px; }
+    .ast-input:focus { outline: none; border-color: var(--red-primary); }
+    .ast-send { background: var(--red-primary); color: #fff; border: none; border-radius: 8px; padding: 0 14px; font-weight: 700; cursor: pointer; }
+    .ast-send:hover { background: var(--red-dark); }
+
+    @media(max-width: 768px) {
+      .status-widget { flex: 1 1 100%; justify-content: space-between; }
+    }
   </style>
 </head>
 <body>
@@ -902,6 +1029,36 @@
 
 <!-- MAIN CONTENT -->
 <main>
+
+  <!-- TOOLBAR: SEARCH + STATUS WIDGET (fitur baru) -->
+  <div class="toolbar">
+    <div class="search-wrap">
+      <div class="search-box">
+        <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 10-.7.7l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0A4.5 4.5 0 1114 9.5 4.5 4.5 0 019.5 14z"/></svg>
+        <input id="search-input" class="search-input" type="text" placeholder="Cari berita, anggota, atau indikator..." autocomplete="off" />
+        <button id="search-clear" class="search-clear" title="Bersihkan pencarian" aria-label="Bersihkan pencarian">&times;</button>
+      </div>
+      <div id="search-meta" class="search-meta"></div>
+    </div>
+
+    <div class="status-widget">
+      <div class="sw-info">
+        <span class="sw-label">Status Data</span>
+        <div class="sw-line"><span class="sw-time" id="sw-time">&mdash;</span></div>
+        <div class="sw-line"><span class="sw-age-dot" id="sw-dot"></span><span class="sw-age" id="sw-age">&mdash;</span></div>
+      </div>
+      <div class="sw-actions">
+        <button class="btn-refresh" id="btn-refresh" title="Pembaruan dijalankan di server GitHub demi keamanan; tombol ini membuka pemicunya.">
+          <svg viewBox="0 0 24 24"><path d="M17.65 6.35A7.95 7.95 0 0012 4a8 8 0 108 8h-2a6 6 0 11-1.76-4.24L13 11h7V4l-2.35 2.35z"/></svg>
+          Perbarui Data
+        </button>
+        <button class="btn-pdf" id="btn-pdf" title="Unduh ringkasan eksekutif 1 halaman (PDF)">
+          <svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+          Unduh Ringkasan
+        </button>
+      </div>
+    </div>
+  </div>
 
   <!-- TICKER BAR -->
   <div class="ticker-bar">
@@ -1133,6 +1290,25 @@
   </div>
 </footer>
 
+<!-- ASISTEN DATA (deterministik, bukan AI generatif) -->
+<button class="ast-fab" id="ast-fab" title="Asisten Data" aria-label="Buka Asisten Data">
+  <svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-7 9h-2V9h2v2zm0-4h-2V5h2v2z"/></svg>
+</button>
+<div class="ast-panel" id="ast-panel" role="dialog" aria-label="Asisten Data">
+  <div class="ast-head">
+    <div>
+      <div class="ast-head-title">Asisten Data</div>
+      <div class="ast-head-sub">Menjawab dari data dashboard (bukan AI generatif)</div>
+    </div>
+    <button class="ast-close" id="ast-close" aria-label="Tutup">&times;</button>
+  </div>
+  <div class="ast-log" id="ast-log"></div>
+  <form class="ast-form" id="ast-form">
+    <input class="ast-input" id="ast-input" type="text" placeholder="Tanya: harga beras, status, atau nama anggota..." autocomplete="off" />
+    <button class="ast-send" type="submit">Kirim</button>
+  </form>
+</div>
+
 <script>
 // ====================================================
 //  NPCC FRONTEND — Pure Static GitHub Pages
@@ -1166,6 +1342,10 @@ const PARTY_CSS = {
 
 const ACCENTS = ["","red-accent","amber-accent","green-accent","blue-accent"];
 let allMembers = [];
+let liveData = null;
+let uiBound = false;
+let astGreeted = false;
+const REPO_ACTIONS_URL = "https://github.com/kevinpribadi/Gerindra-Komisi-4/actions/workflows/auto_update.yml";
 
 /* --- CLOCK --- */
 function updateClock() {
@@ -1300,6 +1480,7 @@ async function loadData() {
     const res = await fetch("./live_data.json", { cache: "no-store" });
     if (!res.ok) throw new Error("HTTP " + res.status);
     const data = await res.json();
+    liveData = data;
 
     const dot = document.getElementById("feed-status-dot");
     dot.style.background = "#4ade80";
@@ -1364,6 +1545,9 @@ async function loadData() {
       }
     }
 
+    initStatusWidget(data);
+    bindUI();
+
   } catch(err) {
     const dot = document.getElementById("feed-status-dot");
     dot.style.background = "#f87171";
@@ -1379,6 +1563,364 @@ async function loadData() {
       document.getElementById(id).innerHTML = errHtml;
     });
   }
+}
+
+/* ============================================================
+   FITUR BARU: bind UI (search, refresh, pdf, asisten)
+   ============================================================ */
+function bindUI() {
+  if (uiBound) return;
+  uiBound = true;
+
+  // SEARCH
+  const si = document.getElementById("search-input");
+  const sc = document.getElementById("search-clear");
+  if (si) {
+    si.addEventListener("input", function() { runSearch(si.value); });
+    sc.addEventListener("click", function() { si.value = ""; runSearch(""); si.focus(); });
+  }
+
+  // REFRESH (buka halaman GitHub Actions; tidak ada token di client)
+  const br = document.getElementById("btn-refresh");
+  if (br) br.addEventListener("click", function() { window.open(REPO_ACTIONS_URL, "_blank", "noopener"); });
+
+  // PDF
+  const bp = document.getElementById("btn-pdf");
+  if (bp) bp.addEventListener("click", generatePDF);
+
+  // ASISTEN
+  const fab = document.getElementById("ast-fab");
+  const panel = document.getElementById("ast-panel");
+  const close = document.getElementById("ast-close");
+  const form = document.getElementById("ast-form");
+  const input = document.getElementById("ast-input");
+  if (fab) {
+    fab.addEventListener("click", function() {
+      panel.classList.toggle("show");
+      if (panel.classList.contains("show")) {
+        if (!astGreeted) { astGreet(); astGreeted = true; }
+        input.focus();
+      }
+    });
+    close.addEventListener("click", function() { panel.classList.remove("show"); });
+    form.addEventListener("submit", function(e) {
+      e.preventDefault();
+      const q = input.value.trim();
+      if (!q) return;
+      astAppend("user", esc(q));
+      astAppend("bot", askAssistant(q));
+      input.value = "";
+    });
+  }
+}
+
+/* ============================================================
+   FITUR 1: SEARCH (operasi pada data yang sudah di-render)
+   ============================================================ */
+function runSearch(rawq) {
+  const q = (rawq || "").trim().toLowerCase();
+  const clear = document.getElementById("search-clear");
+  const meta = document.getElementById("search-meta");
+  if (clear) clear.classList.toggle("show", q.length > 0);
+
+  const groups = [
+    document.querySelectorAll("#agency-news-list .news-card"),
+    document.querySelectorAll("#member-news-grid .member-card"),
+    document.querySelectorAll(".macro-grid .stat-card"),
+  ];
+
+  if (!q) {
+    groups.forEach(function(nl) { nl.forEach(function(el) { el.style.display = ""; }); });
+    if (meta) meta.textContent = "";
+    return;
+  }
+
+  let matches = 0;
+  groups.forEach(function(nl) {
+    nl.forEach(function(el) {
+      const hit = el.textContent.toLowerCase().indexOf(q) !== -1;
+      el.style.display = hit ? "" : "none";
+      if (hit) matches++;
+    });
+  });
+  if (meta) meta.innerHTML = "<strong>" + matches + "</strong> hasil ditemukan untuk &ldquo;" + esc(q) + "&rdquo;";
+}
+
+/* ============================================================
+   FITUR 4: STATUS WIDGET (umur data + warna)
+   ============================================================ */
+function ageText(hrs) {
+  if (hrs < 1) return Math.max(1, Math.round(hrs * 60)) + " menit yang lalu";
+  if (hrs < 48) return Math.round(hrs) + " jam yang lalu";
+  return Math.round(hrs / 24) + " hari yang lalu";
+}
+function initStatusWidget(data) {
+  const iso = data.last_updated;
+  const timeEl = document.getElementById("sw-time");
+  const ageEl = document.getElementById("sw-age");
+  const dot = document.getElementById("sw-dot");
+  if (!iso) { if (timeEl) timeEl.textContent = "Tidak diketahui"; return; }
+  const d = new Date(iso);
+  if (timeEl) timeEl.textContent = "Diperbarui: " + (isNaN(d) ? iso :
+    d.toLocaleString("id-ID", { day:"2-digit", month:"short", year:"numeric", hour:"2-digit", minute:"2-digit" }));
+  const hrs = (Date.now() - d.getTime()) / 3600000;
+  let cls, txt;
+  if (isNaN(hrs) || hrs < 0) { cls = "amber"; txt = "umur tidak diketahui"; }
+  else if (hrs < 2)  { cls = "green"; txt = ageText(hrs); }
+  else if (hrs < 12) { cls = "amber"; txt = ageText(hrs); }
+  else               { cls = "red";   txt = ageText(hrs); }
+  if (dot) dot.className = "sw-age-dot " + cls;
+  if (ageEl) ageEl.textContent = txt;
+}
+
+/* ============================================================
+   FITUR 2: ASISTEN DATA (deterministik, dari live_data.json)
+   ============================================================ */
+function astAppend(role, html) {
+  const log = document.getElementById("ast-log");
+  const div = document.createElement("div");
+  div.className = "ast-msg " + role;
+  div.innerHTML = html;
+  log.appendChild(div);
+  log.scrollTop = log.scrollHeight;
+}
+function astGreet() {
+  astAppend("bot",
+    "Halo! Aku <strong>Asisten Data</strong> yang menjawab <em>hanya</em> dari data dashboard ini (bukan AI generatif). " +
+    "Coba tanya: <em>harga beras</em>, <em>ntp</em>, <em>status</em>, nama lembaga (mis. <em>kementan</em>), atau nama anggota.");
+}
+
+const AST_INDICATORS = [
+  { keys:["harga beras"], label:"Harga Beras Nasional", get:function(d){ return d.harga_beras; }, money:true },
+  { keys:["stok bulog","stok beras"], label:"Stok Beras Bulog", get:function(d){ return d.stok_bulog; }, ton:true },
+  { keys:["ntp","nilai tukar petani","nilai tukar"], label:"Nilai Tukar Petani (NTP)", get:function(d){ return d.macro_stats && d.macro_stats.ntp; } },
+  { keys:["produksi beras"], label:"Produksi Beras Nasional", get:function(d){ return d.macro_stats && d.macro_stats.produksi_beras; } },
+  { keys:["luas panen padi"], label:"Luas Panen Padi", get:function(d){ return d.macro_stats && d.macro_stats.luas_panen_padi; } },
+  { keys:["produksi jagung"], label:"Produksi Jagung Nasional", get:function(d){ return d.macro_stats && d.macro_stats.produksi_jagung; } },
+  { keys:["luas panen jagung"], label:"Luas Panen Jagung", get:function(d){ return d.macro_stats && d.macro_stats.luas_panen_jagung; } },
+  { keys:["kampung nelayan"], label:"Kampung Nelayan Modern", get:function(d){ return d.macro_stats && d.macro_stats.kampung_nelayan; } },
+  { keys:["harga pangan"], label:"Rata-rata Harga Pangan", get:function(d){ return d.macro_stats && d.macro_stats.harga_pangan_avg; } },
+  { keys:["bantuan pangan"], label:"Bantuan Pangan Beras", get:function(d){ return d.macro_stats && d.macro_stats.bantuan_pangan; } },
+  { keys:["sphp","realisasi sphp"], label:"Realisasi SPHP Bulog", get:function(d){ return d.macro_stats && d.macro_stats.realisasi_sphp; } },
+];
+const AST_AGENCIES = [
+  { keys:["kementan","kementerian pertanian"], name:"Kementerian Pertanian" },
+  { keys:["kehutanan","kemenhut"], name:"Kementerian Kehutanan" },
+  { keys:["kkp","kelautan","perikanan"], name:"Kementerian Kelautan dan Perikanan" },
+  { keys:["karantina","barantin"], name:"Badan Karantina Indonesia" },
+  { keys:["bapanas","badan pangan"], name:"Badan Pangan Nasional" },
+  { keys:["bulog"], name:"Perum Bulog" },
+];
+
+function fmtStatVal(ind, s) {
+  let v = s.value;
+  if (v == null || v === "") return "tidak tersedia";
+  if (ind.money) return "Rp " + Number(v).toLocaleString("id-ID");
+  if (ind.ton && typeof v === "number") return Number(v).toLocaleString("id-ID") + " Ton";
+  return String(v);
+}
+function confBadge(conf) {
+  const c = conf || "FALLBACK";
+  return '<span class="ast-badge ' + c.toLowerCase() + '">' + esc(c) + "</span>";
+}
+function answerIndicator(ind) {
+  const s = ind.get(liveData);
+  if (!s || typeof s !== "object" || s.value == null || s.value === "")
+    return "Data <strong>" + esc(ind.label) + "</strong> tidak tersedia.";
+  const conf = s.confidence || "FALLBACK";
+  let html = "<strong>" + esc(ind.label) + ":</strong> " + esc(fmtStatVal(ind, s)) + " " + confBadge(conf);
+  if (conf === "FALLBACK") html += ' <span class="ast-note">(nilai acuan statis, bukan data resmi terkini)</span>';
+  html += '<br><span class="ast-src">Sumber: ' + esc(s.source || "-") + "</span>";
+  return html;
+}
+function answerAgency(name) {
+  const item = (liveData.agency_news || []).find(function(a) { return a.agency === name; });
+  if (!item) return "Belum ada berita untuk <strong>" + esc(name) + "</strong>.";
+  return "<strong>" + esc(name) + "</strong><br>" +
+    '<a href="' + esc(item.link_resolved || item.link || "#") + '" target="_blank" rel="noopener">' + esc(item.title) + "</a>" +
+    '<br><span class="ast-src">' + esc(fmtDate(item.published)) + "</span>";
+}
+function findMemberName(q) {
+  const roster = Object.keys(PARTY_MAP);
+  for (var i = 0; i < roster.length; i++) {
+    if (roster[i].toLowerCase().indexOf(q) !== -1) return roster[i];
+  }
+  for (var j = 0; j < roster.length; j++) {
+    var toks = roster[j].toLowerCase().split(/\s+/).filter(function(t) { return t.length >= 4; });
+    for (var k = 0; k < toks.length; k++) { if (q.indexOf(toks[k]) !== -1) return roster[j]; }
+  }
+  return null;
+}
+function answerMember(name) {
+  const party = PARTY_MAP[name] || "Lainnya";
+  const news = (liveData.member_news || {})[name];
+  const head = "<strong>" + esc(name) + '</strong> <span class="ast-src">(' + esc(party) + ")</span><br>";
+  if (news && news.title)
+    return head + '<a href="' + esc(news.link_resolved || news.link || "#") + '" target="_blank" rel="noopener">' + esc(news.title) + "</a>" +
+      '<br><span class="ast-src">' + esc(fmtDate(news.published)) + "</span>";
+  return head + '<span class="ast-note">Belum ada berita terbaru untuk anggota ini.</span>';
+}
+function answerStatus() {
+  const ss = liveData.scrape_status || {};
+  const map = { ok:"Sehat", partial:"Sebagian", failed:"Bermasalah" };
+  function lbl(v) { return map[v] || v || "-"; }
+  const upd = liveData.last_updated ? fmtDate(liveData.last_updated) : "tidak diketahui";
+  return "<strong>Kesehatan Data</strong><br>" +
+    "&bull; Berita Lembaga: " + esc(lbl(ss.phase_1_agency)) + "<br>" +
+    "&bull; Berita Anggota: " + esc(lbl(ss.phase_2_members)) + "<br>" +
+    "&bull; Data Makro: " + esc(lbl(ss.phase_3_macro)) + "<br>" +
+    '<span class="ast-src">Terakhir diperbarui: ' + esc(upd) + "</span>";
+}
+function askAssistant(rawq) {
+  if (!liveData) return "Data belum termuat, coba lagi sebentar.";
+  const q = rawq.toLowerCase();
+
+  // 1. status / kesehatan data
+  if (q.indexOf("status") !== -1 || q.indexOf("kesehatan") !== -1 || q.indexOf("sehat") !== -1)
+    return answerStatus();
+
+  // 2. indikator (frasa spesifik dulu)
+  for (var i = 0; i < AST_INDICATORS.length; i++) {
+    var ind = AST_INDICATORS[i];
+    for (var j = 0; j < ind.keys.length; j++) {
+      if (q.indexOf(ind.keys[j]) !== -1) return answerIndicator(ind);
+    }
+  }
+
+  // 3. lembaga
+  for (var a = 0; a < AST_AGENCIES.length; a++) {
+    var ag = AST_AGENCIES[a];
+    for (var b = 0; b < ag.keys.length; b++) {
+      if (q.indexOf(ag.keys[b]) !== -1) return answerAgency(ag.name);
+    }
+  }
+
+  // 4. anggota
+  var mem = findMemberName(q);
+  if (mem) return answerMember(mem);
+
+  // 5. fallback (tidak mengarang)
+  return "Aku hanya bisa menjawab dari data dashboard: berita lembaga, berita anggota, dan indikator statistik. " +
+    "Coba sebut nama lembaga (mis. <em>kementan</em>, <em>bulog</em>), nama anggota, atau indikator (mis. <em>harga beras</em>, <em>ntp</em>).";
+}
+
+/* ============================================================
+   FITUR 3: PDF RINGKASAN 1-HALAMAN (jsPDF)
+   ============================================================ */
+const JSPDF_CDN = "https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js";
+let jspdfLoading = false;
+function ensureJsPDF(cb) {
+  if (window.jspdf && window.jspdf.jsPDF) { cb(); return; }
+  if (jspdfLoading) return;
+  jspdfLoading = true;
+  const s = document.createElement("script");
+  s.src = JSPDF_CDN;
+  s.onload = function() { jspdfLoading = false; cb(); };
+  s.onerror = function() { jspdfLoading = false; alert("Gagal memuat pustaka PDF. Periksa koneksi internet lalu coba lagi."); };
+  document.head.appendChild(s);
+}
+
+function generatePDF() {
+  if (!liveData) { alert("Data belum termuat."); return; }
+  ensureJsPDF(buildPDF);
+}
+
+function buildPDF() {
+  const jsPDFCtor = window.jspdf && window.jspdf.jsPDF;
+  if (!jsPDFCtor) { alert("Pustaka PDF belum termuat. Coba sesaat lagi."); return; }
+
+  const doc = new jsPDFCtor({ unit:"mm", format:"a4" });
+  const RED = [200,16,46], DARK = [17,24,39], GREY = [120,120,120], GREEN = [21,128,61];
+  const M = 15, pageW = 210;
+  let y;
+
+  // Header band
+  doc.setFillColor(RED[0], RED[1], RED[2]);
+  doc.rect(0, 0, pageW, 22, "F");
+  doc.setTextColor(255,255,255);
+  doc.setFont("helvetica","bold"); doc.setFontSize(15);
+  doc.text("RINGKASAN INTELIJEN KOMISI IV DPR RI", M, 12);
+  doc.setFont("helvetica","normal"); doc.setFontSize(9);
+  doc.text("Fraksi Gerindra  |  Pertanian - Kehutanan - Kelautan", M, 18);
+  y = 31;
+
+  // Tanggal
+  const upd = liveData.last_updated ? new Date(liveData.last_updated) : null;
+  const updTxt = upd && !isNaN(upd)
+    ? upd.toLocaleString("id-ID", { day:"2-digit", month:"long", year:"numeric", hour:"2-digit", minute:"2-digit" })
+    : "-";
+  doc.setTextColor(DARK[0], DARK[1], DARK[2]); doc.setFont("helvetica","bold"); doc.setFontSize(10);
+  doc.text("Per " + updTxt, M, y);
+  y += 9;
+
+  // Status data
+  const ss = liveData.scrape_status || {};
+  const arr = [ss.phase_1_agency, ss.phase_2_members, ss.phase_3_macro];
+  let stxt, scol;
+  if (arr.indexOf("failed") !== -1) { stxt = "Bermasalah"; scol = [200,16,46]; }
+  else if (arr.indexOf("partial") !== -1) { stxt = "Sebagian terkini"; scol = [180,83,9]; }
+  else { stxt = "Sehat"; scol = [21,128,61]; }
+  doc.setFontSize(9.5); doc.setTextColor(90,90,90); doc.setFont("helvetica","bold");
+  doc.text("STATUS DATA:", M, y);
+  doc.setTextColor(scol[0], scol[1], scol[2]); doc.text(stxt, M + 27, y);
+  y += 8;
+
+  // Sorotan berita
+  doc.setDrawColor(220,220,220); doc.line(M, y - 2, pageW - M, y - 2);
+  doc.setTextColor(RED[0], RED[1], RED[2]); doc.setFont("helvetica","bold"); doc.setFontSize(11);
+  doc.text("SOROTAN BERITA LEMBAGA", M, y + 3); y += 10;
+  const news = (liveData.agency_news || []).slice(0, 6);
+  news.forEach(function(it) {
+    let title = String(it.title || "").replace(/\s*-\s*[^-]+$/, "");
+    if (title.length > 92) title = title.slice(0, 89) + "...";
+    doc.setFont("helvetica","bold"); doc.setTextColor(RED[0], RED[1], RED[2]); doc.setFontSize(7.5);
+    doc.text(String(it.agency || ""), M, y);
+    doc.setFont("helvetica","normal"); doc.setTextColor(DARK[0], DARK[1], DARK[2]); doc.setFontSize(9);
+    doc.text(title, M, y + 4.2);
+    y += 9.5;
+  });
+  y += 2;
+
+  // Indikator kunci
+  doc.setDrawColor(220,220,220); doc.line(M, y - 2, pageW - M, y - 2);
+  doc.setTextColor(RED[0], RED[1], RED[2]); doc.setFont("helvetica","bold"); doc.setFontSize(11);
+  doc.text("INDIKATOR KUNCI", M, y + 3); y += 10;
+
+  const ms = liveData.macro_stats || {};
+  const picks = [
+    ["Harga Beras Nasional", liveData.harga_beras, true, false],
+    ["Nilai Tukar Petani (NTP)", ms.ntp, false, false],
+    ["Produksi Beras Nasional", ms.produksi_beras, false, false],
+    ["Stok Beras Bulog", liveData.stok_bulog, false, true],
+    ["Luas Panen Padi", ms.luas_panen_padi, false, false],
+    ["Bantuan Pangan Beras", ms.bantuan_pangan, false, false],
+  ];
+  doc.setFontSize(9.5);
+  picks.forEach(function(p) {
+    const label = p[0], s = p[1], money = p[2], ton = p[3];
+    if (!s || typeof s !== "object") return;
+    let v = s.value;
+    if (v == null || v === "") v = "tidak tersedia";
+    else if (money) v = "Rp " + Number(v).toLocaleString("id-ID");
+    else if (ton && typeof v === "number") v = Number(v).toLocaleString("id-ID") + " Ton";
+    const isFb = (s.confidence || "FALLBACK") === "FALLBACK";
+    doc.setFont("helvetica","normal"); doc.setTextColor(DARK[0], DARK[1], DARK[2]);
+    doc.text(label, M, y);
+    doc.setFont("helvetica","bold");
+    if (isFb) doc.setTextColor(GREY[0], GREY[1], GREY[2]); else doc.setTextColor(GREEN[0], GREEN[1], GREEN[2]);
+    doc.text(String(v) + (isFb ? "  (acuan)" : ""), pageW - M, y, { align:"right" });
+    y += 7.5;
+  });
+
+  // Catatan integritas + footer
+  y += 2;
+  doc.setFont("helvetica","italic"); doc.setFontSize(7.5); doc.setTextColor(GREY[0], GREY[1], GREY[2]);
+  doc.text('Angka berlabel "(acuan)" = nilai acuan statis (FALLBACK), bukan data resmi terkini.', M, y);
+  doc.setFont("helvetica","normal"); doc.setTextColor(150,150,150);
+  doc.text("Dasbor Intelijen Komisi IV DPR RI - Fraksi Gerindra - dihasilkan otomatis di browser.", M, 290);
+
+  const ymd = (upd && !isNaN(upd) ? upd : new Date()).toISOString().slice(0, 10);
+  doc.save("Ringkasan_Komisi_IV_" + ymd + ".pdf");
 }
 
 loadData();
