@@ -955,6 +955,39 @@
     .hot-empty { font-size: 11px; color: var(--text-muted); font-style: italic; }
 
     /* ============================================================
+       KONTROL BERITA: filter, tanggal, sort, tag (P3)
+       ============================================================ */
+    .news-controls {
+      display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+      background: var(--bg-white); border: 1px solid var(--border-light);
+      border-radius: 10px; padding: 10px 12px; margin-bottom: 12px;
+      box-shadow: var(--shadow-sm);
+    }
+    .nc-select, .nc-date {
+      font-family: var(--font-main); font-size: 11.5px;
+      padding: 6px 8px; border: 1.5px solid var(--border-mid);
+      border-radius: 7px; background: var(--bg-white); color: var(--text-primary);
+    }
+    .nc-select:focus, .nc-date:focus { outline: none; border-color: var(--red-primary); }
+    .nc-label { font-size: 10px; font-weight: 700; color: var(--text-muted); letter-spacing: .4px; }
+    .nc-reset {
+      font-size: 11px; font-weight: 600; padding: 6px 12px;
+      border: 1.5px solid var(--border-mid); border-radius: 7px;
+      background: var(--bg-white); color: var(--text-muted); cursor: pointer;
+    }
+    .nc-reset:hover { border-color: var(--red-primary); color: var(--red-primary); }
+    .tag-row { display: flex; flex-wrap: wrap; gap: 6px; width: 100%; padding-top: 8px; border-top: 1px dashed var(--border-light); }
+    .tag-chip {
+      font-size: 10px; font-weight: 600; letter-spacing: .3px;
+      padding: 3px 10px; border-radius: 20px; cursor: pointer;
+      border: 1px solid var(--border-mid); background: var(--bg-white); color: var(--text-muted);
+      transition: all .15s;
+    }
+    .tag-chip:hover, .tag-chip.active { border-color: var(--red-primary); color: var(--red-primary); background: var(--red-light); }
+    .card-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
+    .card-tags .tag-chip { font-size: 9px; padding: 2px 8px; }
+
+    /* ============================================================
        ASISTEN DATA (floating, deterministik)
        ============================================================ */
     .ast-fab {
@@ -1272,6 +1305,24 @@
         <div class="section-line"></div>
         <div class="section-count" id="agency-count">0</div>
       </div>
+
+      <!-- KONTROL: filter mitra, tanggal, sort, tag (P3) -->
+      <div class="news-controls">
+        <select id="nf-agency" class="nc-select" title="Filter per mitra">
+          <option value="ALL">Semua Mitra</option>
+        </select>
+        <span class="nc-label">DARI</span>
+        <input type="date" id="nf-from" class="nc-date" />
+        <span class="nc-label">S.D.</span>
+        <input type="date" id="nf-to" class="nc-date" />
+        <select id="nf-sort" class="nc-select" title="Urutkan by tanggal">
+          <option value="desc">Terbaru dulu</option>
+          <option value="asc">Terlama dulu</option>
+        </select>
+        <button id="nf-reset" class="nc-reset">Reset</button>
+        <div class="tag-row" id="nf-tags"></div>
+      </div>
+
       <div class="panel">
         <div class="panel-header">
           <div class="panel-title">Berita Lembaga Strategis</div>
@@ -1617,23 +1668,46 @@ function renderHot() {
   if (totEl) totEl.textContent = arts.length + " ARTIKEL / 7 HARI";
 }
 
-/* --- RENDER AGENCY NEWS (arsip bergulir, terbaru dulu) --- */
+/* --- RENDER AGENCY NEWS (arsip bergulir + filter/sort/tag P3) --- */
 const AGENCY_LIST_LIMIT = 30;   // maksimal artikel tampil di feed utama
 
+let newsFilter = { agency: "ALL", tag: "ALL", from: "", to: "", sort: "desc" };
+
 function newsCardHTML(item, i, accent) {
+  const tags = tagsFor(item.title);
   return '<div class="news-card ' + (accent || ACCENTS[i % ACCENTS.length]) + '" style="animation-delay:' + (Math.min(i, 15) * 50) + 'ms">' +
     '<div class="news-agency">' + esc(item.agency || "") + '</div>' +
     '<a class="news-title" href="' + esc(item.link_resolved || item.link || "#") + '" target="_blank" rel="noopener">' + esc(item.title || "") + '</a>' +
     '<div class="news-date">' + fmtDate(item.published) + '</div>' +
+    '<div class="card-tags">' + tags.map(function(t) {
+      return '<span class="tag-chip" data-tag="' + esc(t) + '">' + esc(t) + '</span>';
+    }).join("") + '</div>' +
     '</div>';
+}
+
+function applyNewsFilter(flat) {
+  let arts = flat;
+  if (newsFilter.agency !== "ALL") arts = arts.filter(function(a) { return a.agency === newsFilter.agency; });
+  if (newsFilter.tag !== "ALL") arts = arts.filter(function(a) { return tagsFor(a.title).indexOf(newsFilter.tag) !== -1; });
+  if (newsFilter.from) {
+    var fromT = new Date(newsFilter.from + "T00:00:00").getTime();
+    arts = arts.filter(function(a) { var d = artDate(a); return d && d.getTime() >= fromT; });
+  }
+  if (newsFilter.to) {
+    var toT = new Date(newsFilter.to + "T23:59:59").getTime();
+    arts = arts.filter(function(a) { var d = artDate(a); return d && d.getTime() <= toT; });
+  }
+  if (newsFilter.sort === "asc") arts = arts.slice().reverse();
+  return arts;
 }
 
 function renderAgency() {
   const el = document.getElementById("agency-news-list");
   const hl = document.getElementById("headline-list");
   const flat = flatAgencyArticles();
+  const filtered = applyNewsFilter(flat);
 
-  document.getElementById("agency-count").textContent = flat.length;
+  document.getElementById("agency-count").textContent = filtered.length;
   const heroAgency = document.getElementById("hero-agency-count");
   if (heroAgency) heroAgency.textContent = flat.length;
 
@@ -1642,15 +1716,74 @@ function renderAgency() {
     hl.innerHTML = '<div class="empty-state">[ Tidak ada headline ]</div>';
     return;
   }
-
-  const shown = flat.slice(0, AGENCY_LIST_LIMIT);
-  let html = shown.map(function(item, i) { return newsCardHTML(item, i); }).join("");
-  if (flat.length > shown.length) {
-    html += '<div class="empty-state">Menampilkan ' + shown.length + ' dari ' + flat.length + ' artikel arsip 30 hari.</div>';
+  if (!filtered.length) {
+    el.innerHTML = '<div class="empty-state">Tidak ada artikel yang cocok dengan filter.</div>';
+  } else {
+    const shown = filtered.slice(0, AGENCY_LIST_LIMIT);
+    let html = shown.map(function(item, i) { return newsCardHTML(item, i); }).join("");
+    if (filtered.length > shown.length) {
+      html += '<div class="empty-state">Menampilkan ' + shown.length + ' dari ' + filtered.length + ' artikel.</div>';
+    }
+    el.innerHTML = html;
   }
-  el.innerHTML = html;
 
   hl.innerHTML = flat.slice(0, 3).map(function(item, i) { return newsCardHTML(item, i, "amber-accent"); }).join("");
+}
+
+/* --- KONTROL BERITA (P3): isi opsi, sinkronkan state, delegasi klik tag --- */
+function buildNewsControls() {
+  const selA = document.getElementById("nf-agency");
+  if (!selA || selA.dataset.built) return;
+  selA.dataset.built = "1";
+
+  Object.keys(agencyArch).forEach(function(ag) {
+    const o = document.createElement("option");
+    o.value = ag; o.textContent = ag;
+    selA.appendChild(o);
+  });
+
+  const tagRow = document.getElementById("nf-tags");
+  const allTags = ["ALL"].concat(Object.keys(TOPIC_TAGS)).concat(["lainnya"]);
+  tagRow.innerHTML = allTags.map(function(t) {
+    return '<span class="tag-chip' + (t === "ALL" ? " active" : "") + '" data-tag="' + esc(t) + '">' +
+      (t === "ALL" ? "semua topik" : esc(t)) + '</span>';
+  }).join("");
+
+  function syncTagChips() {
+    tagRow.querySelectorAll(".tag-chip").forEach(function(c) {
+      c.classList.toggle("active", c.dataset.tag === newsFilter.tag);
+    });
+  }
+
+  selA.addEventListener("change", function() { newsFilter.agency = selA.value; renderAgency(); });
+  document.getElementById("nf-from").addEventListener("change", function() { newsFilter.from = this.value; renderAgency(); });
+  document.getElementById("nf-to").addEventListener("change", function() { newsFilter.to = this.value; renderAgency(); });
+  document.getElementById("nf-sort").addEventListener("change", function() { newsFilter.sort = this.value; renderAgency(); });
+  document.getElementById("nf-reset").addEventListener("click", function() {
+    newsFilter = { agency: "ALL", tag: "ALL", from: "", to: "", sort: "desc" };
+    selA.value = "ALL";
+    document.getElementById("nf-from").value = "";
+    document.getElementById("nf-to").value = "";
+    document.getElementById("nf-sort").value = "desc";
+    syncTagChips();
+    renderAgency();
+  });
+  tagRow.addEventListener("click", function(e) {
+    const chip = e.target.closest(".tag-chip");
+    if (!chip) return;
+    newsFilter.tag = chip.dataset.tag;
+    syncTagChips();
+    renderAgency();
+  });
+  // klik tag pada kartu berita -> aktifkan filter tag yang sama
+  document.getElementById("agency-news-list").addEventListener("click", function(e) {
+    const chip = e.target.closest(".tag-chip");
+    if (!chip) return;
+    e.preventDefault();
+    newsFilter.tag = chip.dataset.tag;
+    syncTagChips();
+    renderAgency();
+  });
 }
 
 /* --- RENDER MEMBER NEWS (roster penuh + arsip per anggota) --- */
@@ -1728,6 +1861,7 @@ async function loadData() {
     document.getElementById("feed-status-text").textContent = "ONLINE";
 
     normalizeArchives(data);
+    buildNewsControls();
     renderAgency();
     renderMembers();
     renderHot();
