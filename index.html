@@ -988,6 +988,38 @@
     .card-tags .tag-chip { font-size: 9px; padding: 2px 8px; }
 
     /* ============================================================
+       FOKUS MITRA + CETAK (P4)
+       ============================================================ */
+    .focus-controls { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+    .focus-stats { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 16px; }
+    .focus-stat {
+      flex: 1 1 180px; border: 1px solid var(--border-light); border-radius: 10px;
+      padding: 12px 14px; background: #fafafa;
+    }
+    .focus-stat-label { font-size: 10px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase; color: var(--text-muted); margin-bottom: 4px; }
+    .focus-stat-value { font-family: var(--font-heading); font-size: 18px; font-weight: 800; color: var(--red-primary); margin-bottom: 4px; }
+    .focus-placeholder { padding: 28px; text-align: center; font-size: 12px; color: var(--text-muted); font-style: italic; }
+    .focus-news-note { font-size: 10.5px; color: var(--text-muted); font-style: italic; margin-top: 10px; }
+
+    @media print {
+      /* mode cetak fokus: hanya panel fokus yang tampil */
+      body.print-focus .top-utility-bar,
+      body.print-focus header,
+      body.print-focus .page-hero,
+      body.print-focus footer,
+      body.print-focus .ast-fab,
+      body.print-focus .ast-panel,
+      body.print-focus #scrape-banner,
+      body.print-focus main > :not(#focus-block) { display: none !important; }
+      body.print-focus #focus-block { margin: 0; }
+      body.print-focus .panel { box-shadow: none; border: none; }
+      body.print-focus .focus-controls select,
+      body.print-focus .focus-controls button { display: none !important; }
+      body.print-focus .news-card { break-inside: avoid; animation: none; opacity: 1; }
+      body.print-focus .card-tags { display: none; }
+    }
+
+    /* ============================================================
        ASISTEN DATA (floating, deterministik)
        ============================================================ */
     .ast-fab {
@@ -1393,6 +1425,34 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOKUS MITRA (P4) -->
+  <div id="focus-block">
+    <div class="section-header">
+      <div class="section-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </div>
+      <div class="section-title">Fokus Mitra</div>
+      <div class="section-line"></div>
+    </div>
+    <div class="panel" style="margin-bottom:28px">
+      <div class="panel-header">
+        <div class="focus-controls">
+          <select id="focus-select" class="nc-select">
+            <option value="">Pilih mitra kerja...</option>
+          </select>
+          <button id="focus-print" class="btn-pdf" style="display:none">
+            <svg viewBox="0 0 24 24"><path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/></svg>
+            Cetak
+          </button>
+        </div>
+        <div class="panel-badge blue">FOKUS</div>
+      </div>
+      <div class="panel-body" id="focus-body">
+        <div class="focus-placeholder">Pilih satu mitra kerja untuk melihat berita terbaru + statistik terkaitnya dalam satu panel (bisa dicetak).</div>
       </div>
     </div>
   </div>
@@ -1862,6 +1922,7 @@ async function loadData() {
 
     normalizeArchives(data);
     buildNewsControls();
+    buildFocusControls();
     renderAgency();
     renderMembers();
     renderHot();
@@ -1939,6 +2000,87 @@ async function loadData() {
       document.getElementById(id).innerHTML = errHtml;
     });
   }
+}
+
+/* ============================================================
+   FOKUS MITRA (P4): berita + statistik terkait + cetak
+   ============================================================ */
+const FOCUS_STATS = {
+  "Kementerian Pertanian":               ["ntp", "luas_panen_padi", "produksi_beras", "luas_panen_jagung", "produksi_jagung"],
+  "Kementerian Kehutanan":               [],
+  "Kementerian Kelautan dan Perikanan":  ["kampung_nelayan"],
+  "Badan Karantina Indonesia":           [],
+  "Badan Pangan Nasional":               ["@harga_beras", "harga_pangan_avg", "bantuan_pangan"],
+  "Perum Bulog":                         ["@stok_bulog", "realisasi_sphp"]
+};
+const STAT_LABELS = {
+  ntp: "Nilai Tukar Petani (NTP)", luas_panen_padi: "Luas Panen Padi",
+  produksi_beras: "Produksi Beras", luas_panen_jagung: "Luas Panen Jagung",
+  produksi_jagung: "Produksi Jagung", kampung_nelayan: "Kampung Nelayan Modern",
+  harga_pangan_avg: "Rata-rata Harga Pangan", bantuan_pangan: "Bantuan Pangan Beras",
+  realisasi_sphp: "Realisasi SPHP", "@harga_beras": "Harga Beras Nasional", "@stok_bulog": "Stok Beras Bulog"
+};
+
+function focusStatHTML(key) {
+  var s = key === "@harga_beras" ? liveData.harga_beras
+        : key === "@stok_bulog"  ? liveData.stok_bulog
+        : (liveData.macro_stats || {})[key];
+  if (!s || typeof s !== "object") return "";
+  var v = s.value;
+  if (v == null || v === "") v = "Data tidak tersedia";
+  else if (key === "@harga_beras") v = "Rp " + Number(v).toLocaleString("id-ID");
+  else if (key === "@stok_bulog" && typeof v === "number") v = Number(v).toLocaleString("id-ID") + " Ton";
+  return '<div class="focus-stat">' +
+    '<div class="focus-stat-label">' + esc(STAT_LABELS[key] || key) + '</div>' +
+    '<div class="focus-stat-value">' + esc(String(v)) + '</div>' +
+    confBadge(s.confidence) +
+    ((s.confidence || "FALLBACK") === "FALLBACK" ? ' <span class="ast-note">(acuan statis)</span>' : '') +
+    '</div>';
+}
+
+function renderFocus(agency) {
+  const body = document.getElementById("focus-body");
+  const printBtn = document.getElementById("focus-print");
+  if (!agency) {
+    body.innerHTML = '<div class="focus-placeholder">Pilih satu mitra kerja untuk melihat berita terbaru + statistik terkaitnya dalam satu panel (bisa dicetak).</div>';
+    printBtn.style.display = "none";
+    return;
+  }
+  const arts = (agencyArch[agency] || []).slice(0, 10);
+  const statKeys = FOCUS_STATS[agency] || [];
+  const statsHtml = statKeys.map(focusStatHTML).filter(Boolean).join("");
+
+  let html = '<h3 style="font-family:var(--font-heading);font-size:15px;margin-bottom:12px">' + esc(agency) + '</h3>';
+  html += statsHtml
+    ? '<div class="focus-stats">' + statsHtml + '</div>'
+    : '<div class="focus-news-note">Tidak ada indikator statistik yang terkait langsung dengan mitra ini di dashboard.</div>';
+  html += arts.length
+    ? '<div class="news-list">' + arts.map(function(a, i) {
+        return newsCardHTML({ agency: agency, title: a.title, link: a.link, link_resolved: a.link_resolved, published: a.published }, i);
+      }).join("") + '</div>'
+    : '<div class="empty-state">Tidak ada berita 30 hari terakhir.</div>';
+  html += '<div class="focus-news-note">Statistik ditampilkan apa adanya dengan label confidence; nilai FALLBACK adalah acuan statis, bukan data resmi terkini. Berita: ' + arts.length + ' artikel terbaru dari arsip 30 hari.</div>';
+  body.innerHTML = html;
+  printBtn.style.display = "";
+}
+
+function buildFocusControls() {
+  const sel = document.getElementById("focus-select");
+  if (!sel || sel.dataset.built) return;
+  sel.dataset.built = "1";
+  Object.keys(agencyArch).forEach(function(ag) {
+    const o = document.createElement("option");
+    o.value = ag; o.textContent = ag;
+    sel.appendChild(o);
+  });
+  sel.addEventListener("change", function() { renderFocus(sel.value); });
+  document.getElementById("focus-print").addEventListener("click", function() {
+    document.body.classList.add("print-focus");
+    window.print();
+  });
+  window.addEventListener("afterprint", function() {
+    document.body.classList.remove("print-focus");
+  });
 }
 
 /* ============================================================
