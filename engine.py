@@ -3,11 +3,19 @@ import json
 import os
 import re
 import time
-import copy
 import hashlib
 import urllib.parse
-from datetime import datetime, date
+from datetime import datetime, date, timedelta, timezone
+from email.utils import parsedate_to_datetime
 import requests
+
+# ============================================================
+# 0. KONFIGURASI ARSIP BERITA (anti-bloat)
+# ============================================================
+MAX_ARTICLES_PER_ENTITY = 50   # cap keras per lembaga / per anggota
+MAX_AGE_DAYS = 30              # rolling window: buang artikel lebih tua dari ini
+AGENCY_FETCH_LIMIT = 10        # artikel baru maksimal per lembaga per run
+MEMBER_FETCH_LIMIT = 5         # artikel baru maksimal per anggota per run
 
 # ============================================================
 # 1. DATA SUMBER: LEMBAGA & KEYWORD (KOMISI IV DPR RI PARTNERS)
@@ -43,6 +51,13 @@ HEADERS = {
 # ============================================================
 # HELPERS
 # ============================================================
+def safe_print(s):
+    """Console Windows (cp1252) bisa gagal print karakter unicode judul berita."""
+    try:
+        print(s)
+    except UnicodeEncodeError:
+        print(s.encode("ascii", "replace").decode())
+
 def _stat(value, source, source_url, confidence, fetched_at):
     return {
         "value": value,
@@ -58,80 +73,146 @@ def fetch_json(url, params=None, timeout=15):
     return r.json()
 
 # ============================================================
-# 3. FASE 1: BERITA LEMBAGA (Google News RSS)
+# ARSIP BERITA: dedup by link + rolling window + cap
 # ============================================================
-def fetch_agency_news():
-    results = []
+def _article_dt(art):
+    """Tanggal artikel: published (RSS) dulu, fallback fetched_at. Aware UTC."""
+    p = art.get("published")
+    if p and p != "N/A":
+        try:
+            d = parsedate_to_datetime(p)
+            if d.tzinfo is None:
+                d = d.replace(tzinfo=timezone.utc)
+            return d
+        except Exception:
+            pass
+    f = art.get("fetched_at")
+    if f:
+        try:
+            d = datetime.fromisoformat(f)
+            if d.tzinfo is None:
+                d = d.replace(tzinfo=timezone.utc)
+            return d
+        except Exception:
+            pass
+    return None
+
+def merge_archive(old_arts, new_arts):
+    """Gabung arsip lama + artikel baru: dedup by link (versi lama menang, agar
+    fetched_at stabil), buang > MAX_AGE_DAYS, urutkan terbaru dulu, cap keras."""
+    cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
+    seen = {}
+    for art in (old_arts or []):
+        link = art.get("link")
+        if link and link != "#" and link not in seen:
+            seen[link] = art
+    for art in (new_arts or []):
+        link = art.get("link")
+        if link and link != "#" and link not in seen:
+            seen[link] = art
+    kept = []
+    for art in seen.values():
+        d = _article_dt(art)
+        if d is None or d >= cutoff:   # tanggal tak terbaca -> jangan buang, cap yang membatasi
+            kept.append(art)
+    kept.sort(key=lambda a: ((_article_dt(a) or datetime.min.replace(tzinfo=timezone.utc)).isoformat(),
+                             a.get("link", "")), reverse=True)
+    return kept[:MAX_ARTICLES_PER_ENTITY]
+
+def load_previous_archives(path):
+    """Baca live_data.json lama. Backward-compatible: agency_news bisa list
+    (skema lama, 1 artikel per lembaga) atau dict-of-array (skema baru);
+    member_news value bisa objek tunggal atau array."""
+    try:
+        with open(path, encoding="utf-8") as f:
+            old = json.load(f)
+    except Exception:
+        return {}, {}
+    ag = {}
+    raw = old.get("agency_news")
+    if isinstance(raw, dict):
+        for k, v in raw.items():
+            ag[k] = v if isinstance(v, list) else ([v] if isinstance(v, dict) else [])
+    elif isinstance(raw, list):
+        for item in raw:
+            if isinstance(item, dict) and item.get("agency"):
+                art = {k2: v2 for k2, v2 in item.items() if k2 != "agency"}
+                ag.setdefault(item["agency"], []).append(art)
+    mem = {}
+    rawm = old.get("member_news")
+    if isinstance(rawm, dict):
+        for k, v in rawm.items():
+            mem[k] = v if isinstance(v, list) else ([v] if isinstance(v, dict) else [])
+    return ag, mem
+
+# ============================================================
+# 3. FASE 1: BERITA LEMBAGA (Google News RSS) -> arsip bergulir
+# ============================================================
+def fetch_agency_news(prev_archive):
+    archive = {}
     errors = []
+    ok_count = 0
     for agency, query in AGENCIES.items():
         url = f"https://news.google.com/rss/search?q={urllib.parse.quote(query)}&hl=id&gl=ID&ceid=ID:id"
         print(f"  [LEMBAGA] Menarik data: {agency}...")
+        new_arts = []
         try:
             feed = feedparser.parse(url)
-            if feed.entries:
-                entry = feed.entries[0]
-                results.append({
-                    "agency": agency,
+            for entry in feed.entries[:AGENCY_FETCH_LIMIT]:
+                new_arts.append({
                     "title": entry.title,
                     "link": entry.link,
                     "link_resolved": None,
                     "published": entry.get("published", "N/A"),
+                    "fetched_at": datetime.now().isoformat(),
                 })
-            else:
-                results.append({
-                    "agency": agency,
-                    "title": f"[Sistem Alert] Tidak ada berita terbaru untuk keyword {agency}.",
-                    "link": "#",
-                    "link_resolved": None,
-                    "published": datetime.now().strftime("%a, %d %b %Y %H:%M:%S GMT"),
-                })
+            if new_arts:
+                ok_count += 1
         except Exception as e:
             msg = f"Gagal fetch {agency}: {e}"
-            print(f"  [WARN] {msg}")
+            safe_print(f"  [WARN] {msg}")
             errors.append(msg)
-            results.append({
-                "agency": agency,
-                "title": f"[Error] Gagal menarik data: {e}",
-                "link": "#",
-                "link_resolved": None,
-                "published": datetime.now().strftime("%a, %d %b %Y %H:%M:%S GMT"),
-            })
-    return results, errors
+        archive[agency] = merge_archive(prev_archive.get(agency), new_arts)
+        safe_print(f"    -> {len(new_arts)} baru, arsip {len(archive[agency])} artikel")
+    return archive, errors, ok_count
 
 # ============================================================
-# 4. FASE 2: BERITA ANGGOTA (Google News RSS)
+# 4. FASE 2: BERITA ANGGOTA (Google News RSS) -> arsip bergulir
 # ============================================================
-def fetch_member_news():
-    results = {}
+def fetch_member_news(prev_archive):
+    archive = {}
     errors = []
+    ok_count = 0
     all_members = [m for members in KOMISI4_MEMBERS.values() for m in members]
     print(f"  Memproses {len(all_members)} anggota Komisi IV...")
     for member in all_members:
+        new_arts = []
         try:
             query = urllib.parse.quote(f'"{member}" DPR OR Komisi')
             url = f"https://news.google.com/rss/search?q={query}&hl=id&gl=ID&ceid=ID:id"
             feed = feedparser.parse(url)
-            if feed.entries:
-                entry = feed.entries[0]
-                results[member] = {
+            for entry in feed.entries[:MEMBER_FETCH_LIMIT]:
+                new_arts.append({
                     "title": entry.title,
                     "link": entry.link,
                     "link_resolved": None,
                     "published": entry.get("published", "N/A"),
-                    "fetched_at": datetime.now().isoformat()
-                }
-                try:
-                    print(f"  [OK] {member}: {entry.title[:60]}...")
-                except UnicodeEncodeError:
-                    print(f"  [OK] {member}: (judul mengandung karakter non-ASCII)")
+                    "fetched_at": datetime.now().isoformat(),
+                })
+            if new_arts:
+                ok_count += 1
+                safe_print(f"  [OK] {member}: {new_arts[0]['title'][:60]}... (+{len(new_arts)} baru)")
             else:
                 print(f"  [INFO] Tidak ada berita untuk: {member}")
         except Exception as e:
             msg = f"Gagal fetch anggota {member}: {e}"
-            print(f"  [WARN] {msg}")
+            safe_print(f"  [WARN] {msg}")
             errors.append(msg)
+        merged = merge_archive(prev_archive.get(member), new_arts)
+        if merged:
+            archive[member] = merged
         time.sleep(0.5)
-    return results, errors
+    return archive, errors, ok_count
 
 # ============================================================
 # 5. FASE 3: DATA MAKRO (API resmi + FALLBACK jujur)
@@ -298,21 +379,24 @@ def fetch_data():
     now = datetime.now().isoformat()
     all_errors = []
 
-    print("\n>>> FASE 1: Berita Lembaga Mitra...")
-    agency_news, e1 = fetch_agency_news()
-    all_errors += e1
-    real_agency = sum(1 for a in agency_news
-                      if not a["title"].startswith(("[Sistem Alert]", "[Error]")) and a["link"] != "#")
-    phase1 = "failed" if real_agency == 0 else ("partial" if real_agency < len(AGENCIES) else "ok")
-    print(f"[FASE 1] {real_agency}/{len(AGENCIES)} lembaga dapat berita real.")
+    output_path = os.path.join(os.path.dirname(__file__), "live_data.json")
+    prev_agency, prev_member = load_previous_archives(output_path)
 
-    print("\n>>> FASE 2: Berita Anggota...")
-    member_news, e2 = fetch_member_news()
+    print("\n>>> FASE 1: Berita Lembaga Mitra (arsip bergulir)...")
+    agency_news, e1, ag_ok = fetch_agency_news(prev_agency)
+    all_errors += e1
+    phase1 = "failed" if ag_ok == 0 else ("partial" if ag_ok < len(AGENCIES) else "ok")
+    total_ag_arts = sum(len(v) for v in agency_news.values())
+    print(f"[FASE 1] {ag_ok}/{len(AGENCIES)} lembaga dapat berita baru; total arsip {total_ag_arts} artikel.")
+
+    print("\n>>> FASE 2: Berita Anggota (arsip bergulir)...")
+    member_news, e2, mem_ok = fetch_member_news(prev_member)
     all_errors += e2
     total_members = sum(len(v) for v in KOMISI4_MEMBERS.values())
     phase2 = "failed" if len(member_news) == 0 else (
-        "partial" if (e2 or len(member_news) < total_members * 0.5) else "ok")
-    print(f"[FASE 2] {len(member_news)}/{total_members} anggota dapat berita.")
+        "partial" if (e2 or mem_ok < total_members * 0.5) else "ok")
+    total_mem_arts = sum(len(v) for v in member_news.values())
+    print(f"[FASE 2] {mem_ok}/{total_members} anggota dapat berita baru; total arsip {total_mem_arts} artikel.")
 
     print("\n>>> FASE 3: Data Makro (API + fallback)...")
     harga_beras, e3a = fetch_food_prices(now)
@@ -351,8 +435,6 @@ def fetch_data():
         "last_updated": now,
     }
 
-    output_path = os.path.join(os.path.dirname(__file__), "live_data.json")
-
     # commit-on-diff: bandingkan fingerprint tanpa timestamp
     new_fp = _fingerprint(output)
     old_fp = None
@@ -370,7 +452,9 @@ def fetch_data():
     try:
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(output, f, ensure_ascii=False, indent=4)
-        print(f"\n[SUKSES] live_data.json diperbarui {datetime.now().strftime('%H:%M:%S')}")
+        size_kb = os.path.getsize(output_path) / 1024
+        print(f"\n[SUKSES] live_data.json diperbarui {datetime.now().strftime('%H:%M:%S')} "
+              f"({size_kb:.0f} KB, {total_ag_arts + total_mem_arts} artikel)")
     except Exception as e:
         print(f"[GAGAL] Simpan data: {e}")
 

@@ -1396,6 +1396,55 @@ let uiBound = false;
 let astGreeted = false;
 const REPO_ACTIONS_URL = "https://github.com/kevinpribadi/Gerindra-Komisi-4/actions/workflows/auto_update.yml";
 
+/* ============================================================
+   ARSIP BERITA (P1): normalisasi skema array + kompatibel lama
+   ============================================================ */
+let agencyArch = {};   // { lembaga: [artikel, terbaru dulu] }
+let memberArch = {};   // { anggota: [artikel, terbaru dulu] }
+
+function artDate(a) {
+  if (!a) return null;
+  var d = new Date(a.published);
+  if (!isNaN(d)) return d;
+  d = new Date(a.fetched_at);
+  return isNaN(d) ? null : d;
+}
+function toArtArray(v) {
+  if (Array.isArray(v)) return v;
+  if (v && typeof v === "object" && v.title) return [v];   // skema lama: objek tunggal
+  return [];
+}
+function sortArtsDesc(arr) {
+  arr.sort(function(x, y) {
+    var dx = artDate(x), dy = artDate(y);
+    return (dy ? dy.getTime() : 0) - (dx ? dx.getTime() : 0);
+  });
+  return arr;
+}
+function normalizeArchives(data) {
+  agencyArch = {}; memberArch = {};
+  var rawA = data.agency_news;
+  if (Array.isArray(rawA)) {           // skema lama: [{agency, title, ...}]
+    rawA.forEach(function(it) {
+      if (it && it.agency) (agencyArch[it.agency] = agencyArch[it.agency] || []).push(it);
+    });
+  } else if (rawA && typeof rawA === "object") {   // skema baru: { lembaga: [...] }
+    Object.keys(rawA).forEach(function(k) { agencyArch[k] = toArtArray(rawA[k]); });
+  }
+  Object.keys(agencyArch).forEach(function(k) { sortArtsDesc(agencyArch[k]); });
+  var rawM = data.member_news || {};
+  Object.keys(rawM).forEach(function(k) { memberArch[k] = sortArtsDesc(toArtArray(rawM[k])); });
+}
+function flatAgencyArticles() {
+  var out = [];
+  Object.keys(agencyArch).forEach(function(ag) {
+    agencyArch[ag].forEach(function(a) {
+      out.push({ agency: ag, title: a.title, link: a.link, link_resolved: a.link_resolved, published: a.published, fetched_at: a.fetched_at });
+    });
+  });
+  return sortArtsDesc(out);
+}
+
 /* --- CLOCK --- */
 function updateClock() {
   const n = new Date();
@@ -1426,59 +1475,59 @@ function esc(s) {
     .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
 }
 
-/* --- RENDER AGENCY NEWS --- */
-function renderAgency(news) {
+/* --- RENDER AGENCY NEWS (arsip bergulir, terbaru dulu) --- */
+const AGENCY_LIST_LIMIT = 30;   // maksimal artikel tampil di feed utama
+
+function newsCardHTML(item, i, accent) {
+  return '<div class="news-card ' + (accent || ACCENTS[i % ACCENTS.length]) + '" style="animation-delay:' + (Math.min(i, 15) * 50) + 'ms">' +
+    '<div class="news-agency">' + esc(item.agency || "") + '</div>' +
+    '<a class="news-title" href="' + esc(item.link_resolved || item.link || "#") + '" target="_blank" rel="noopener">' + esc(item.title || "") + '</a>' +
+    '<div class="news-date">' + fmtDate(item.published) + '</div>' +
+    '</div>';
+}
+
+function renderAgency() {
   const el = document.getElementById("agency-news-list");
   const hl = document.getElementById("headline-list");
-  document.getElementById("agency-count").textContent = news.length;
+  const flat = flatAgencyArticles();
 
-  // Update hero counter
+  document.getElementById("agency-count").textContent = flat.length;
   const heroAgency = document.getElementById("hero-agency-count");
-  if (heroAgency) heroAgency.textContent = news.length;
+  if (heroAgency) heroAgency.textContent = flat.length;
 
-  if (!news.length) {
+  if (!flat.length) {
     el.innerHTML = '<div class="empty-state">[ Tidak ada data lembaga ]</div>';
     hl.innerHTML = '<div class="empty-state">[ Tidak ada headline ]</div>';
     return;
   }
 
-  el.innerHTML = news.map(function(item, i) {
-    return '<div class="news-card ' + ACCENTS[i % ACCENTS.length] + '" style="animation-delay:' + (i*60) + 'ms">' +
-      '<div class="news-agency">' + esc(item.agency || "") + '</div>' +
-      '<a class="news-title" href="' + esc(item.link_resolved || item.link || "#") + '" target="_blank" rel="noopener">' + esc(item.title || "") + '</a>' +
-      '<div class="news-date">' + fmtDate(item.published) + '</div>' +
-      '</div>';
-  }).join("");
+  const shown = flat.slice(0, AGENCY_LIST_LIMIT);
+  let html = shown.map(function(item, i) { return newsCardHTML(item, i); }).join("");
+  if (flat.length > shown.length) {
+    html += '<div class="empty-state">Menampilkan ' + shown.length + ' dari ' + flat.length + ' artikel arsip 30 hari.</div>';
+  }
+  el.innerHTML = html;
 
-  hl.innerHTML = news.slice(0, 3).map(function(item, i) {
-    return '<div class="news-card amber-accent" style="animation-delay:' + (i*80) + 'ms">' +
-      '<div class="news-agency">' + esc(item.agency || "") + '</div>' +
-      '<a class="news-title" href="' + esc(item.link || "#") + '" target="_blank" rel="noopener">' + esc(item.title || "") + '</a>' +
-      '<div class="news-date">' + fmtDate(item.published) + '</div>' +
-      '</div>';
-  }).join("");
+  hl.innerHTML = flat.slice(0, 3).map(function(item, i) { return newsCardHTML(item, i, "amber-accent"); }).join("");
 }
 
-/* --- RENDER MEMBER NEWS --- */
-function renderMembers(memberNews) {
+/* --- RENDER MEMBER NEWS (roster penuh + arsip per anggota) --- */
+function renderMembers() {
   allMembers = [];
   const parties = new Set();
-  const names = Object.keys(memberNews);
 
-  names.forEach(function(name) {
-    const party = PARTY_MAP[name] || "Lainnya";
+  // roster penuh dari PARTY_MAP, bukan hanya yang punya berita
+  Object.keys(PARTY_MAP).forEach(function(name) {
+    const party = PARTY_MAP[name];
     parties.add(party);
-    allMembers.push({ name: name, party: party, news: memberNews[name] });
+    allMembers.push({ name: name, party: party, news: memberArch[name] || [] });
   });
 
   document.getElementById("member-count").textContent = allMembers.length;
-
-  // Update hero counter
   const heroMember = document.getElementById("hero-member-count");
   if (heroMember) heroMember.textContent = allMembers.length;
 
   const fb = document.getElementById("party-filters");
-  // Clear any dynamically created filters except the first 'SEMUA' button
   const filterBtns = fb.querySelectorAll(".filter-btn:not(#filter-all)");
   filterBtns.forEach(function(btn) { btn.remove(); });
 
@@ -1504,15 +1553,15 @@ function showMembers(members) {
   }
   g.innerHTML = members.map(function(m, i) {
     const pc = PARTY_CSS[m.party] || "";
-    const n = m.news;
-    const hasN = n && n.title;
+    const n = (m.news && m.news.length) ? m.news[0] : null;
     return '<div class="member-card" style="animation-delay:' + (i % 20 * 40) + 'ms">' +
       '<div class="member-name">' + esc(m.name) + '</div>' +
       '<div class="member-party ' + pc + '">' + esc(m.party || "") + '</div>' +
-      (hasN
-        ? '<div class="member-news-title"><a href="' + esc(n.link || "#") + '" target="_blank" rel="noopener">' + esc(n.title) + '</a></div>' +
-          '<div class="member-news-date">' + fmtDate(n.published) + '</div>'
-        : '<div class="no-news">[ Tidak ada berita terbaru ]</div>') +
+      (n
+        ? '<div class="member-news-title"><a href="' + esc(n.link_resolved || n.link || "#") + '" target="_blank" rel="noopener">' + esc(n.title) + '</a></div>' +
+          '<div class="member-news-date">' + fmtDate(n.published) +
+            (m.news.length > 1 ? ' &middot; +' + (m.news.length - 1) + ' artikel/30 hari' : '') + '</div>'
+        : '<div class="no-news">[ Tidak ada berita 30 hari terakhir ]</div>') +
       '</div>';
   }).join("");
 }
@@ -1536,8 +1585,9 @@ async function loadData() {
     dot.style.boxShadow = "0 0 0 2px rgba(74,222,128,.3)";
     document.getElementById("feed-status-text").textContent = "ONLINE";
 
-    renderAgency(data.agency_news || []);
-    renderMembers(data.member_news || {});
+    normalizeArchives(data);
+    renderAgency();
+    renderMembers();
 
     const berasRaw = data.harga_beras && typeof data.harga_beras === 'object' ? data.harga_beras.value : data.harga_beras;
     const berasVal = berasRaw ? "Rp " + Number(berasRaw).toLocaleString("id-ID") : 'Data tidak tersedia';
@@ -1783,9 +1833,10 @@ function answerIndicator(ind) {
   return html;
 }
 function answerAgency(name) {
-  const item = (liveData.agency_news || []).find(function(a) { return a.agency === name; });
-  if (!item) return "Belum ada berita untuk <strong>" + esc(name) + "</strong>.";
-  return "<strong>" + esc(name) + "</strong><br>" +
+  const arts = agencyArch[name] || [];
+  if (!arts.length) return "Belum ada berita untuk <strong>" + esc(name) + "</strong>.";
+  const item = arts[0];
+  return "<strong>" + esc(name) + '</strong> <span class="ast-src">(' + arts.length + " artikel / 30 hari)</span><br>" +
     '<a href="' + esc(item.link_resolved || item.link || "#") + '" target="_blank" rel="noopener">' + esc(item.title) + "</a>" +
     '<br><span class="ast-src">' + esc(fmtDate(item.published)) + "</span>";
 }
@@ -1802,12 +1853,15 @@ function findMemberName(q) {
 }
 function answerMember(name) {
   const party = PARTY_MAP[name] || "Lainnya";
-  const news = (liveData.member_news || {})[name];
-  const head = "<strong>" + esc(name) + '</strong> <span class="ast-src">(' + esc(party) + ")</span><br>";
-  if (news && news.title)
+  const arts = memberArch[name] || [];
+  const head = "<strong>" + esc(name) + '</strong> <span class="ast-src">(' + esc(party) +
+    (arts.length ? " &middot; " + arts.length + " artikel / 30 hari" : "") + ")</span><br>";
+  if (arts.length) {
+    const news = arts[0];
     return head + '<a href="' + esc(news.link_resolved || news.link || "#") + '" target="_blank" rel="noopener">' + esc(news.title) + "</a>" +
       '<br><span class="ast-src">' + esc(fmtDate(news.published)) + "</span>";
-  return head + '<span class="ast-note">Belum ada berita terbaru untuk anggota ini.</span>';
+  }
+  return head + '<span class="ast-note">Belum ada berita 30 hari terakhir untuk anggota ini.</span>';
 }
 function answerStatus() {
   const ss = liveData.scrape_status || {};
@@ -1918,7 +1972,11 @@ function buildPDF() {
   doc.setDrawColor(220,220,220); doc.line(M, y - 2, pageW - M, y - 2);
   doc.setTextColor(RED[0], RED[1], RED[2]); doc.setFont("helvetica","bold"); doc.setFontSize(11);
   doc.text("SOROTAN BERITA LEMBAGA", M, y + 3); y += 10;
-  const news = (liveData.agency_news || []).slice(0, 6);
+  // 1 headline terbaru per lembaga (maks 6)
+  const news = Object.keys(agencyArch).map(function(ag) {
+    var arts = agencyArch[ag];
+    return arts.length ? { agency: ag, title: arts[0].title } : null;
+  }).filter(Boolean).slice(0, 6);
   news.forEach(function(it) {
     let title = String(it.title || "").replace(/\s*-\s*[^-]+$/, "");
     if (title.length > 92) title = title.slice(0, 89) + "...";
