@@ -237,6 +237,93 @@ def fetch_member_news(prev_archive):
     return archive, errors, ok_count
 
 # ============================================================
+# 4b. DECODE LINK GOOGLE NEWS -> link_resolved (AMAN-GAGAL)
+# ------------------------------------------------------------
+# Link RSS Google News terenkripsi (news.google.com/rss/articles/CBMi...).
+# Decode memakai endpoint internal batchexecute (teknik publik yang dipakai
+# pustaka googlenewsdecoder; bisa berubah sewaktu-waktu di sisi Google).
+# PRINSIP: kegagalan apa pun -> link_resolved tetap None, scraping lanjut.
+# Budget per run membatasi biaya + rate limit; artikel terbaru diprioritaskan.
+# Artikel yang sudah punya link_resolved TIDAK di-decode ulang.
+# ============================================================
+DECODE_BUDGET_DEFAULT = 30    # maks percobaan decode per run (override: env GNEWS_DECODE_BUDGET)
+DECODE_SLEEP = 0.4            # jeda sopan antar-request
+
+def _gnews_article_id(link):
+    m = re.search(r'news\.google\.com/rss/articles/([^?/]+)', link or '')
+    return m.group(1) if m else None
+
+def _decode_one(session, art_id):
+    """Resolve satu artikel. Return URL asli atau None. Exception ditelan pemanggil."""
+    r = session.get(f"https://news.google.com/rss/articles/{art_id}",
+                    headers=HEADERS, timeout=10)
+    r.raise_for_status()
+    sg = re.search(r'data-n-a-sg="([^"]+)"', r.text)
+    ts = re.search(r'data-n-a-ts="([^"]+)"', r.text)
+    if not sg or not ts:
+        return None
+    inner = ('["garturlreq",[["X","X",["X","X"],null,null,1,1,"US:en",null,1,'
+             'null,null,null,null,null,0,1],"X","X",1,[1,1,1],1,1,null,0,0,null,0],'
+             f'"{art_id}",{ts.group(1)},"{sg.group(1)}"]')
+    payload = json.dumps([[["Fbv4je", inner, None, "generic"]]])
+    resp = session.post(
+        "https://news.google.com/_/DotsSplashUi/data/batchexecute",
+        headers={**HEADERS, "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"},
+        data="f.req=" + urllib.parse.quote(payload), timeout=10)
+    resp.raise_for_status()
+    for line in resp.text.splitlines():
+        if "garturlres" not in line:
+            continue
+        try:
+            outer = json.loads(line)
+            decoded = json.loads(outer[0][2])
+            if isinstance(decoded, list) and len(decoded) > 1 and str(decoded[1]).startswith("http"):
+                return decoded[1]
+        except Exception:
+            pass
+    m = re.search(r'garturlres\\",\\"(https?://[^"\\\\]+)', resp.text)
+    return m.group(1) if m else None
+
+def resolve_links(agency_arch, member_arch):
+    """Isi link_resolved untuk artikel yang masih None, terbaru dulu, dibatasi budget."""
+    try:
+        budget = int(os.environ.get("GNEWS_DECODE_BUDGET", DECODE_BUDGET_DEFAULT))
+    except Exception:
+        budget = DECODE_BUDGET_DEFAULT
+    if budget <= 0:
+        return 0, 0
+    pending = []
+    for arch in (agency_arch, member_arch):
+        for arts in arch.values():
+            for a in arts:
+                if not a.get("link_resolved") and str(a.get("link", "")).startswith("https://news.google.com/"):
+                    pending.append(a)
+    pending.sort(key=lambda a: (_article_dt(a) or datetime.min.replace(tzinfo=timezone.utc)), reverse=True)
+    if not pending:
+        print("  [DECODE] Semua link sudah ter-resolve / tidak ada kandidat.")
+        return 0, 0
+    todo = pending[:budget]
+    print(f"  [DECODE] {len(pending)} link belum ter-resolve; mencoba {len(todo)} (budget {budget})...")
+    ok = 0
+    session = requests.Session()
+    for i, a in enumerate(todo):
+        art_id = _gnews_article_id(a["link"])
+        if not art_id:
+            continue
+        try:
+            real = _decode_one(session, art_id)
+            if real:
+                a["link_resolved"] = real
+                ok += 1
+        except Exception:
+            pass   # aman-gagal: link_resolved tetap None, lanjut artikel berikutnya
+        if (i + 1) % 25 == 0:
+            print(f"  [DECODE] progres {i+1}/{len(todo)} (berhasil {ok})...")
+        time.sleep(DECODE_SLEEP)
+    print(f"  [DECODE] Selesai: {ok}/{len(todo)} berhasil.")
+    return ok, len(todo)
+
+# ============================================================
 # 5. FASE 3: DATA MAKRO (API resmi + FALLBACK jujur)
 # ============================================================
 #
@@ -419,6 +506,11 @@ def fetch_data():
         "partial" if (e2 or mem_ok < total_members * 0.5) else "ok")
     total_mem_arts = sum(len(v) for v in member_news.values())
     print(f"[FASE 2] {mem_ok}/{total_members} anggota dapat berita baru; total arsip {total_mem_arts} artikel.")
+
+    print("\n>>> FASE 2b: Decode link Google News (aman-gagal, budget terbatas)...")
+    dec_ok, dec_try = resolve_links(agency_news, member_news)
+    if dec_try > 0 and dec_ok == 0:
+        all_errors.append(f"decode link gagal massal (0/{dec_try}); link_resolved tetap null, berita tidak terdampak")
 
     print("\n>>> FASE 3: Data Makro (API + fallback)...")
     harga_beras, e3a = fetch_food_prices(now)
