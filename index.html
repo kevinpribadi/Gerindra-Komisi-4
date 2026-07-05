@@ -976,6 +976,49 @@
     .sov-row.gerindra { background: var(--red-light); border-radius: 6px; padding: 3px 6px; margin-left: -6px; }
 
     /* ============================================================
+       SOROTAN GERINDRA + WATCHLIST (F3)
+       ============================================================ */
+    .g-badge {
+      display: inline-block; font-size: 9px; font-weight: 800; letter-spacing: .5px;
+      padding: 2px 8px; border-radius: 20px;
+      color: #fff; background: var(--red-primary);
+    }
+    .wl-star {
+      display: inline-block; font-size: 9px; font-weight: 700; letter-spacing: .3px;
+      padding: 2px 8px; border-radius: 20px;
+      color: var(--gold); background: var(--gold-light); border: 1px solid var(--gold-border);
+    }
+    .wl-form { display: flex; gap: 8px; margin-bottom: 12px; }
+    .wl-input {
+      flex: 1; font-family: var(--font-main); font-size: 12px;
+      padding: 8px 12px; border: 1.5px solid var(--border-mid); border-radius: 8px;
+    }
+    .wl-input:focus { outline: none; border-color: var(--red-primary); }
+    .wl-add {
+      background: var(--red-primary); color: #fff; border: none; border-radius: 8px;
+      padding: 0 16px; font-weight: 700; font-size: 12px; cursor: pointer;
+    }
+    .wl-add:hover { background: var(--red-dark); }
+    .wl-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
+    .wl-chip {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-size: 11px; font-weight: 600; padding: 4px 10px; border-radius: 20px;
+      background: var(--gold-light); color: var(--gold); border: 1px solid var(--gold-border);
+    }
+    .wl-chip .wl-x { cursor: pointer; font-weight: 800; font-size: 13px; line-height: 1; }
+    .wl-chip .wl-x:hover { color: var(--red-primary); }
+    .wl-count-badge {
+      font-family: var(--font-heading); font-size: 10px; font-weight: 800;
+      background: var(--red-primary); color: #fff; border-radius: 20px; padding: 1px 7px;
+    }
+    .wl-match { border-left: 3px solid var(--gold-border); padding: 6px 10px; margin-bottom: 8px; }
+    .wl-match-title { font-size: 12px; font-weight: 600; color: var(--text-primary); }
+    .wl-match-title a { color: inherit; }
+    .wl-match-title a:hover { color: var(--red-primary); }
+    .wl-match-meta { font-size: 10.5px; color: var(--text-muted); margin-top: 2px; }
+    .wl-kw-head { display: flex; align-items: center; gap: 8px; margin: 12px 0 8px; font-size: 12px; font-weight: 700; color: var(--text-secondary); }
+
+    /* ============================================================
        KONTROL BERITA: filter, tanggal, sort, tag (P3)
        ============================================================ */
     .news-controls {
@@ -1377,6 +1420,31 @@
     </div>
   </div>
 
+  <!-- SECTION: WATCHLIST SAYA (F3) -->
+  <div class="section-header">
+    <div class="section-icon">
+      <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+    </div>
+    <div class="section-title">Watchlist Saya</div>
+    <div class="section-line"></div>
+    <div class="section-count" id="wl-total">0</div>
+  </div>
+
+  <div class="panel" style="margin-bottom:28px">
+    <div class="panel-header">
+      <div class="panel-title">Keyword Pantauan Pribadi (tersimpan di perangkat ini)</div>
+      <div class="panel-badge amber">LOKAL</div>
+    </div>
+    <div class="panel-body">
+      <div class="wl-form">
+        <input id="wl-input" class="wl-input" type="text" placeholder="Tambah keyword, mis. pupuk subsidi, impor beras..." maxlength="40" />
+        <button id="wl-add" class="wl-add">Tambah</button>
+      </div>
+      <div class="wl-chips" id="wl-chips"></div>
+      <div id="wl-matches"><div class="hot-empty">Belum ada keyword. Tambahkan untuk memantau isu spesifik; kecocokan 7 hari terakhir muncul di sini dan berbintang di feed.</div></div>
+    </div>
+  </div>
+
   <!-- TWO COLUMN: Agency News + Market / Headline -->
   <div class="two-col">
 
@@ -1735,16 +1803,98 @@ function articlesLastNDays(days) {
   Object.keys(agencyArch).forEach(function(ag) {
     agencyArch[ag].forEach(function(a) {
       var d = artDate(a);
-      if (d && d.getTime() >= cut) list.push({ entity: ag, kind: "agency", title: a.title });
+      if (d && d.getTime() >= cut) list.push({ entity: ag, kind: "agency", title: a.title, link: a.link, link_resolved: a.link_resolved, published: a.published });
     });
   });
   Object.keys(memberArch).forEach(function(nm) {
     memberArch[nm].forEach(function(a) {
       var d = artDate(a);
-      if (d && d.getTime() >= cut) list.push({ entity: nm, kind: "member", title: a.title });
+      if (d && d.getTime() >= cut) list.push({ entity: nm, kind: "member", party: PARTY_MAP[nm] || "", title: a.title, link: a.link, link_resolved: a.link_resolved, published: a.published });
     });
   });
   return list;
+}
+
+/* ============================================================
+   SOROTAN GERINDRA + WATCHLIST (F3)
+   ============================================================ */
+const GERINDRA_NAMES = Object.keys(PARTY_MAP).filter(function(n) { return PARTY_MAP[n] === "Gerindra"; });
+function titleMentionsGerindra(title) {
+  const t = String(title || "").toLowerCase();
+  for (var i = 0; i < GERINDRA_NAMES.length; i++) {
+    if (t.indexOf(GERINDRA_NAMES[i].toLowerCase()) !== -1) return true;
+  }
+  return false;
+}
+
+let watchlist = [];
+try { watchlist = JSON.parse(localStorage.getItem("k4_watchlist") || "[]"); } catch (e) { watchlist = []; }
+if (!Array.isArray(watchlist)) watchlist = [];
+function saveWatchlist() { try { localStorage.setItem("k4_watchlist", JSON.stringify(watchlist)); } catch (e) {} }
+function watchlistHits(title) {
+  const t = String(title || "").toLowerCase();
+  return watchlist.filter(function(kw) { return t.indexOf(kw.toLowerCase()) !== -1; });
+}
+
+function renderWatchlist() {
+  const chips = document.getElementById("wl-chips");
+  const box = document.getElementById("wl-matches");
+  const total = document.getElementById("wl-total");
+  if (!chips) return;
+  chips.innerHTML = watchlist.map(function(kw) {
+    return '<span class="wl-chip" data-kw="' + esc(kw) + '">&#9733; ' + esc(kw) + ' <span class="wl-x" title="Hapus">&times;</span></span>';
+  }).join("");
+  if (!watchlist.length) {
+    box.innerHTML = '<div class="hot-empty">Belum ada keyword. Tambahkan untuk memantau isu spesifik; kecocokan 7 hari terakhir muncul di sini dan berbintang di feed.</div>';
+    if (total) total.textContent = "0";
+    return;
+  }
+  const arts = articlesLastNDays(7);
+  let grand = 0;
+  box.innerHTML = watchlist.map(function(kw) {
+    const hits = arts.filter(function(a) { return String(a.title).toLowerCase().indexOf(kw.toLowerCase()) !== -1; });
+    grand += hits.length;
+    let h = '<div class="wl-kw-head">&#9733; ' + esc(kw) + ' <span class="wl-count-badge">' + hits.length + '</span> <span style="font-weight:400;color:var(--text-muted)">/ 7 hari</span></div>';
+    h += hits.slice(0, 4).map(function(a) {
+      const who = a.kind === "member" ? esc(a.entity) + (a.party ? " (" + esc(a.party) + ")" : "") : esc(a.entity);
+      return '<div class="wl-match">' +
+        '<div class="wl-match-title"><a href="' + esc(a.link_resolved || a.link || "#") + '" target="_blank" rel="noopener">' + esc(a.title) + '</a></div>' +
+        '<div class="wl-match-meta">' + who + ' &middot; ' + fmtDate(a.published) + '</div>' +
+        '</div>';
+    }).join("");
+    if (!hits.length) h += '<div class="hot-empty">Tidak ada kecocokan 7 hari terakhir.</div>';
+    if (hits.length > 4) h += '<div class="hot-empty">+' + (hits.length - 4) + ' kecocokan lain.</div>';
+    return h;
+  }).join("");
+  if (total) total.textContent = String(grand);
+}
+
+function bindWatchlist() {
+  const inp = document.getElementById("wl-input");
+  const add = document.getElementById("wl-add");
+  const chips = document.getElementById("wl-chips");
+  if (!inp || inp.dataset.bound) return;
+  inp.dataset.bound = "1";
+  function addKw() {
+    const kw = inp.value.trim();
+    if (!kw) return;
+    if (watchlist.some(function(k) { return k.toLowerCase() === kw.toLowerCase(); })) { inp.value = ""; return; }
+    watchlist.push(kw);
+    saveWatchlist();
+    inp.value = "";
+    renderWatchlist();
+    renderAgency();   // perbarui bintang di feed
+  }
+  add.addEventListener("click", addKw);
+  inp.addEventListener("keydown", function(e) { if (e.key === "Enter") { e.preventDefault(); addKw(); } });
+  chips.addEventListener("click", function(e) {
+    if (!e.target.classList.contains("wl-x")) return;
+    const kw = e.target.closest(".wl-chip").dataset.kw;
+    watchlist = watchlist.filter(function(k) { return k !== kw; });
+    saveWatchlist();
+    renderWatchlist();
+    renderAgency();
+  });
 }
 function topCounts(items, keyFn, topN) {
   const counts = {};
@@ -1856,11 +2006,16 @@ let newsFilter = { agency: "ALL", tag: "ALL", from: "", to: "", sort: "desc" };
 
 function newsCardHTML(item, i, accent) {
   const tags = tagsFor(item.title);
+  let marks = "";
+  if (titleMentionsGerindra(item.title)) marks += '<span class="g-badge">MENYEBUT GERINDRA</span>';
+  watchlistHits(item.title).forEach(function(kw) {
+    marks += '<span class="wl-star">&#9733; ' + esc(kw) + '</span>';
+  });
   return '<div class="news-card ' + (accent || ACCENTS[i % ACCENTS.length]) + '" style="animation-delay:' + (Math.min(i, 15) * 50) + 'ms">' +
     '<div class="news-agency">' + esc(item.agency || "") + '</div>' +
     '<a class="news-title" href="' + esc(item.link_resolved || item.link || "#") + '" target="_blank" rel="noopener">' + esc(item.title || "") + '</a>' +
     '<div class="news-date">' + fmtDate(item.published) + '</div>' +
-    '<div class="card-tags">' + tags.map(function(t) {
+    '<div class="card-tags">' + marks + tags.map(function(t) {
       return '<span class="tag-chip" data-tag="' + esc(t) + '">' + esc(t) + '</span>';
     }).join("") + '</div>' +
     '</div>';
@@ -2016,7 +2171,9 @@ function showMembers(members) {
       (n
         ? '<div class="member-news-title"><a href="' + esc(n.link_resolved || n.link || "#") + '" target="_blank" rel="noopener">' + esc(n.title) + '</a></div>' +
           '<div class="member-news-date">' + fmtDate(n.published) +
-            (m.news.length > 1 ? ' &middot; +' + (m.news.length - 1) + ' artikel/30 hari' : '') + '</div>'
+            (m.news.length > 1 ? ' &middot; +' + (m.news.length - 1) + ' artikel/30 hari' : '') + '</div>' +
+          (titleMentionsGerindra(n.title) ? '<div style="margin-top:5px"><span class="g-badge">MENYEBUT GERINDRA</span></div>' : '') +
+          (watchlistHits(n.title).length ? '<div style="margin-top:5px"><span class="wl-star">&#9733; ' + esc(watchlistHits(n.title).join(", ")) + '</span></div>' : '')
         : '<div class="no-news">[ Tidak ada berita 30 hari terakhir ]</div>') +
       '</div>';
   }).join("");
@@ -2049,6 +2206,8 @@ async function loadData() {
     renderHot();
     bindSOV();
     renderSOV();
+    bindWatchlist();
+    renderWatchlist();
 
     const berasRaw = data.harga_beras && typeof data.harga_beras === 'object' ? data.harga_beras.value : data.harga_beras;
     const berasVal = berasRaw ? "Rp " + Number(berasRaw).toLocaleString("id-ID") : 'Data tidak tersedia';
