@@ -1473,6 +1473,7 @@
           <option value="asc">Terlama dulu</option>
         </select>
         <button id="nf-reset" class="nc-reset">Reset</button>
+        <button id="nf-share" class="nc-reset" title="Salin tautan yang membuka dashboard langsung dengan filter ini">&#128279; Salin Tautan Tampilan Ini</button>
         <div class="tag-row" id="nf-tags"></div>
       </div>
 
@@ -2104,6 +2105,11 @@ function buildNewsControls() {
     syncTagChips();
     renderAgency();
   });
+  document.getElementById("nf-share").addEventListener("click", function() {
+    const hash = buildHashFromState();
+    history.replaceState(null, "", hash ? "#" + hash : location.pathname + location.search);
+    copyText(location.href, document.getElementById("nf-share"));
+  });
   tagRow.addEventListener("click", function(e) {
     const chip = e.target.closest(".tag-chip");
     if (!chip) return;
@@ -2179,10 +2185,61 @@ function showMembers(members) {
   }).join("");
 }
 
+let currentParty = "ALL";
 function filterParty(btn, party) {
-  document.querySelectorAll(".filter-btn").forEach(function(b) { b.classList.remove("active"); });
+  currentParty = party;
+  document.querySelectorAll("#party-filters .filter-btn").forEach(function(b) { b.classList.remove("active"); });
   btn.classList.add("active");
   showMembers(party === "ALL" ? allMembers : allMembers.filter(function(m) { return m.party === party; }));
+}
+
+/* ============================================================
+   DEEP-LINK BERBAGI (F4): state filter <-> URL hash
+   ============================================================ */
+function buildHashFromState() {
+  const p = new URLSearchParams();
+  if (newsFilter.agency !== "ALL") p.set("mitra", newsFilter.agency);
+  if (newsFilter.tag !== "ALL") p.set("tag", newsFilter.tag);
+  if (newsFilter.from) p.set("dari", newsFilter.from);
+  if (newsFilter.to) p.set("sd", newsFilter.to);
+  if (newsFilter.sort !== "desc") p.set("sort", newsFilter.sort);
+  if (currentParty !== "ALL") p.set("fraksi", currentParty);
+  const f = document.getElementById("focus-select");
+  if (f && f.value) p.set("fokus", f.value);
+  return p.toString();
+}
+function syncFilterControls() {
+  const selA = document.getElementById("nf-agency");
+  if (selA) selA.value = newsFilter.agency;
+  document.getElementById("nf-from").value = newsFilter.from || "";
+  document.getElementById("nf-to").value = newsFilter.to || "";
+  document.getElementById("nf-sort").value = newsFilter.sort;
+  document.querySelectorAll("#nf-tags .tag-chip").forEach(function(c) {
+    c.classList.toggle("active", c.dataset.tag === newsFilter.tag);
+  });
+}
+function applyHashState() {
+  const h = location.hash.replace(/^#/, "");
+  if (!h) return;
+  const p = new URLSearchParams(h);
+  if (p.get("mitra") && agencyArch[p.get("mitra")]) newsFilter.agency = p.get("mitra");
+  if (p.get("tag")) newsFilter.tag = p.get("tag");
+  if (p.get("dari")) newsFilter.from = p.get("dari");
+  if (p.get("sd")) newsFilter.to = p.get("sd");
+  if (p.get("sort") === "asc") newsFilter.sort = "asc";
+  syncFilterControls();
+  renderAgency();
+  const fr = p.get("fraksi");
+  if (fr) {
+    const btn = document.querySelector('#party-filters .filter-btn[data-party="' + CSS.escape(fr) + '"]');
+    if (btn) filterParty(btn, fr);
+  }
+  const fk = p.get("fokus");
+  if (fk && agencyArch[fk]) {
+    const sel = document.getElementById("focus-select");
+    sel.value = fk;
+    renderFocus(fk);
+  }
 }
 
 /* --- MAIN FETCH --- */
@@ -2208,6 +2265,7 @@ async function loadData() {
     renderSOV();
     bindWatchlist();
     renderWatchlist();
+    applyHashState();
 
     const berasRaw = data.harga_beras && typeof data.harga_beras === 'object' ? data.harga_beras.value : data.harga_beras;
     const berasVal = berasRaw ? "Rp " + Number(berasRaw).toLocaleString("id-ID") : 'Data tidak tersedia';
