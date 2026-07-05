@@ -1023,6 +1023,37 @@
     .wl-tl-btn:hover { text-decoration: underline; }
 
     /* ============================================================
+       PANEL ANALISIS (Fitur B): tren, delta, matriks, CSV
+       ============================================================ */
+    .an-mandate {
+      font-size: 11.5px; font-weight: 600; color: var(--text-secondary);
+      background: var(--gold-light); border: 1px solid var(--gold-border);
+      border-radius: 8px; padding: 8px 12px; margin-bottom: 14px;
+    }
+    .an-controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 10px; }
+    .an-total { font-size: 11px; font-weight: 700; color: var(--red-primary); }
+    .an-chart-wrap { border: 1px solid var(--border-light); border-radius: 10px; padding: 8px; margin-bottom: 16px; background: #fcfcfc; }
+    .an-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    @media(max-width: 800px) { .an-grid { grid-template-columns: 1fr; } }
+    .an-grid > div { min-width: 0; }
+    .an-row {
+      display: grid; grid-template-columns: minmax(0,1fr) 44px 44px 76px;
+      gap: 6px; align-items: center; font-size: 12px; padding: 4px 0;
+      border-bottom: 1px dashed var(--border-light);
+    }
+    .an-row.head { font-size: 9.5px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: .4px; border-bottom: 1px solid var(--border-mid); }
+    .an-row .an-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 600; }
+    .an-row .an-num { text-align: right; font-family: var(--font-heading); font-weight: 700; }
+    .an-delta { text-align: right; font-weight: 700; font-size: 11px; }
+    .an-delta.up { color: var(--red-primary); }
+    .an-delta.down { color: var(--text-muted); }
+    .an-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+    .an-matrix { border-collapse: collapse; font-size: 11px; min-width: 480px; }
+    .an-matrix th, .an-matrix td { border: 1px solid var(--border-light); padding: 5px 8px; text-align: center; }
+    .an-matrix th { background: #fafafa; font-size: 10px; text-transform: uppercase; letter-spacing: .3px; color: var(--text-secondary); }
+    .an-matrix td.tag-name { text-align: left; font-weight: 600; background: #fafafa; }
+
+    /* ============================================================
        TIMELINE ISU (F5)
        ============================================================ */
     .tl-overlay {
@@ -1489,6 +1520,53 @@
       </div>
       <div class="wl-chips" id="wl-chips"></div>
       <div id="wl-matches"><div class="hot-empty">Belum ada keyword. Tambahkan untuk memantau isu spesifik; kecocokan 7 hari terakhir muncul di sini dan berbintang di feed.</div></div>
+    </div>
+  </div>
+
+  <!-- SECTION: ANALISIS (Fitur B) -->
+  <div class="section-header">
+    <div class="section-icon">
+      <svg viewBox="0 0 24 24"><path d="M5 9.2h3V19H5V9.2zM10.6 5h2.8v14h-2.8V5zm5.6 8H19v6h-2.8v-6z"/></svg>
+    </div>
+    <div class="section-title">Analisis Volume Pemberitaan</div>
+    <div class="section-line"></div>
+    <div class="section-badge">30 HARI</div>
+  </div>
+
+  <div class="panel" style="margin-bottom:28px" id="analysis-section">
+    <div class="panel-header">
+      <div class="panel-title">Agregat Deterministik dari Arsip Berita</div>
+      <div class="panel-badge blue">DATA NYATA</div>
+    </div>
+    <div class="panel-body">
+      <div class="an-mandate">Analisis volume pemberitaan (30 hari). Bukan analisis sentimen. Statistik sektoral tidak termasuk hingga sumber resmi tersambung.</div>
+
+      <!-- B1: tren harian + B4: ekspor -->
+      <div class="an-controls">
+        <select id="an-dim" class="nc-select" title="Filter dimensi tren"></select>
+        <span class="an-total" id="an-total"></span>
+        <span style="flex:1"></span>
+        <button id="an-csv-full" class="nc-reset" title="Semua artikel arsip sebagai CSV (untuk AI/spreadsheet)">&#11015; Unduh Data (CSV)</button>
+        <button id="an-csv-agg" class="nc-reset" title="Volume harian per entitas, format long">&#11015; Unduh Agregat (CSV)</button>
+      </div>
+      <div class="an-chart-wrap" id="an-chart"></div>
+
+      <!-- B2: perbandingan periode -->
+      <div class="an-grid">
+        <div>
+          <div class="hot-col-title">Mitra &mdash; 7 Hari vs 7 Hari Sebelumnya</div>
+          <div id="an-delta-ag"></div>
+        </div>
+        <div>
+          <div class="hot-col-title">Fraksi &mdash; 7 Hari vs 7 Hari Sebelumnya</div>
+          <div id="an-delta-fr"></div>
+        </div>
+      </div>
+
+      <!-- B3: matriks tag x mitra -->
+      <div class="hot-col-title" style="margin-top:18px">Matriks Tag Topik &times; Mitra (30 hari, artikel lembaga)</div>
+      <div class="an-scroll"><table class="an-matrix" id="an-matrix"></table></div>
+      <div class="hot-note">Semua angka dihitung deterministik dari arsip berita di live_data.json dan dapat direkonsiliasi manual. Satu artikel dapat memiliki lebih dari satu tag.</div>
     </div>
   </div>
 
@@ -2060,6 +2138,199 @@ function bindTimeline() {
 }
 
 /* ============================================================
+   PANEL ANALISIS (Fitur B): tren harian, delta periode, matriks, CSV
+   Semua dari arsip berita — statistik FALLBACK tidak pernah disentuh.
+   ============================================================ */
+const AGENCY_ABBREV = {
+  "Kementerian Pertanian": "Kementan", "Kementerian Kehutanan": "Kemenhut",
+  "Kementerian Kelautan dan Perikanan": "KKP", "Badan Karantina Indonesia": "Barantin",
+  "Badan Pangan Nasional": "Bapanas", "Perum Bulog": "Bulog"
+};
+function dayKey(d) {
+  return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+}
+function dimFilter(sel) {
+  if (sel === "ALL") return function() { return true; };
+  const i = sel.indexOf(":"), kind = sel.slice(0, i), val = sel.slice(i + 1);
+  if (kind === "ag") return function(a) { return a.kind === "agency" && a.entity === val; };
+  if (kind === "fr") return function(a) { return a.kind === "member" && a.party === val; };
+  if (kind === "tag") return function(a) { return tagsFor(a.title).indexOf(val) !== -1; };
+  return function() { return true; };
+}
+
+/* chart garis SVG manual — tanpa library */
+function svgLine(labels, values) {
+  const W = 680, H = 190, L = 34, R = 10, T = 12, B = 26;
+  const n = values.length, max = Math.max(1, Math.max.apply(null, values));
+  const iw = W - L - R, ih = H - T - B;
+  function X(i) { return L + iw * (n < 2 ? 0.5 : i / (n - 1)); }
+  function Y(v) { return T + ih * (1 - v / max); }
+  const pts = values.map(function(v, i) { return X(i).toFixed(1) + "," + Y(v).toFixed(1); }).join(" ");
+  let ticks = "";
+  for (let i = 0; i < n; i += 7) {
+    ticks += '<text x="' + X(i).toFixed(1) + '" y="' + (H - 8) + '" font-size="9" text-anchor="middle" fill="#6b7280">' + labels[i].slice(5).split("-").reverse().join("/") + "</text>";
+  }
+  const dots = values.map(function(v, i) {
+    return '<circle cx="' + X(i).toFixed(1) + '" cy="' + Y(v).toFixed(1) + '" r="2.5" fill="#b91c1c"><title>' + labels[i] + ": " + v + " artikel</title></circle>";
+  }).join("");
+  return '<svg viewBox="0 0 ' + W + " " + H + '" style="width:100%;height:auto;display:block" xmlns="http://www.w3.org/2000/svg">' +
+    '<text x="4" y="' + (T + 8) + '" font-size="9" fill="#6b7280">' + max + "</text>" +
+    '<text x="8" y="' + (T + ih) + '" font-size="9" fill="#6b7280">0</text>' +
+    '<line x1="' + L + '" y1="' + (T + ih) + '" x2="' + (W - R) + '" y2="' + (T + ih) + '" stroke="#e5e7eb"/>' +
+    '<polygon points="' + pts + " " + X(n - 1).toFixed(1) + "," + (T + ih) + " " + X(0).toFixed(1) + "," + (T + ih) + '" fill="rgba(185,28,28,.08)"/>' +
+    '<polyline points="' + pts + '" fill="none" stroke="#b91c1c" stroke-width="2"/>' + dots + ticks + "</svg>";
+}
+
+/* B1: tren volume harian */
+function renderTrend() {
+  const sel = document.getElementById("an-dim");
+  if (!sel) return;
+  const f = dimFilter(sel.value);
+  const arts = articlesLastNDays(30).filter(f);
+  const keys = [];
+  for (let i = 30; i >= 0; i--) keys.push(dayKey(new Date(Date.now() - i * 864e5)));   // 31 bucket: tutup hari batas
+  const map = {};
+  keys.forEach(function(k) { map[k] = 0; });
+  arts.forEach(function(a) { const d = artDate(a); if (d) { const k = dayKey(d); if (k in map) map[k]++; } });
+  const vals = keys.map(function(k) { return map[k]; });
+  document.getElementById("an-total").textContent = "Total: " + arts.length + " artikel";
+  document.getElementById("an-chart").innerHTML = svgLine(keys, vals);
+}
+
+/* B2: perbandingan 7 hari vs 7 hari sebelumnya */
+function windowCount(filterFn, fromDaysAgo, toDaysAgo) {
+  const now = Date.now(), lo = now - fromDaysAgo * 864e5, hi = now - toDaysAgo * 864e5;
+  return articlesLastNDays(30).filter(function(a) {
+    const d = artDate(a); if (!d) return false;
+    const t = d.getTime();
+    return t >= lo && t < hi && filterFn(a);
+  }).length;
+}
+function deltaRowsHTML(rows) {
+  let h = '<div class="an-row head"><span class="an-name">Nama</span><span class="an-num">7 hr</span><span class="an-num">Seb.</span><span class="an-delta">&Delta;</span></div>';
+  h += rows.map(function(r) {
+    let d, cls;
+    if (r.p7 === 0) { d = r.c7 > 0 ? "BARU" : "&mdash;"; cls = r.c7 > 0 ? "up" : "down"; }
+    else {
+      const pct = Math.round((r.c7 - r.p7) / r.p7 * 100);
+      d = (r.c7 > r.p7 ? "&#9650; +" : r.c7 < r.p7 ? "&#9660; " : "&#8226; ") + pct + "%";
+      cls = r.c7 > r.p7 ? "up" : "down";
+    }
+    return '<div class="an-row"><span class="an-name" title="' + esc(r.name) + '">' + esc(r.name) + '</span>' +
+      '<span class="an-num">' + r.c7 + '</span><span class="an-num">' + r.p7 + '</span>' +
+      '<span class="an-delta ' + cls + '">' + d + "</span></div>";
+  }).join("");
+  return h;
+}
+function renderDeltas() {
+  const agEl = document.getElementById("an-delta-ag");
+  if (!agEl) return;
+  const agRows = Object.keys(agencyArch).map(function(ag) {
+    function f(a) { return a.kind === "agency" && a.entity === ag; }
+    return { name: AGENCY_ABBREV[ag] || ag, c7: windowCount(f, 7, 0), p7: windowCount(f, 14, 7) };
+  }).sort(function(a, b) { return b.c7 - a.c7 || a.name.localeCompare(b.name); });
+  agEl.innerHTML = deltaRowsHTML(agRows);
+  const frRows = Object.keys(PARTY_CSS).map(function(p) {
+    function f(a) { return a.kind === "member" && a.party === p; }
+    return { name: p, c7: windowCount(f, 7, 0), p7: windowCount(f, 14, 7) };
+  }).sort(function(a, b) { return b.c7 - a.c7 || a.name.localeCompare(b.name); });
+  document.getElementById("an-delta-fr").innerHTML = deltaRowsHTML(frRows);
+}
+
+/* B3: matriks tag x mitra (artikel lembaga, 30 hari) */
+function renderMatrix() {
+  const tbl = document.getElementById("an-matrix");
+  if (!tbl) return;
+  const ags = Object.keys(agencyArch);
+  const tags = Object.keys(TOPIC_TAGS).concat(["lainnya"]);
+  const m = {}; let max = 1;
+  articlesLastNDays(30).forEach(function(a) {
+    if (a.kind !== "agency") return;
+    tagsFor(a.title).forEach(function(t) {
+      const k = t + "|" + a.entity;
+      m[k] = (m[k] || 0) + 1;
+      if (m[k] > max) max = m[k];
+    });
+  });
+  let h = "<tr><th style='text-align:left'>Tag</th>" + ags.map(function(ag) { return "<th>" + esc(AGENCY_ABBREV[ag] || ag) + "</th>"; }).join("") + "</tr>";
+  tags.forEach(function(t) {
+    h += '<tr><td class="tag-name">' + esc(t) + "</td>" + ags.map(function(ag) {
+      const c = m[t + "|" + ag] || 0;
+      if (!c) return "<td></td>";
+      const alpha = Math.min(0.85, c / max * 0.85);
+      const fg = alpha > 0.45 ? "#fff" : "inherit";
+      return '<td style="background:rgba(185,28,28,' + alpha.toFixed(2) + ');color:' + fg + '">' + c + "</td>";
+    }).join("") + "</tr>";
+  });
+  tbl.innerHTML = h;
+}
+
+/* B4: ekspor CSV (client-side, UTF-8 BOM, escape kutip) */
+function csvCell(v) { return '"' + String(v == null ? "" : v).replace(/"/g, '""') + '"'; }
+function csvString(rows) { return "\uFEFF" + rows.map(function(r) { return r.map(csvCell).join(","); }).join("\r\n"); }
+function buildArticlesCSV() {
+  const rows = [["tanggal", "entitas", "jenis", "fraksi", "judul", "tag", "link"]];
+  Object.keys(agencyArch).forEach(function(ag) {
+    agencyArch[ag].forEach(function(a) {
+      const d = artDate(a);
+      rows.push([d ? dayKey(d) : "", ag, "lembaga", "", a.title, tagsFor(a.title).join(";"), a.link_resolved || a.link || ""]);
+    });
+  });
+  Object.keys(memberArch).forEach(function(nm) {
+    memberArch[nm].forEach(function(a) {
+      const d = artDate(a);
+      rows.push([d ? dayKey(d) : "", nm, "anggota", PARTY_MAP[nm] || "", a.title, tagsFor(a.title).join(";"), a.link_resolved || a.link || ""]);
+    });
+  });
+  return csvString(rows);
+}
+function buildAggregateCSV() {
+  const counts = {};
+  function add(ent, a) { const d = artDate(a); if (d) { const k = dayKey(d) + "|" + ent; counts[k] = (counts[k] || 0) + 1; } }
+  Object.keys(agencyArch).forEach(function(ag) { agencyArch[ag].forEach(function(a) { add(ag, a); }); });
+  Object.keys(memberArch).forEach(function(nm) { memberArch[nm].forEach(function(a) { add(nm, a); }); });
+  const rows = [["tanggal", "entitas", "jumlah"]];
+  Object.keys(counts).sort().forEach(function(k) {
+    const i = k.indexOf("|");
+    rows.push([k.slice(0, i), k.slice(i + 1), counts[k]]);
+  });
+  return csvString(rows);
+}
+function downloadCSV(name, txt) {
+  const b = new Blob([txt], { type: "text/csv;charset=utf-8;" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(b);
+  a.download = name;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(function() { URL.revokeObjectURL(a.href); }, 2000);
+}
+
+function buildAnalysis() {
+  const sel = document.getElementById("an-dim");
+  if (!sel || sel.dataset.built) { renderTrend(); renderDeltas(); renderMatrix(); return; }
+  sel.dataset.built = "1";
+  let h = '<option value="ALL">Semua artikel</option><optgroup label="Mitra">';
+  Object.keys(agencyArch).forEach(function(ag) { h += '<option value="ag:' + esc(ag) + '">' + esc(AGENCY_ABBREV[ag] || ag) + "</option>"; });
+  h += '</optgroup><optgroup label="Fraksi">';
+  Object.keys(PARTY_CSS).forEach(function(p) { h += '<option value="fr:' + esc(p) + '">' + esc(p) + "</option>"; });
+  h += '</optgroup><optgroup label="Tag">';
+  Object.keys(TOPIC_TAGS).concat(["lainnya"]).forEach(function(t) { h += '<option value="tag:' + esc(t) + '">' + esc(t) + "</option>"; });
+  h += "</optgroup>";
+  sel.innerHTML = h;
+  sel.addEventListener("change", renderTrend);
+  const ymd = dayKey(new Date());
+  document.getElementById("an-csv-full").addEventListener("click", function() {
+    downloadCSV("Data_Berita_Komisi_IV_" + ymd + ".csv", buildArticlesCSV());
+  });
+  document.getElementById("an-csv-agg").addEventListener("click", function() {
+    downloadCSV("Agregat_Harian_Komisi_IV_" + ymd + ".csv", buildAggregateCSV());
+  });
+  renderTrend(); renderDeltas(); renderMatrix();
+}
+
+/* ============================================================
    SHARE OF VOICE FRAKSI (F2): volume per fraksi + top anggota
    ============================================================ */
 let sovWindow = 7;
@@ -2389,6 +2660,7 @@ async function loadData() {
     bindWatchlist();
     renderWatchlist();
     bindTimeline();
+    buildAnalysis();
     applyHashState();
 
     const berasRaw = data.harga_beras && typeof data.harga_beras === 'object' ? data.harga_beras.value : data.harga_beras;
