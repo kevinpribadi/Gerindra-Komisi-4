@@ -926,6 +926,16 @@
     .btn-pdf { background: var(--bg-white); color: var(--red-primary); }
     .btn-pdf:hover { background: var(--red-light); }
     .btn-refresh svg, .btn-pdf svg { width: 13px; height: 13px; fill: currentColor; }
+    .btn-wa {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-family: var(--font-heading);
+      font-size: 11px; font-weight: 700; letter-spacing: .4px;
+      padding: 7px 12px; border-radius: 8px; cursor: pointer;
+      border: 1.5px solid #16a34a; background: var(--bg-white); color: #15803d;
+      white-space: nowrap; transition: all .2s;
+    }
+    .btn-wa:hover { background: var(--green-bg); }
+    .btn-wa svg { width: 13px; height: 13px; fill: currentColor; }
 
     /* ============================================================
        ISU PANAS (volume pemberitaan 7 hari)
@@ -1071,8 +1081,9 @@
     @media(max-width: 768px) {
       .toolbar { gap: 12px; }
       .status-widget { flex: 1 1 100%; flex-direction: column; align-items: stretch; gap: 10px; }
-      .sw-actions { flex-direction: row; gap: 8px; }
-      .btn-refresh, .btn-pdf { flex: 1; justify-content: center; padding: 10px 8px; }
+      .sw-actions { flex-direction: row; flex-wrap: wrap; gap: 8px; }
+      .btn-refresh, .btn-pdf { flex: 1 1 40%; justify-content: center; padding: 10px 8px; }
+      .btn-wa { flex: 1 1 100%; justify-content: center; padding: 10px 8px; }
       /* font-size 16px: cegah auto-zoom iOS saat fokus input (ditaruh setelah rule dasar agar menang) */
       .search-input, .ast-input { font-size: 16px; }
     }
@@ -1197,6 +1208,10 @@
         <button class="btn-pdf" id="btn-pdf" title="Unduh ringkasan eksekutif 1 halaman (PDF)">
           <svg viewBox="0 0 24 24"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
           Unduh Ringkasan
+        </button>
+        <button class="btn-wa" id="btn-wa" title="Salin briefing siap-tempel ke WhatsApp (hanya berita + volume; tanpa angka statistik acuan)">
+          <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.004 2c-5.514 0-9.998 4.484-9.998 9.997 0 1.762.46 3.484 1.333 5.001L2 22l5.128-1.318a9.95 9.95 0 004.876 1.241c5.514 0 9.998-4.484 9.998-9.997C22.002 6.484 17.518 2 12.004 2zm0 18.242a8.28 8.28 0 01-4.22-1.155l-.303-.18-3.043.782.813-2.966-.198-.312a8.226 8.226 0 01-1.267-4.414c0-4.575 3.723-8.297 8.218-8.297 4.575 0 8.298 3.722 8.298 8.297 0 4.575-3.723 8.245-8.298 8.245z"/></svg>
+          Salin Briefing WA
         </button>
       </div>
     </div>
@@ -1448,6 +1463,10 @@
           <button id="focus-print" class="btn-pdf" style="display:none">
             <svg viewBox="0 0 24 24"><path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"/></svg>
             Cetak
+          </button>
+          <button id="focus-wa" class="btn-wa" style="display:none" title="Salin briefing mitra ini untuk WhatsApp">
+            <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/></svg>
+            Briefing WA
           </button>
         </div>
         <div class="panel-badge blue">FOKUS</div>
@@ -2004,6 +2023,84 @@ async function loadData() {
 }
 
 /* ============================================================
+   BRIEFING WHATSAPP (F1): teks siap-tempel, TANPA statistik FALLBACK
+   ============================================================ */
+function copyText(txt, btn) {
+  function feedback(ok) {
+    if (!btn) return;
+    var orig = btn.innerHTML;
+    btn.innerHTML = ok ? "&#10003; Tersalin" : "Gagal salin";
+    setTimeout(function() { btn.innerHTML = orig; }, 1600);
+  }
+  function legacy() {
+    var ta = document.createElement("textarea");
+    ta.value = txt; ta.style.position = "fixed"; ta.style.opacity = "0";
+    document.body.appendChild(ta); ta.select();
+    var ok = false;
+    try { ok = document.execCommand("copy"); } catch (e) {}
+    ta.remove(); feedback(ok);
+  }
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(txt).then(function() { feedback(true); }, legacy);
+  } else legacy();
+}
+
+function waDate(d) {
+  return d.toLocaleString("id-ID", { day: "numeric", month: "short", year: "numeric", hour: "2-digit", minute: "2-digit" }).replace(/\./g, ":").replace(/:(?=\d{2}\b)/, ".") + " WIB";
+}
+function waShortDate(pub) {
+  var d = new Date(pub);
+  return isNaN(d) ? "" : d.toLocaleDateString("id-ID", { day: "numeric", month: "short" });
+}
+function waCleanTitle(t) {
+  return String(t || "").replace(/\s*-\s*[^-]+$/, "").trim();
+}
+var WA_DISCLAIMER = "_Data berita otomatis dari pemantauan media. Angka statistik TIDAK disertakan kecuali berlabel resmi._";
+
+function buildWABriefing() {
+  var now = liveData && liveData.last_updated ? new Date(liveData.last_updated) : new Date();
+  var lines = [];
+  lines.push("*BRIEFING KOMISI IV* — " + waDate(now));
+  lines.push("_Sumber: Dashboard Intelijen Fraksi Gerindra_");
+  lines.push("");
+  var vol = topCounts(
+    articlesLastNDays(7).filter(function(a) { return a.kind === "agency"; }),
+    function(a) { return a.entity; }, 5);
+  lines.push("*ISU TERAKTIF (7 HARI):*");
+  if (vol.length) vol.forEach(function(v, i) { lines.push((i + 1) + ". " + v.name + " — " + v.count + " berita"); });
+  else lines.push("(tidak ada artikel 7 hari terakhir)");
+  lines.push("");
+  lines.push("*SOROTAN TERBARU:*");
+  flatAgencyArticles().slice(0, 5).forEach(function(a) {
+    lines.push("📰 " + waCleanTitle(a.title) + " — " + a.agency + ", " + waShortDate(a.published));
+  });
+  lines.push("");
+  lines.push(WA_DISCLAIMER);
+  return lines.join("\n");
+}
+
+function buildWAFocusBriefing(agency) {
+  var now = liveData && liveData.last_updated ? new Date(liveData.last_updated) : new Date();
+  var arts = agencyArch[agency] || [];
+  var cut = Date.now() - 7 * 864e5;
+  var vol7 = arts.filter(function(a) { var d = artDate(a); return d && d.getTime() >= cut; }).length;
+  var lines = [];
+  lines.push("*BRIEFING MITRA: " + agency.toUpperCase() + "* — " + waDate(now));
+  lines.push("_Sumber: Dashboard Intelijen Fraksi Gerindra_");
+  lines.push("");
+  lines.push("*VOLUME:* " + vol7 + " berita dalam 7 hari, " + arts.length + " dalam 30 hari.");
+  lines.push("");
+  lines.push("*BERITA TERBARU:*");
+  arts.slice(0, 7).forEach(function(a) {
+    lines.push("📰 " + waCleanTitle(a.title) + " — " + waShortDate(a.published));
+  });
+  if (!arts.length) lines.push("(tidak ada berita 30 hari terakhir)");
+  lines.push("");
+  lines.push(WA_DISCLAIMER);
+  return lines.join("\n");
+}
+
+/* ============================================================
    FOKUS MITRA (P4): berita + statistik terkait + cetak
    ============================================================ */
 const FOCUS_STATS = {
@@ -2042,11 +2139,14 @@ function focusStatHTML(key) {
 function renderFocus(agency) {
   const body = document.getElementById("focus-body");
   const printBtn = document.getElementById("focus-print");
+  const waBtn = document.getElementById("focus-wa");
   if (!agency) {
     body.innerHTML = '<div class="focus-placeholder">Pilih satu mitra kerja untuk melihat berita terbaru + statistik terkaitnya dalam satu panel (bisa dicetak).</div>';
     printBtn.style.display = "none";
+    if (waBtn) waBtn.style.display = "none";
     return;
   }
+  if (waBtn) waBtn.style.display = "";
   const arts = (agencyArch[agency] || []).slice(0, 10);
   const statKeys = FOCUS_STATS[agency] || [];
   const statsHtml = statKeys.map(focusStatHTML).filter(Boolean).join("");
@@ -2075,6 +2175,9 @@ function buildFocusControls() {
     sel.appendChild(o);
   });
   sel.addEventListener("change", function() { renderFocus(sel.value); });
+  document.getElementById("focus-wa").addEventListener("click", function() {
+    if (sel.value) copyText(buildWAFocusBriefing(sel.value), document.getElementById("focus-wa"));
+  });
   document.getElementById("focus-print").addEventListener("click", function() {
     document.body.classList.add("print-focus");
     window.print();
@@ -2106,6 +2209,10 @@ function bindUI() {
   // PDF
   const bp = document.getElementById("btn-pdf");
   if (bp) bp.addEventListener("click", generatePDF);
+
+  // BRIEFING WA (global)
+  const bw = document.getElementById("btn-wa");
+  if (bw) bw.addEventListener("click", function() { copyText(buildWABriefing(), bw); });
 
   // ASISTEN
   const fab = document.getElementById("ast-fab");
