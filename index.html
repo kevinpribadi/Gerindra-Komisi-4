@@ -543,6 +543,8 @@
     .stat-confidence.fallback  { color: #6b7280; background: #f3f4f6; border: 1px solid #e5e7eb; }
     .stat-confidence.unaudited { color: #b45309; background: #fef3c7; border: 1px solid #f59e0b; }
     .stat-confidence.audited   { color: #15803d; background: #dcfce7; border: 1px solid #86efac; }
+    .stat-confidence a.src-link { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+    .stat-confidence a.src-link:hover { color: var(--red-primary); }
 
     /* scrape-status banner */
     .status-banner {
@@ -1562,11 +1564,13 @@
               <div class="stat-label">Harga Beras Nasional</div>
               <div class="stat-value" id="beras-display">---</div>
               <div class="stat-unit">Rupiah per Kg</div>
+              <div id="beras-conf" class="stat-confidence fallback">MEMUAT</div>
             </div>
             <div class="stat-card">
               <div class="stat-label">Stok Beras Bulog</div>
               <div class="stat-value green" id="bulog-display">---</div>
               <div class="stat-unit">Ton</div>
+              <div id="bulog-conf" class="stat-confidence fallback">MEMUAT</div>
             </div>
           </div>
         </div>
@@ -2403,18 +2407,34 @@ async function loadData() {
 
     // Macro stats — support both new object schema {value,confidence,source} and old flat string
     const stats = data.macro_stats || {};
+    // Badge confidence + tautan sumber. Teks tautan jujur:
+    // FALLBACK -> "sumber acuan" (tautan ke situs sumber, BUKAN bukti angka benar);
+    // UNAUDITED/AUDITED -> "lihat sumber". Tanpa source_url -> teks polos, tanpa <a>.
+    function confBadgeInnerHTML(stat) {
+      const label = stat.confidence || 'FALLBACK';
+      const src = stat.source || '';
+      const url = stat.source_url || '';
+      let html = esc(label) + (src ? ' · ' + esc(src) : '');
+      if (url) {
+        const linkTxt = label === 'FALLBACK' ? 'sumber acuan &#8599;' : 'lihat sumber &#8599;';
+        html += ' · <a class="src-link" href="' + esc(url) + '" target="_blank" rel="noopener">' + linkTxt + '</a>';
+      }
+      return html;
+    }
+    function renderConfBadge(confId, stat) {
+      const confEl = confId && document.getElementById(confId);
+      if (!confEl || !stat || typeof stat !== 'object') return;
+      confEl.className = 'stat-confidence ' + (stat.confidence || 'FALLBACK').toLowerCase();
+      confEl.innerHTML = confBadgeInnerHTML(stat);
+    }
     function setStatCard(valId, confId, stat) {
       const val = stat && typeof stat === 'object' ? stat.value : stat;
       document.getElementById(valId).textContent = (val != null && val !== '') ? val : 'Data tidak tersedia';
-      const confEl = confId && document.getElementById(confId);
-      if (confEl && stat && typeof stat === 'object') {
-        const c = (stat.confidence || 'FALLBACK').toLowerCase();
-        const label = stat.confidence || 'FALLBACK';
-        const src = stat.source ? ' · ' + stat.source : '';
-        confEl.textContent = label + src;
-        confEl.className = 'stat-confidence ' + c;
-      }
+      renderConfBadge(confId, stat);
     }
+    window.__confBadgeInnerHTML = confBadgeInnerHTML;   // ekspos untuk verifikasi
+    if (data.harga_beras && typeof data.harga_beras === 'object') renderConfBadge('beras-conf', data.harga_beras);
+    if (data.stok_bulog && typeof data.stok_bulog === 'object') renderConfBadge('bulog-conf', data.stok_bulog);
     setStatCard("ntp-display",           "ntp-conf",           stats.ntp);
     setStatCard("luas-padi-display",     "luas-padi-conf",     stats.luas_panen_padi);
     setStatCard("prod-beras-display",    "prod-beras-conf",    stats.produksi_beras);
