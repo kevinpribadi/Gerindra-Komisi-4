@@ -119,6 +119,19 @@ def merge_archive(old_arts, new_arts):
                              a.get("link", "")), reverse=True)
     return kept[:MAX_ARTICLES_PER_ENTITY]
 
+def load_aliases():
+    """Baca aliases.json (satu sumber kebenaran alias nama anggota).
+    Kunci berawalan '_' = catatan, diabaikan. Gagal baca -> {} (aman-gagal)."""
+    path = os.path.join(os.path.dirname(__file__), "aliases.json")
+    try:
+        with open(path, encoding="utf-8") as f:
+            raw = json.load(f)
+        return {k: v for k, v in raw.items()
+                if not k.startswith("_") and isinstance(v, list)}
+    except Exception as e:
+        print(f"  [WARN] aliases.json tidak terbaca ({e}); lanjut tanpa alias.")
+        return {}
+
 def load_previous_archives(path):
     """Baca live_data.json lama. Backward-compatible: agency_news bisa list
     (skema lama, 1 artikel per lembaga) atau dict-of-array (skema baru);
@@ -183,12 +196,21 @@ def fetch_member_news(prev_archive):
     archive = {}
     errors = []
     ok_count = 0
+    aliases = load_aliases()
     all_members = [m for members in KOMISI4_MEMBERS.values() for m in members]
     print(f"  Memproses {len(all_members)} anggota Komisi IV...")
     for member in all_members:
         new_arts = []
         try:
-            query = urllib.parse.quote(f'"{member}" DPR OR Komisi')
+            # Query mencakup nama kanonik OR tiap alias; hasil TETAP disimpan
+            # di bawah nama kanonik (arsip/cap/dedup tidak pecah per alias).
+            member_aliases = aliases.get(member, [])
+            if member_aliases:
+                names_or = " OR ".join('"' + n + '"' for n in [member] + member_aliases)
+                q = f'({names_or}) DPR OR Komisi'
+            else:
+                q = f'"{member}" DPR OR Komisi'   # identik dgn query lama bila tanpa alias
+            query = urllib.parse.quote(q)
             url = f"https://news.google.com/rss/search?q={query}&hl=id&gl=ID&ceid=ID:id"
             feed = feedparser.parse(url)
             for entry in feed.entries[:MEMBER_FETCH_LIMIT]:

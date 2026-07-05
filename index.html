@@ -1963,10 +1963,23 @@ function articlesLastNDays(days) {
    SOROTAN GERINDRA + WATCHLIST (F3)
    ============================================================ */
 const GERINDRA_NAMES = Object.keys(PARTY_MAP).filter(function(n) { return PARTY_MAP[n] === "Gerindra"; });
+
+/* aliases.json = satu sumber kebenaran alias nama anggota (dimuat di loadData).
+   Kunci berawalan '_' adalah catatan owner, diabaikan. */
+let ALIASES = {};
+function gerindraMatchTerms() {
+  const terms = [];
+  GERINDRA_NAMES.forEach(function(n) {
+    terms.push(n.toLowerCase());
+    (ALIASES[n] || []).forEach(function(a) { terms.push(String(a).toLowerCase()); });
+  });
+  return terms;
+}
 function titleMentionsGerindra(title) {
   const t = String(title || "").toLowerCase();
-  for (var i = 0; i < GERINDRA_NAMES.length; i++) {
-    if (t.indexOf(GERINDRA_NAMES[i].toLowerCase()) !== -1) return true;
+  const terms = gerindraMatchTerms();
+  for (var i = 0; i < terms.length; i++) {
+    if (terms[i] && t.indexOf(terms[i]) !== -1) return true;
   }
   return false;
 }
@@ -2643,6 +2656,18 @@ async function loadData() {
     if (!res.ok) throw new Error("HTTP " + res.status);
     const data = await res.json();
     liveData = data;
+
+    // aliases.json opsional; gagal muat -> lanjut tanpa alias (aman-gagal)
+    try {
+      const ra = await fetch("./aliases.json", { cache: "no-store" });
+      if (ra.ok) {
+        const rawAl = await ra.json();
+        ALIASES = {};
+        Object.keys(rawAl).forEach(function(k) {
+          if (k.charAt(0) !== "_" && Array.isArray(rawAl[k])) ALIASES[k] = rawAl[k];
+        });
+      }
+    } catch (e) { ALIASES = {}; }
 
     const dot = document.getElementById("feed-status-dot");
     dot.style.background = "#4ade80";
