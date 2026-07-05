@@ -12,7 +12,7 @@ import requests
 # ============================================================
 # 0. KONFIGURASI ARSIP BERITA (anti-bloat)
 # ============================================================
-MAX_ARTICLES_PER_ENTITY = 50   # cap keras per lembaga / per anggota
+MAX_ARTICLES_PER_ENTITY = 20   # cap keras per lembaga / per anggota (jaga ukuran file; worst-case 54x20=1080 artikel)
 MAX_AGE_DAYS = 30              # rolling window: buang artikel lebih tua dari ini
 AGENCY_FETCH_LIMIT = 10        # artikel baru maksimal per lembaga per run
 MEMBER_FETCH_LIMIT = 5         # artikel baru maksimal per anggota per run
