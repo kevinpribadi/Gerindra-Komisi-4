@@ -1147,11 +1147,12 @@
        FLOATING HEADER NAVIGATION (skip antar section)
        ============================================================ */
     .float-nav {
-      position: sticky; top: 0; z-index: 400;
+      position: sticky; top: 58px; z-index: 190;
       background: var(--bg-white); border-bottom: 1px solid var(--border-light);
       padding: 12px 16px; box-shadow: 0 2px 8px rgba(0,0,0,.08);
       overflow-x: auto; overflow-y: hidden; white-space: nowrap;
     }
+    @media(max-width: 480px) { .float-nav { top: 0; } }
     .float-nav::-webkit-scrollbar { height: 3px; }
     .float-nav::-webkit-scrollbar-track { background: transparent; }
     .float-nav::-webkit-scrollbar-thumb { background: var(--border-light); border-radius: 2px; }
@@ -1314,8 +1315,23 @@
   </div>
 </header>
 
+<!-- FLOATING NAVIGATION HEADER (skip antar section) -->
+<nav class="float-nav" id="float-nav">
+  <div class="float-nav-items">
+    <button class="float-nav-btn active" data-section="page-hero-anchor">Saham BUMN</button>
+    <button class="float-nav-btn" data-section="hot">Isu Panas</button>
+    <button class="float-nav-btn" data-section="sov">Share of Voice</button>
+    <button class="float-nav-btn" data-section="wl">Watchlist</button>
+    <button class="float-nav-btn" data-section="analisis">Analisis</button>
+    <button class="float-nav-btn" data-section="two-col">Intelijen Bulanan</button>
+    <button class="float-nav-btn" data-section="member">Berita Mitra</button>
+    <button class="float-nav-btn" data-section="focus-block">Fokus Mitra</button>
+    <button class="float-nav-btn" data-section="member-grid">Anggota</button>
+  </div>
+</nav>
+
 <!-- PAGE HERO STRIP -->
-<div class="page-hero">
+<div class="page-hero" id="page-hero-anchor">
   <div class="page-hero-inner">
     <div>
       <div class="hero-title">Dasbor Pemantauan Intelijen – Komisi IV DPR RI 2024/2029</div>
@@ -1471,21 +1487,6 @@
       </div>
     </div>
   </div>
-
-  <!-- FLOATING NAVIGATION HEADER (skip antar section) -->
-  <nav class="float-nav" id="float-nav">
-    <div class="float-nav-items">
-      <button class="float-nav-btn active" data-section="hero">Saham BUMN</button>
-      <button class="float-nav-btn" data-section="hot">Isu Panas</button>
-      <button class="float-nav-btn" data-section="sov">Share of Voice</button>
-      <button class="float-nav-btn" data-section="wl">Watchlist</button>
-      <button class="float-nav-btn" data-section="analisis">Analisis</button>
-      <button class="float-nav-btn" data-section="two-col">Intelijen Bulanan</button>
-      <button class="float-nav-btn" data-section="member">Berita Mitra</button>
-      <button class="float-nav-btn" data-section="focus">Fokus Mitra</button>
-      <button class="float-nav-btn" data-section="member-grid">Anggota</button>
-    </div>
-  </nav>
 
   <!-- SECTION: ISU PANAS (volume pemberitaan, bukan analisis) -->
   <div id="hot">
@@ -3380,29 +3381,34 @@ function bindFloatingNav() {
   if (!nav) return;
   const buttons = nav.querySelectorAll(".float-nav-btn");
 
-  // Klik button -> scroll ke section
+  // Klik button -> scroll ke section (instant: lebih andal lintas browser
+  // daripada 'smooth', yang kadang tidak jalan di beberapa environment)
   buttons.forEach(function(btn) {
     btn.addEventListener("click", function() {
       const sec = btn.dataset.section;
       const el = document.getElementById(sec);
-      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+      if (el) {
+        var y = el.getBoundingClientRect().top + window.scrollY - 108;   // offset: header 58px + nav ~50px
+        window.scrollTo({ top: Math.max(0, y), behavior: "instant" });
+      }
     });
   });
 
-  // Scroll detection -> update active button
-  window.addEventListener("scroll", function() {
-    var active = null;
-    const sections = ["hero", "hot", "sov", "wl", "analisis", "two-col", "member", "member-grid"];
-    for (var i = sections.length - 1; i >= 0; i--) {
+  // Scroll detection -> update active button. Scroll container bisa berupa
+  // window ATAU body/html (tergantung layout), jadi dengarkan keduanya.
+  function updateActiveOnScroll() {
+    var active = buttons[0] ? buttons[0].dataset.section : null;
+    const sections = ["page-hero-anchor", "hot", "sov", "wl", "analisis", "two-col", "member", "focus-block", "member-grid"];
+    for (var i = 0; i < sections.length; i++) {
       var el = document.getElementById(sections[i]);
-      if (el && el.getBoundingClientRect().top <= 150) {
-        active = sections[i]; break;
-      }
+      if (el && el.getBoundingClientRect().top <= 150) active = sections[i];
     }
     buttons.forEach(function(b) {
       b.classList.toggle("active", b.dataset.section === active);
     });
-  }, { passive: true });
+  }
+  window.addEventListener("scroll", updateActiveOnScroll, { passive: true });
+  document.addEventListener("scroll", updateActiveOnScroll, { passive: true, capture: true });
 }
 
 bindFloatingNav();
