@@ -2829,7 +2829,9 @@ function buildWABriefing() {
   lines.push("");
   lines.push("*SOROTAN TERBARU:*");
   flatAgencyArticles().slice(0, 5).forEach(function(a) {
+    var url = a.link_resolved || a.link || "";
     lines.push("📰 " + waCleanTitle(a.title) + " — " + a.agency + ", " + waShortDate(a.published));
+    if (url) lines.push(url);
   });
   lines.push("");
   lines.push(WA_DISCLAIMER);
@@ -2849,7 +2851,9 @@ function buildWAFocusBriefing(agency) {
   lines.push("");
   lines.push("*BERITA TERBARU:*");
   arts.slice(0, 7).forEach(function(a) {
+    var url = a.link_resolved || a.link || "";
     lines.push("📰 " + waCleanTitle(a.title) + " — " + waShortDate(a.published));
+    if (url) lines.push(url);
   });
   if (!arts.length) lines.push("(tidak ada berita 30 hari terakhir)");
   lines.push("");
