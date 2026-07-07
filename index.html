@@ -1143,6 +1143,32 @@
     .focus-placeholder { padding: 28px; text-align: center; font-size: 12px; color: var(--text-muted); font-style: italic; }
     .focus-news-note { font-size: 10.5px; color: var(--text-muted); font-style: italic; margin-top: 10px; }
 
+    /* ============================================================
+       FLOATING HEADER NAVIGATION (skip antar section)
+       ============================================================ */
+    .float-nav {
+      position: sticky; top: 0; z-index: 400;
+      background: var(--bg-white); border-bottom: 1px solid var(--border-light);
+      padding: 12px 16px; box-shadow: 0 2px 8px rgba(0,0,0,.08);
+      overflow-x: auto; overflow-y: hidden; white-space: nowrap;
+    }
+    .float-nav::-webkit-scrollbar { height: 3px; }
+    .float-nav::-webkit-scrollbar-track { background: transparent; }
+    .float-nav::-webkit-scrollbar-thumb { background: var(--border-light); border-radius: 2px; }
+    .float-nav-items { display: inline-flex; gap: 8px; }
+    .float-nav-btn {
+      display: inline-block; padding: 8px 16px; border-radius: 20px;
+      border: 1.5px solid var(--border-mid); background: var(--bg-white);
+      font-size: 12px; font-weight: 600; color: var(--text-secondary);
+      cursor: pointer; transition: all .2s; flex-shrink: 0;
+    }
+    .float-nav-btn:hover { border-color: var(--red-primary); color: var(--red-primary); }
+    .float-nav-btn.active { border-color: var(--red-primary); background: var(--red-primary); color: #fff; }
+    @media(max-width: 600px) {
+      .float-nav { padding: 10px 12px; }
+      .float-nav-btn { padding: 6px 12px; font-size: 11px; }
+    }
+
     @media print {
       /* mode cetak fokus: hanya panel fokus yang tampil */
       body.print-focus .top-utility-bar,
@@ -1446,7 +1472,23 @@
     </div>
   </div>
 
+  <!-- FLOATING NAVIGATION HEADER (skip antar section) -->
+  <nav class="float-nav" id="float-nav">
+    <div class="float-nav-items">
+      <button class="float-nav-btn active" data-section="hero">Saham BUMN</button>
+      <button class="float-nav-btn" data-section="hot">Isu Panas</button>
+      <button class="float-nav-btn" data-section="sov">Share of Voice</button>
+      <button class="float-nav-btn" data-section="wl">Watchlist</button>
+      <button class="float-nav-btn" data-section="analisis">Analisis</button>
+      <button class="float-nav-btn" data-section="two-col">Intelijen Bulanan</button>
+      <button class="float-nav-btn" data-section="member">Berita Mitra</button>
+      <button class="float-nav-btn" data-section="focus">Fokus Mitra</button>
+      <button class="float-nav-btn" data-section="member-grid">Anggota</button>
+    </div>
+  </nav>
+
   <!-- SECTION: ISU PANAS (volume pemberitaan, bukan analisis) -->
+  <div id="hot">
   <div class="section-header">
     <div class="section-icon">
       <svg viewBox="0 0 24 24"><path d="M13.5.67s.74 2.65.74 4.8c0 2.06-1.35 3.73-3.41 3.73-2.07 0-3.63-1.67-3.63-3.73l.03-.36C5.21 7.51 4 10.62 4 14c0 4.42 3.58 8 8 8s8-3.58 8-8C20 8.61 17.41 3.8 13.5.67z"/></svg>
@@ -1472,6 +1514,7 @@
   </div>
 
   <!-- SECTION: SHARE OF VOICE FRAKSI (F2) -->
+  <div id="sov">
   <div class="section-header">
     <div class="section-icon">
       <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5C15 14.17 10.33 13 8 13zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
@@ -1497,8 +1540,10 @@
       <div class="hot-note">Volume pemberitaan, bukan analisis sentimen. Angka = jumlah artikel anggota fraksi tsb dalam jendela terpilih.</div>
     </div>
   </div>
+  </div>
 
   <!-- SECTION: WATCHLIST SAYA (F3) -->
+  <div id="wl">
   <div class="section-header">
     <div class="section-icon">
       <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
@@ -1522,8 +1567,10 @@
       <div id="wl-matches"><div class="hot-empty">Belum ada keyword. Tambahkan untuk memantau isu spesifik; kecocokan 7 hari terakhir muncul di sini dan berbintang di feed.</div></div>
     </div>
   </div>
+  </div>
 
   <!-- SECTION: ANALISIS (Fitur B) -->
+  <div id="analisis">
   <div class="section-header">
     <div class="section-icon">
       <svg viewBox="0 0 24 24"><path d="M5 9.2h3V19H5V9.2zM10.6 5h2.8v14h-2.8V5zm5.6 8H19v6h-2.8v-6z"/></svg>
@@ -1569,8 +1616,10 @@
       <div class="hot-note">Semua angka dihitung deterministik dari arsip berita di live_data.json dan dapat direkonsiliasi manual. Satu artikel dapat memiliki lebih dari satu tag.</div>
     </div>
   </div>
+  </div>
 
   <!-- TWO COLUMN: Agency News + Market / Headline -->
+  <div id="two-col">
   <div class="two-col">
 
     <!-- LEFT: Agency News -->
@@ -1710,8 +1759,10 @@
       </div>
     </div>
   </div>
+  </div>
 
   <!-- MEMBER NEWS -->
+  <div id="member">
   <div class="section-header">
     <div class="section-icon">
       <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5C15 14.17 10.33 13 8 13zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
@@ -1731,6 +1782,7 @@
       <div class="panel-badge green">DPR RI</div>
     </div>
     <div class="panel-body">
+      <div id="member-grid">
       <div id="member-news-grid" class="member-grid">
         <div class="loader-wrap" style="grid-column:1/-1">
           <div class="loader-dot"></div>
@@ -1739,7 +1791,9 @@
           Memuat data anggota...
         </div>
       </div>
+      </div>
     </div>
+  </div>
   </div>
 
   <div class="update-bar">
@@ -3318,6 +3372,40 @@ function buildPDF() {
   doc.save("Ringkasan_Komisi_IV_" + ymd + ".pdf");
 }
 
+/* ============================================================
+   FLOATING HEADER NAVIGATION (scroll & click handling)
+   ============================================================ */
+function bindFloatingNav() {
+  const nav = document.getElementById("float-nav");
+  if (!nav) return;
+  const buttons = nav.querySelectorAll(".float-nav-btn");
+
+  // Klik button -> scroll ke section
+  buttons.forEach(function(btn) {
+    btn.addEventListener("click", function() {
+      const sec = btn.dataset.section;
+      const el = document.getElementById(sec);
+      if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+
+  // Scroll detection -> update active button
+  window.addEventListener("scroll", function() {
+    var active = null;
+    const sections = ["hero", "hot", "sov", "wl", "analisis", "two-col", "member", "member-grid"];
+    for (var i = sections.length - 1; i >= 0; i--) {
+      var el = document.getElementById(sections[i]);
+      if (el && el.getBoundingClientRect().top <= 150) {
+        active = sections[i]; break;
+      }
+    }
+    buttons.forEach(function(b) {
+      b.classList.toggle("active", b.dataset.section === active);
+    });
+  }, { passive: true });
+}
+
+bindFloatingNav();
 loadData();
 </script>
 </body>
