@@ -1,0 +1,17 @@
+{
+  "_README": "Input manual indikator utama sektoral. TIDAK ADA gerbang password di dashboard (static site tak bisa menyimpan password dengan aman - lihat CLAUDE.md #7). Akses dikendalikan oleh siapa yang punya izin COMMIT ke repo GitHub ini, bukan oleh kode JS di browser. Cara pakai: edit angka di bawah langsung di file ini (lewat GitHub web editor atau lokal), lalu commit & push ke branch main. Perubahan otomatis masuk ke live_data.json pada run cron berikutnya (maks 1 jam), atau picu 'Run workflow' di tab Actions untuk langsung. Set value ke null untuk kembali memakai nilai fallback statis bawaan engine.",
+  "_FORMAT": "Tiap kunci: null (tidak override) ATAU objek {value, source, source_url, confidence}. confidence WAJIB salah satu: AUDITED | UNAUDITED | KLAIM_MANAJEMEN | FALLBACK - default UNAUDITED bila kosong/tidak valid. JANGAN pakai FALLBACK untuk angka yang baru diinput manual (FALLBACK khusus nilai acuan statis bawaan, bukan input terkini).",
+  "_KUNCI_TERSEDIA": "ntp, luas_panen_padi, produksi_beras, luas_panen_jagung, produksi_jagung, kampung_nelayan, harga_pangan_avg, bantuan_pangan, realisasi_sphp, harga_beras, stok_bulog",
+
+  "ntp": null,
+  "luas_panen_padi": null,
+  "produksi_beras": null,
+  "luas_panen_jagung": null,
+  "produksi_jagung": null,
+  "kampung_nelayan": null,
+  "harga_pangan_avg": null,
+  "bantuan_pangan": null,
+  "realisasi_sphp": null,
+  "harga_beras": null,
+  "stok_bulog": null
+}

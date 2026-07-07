@@ -119,6 +119,40 @@ def merge_archive(old_arts, new_arts):
                              a.get("link", "")), reverse=True)
     return kept[:MAX_ARTICLES_PER_ENTITY]
 
+VALID_CONFIDENCE = {"AUDITED", "UNAUDITED", "KLAIM_MANAJEMEN", "FALLBACK"}
+
+def load_manual_overrides():
+    """Baca manual_overrides.json (input manual indikator sektoral, diedit
+    langsung via commit GitHub - BUKAN gerbang password di browser, lihat
+    CLAUDE.md #7). Kunci berawalan '_' = catatan, diabaikan.
+    Gagal baca / rusak -> {} (aman-gagal, macro_stats tetap fallback)."""
+    path = os.path.join(os.path.dirname(__file__), "manual_overrides.json")
+    try:
+        with open(path, encoding="utf-8") as f:
+            raw = json.load(f)
+        return {k: v for k, v in raw.items() if not k.startswith("_") and v}
+    except Exception as e:
+        print(f"  [WARN] manual_overrides.json tidak terbaca ({e}); pakai fallback.")
+        return {}
+
+def apply_override(stat, override, now):
+    """Kalau ada override valid untuk key ini, pakai nilai manual (bukan
+    fallback statis). Validasi confidence; default UNAUDITED bila kosong/
+    tidak dikenal. override rusak (bukan dict / value kosong) -> abaikan,
+    pakai stat asli (aman-gagal)."""
+    if not isinstance(override, dict) or override.get("value") in (None, ""):
+        return stat
+    conf = override.get("confidence") or "UNAUDITED"
+    if conf not in VALID_CONFIDENCE:
+        conf = "UNAUDITED"
+    return _stat(
+        override["value"],
+        override.get("source") or "Input manual",
+        override.get("source_url") or "",
+        conf,
+        now,
+    )
+
 def load_aliases():
     """Baca aliases.json (satu sumber kebenaran alias nama anggota).
     Kunci berawalan '_' = catatan, diabaikan. Gagal baca -> {} (aman-gagal)."""
@@ -518,6 +552,20 @@ def fetch_data():
     all_errors += e3a + e3b
     macro_stats = build_macro_stats(now, ntp_stat)
     stok_bulog = _stat(1250000, "Bulog, nilai fallback statis", "https://www.bulog.co.id/", "FALLBACK", now)
+
+    # Input manual indikator sektoral (manual_overrides.json, diedit via commit
+    # GitHub - lihat CLAUDE.md #7). Override HANYA kunci yang diisi; sisanya
+    # tetap fallback/API seperti biasa.
+    overrides = load_manual_overrides()
+    if overrides:
+        print(f"  [OVERRIDE] {len(overrides)} indikator memakai input manual: {', '.join(overrides.keys())}")
+    for key in macro_stats:
+        if key in overrides:
+            macro_stats[key] = apply_override(macro_stats[key], overrides[key], now)
+    if "harga_beras" in overrides:
+        harga_beras = apply_override(harga_beras, overrides["harga_beras"], now)
+    if "stok_bulog" in overrides:
+        stok_bulog = apply_override(stok_bulog, overrides["stok_bulog"], now)
 
     # status fase 3 = berapa target API aktif yang benar-benar live.
     # Kalau semua API dimatikan (mode statis disengaja), itu bukan kegagalan -> "ok".
