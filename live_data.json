@@ -712,6 +712,13 @@
         ],
         "Perum Bulog": [
             {
+                "title": "Intervensi Redam Kenaikan Harga Beras di Kaltimra, Bulog Sudah Salurkan 95 Persen Bantuan Pangan Pemerintah - PusaranMedia.com",
+                "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdmV6VWJQTlM1elR2MElxMEFVU2s5bUFSR0NkV3JtYXA5ejRfUmtYcTlXSENDa2NQdVNwdm5IcU9jekJFX25kRWg4RUxLT3pSR19CT2V4aHdIdC1jWFJjSzBpWEc1V21RU2EwZkVnSFBRT0hud0d3UUphZWpoczJ2c2lkeVB4UEFyaTNrUGp0alhkaDQ5Z1Y3ZFNZdDRRYlB5Mmg5TjlXTzl1NTV3T0UxT0x1MHNkU2VmbEpvcGFkTXFNNFkteU9iMVFRelQwUEVkU3liT1ZTRXVMQQ?oc=5",
+                "link_resolved": "https://pusaranmedia.com/read/50179/intervensi-redam-kenaikan-harga-beras-di-kaltimra-bulog-sudah-salurkan-95-persen-bantuan-pangan-pemerintah",
+                "published": "Wed, 08 Jul 2026 18:55:42 GMT",
+                "fetched_at": "2026-07-08T19:11:33.209698"
+            },
+            {
                 "title": "BULOG Turun ke Pasar Raya, Pastikan Stok Beras dan MinyaKita Sumbar Aman - Kata Sumbar",
                 "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdEFVejBuc1gzRDhfNlNVaXBPTFJtUlA3bXRiaENMdU50Z1dqVWx0X194NVlsdnl6ZTlMSl92NWlQRWV5cHBMeU1MSzM2VTBJdlF4WXo4YkpYYW8xOUExTnFNY2hOTlhBTG9OYzM0LVZ2c2czODlyZDA2eTREQmt2NnBzU0ZSZWtCbDZVckZiemFMWEdYeUhZUF8xVdIBoAFBVV95cUxQbkNucTVfdDNiWGVMYklvMmlkS29BdE5qM25XQ0pYTkJYN0duWk5JWnRlelZIWXJleml1dDVnci1yWnBJbkxCRmlwb1JIUVREclNpWlhtdFJpSkRjODlPTE5GZ2R2WUtwbUltQ21iR3ZGOTkxYjA3NHJRQlZMZWhyX1E1eEF1TE9VNzhLVFRtdHpCQlFKRkhQUUctREVYUlJu?oc=5",
                 "link_resolved": "https://katasumbar.com/bulog-turun-ke-pasar-raya-pastikan-stok-beras-dan-minyakita-sumbar-aman/",
@@ -843,13 +850,6 @@
                 "link_resolved": "https://pontianakpost.jawapos.com/kapuas-hulu/2607070077/beras-sphp-sempat-hilang-dari-pasar-putussibau-bulog-pastikan-stok-aman-distribusi-kembali-normal?page=all",
                 "published": "Tue, 07 Jul 2026 22:13:05 GMT",
                 "fetched_at": "2026-07-07T22:53:28.950526"
-            },
-            {
-                "title": "Serapan Beras Bulog Jatim Tembus 98,35 Persen, Target Pengadaan 2026 Hampir Tercapai - Radar Surabaya",
-                "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVUdQSVlDRmVIRWROTjhiaXdrdXRENENQdUlzQXdWZFVOUG1QMnVwMDQ2elFVTkR1VWlhQWkzMUlNQnNmUFNENmhUOW15UmItcmd2X01ISzZFNTVsQUxEbkNPbXQ3T2ZCTnhyT0RKck1KSU9XZnJGM1hOYkN1TUhhUUtzN0xoQlgxbXEzdDZIM2p4QnM3RjJkQUlyeHJnZFNYT3NyZC1XdzZmdnJGTEdWSUdHemtqSHc2TlFjSHQ2T2NjZXN2TUNBMTlfTkdiQdIB0wFBVV95cUxPY3RUVmw2ODRVZUxRM2VEbE9IMGZUdDJjbkM1ZWFQZXpsVG5TdERsWEpEbjV3ODRZTllZeThrMTFEVVY1YzNsNUY1NjAtUHN1T21QdW1LZW94TDFxTnIzSnBuSTlNZXlUcW1oSE12U2ZYckxhanlPaGVGZlFsRndzUEQzbS1vNDV6a2ZGRmphOFVWbmtZT3BQNlMxQVRkU2trcG50c240NUt6eDRYN0lXODM2SEg5eXV6OWRBOWxMcnBYTDBES0UzRy1VZFVRa2Y4bV84?oc=5",
-                "link_resolved": "https://radarsurabaya.jawapos.com/jatim/2607080002/serapan-beras-bulog-jatim-tembus-9835-persen-target-pengadaan-2026-hampir-tercapai",
-                "published": "Tue, 07 Jul 2026 17:52:51 GMT",
-                "fetched_at": "2026-07-08T01:56:44.825685"
             }
         ]
     },
@@ -2515,14 +2515,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-08T17:21:44.589492"
+        "fetched_at": "2026-07-08T19:11:29.253527"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-08T17:21:44.589492"
+        "fetched_at": "2026-07-08T19:11:29.253527"
     },
     "macro_stats": {
         "ntp": {
@@ -2530,63 +2530,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-08T17:21:44.589492"
+            "fetched_at": "2026-07-08T19:11:29.253527"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-08T17:21:44.589492"
+            "fetched_at": "2026-07-08T19:11:29.253527"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-08T17:21:44.589492"
+            "fetched_at": "2026-07-08T19:11:29.253527"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-08T17:21:44.589492"
+            "fetched_at": "2026-07-08T19:11:29.253527"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-08T17:21:44.589492"
+            "fetched_at": "2026-07-08T19:11:29.253527"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-08T17:21:44.589492"
+            "fetched_at": "2026-07-08T19:11:29.253527"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-08T17:21:44.589492"
+            "fetched_at": "2026-07-08T19:11:29.253527"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-08T17:21:44.589492"
+            "fetched_at": "2026-07-08T19:11:29.253527"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-08T17:21:44.589492"
+            "fetched_at": "2026-07-08T19:11:29.253527"
         }
     },
     "scrape_status": {
@@ -2595,5 +2595,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-07-08T17:21:44.589492"
+    "last_updated": "2026-07-08T19:11:29.253527"
 }
