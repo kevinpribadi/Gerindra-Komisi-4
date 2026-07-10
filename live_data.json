@@ -2,6 +2,13 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "ASN Muda Kementerian Pertanian Ditantang Jadi Pelopor Perubahan - SuaraBaru.id",
+                "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQODI1NUVFZW54S1dJb3VpQThEOGtqcHUxU19hdnZZVjNEUnI5TVNKVFp6aXFSaEhCbzB4WEgyYjViRUw1ampxUVpqX3pTclZGd3VoUkFLQTV0YlFvYlIwQ3YxRWhvWUVCVTR3eVNLOERDYTRQNjV5NTVoczRXb3kzZkl6enhxSUw0ZXZGM3V1NW9xTVlNY2JqZkV5bw?oc=5",
+                "link_resolved": "https://suarabaru.id/2026/07/10/asn-muda-kementerian-pertanian-ditantang-jadi-pelopor-perubahan",
+                "published": "Fri, 10 Jul 2026 02:06:01 GMT",
+                "fetched_at": "2026-07-10T02:13:36.170561"
+            },
+            {
                 "title": "Mentan Amran Dorong Implementasi Pertanian Modern PM-AAS, Pendapatan Petani Naik Tiga Kali Lipat - magelangekspres",
                 "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOM0xJbkJIWHFENVdIdjUyeVg3SGlkYVdnYmRtcTVyOHRJRFktcDk1SmFNNzBqR2xCa2FwYm5kNnd6RFlwWjRicXNrLWM0MlpaY1drS0ZmTllabkRhaExXbGYtZ2JNaG9nTVhNdHJ6WFlBRy1YUS10MUswOVN2QldjSkRrdnlFWHVaN25iRHRyMEhMWUNOTWZtLXhCVzZFeTJybFpHUDd2b2RrbVRpMzhwZnVIczdOaWgyaG5oanVoV2M2d1lqcWl4bnFRUVotajZ6Rmc4alp4OG0wRE5DdkxZQQ?oc=5",
                 "link_resolved": "https://magelangekspres.disway.id/readgallery/27163/mentan-amran-dorong-implementasi-pertanian-modern-pm-aas-pendapatan-petani-naik-tiga-kali-lipat",
@@ -133,13 +140,6 @@
                 "link_resolved": "https://orideknews.com/2026/07/08/seminar-ppvp-polbangtan-kementan-dorong-hilirisasi-pertanian/",
                 "published": "Wed, 08 Jul 2026 09:52:27 GMT",
                 "fetched_at": "2026-07-08T10:56:23.001196"
-            },
-            {
-                "title": "Kementan produksi 4 juta bibit Arabica Gayo 3 di Takengon - ANTARA News",
-                "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNY3JkcmJ4U2VUR29hMEFxUkFjemhFX1hTemlGNnQzQzdOdTZTTS1ZTl9wNmtrWENXLXRFa3VoOVVtWDlPekpjaV9GaF9QUUI2N2Z5YVRNRklaTFl3OWUxMHZ5SEFjbGZSQ1FpVzFTdlJKdWVaZ2JtRk1BY3BiMGg2VnFhbEFGd0xZSWRtX29DUVl5cFpRNUE0NHhWZWlHVjNV0gGmAUFVX3lxTE5UemFIaXk5cUZWR0VTQ2s2R2N0SmtoLWJLZ24yUENLZnlrMklxZ1VwV0J5MmVaWjFSMG1xNUMxbjRuOGdNR2pXdFJxa1lxZk9kdFp3VkQ2eDc0YzhSZDZiVWJXT1NONkRLbE1ob3pMQU5tR29za2lldmljaDR5UWtzMFM0RW9OOGxYeUdSZVlaTVVQYTFPaWFLV3BIUGw0LTc4Uy1fYXc?oc=5",
-                "link_resolved": "https://aceh.antaranews.com/berita/407993/kementan-produksi-4-juta-bibit-arabica-gayo-3-di-takengon",
-                "published": "Wed, 08 Jul 2026 08:25:15 GMT",
-                "fetched_at": "2026-07-08T10:56:23.001206"
             }
         ],
         "Kementerian Kehutanan": [
@@ -2594,14 +2594,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-10T02:09:15.040650"
+        "fetched_at": "2026-07-10T02:13:35.621895"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-10T02:09:15.040650"
+        "fetched_at": "2026-07-10T02:13:35.621895"
     },
     "macro_stats": {
         "ntp": {
@@ -2609,63 +2609,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-10T02:09:15.040650"
+            "fetched_at": "2026-07-10T02:13:35.621895"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-10T02:09:15.040650"
+            "fetched_at": "2026-07-10T02:13:35.621895"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-10T02:09:15.040650"
+            "fetched_at": "2026-07-10T02:13:35.621895"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-10T02:09:15.040650"
+            "fetched_at": "2026-07-10T02:13:35.621895"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-10T02:09:15.040650"
+            "fetched_at": "2026-07-10T02:13:35.621895"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-10T02:09:15.040650"
+            "fetched_at": "2026-07-10T02:13:35.621895"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-10T02:09:15.040650"
+            "fetched_at": "2026-07-10T02:13:35.621895"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-10T02:09:15.040650"
+            "fetched_at": "2026-07-10T02:13:35.621895"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-10T02:09:15.040650"
+            "fetched_at": "2026-07-10T02:13:35.621895"
         }
     },
     "scrape_status": {
@@ -2674,5 +2674,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-07-10T02:09:15.040650"
+    "last_updated": "2026-07-10T02:13:35.621895"
 }
