@@ -2,6 +2,13 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "Pertanian dan Lingkungan: Reformasi Kelembagaan dan Teknologi untuk Pertumbuhan - Vietnam.vn",
+                "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdjhOeG5Mai1heHRPMHlMeUk3MzJGWS13SnU4Q2hjN0o4MWxqSWt0dHRrNDVTNUJMakJucGxZSDQ5SFdFNW9iUS1HbHFCNlVLWHkxNDBxNC0ydXJRNTJQX2E1OW51LTg1Z2M4Nzl4aHdLMVNMMENtQkFxM2xrWVJkTVdTN0tWRVlPd2NYMVE4ZmJjbzFUR0YxYTc0UVUxdzBV?oc=5",
+                "link_resolved": "https://www.vietnam.vn/id/nganh-nong-nghiep-va-moi-truong-cai-cach-the-che-cong-nghe-de-tang-truong",
+                "published": "Fri, 10 Jul 2026 22:55:50 GMT",
+                "fetched_at": "2026-07-10T23:52:24.082777"
+            },
+            {
                 "title": "Lahan PM-AAS, Kementan Siapkan Bantuan Benih Satu Juta Hektare - SUARANTB.com",
                 "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNek5xdVdvMDhxQXhNUWlMT256dmNrdGtpUTRsTDhhMGdsN2hhUDZTWGlBNTdFUGZHSnFDR2hvY0VidUZwSTNUQkFwZDM1OVVvRlFYdkNwRHNVcW5aS2pjZ0tDR0VKSE9rb3lLVmR6eDNQUjV5S2lxQkZwTlZCN2pLa1lQR2hqYWdzZW9wVHctLVYwd21Sanh6akxR?oc=5",
                 "link_resolved": "https://suarantb.com/2026/07/11/lahan-pm-aas-kementan-siapkan-bantuan-benih-satu-juta-hektare/",
@@ -133,13 +140,6 @@
                 "link_resolved": "https://www.cnnindonesia.com/nasional/20260709165906-20-1378837/sekjen-kemendagri-rangkul-penyuluh-pertanian",
                 "published": "Thu, 09 Jul 2026 10:13:23 GMT",
                 "fetched_at": "2026-07-09T11:48:03.593546"
-            },
-            {
-                "title": "Mentan minta PPL dan kepala dinas se-Indonesia kawal percepatan penerapan pertanian PM-AAS - ANTARA News Megapolitan",
-                "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTGN4cUwtLUtuY1RYc0lodUVrcW9UbjdfWUJQLUdzNm1adFdOXzVEQnR2UVRSZGxyZHpPVzNxb1VseHZOZGRJUTg3cFRTbUtDVU5heTVxTDZacmtmcW9KU1ZWYm5BNk16RVZBeEFGa2YtUExHRFdDbWRoVUd2VFhFUVZNV0VPRG92Tm9heFU0N0ZwUURiOVV4RHZaWm1NNEhwMHlqWGtCaU1KYVQzY3BnUXNGQ1RaVzJmemtXM3dlVFRnbHFBN2NFbDFSa3Mtd2VCWlVaU2d30gHbAUFVX3lxTE9wN1Fjb1Q0MGFySFI3VXFtY3JVOUZKMUE0aF9HZWhBZWswcC1zUE10Sm9sVUxuZjc5VFFsQnBVWDFWSzI2NWVTekxIRXFiUlpNYnNPeHVrNUdYSFp1WG9nZXhWQnAxMGxwa3JnVTZPTmF5N2VDMGRueXZINUc0dFV6U3YtQlpKZkhzMk9KdExQVW94REk1N1M1WE92MW9BWDhONkxNNUZDMGtybmh5X0tta2liYU15MkdMZVQxWmZPT1Fnb0RlOUQwa1FsRnVCbkNkUUg2bTVyajloUQ?oc=5",
-                "link_resolved": "https://megapolitan.antaranews.com/berita/539369/mentan-minta-ppl-dan-kepala-dinas-se-indonesia-kawal-percepatan-penerapan-pertanian-pm-aas",
-                "published": "Thu, 09 Jul 2026 07:00:31 GMT",
-                "fetched_at": "2026-07-09T08:20:48.559697"
             }
         ],
         "Kementerian Kehutanan": [
@@ -570,6 +570,13 @@
         ],
         "Badan Pangan Nasional": [
             {
+                "title": "Hadapi Kemarau, Pemerintah Pastikan Kondisi Pangan Nasional Aman - DNABerita",
+                "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTXhNUlF5V2FEdDBEVmhZUFhLVkMxN1FYUEVLSWNPSndaQXlacTRHekVmT0FqaW9DNDNjcV9UenRZX3p2ZEtjVFZrVExoNkw3NWN6VFhIajdnSFVxMnJPVG5iM0daUHFVbXhfQTNKeUVYTmxQcWI1YlJiR3dxLUVYMi16Rk5PdWhvYjJaUXE5NA?oc=5",
+                "link_resolved": "https://dnaberita.com/hadapi-kemarau-pemerintah-pastikan-kondisi-pangan-nasional-aman/",
+                "published": "Fri, 10 Jul 2026 23:37:57 GMT",
+                "fetched_at": "2026-07-10T23:52:28.571754"
+            },
+            {
                 "title": "Bapanas pastikan ketersediaan pangan hadapi musim kemarau - ANTARA News",
                 "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQTM1LWlJRlhHYUtxYUx2bWVOSXFtUnJuS3ZBTU1ZN25TMTJGNmFTM043TU84YVQtaWtsMjAwZGNXdlhldmVIRjFTWWVvSEhFQXEzZmo3LUVIeUFCck1QdkRYd192QWhyVkdWZzRXUWZuWVNxcndWLXF2LVJtY2dkY0R2V2JHcDVQQk9xdTktbnFmM0prQXdFR3JOdi1ZWGdV0gGjAUFVX3lxTFBlSHVTalJjdTRkbkNxUDdiZjhVZlBwYm40VTBma3JpY1Y3ZTV6MmlhQVhZTGtmN25hTERoUXZCem5oQS1MaDZVdWRaQVVTWDBtSUZndUNERk5FOWFkUFhKdEo0akRnRWQyTWVCa05BLVVUNi1mcHgyMzE0WFBlRWVJT281TDBKVzZXMWZrU2FUNzU4TWhUNmpuNU1NY2dBcjdMdTg?oc=5",
                 "link_resolved": "https://www.antaranews.com/berita/5644945/bapanas-pastikan-ketersediaan-pangan-hadapi-musim-kemarau",
@@ -701,13 +708,6 @@
                 "link_resolved": "https://www.rctiplus.com/news/detail/terkini/5424142/bapanas-pastikan-stok-pangan-cukup-hadapi-musim-kemarau",
                 "published": "Thu, 09 Jul 2026 03:50:04 GMT",
                 "fetched_at": "2026-07-09T04:48:22.262232"
-            },
-            {
-                "title": "BAPANAS dan Pemkab Nunukan Perkuat Pengawasan Keamanan Pangan Segar di Pasar Tradisional - Berita Nunukan",
-                "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNYjFfUWp2Z3NRREpXREVtdXc4dE9xdlY0WmVYX2lPTmdZc1ZPQzF2NjYtZ25BaUN0ck5Rci1SSUhGRDFGbXFzLVdYU3lGMkpfUG8tRXdmLXhLVWFUV2hlR0cxSnNLanBNR0JCQk9NTU1TR0ZiWGF3RE82YldoWmpSSFNod1FiUUZ2MXUtNlRFQ1lDSGFCX1ozZzRTVHh0Zy1UYzhIVE42bWY5OUM5elYxUFBmcUZFeVdmanVKR2JSU2tFMm9NQ3FqcQ?oc=5",
-                "link_resolved": "https://www.berita.nunukankab.go.id/view/bapanas-dan-pemkab-nunukan-perkuat-pengawasan-keamanan-pangan-segar-di-pasar-tradisional",
-                "published": "Thu, 09 Jul 2026 02:47:42 GMT",
-                "fetched_at": "2026-07-09T19:25:50.370267"
             }
         ],
         "Perum Bulog": [
@@ -783,6 +783,13 @@
             },
             {
                 "title": "Perum Bulog Akan Luncurkan Produk Beras Kita, Sudah Kantongi Persetujuan Mentan Amran - mitrapost.com",
+                "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcGtBWmdHbVo1aTFTZk1KNjNqWXBPUDkyY3NKcXVJeDNHcDh1ZjFGUXM3R0dVTENNZExIdEtyTEg4c1lMazRFcFhudnBiaVQ0WHlMcmFNT2FUQ1A5UEpQZi1tZXJPM1RTYmZCX0c4UlVpbzVXY01iWFBCV01rbmNmUk95X2dVaXR4bFJUZ3FZMUo2N2p4bWQxVHRLNWY5VTVMbXhUeHlYZ2pIZ3pVV2F6aHB2a2JzQTVLNGc?oc=5",
+                "link_resolved": "https://mitrapost.com/2026/07/10/perum-bulog-akan-luncurkan-produk-beras-kita-sudah-kantongi-persetujuan-mentan-amran/",
+                "published": "Fri, 10 Jul 2026 08:11:04 GMT",
+                "fetched_at": "2026-07-10T23:52:29.120641"
+            },
+            {
+                "title": "Perum Bulog Akan Luncurkan Produk Beras Kita, Sudah Kantongi Persetujuan Mentan Amran - mitrapost.com",
                 "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE83NzQteDBKT0JMV1Y2ODlJcjV6QVN2TkZGZ0pMZjY2dTA4VTBHUzFnRElqNm40MDdHTDRNZGF2NVpsYzMzWURtQXkwUzNZdHQyUmtNYVF1SE9XbjB1MlBqRVVrcm5vWG1jeGU5QTZMRFFKMVlqQ1pjbnNqQQ?oc=5",
                 "link_resolved": "https://mitrapost.com/2026/07/10/perum-bulog-akan-luncurkan-beras-kita/",
                 "published": "Fri, 10 Jul 2026 08:11:04 GMT",
@@ -843,13 +850,6 @@
                 "link_resolved": "https://emitennews.com/news/bulog-bakal-luncurkan-beras-kita-siap-varian-premium-dan-medium",
                 "published": "Thu, 09 Jul 2026 14:00:00 GMT",
                 "fetched_at": "2026-07-09T19:25:50.930122"
-            },
-            {
-                "title": "Bulog pusat cek langsung kesiapan stok beras untuk bantuan pangan di Bali - ANTARA News Bali",
-                "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQLW91ckw3QlJVWDVKaF9qSC12c3EzVE91MlplamJDanRnN1NYbmhmMEtvbGd0X3RzaHA5MlJzSGxMbmtBd0VSaXlUWmNMVUJDa0JXaWZyMlQtUEJ1T3l5Q2pGbHhPX3doQThfNmRFRjhIcDZYU2RRUDlaWVJCMDZpWEF1d2MtNkxXQ0JuTVZBRXBMR2RRcEdGdXRiVXl2ejVKM0RTQm1nRzF5UVFHTUhrRmVERTlVUdIBuwFBVV95cUxPU3VLSHR2aWJaVk1CUml3WUx6VjJFbGFfcXpsR25qTmhsNVh4YVpnZDhjVDd3TTdBNURjcGhUUlJ0R1pMVFpraEU0TnRieVFvVmEzdEdydzVaRV9WbHdnbk9WcG1MTFJMNkRWQWdaQTRSZDh4VDZuc0Fha2t1azEybV9xNi1aQnpFamRjcENFamd6QzQtU29aMEVYSm1vRDZGWEpqME9xaC1oQ2J4V0RiQ01uRzk5bWNZOE5J?oc=5",
-                "link_resolved": "https://bali.antaranews.com/berita/409353/bulog-pusat-cek-langsung-kesiapan-stok-beras-untuk-bantuan-pangan-di-bali",
-                "published": "Thu, 09 Jul 2026 13:43:27 GMT",
-                "fetched_at": "2026-07-09T23:04:04.796272"
             }
         ]
     },
@@ -2643,14 +2643,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-10T22:53:17.084264"
+        "fetched_at": "2026-07-10T23:52:23.453115"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-10T22:53:17.084264"
+        "fetched_at": "2026-07-10T23:52:23.453115"
     },
     "macro_stats": {
         "ntp": {
@@ -2658,63 +2658,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-10T22:53:17.084264"
+            "fetched_at": "2026-07-10T23:52:23.453115"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-10T22:53:17.084264"
+            "fetched_at": "2026-07-10T23:52:23.453115"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-10T22:53:17.084264"
+            "fetched_at": "2026-07-10T23:52:23.453115"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-10T22:53:17.084264"
+            "fetched_at": "2026-07-10T23:52:23.453115"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-10T22:53:17.084264"
+            "fetched_at": "2026-07-10T23:52:23.453115"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-10T22:53:17.084264"
+            "fetched_at": "2026-07-10T23:52:23.453115"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-10T22:53:17.084264"
+            "fetched_at": "2026-07-10T23:52:23.453115"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-10T22:53:17.084264"
+            "fetched_at": "2026-07-10T23:52:23.453115"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-10T22:53:17.084264"
+            "fetched_at": "2026-07-10T23:52:23.453115"
         }
     },
     "scrape_status": {
@@ -2723,5 +2723,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-07-10T22:53:17.084264"
+    "last_updated": "2026-07-10T23:52:23.453115"
 }
