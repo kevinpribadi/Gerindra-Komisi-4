@@ -647,6 +647,13 @@
                 "fetched_at": "2026-07-10T23:52:28.571754"
             },
             {
+                "title": "Pemerintah Pastikan Stok Pangan Nasional Aman Hadapi Musim Kemarau - RRI.co.id",
+                "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWTV1dzl4SkNYOWJnUGtvWmo3N1o2OUJiZlFoYjhxYURETnZRUFdSZWJlelBBOVNyVXE3UW1qNlJibWRwd0tBQXFEZkNQX0tDWUQ4Um5qUGtLRTR4WVEwbUdiWTFQX29rTkVtbTdKVFpkSlEydXp6cEdpOFFJT0ZXSXRadnVMTzhzdW9rT2dRMm0zSEZCOUZLaWt3SV9YZ1ZnX0dV?oc=5",
+                "link_resolved": "https://rri.co.id/nasional/2560012/pemerintah-pastikan-stok-pangan-nasional-aman-hadapi-musim-kemarau",
+                "published": "Fri, 10 Jul 2026 22:44:00 GMT",
+                "fetched_at": "2026-07-11T21:41:28.494969"
+            },
+            {
                 "title": "Bapanas pastikan ketersediaan pangan hadapi musim kemarau - ANTARA News",
                 "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQTM1LWlJRlhHYUtxYUx2bWVOSXFtUnJuS3ZBTU1ZN25TMTJGNmFTM043TU84YVQtaWtsMjAwZGNXdlhldmVIRjFTWWVvSEhFQXEzZmo3LUVIeUFCck1QdkRYd192QWhyVkdWZzRXUWZuWVNxcndWLXF2LVJtY2dkY0R2V2JHcDVQQk9xdTktbnFmM0prQXdFR3JOdi1ZWGdV0gGjAUFVX3lxTFBlSHVTalJjdTRkbkNxUDdiZjhVZlBwYm40VTBma3JpY1Y3ZTV6MmlhQVhZTGtmN25hTERoUXZCem5oQS1MaDZVdWRaQVVTWDBtSUZndUNERk5FOWFkUFhKdEo0akRnRWQyTWVCa05BLVVUNi1mcHgyMzE0WFBlRWVJT281TDBKVzZXMWZrU2FUNzU4TWhUNmpuNU1NY2dBcjdMdTg?oc=5",
                 "link_resolved": "https://www.antaranews.com/berita/5644945/bapanas-pastikan-ketersediaan-pangan-hadapi-musim-kemarau",
@@ -701,13 +708,6 @@
                 "link_resolved": "https://www.balipost.com/news/2026/07/10/565380/Presiden-Optimis-Indonesia-Jadi-Lumbung...html",
                 "published": "Fri, 10 Jul 2026 10:07:54 GMT",
                 "fetched_at": "2026-07-10T13:05:58.250340"
-            },
-            {
-                "title": "Beras hingga Cabai, Pemerintah Pastikan Cadangan Pangan Siap Redam Dampak El Nino - indoposco.id",
-                "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQX2FEcjFmemhOQ3dpdTM3dHBObU04VmswRzJBazhmOHByeWFQcmZ4VFJmTUNlcjRsZFppbWx2cG1MaFVkZU5BZWFKZkhuc1ZId2pQUHRZX0IzQTZ1Y21kcDZwcTFIQUZwdE1PVi1fa0dWQThkVTVyU0lMbUEyZ0NYY3pGRHhHN0l1WDFsUS1qSEJHQmhKVDJkRGlibGlrcEhxYzR0MEJwSHMxNzVSZnFfY2VFUQ?oc=5",
-                "link_resolved": "https://indoposco.id/2026/07/10/beras-hingga-cabai-pemerintah-pastikan-cadangan-pangan-siap-redam-dampak-el-nino/",
-                "published": "Fri, 10 Jul 2026 02:06:27 GMT",
-                "fetched_at": "2026-07-10T06:35:52.421330"
             }
         ],
         "Perum Bulog": [
@@ -2687,14 +2687,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-11T20:00:22.798631"
+        "fetched_at": "2026-07-11T21:41:25.618548"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-11T20:00:22.798631"
+        "fetched_at": "2026-07-11T21:41:25.618548"
     },
     "macro_stats": {
         "ntp": {
@@ -2702,63 +2702,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-11T20:00:22.798631"
+            "fetched_at": "2026-07-11T21:41:25.618548"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-11T20:00:22.798631"
+            "fetched_at": "2026-07-11T21:41:25.618548"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-11T20:00:22.798631"
+            "fetched_at": "2026-07-11T21:41:25.618548"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-11T20:00:22.798631"
+            "fetched_at": "2026-07-11T21:41:25.618548"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-11T20:00:22.798631"
+            "fetched_at": "2026-07-11T21:41:25.618548"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-11T20:00:22.798631"
+            "fetched_at": "2026-07-11T21:41:25.618548"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-11T20:00:22.798631"
+            "fetched_at": "2026-07-11T21:41:25.618548"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-11T20:00:22.798631"
+            "fetched_at": "2026-07-11T21:41:25.618548"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-11T20:00:22.798631"
+            "fetched_at": "2026-07-11T21:41:25.618548"
         }
     },
     "scrape_status": {
@@ -2767,5 +2767,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-07-11T20:00:22.798631"
+    "last_updated": "2026-07-11T21:41:25.618548"
 }
