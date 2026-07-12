@@ -286,6 +286,13 @@
         ],
         "Kementerian Kelautan dan Perikanan": [
             {
+                "title": "KKP Harus Berpihak kepada Nelayan dan Pembudidaya Ikan - Ipol.id",
+                "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbmFscHU3Q19MTm05N3VHV3B6cUlDQl9oREpNaU1nOW9EYm54Q29rZkh3R0lhb0JzUkVaUG9nVlFra1hHblk1eG9iNXJvS3h0Q2dJSnlpZFZ5SGszNmxaTEkwZGl0aVpLUlhZbTVJbFJfdkRlektoN01LWHpiT05FS2dYS1FYUQ?oc=5",
+                "link_resolved": "https://ipol.id/2026/07/kkp-harus-berpihak-kepada-nelayan-dan-pembudidaya-ikan/",
+                "published": "Sun, 12 Jul 2026 15:56:43 GMT",
+                "fetched_at": "2026-07-12T16:50:48.595816"
+            },
+            {
                 "title": "KKP RI Hadapi Pelanggaran Izin Usaha, Pengawasan Komoditas Langka Diperketat - AFU.id",
                 "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN1BlTXZvU3FzaGg5eHNFZENyLXp6UGxWTlJ2NFJTay1XTDN4Rm1LazIzYTc1VW5fNzUtYzRqRlNNTG1UaEFYSFhOUFF5Yzl3UjdOT09RNXEzME16RG9KVFh1aXBmcE5TOWRpdnVXUmwtbU9xY0NEbzRwQVY2OENzcXpVaVFxMGNPaXFMMHJndzhPUkk2R1QxcVRrdzFTdDNLaXliZktaUnU?oc=5",
                 "link_resolved": "https://afu.id/hukum-kriminal/kkp-ri-hadapi-pelanggaran-izin-usaha-pengawasan-komoditas-langka-diperketat",
@@ -417,13 +424,6 @@
                 "link_resolved": "https://mediacenter.luwukab.go.id/bupati-luwu-dampingi-penasihat-menteri-kkp-tinjau-lokasi-persiapan-pembangunan-kampung-nelayan/",
                 "published": "Sat, 11 Jul 2026 08:34:18 GMT",
                 "fetched_at": "2026-07-11T09:19:39.510739"
-            },
-            {
-                "title": "Gubernur Ansar Temui Menteri KKP, Dorong Penguatan Sektor Kelautan dan Perikanan Kepri - batamtv.com",
-                "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOS2pPZEUzcmNZUllBRHVXMFFjcGZtVnFVbFl4Y3lJOFNqaWVqZjF2cEJmMUhPTW44SlZOaW1DYzA1cnhMMnhNYnRZbV92QlFSUTVPSDlWLUp0ZHozSEpoU1JDN21WM1pPU0MyUDNIcm1QaWdYUzNxZkI2SnpLaHRBZ3FKZGpOV3hvUkZBcEdBdllnSjE4cTJDTXNGLVNDMWRlLTIzWDBCYlBiQQ?oc=5",
-                "link_resolved": "https://batamtv.com/gubernur-ansar-temui-menteri-kkp-dorong-penguatan-sektor-kelautan-dan-perikanan-kepri/",
-                "published": "Sat, 11 Jul 2026 07:27:45 GMT",
-                "fetched_at": "2026-07-11T15:46:34.497261"
             }
         ],
         "Badan Karantina Indonesia": [
@@ -2711,14 +2711,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-12T15:51:58.016109"
+        "fetched_at": "2026-07-12T16:50:46.455496"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-12T15:51:58.016109"
+        "fetched_at": "2026-07-12T16:50:46.455496"
     },
     "macro_stats": {
         "ntp": {
@@ -2726,63 +2726,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-12T15:51:58.016109"
+            "fetched_at": "2026-07-12T16:50:46.455496"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-12T15:51:58.016109"
+            "fetched_at": "2026-07-12T16:50:46.455496"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-12T15:51:58.016109"
+            "fetched_at": "2026-07-12T16:50:46.455496"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-12T15:51:58.016109"
+            "fetched_at": "2026-07-12T16:50:46.455496"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-12T15:51:58.016109"
+            "fetched_at": "2026-07-12T16:50:46.455496"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-12T15:51:58.016109"
+            "fetched_at": "2026-07-12T16:50:46.455496"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-12T15:51:58.016109"
+            "fetched_at": "2026-07-12T16:50:46.455496"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-12T15:51:58.016109"
+            "fetched_at": "2026-07-12T16:50:46.455496"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-12T15:51:58.016109"
+            "fetched_at": "2026-07-12T16:50:46.455496"
         }
     },
     "scrape_status": {
@@ -2791,5 +2791,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-07-12T15:51:58.016109"
+    "last_updated": "2026-07-12T16:50:46.455496"
 }
