@@ -314,6 +314,13 @@
                 "fetched_at": "2026-07-14T09:49:02.908091"
             },
             {
+                "title": "Program Kampung Nelayan Merah Putih di Mukomuko Belum Pasti, DKP Masih Tunggu SK KKP - Japos.co",
+                "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMDRmdktnWmQ2WjFNLVViTGllR0JidlozSVdnemtMRHdCeVExRDMtbkdOMXYzV0JzLWF2VkZLVlZhdDRlUHIxY29GTzZIb0hkZnczZUg4aVhBU1VJa2xSOFF6cTRGUTFCaWNtVVhoZFA0X1JMTFlhajN6ZWJkVGlmZW1ycENHS3NnNElCMENHS2d5LThNRkNIaDc2dVp1THlaY3k4Umphc1NqeUl4cWJzQ2VkOGJzRlE?oc=5",
+                "link_resolved": "https://www.japos.co/2026/07/14/program-kampung-nelayan-merah-putih-di-mukomuko-belum-pasti-dkp-masih-tunggu-sk-kkp/",
+                "published": "Tue, 14 Jul 2026 07:31:22 GMT",
+                "fetched_at": "2026-07-14T22:50:03.626593"
+            },
+            {
                 "title": "Hendry Munief Dorong Kemenhan dan KKP RI Cari Solusi bagi Ribuan Warga Meranti yang Bekerja di Malaysia - Kabarlah.com",
                 "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObW9zelJnNkVmZ0hoaXpKdFdLZm9YbnFUSEhuZEtYQmNOU0R3QnJEclZ1UkdiUzkzSzlwcEtXX0tyRzFkUWlzX3Fha0pia3dMZ2Y1cTlLck9LSFIyNjhwN0p3MUFEc245eFprVGcwdzBtd3BydW1hSlFLTUxiSExib1dNLUJjWE5BdzgzcWdFWlFNTE1vMUFQdDF0ZjdRTXJSdDNpNlNVcEdNZzVabndYV2NXZ09LeWJjVG1ORFVKa18tYkszSVRiQkFteDQtZ2x1MXg5MHdHQTBfTXBXcGtDMGlxdkpPQVE?oc=5",
                 "link_resolved": "https://kabarlah.com/berita/nasional/2026/07/14/hendry-munief-dorong-kemenhan-dan-kkp-ri-cari-solusi-bagi-ribuan-warga-meranti-yang-bekerja-di-malaysia/",
@@ -417,13 +424,6 @@
                 "link_resolved": "https://ipol.id/2026/07/kkp-harus-berpihak-kepada-nelayan-dan-pembudidaya-ikan/",
                 "published": "Sun, 12 Jul 2026 15:56:43 GMT",
                 "fetched_at": "2026-07-12T16:50:48.595816"
-            },
-            {
-                "title": "KKP RI Hadapi Pelanggaran Izin Usaha, Pengawasan Komoditas Langka Diperketat - AFU.id",
-                "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN1BlTXZvU3FzaGg5eHNFZENyLXp6UGxWTlJ2NFJTay1XTDN4Rm1LazIzYTc1VW5fNzUtYzRqRlNNTG1UaEFYSFhOUFF5Yzl3UjdOT09RNXEzME16RG9KVFh1aXBmcE5TOWRpdnVXUmwtbU9xY0NEbzRwQVY2OENzcXpVaVFxMGNPaXFMMHJndzhPUkk2R1QxcVRrdzFTdDNLaXliZktaUnU?oc=5",
-                "link_resolved": "https://afu.id/hukum-kriminal/kkp-ri-hadapi-pelanggaran-izin-usaha-pengawasan-komoditas-langka-diperketat",
-                "published": "Sun, 12 Jul 2026 14:38:07 GMT",
-                "fetched_at": "2026-07-12T14:48:24.097497"
             }
         ],
         "Badan Karantina Indonesia": [
@@ -2860,14 +2860,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-14T21:50:30.096907"
+        "fetched_at": "2026-07-14T22:50:01.938332"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-14T21:50:30.096907"
+        "fetched_at": "2026-07-14T22:50:01.938332"
     },
     "macro_stats": {
         "ntp": {
@@ -2875,63 +2875,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-14T21:50:30.096907"
+            "fetched_at": "2026-07-14T22:50:01.938332"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-14T21:50:30.096907"
+            "fetched_at": "2026-07-14T22:50:01.938332"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-14T21:50:30.096907"
+            "fetched_at": "2026-07-14T22:50:01.938332"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-14T21:50:30.096907"
+            "fetched_at": "2026-07-14T22:50:01.938332"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-14T21:50:30.096907"
+            "fetched_at": "2026-07-14T22:50:01.938332"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-14T21:50:30.096907"
+            "fetched_at": "2026-07-14T22:50:01.938332"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-14T21:50:30.096907"
+            "fetched_at": "2026-07-14T22:50:01.938332"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-14T21:50:30.096907"
+            "fetched_at": "2026-07-14T22:50:01.938332"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-14T21:50:30.096907"
+            "fetched_at": "2026-07-14T22:50:01.938332"
         }
     },
     "scrape_status": {
@@ -2940,5 +2940,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-07-14T21:50:30.096907"
+    "last_updated": "2026-07-14T22:50:01.938332"
 }
