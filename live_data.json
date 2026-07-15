@@ -286,6 +286,13 @@
         ],
         "Kementerian Kelautan dan Perikanan": [
             {
+                "title": "Dukung Program Prioritas Nasional KKP, PEMKO Siap Berkolaborasi Bersama BPPMHKP Tanjungbalai Asahan Optimalkan Layanan Sertifikasi Jaminan Mutu Hasil Kelautan dan Perikanan - POSKOTASUMATERA.COM",
+                "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTTFKUm9tNHlmU3Z4ajJDcDZNU3M4b0VSWTc3NHJUemtOdWZYMmxhRkRmbjVsNTlHNERYb1poWGlWdUMtbnAzRFBuQXQtN2p6SU5DU3NVVlBfcjJFVms5bFhqX05pNUxVbF90d1JWd2hCYmQzQkpBTjRycDBaT1hURktJNTFwVE9xX2c?oc=5",
+                "link_resolved": "https://www.poskotasumatera.com/2026/07/dukung-program-prioritas-nasional-kkp.html",
+                "published": "Wed, 15 Jul 2026 17:24:00 GMT",
+                "fetched_at": "2026-07-15T23:52:36.364449"
+            },
+            {
                 "title": "Pemko Tanjungbalai Siap Berkolaborasi Bersama BPPMHKP Tanjungbalai Asahan, Optimalkan Layanan Sertifikasi Jaminan Mutu Hasil Kelautan dan Perikanan Dalam Mendukung Program Prioritas Nasional KKP. - Media Timsus",
                 "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxNSjQ4TzNwNlF3YU9aSS13QTIzWjZ2TEhkZEpVNHVNeHZRZHpTdkN0QnhKVVhuU3dXMVRNcFRYZTlFME4zUDN5UHZHUWhlOE1LUGQtOGkteE5RUHYtUEg0NmJKdU11QXNMVnQ0RW44U0FDMTQyVVlVWWlPLWFsQmNiQk1Bbm44YnUtejNRYlpjNUF6bnRiWkhKU3Bjd2E3RThSS0o0QllnSjJ0Y2NCeWdSUGdHZ0NILTR3dGtFMUFqY0oxXzdfYTFuSi1Pb3lTeEVjc3h1LTBFaGRQRS1IeFVRTk95cm96U09mdkdhdXR2b25IWEhIeXQyd1BmLUtITk0yT2o1Z1pkaDdiQUZ1ZGpsS0tDZTM5STJZaTQ5VXlldHFYLTFCYnBtcHBaV1ZjbHFXQ3V6ZzNvSlBwVzlYeXZRaFhjYlQwRVFGcHdZ?oc=5",
                 "link_resolved": "https://mediatimsus.com/nasional/pemko-tanjungbalai-siap-berkolaborasi-bersama-bppmhkp-tanjungbalai-asahan-optimalkan-layanan-sertifikasi-jaminan-mutu-hasil-kelautan-dan-perikanan-dalam-mendukung-program-prioritas-nasional-kkp/",
@@ -417,13 +424,6 @@
                 "link_resolved": "https://kendal.suaramerdeka.com/kendal-raya/103617371971/program-pitap-dimulai-pembudi-daya-tambak-kalirejo-kecamatan-kangkung-bangun-saluran-irigasi-27-kilometer",
                 "published": "Tue, 14 Jul 2026 08:33:22 GMT",
                 "fetched_at": "2026-07-14T09:49:02.908109"
-            },
-            {
-                "title": "Mesin Tempel Baru Dongkrak Produktivitas Nelayan Tabanan - BALIPOST.com",
-                "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcmFhaHZSenk3ZDd2X0dDWFJvYjhsZzh0Q1E4blhiSWQxZmw1aGtTQllKVmRMRkNoc3htNkxoSlIxWFhUY0ZxaE5ncnNLZGJyZnFWNm9NV213dW5Wb1NLenRjRVF4WkdMMUZNdlBMU2ZBTlZzcDlENkhXSXFHWk04RWQzamVQNnQ3UmkzM01kN0JiOURkWmJ2U2JrZw?oc=5",
-                "link_resolved": "https://www.balipost.com/news/2026/07/14/566263/Mesin-Tempel-Baru-Dongkrak-Produktivitas...html",
-                "published": "Tue, 14 Jul 2026 08:20:55 GMT",
-                "fetched_at": "2026-07-14T09:49:02.908091"
             }
         ],
         "Badan Karantina Indonesia": [
@@ -2930,14 +2930,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-15T21:51:11.738162"
+        "fetched_at": "2026-07-15T23:52:34.546274"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-15T21:51:11.738162"
+        "fetched_at": "2026-07-15T23:52:34.546274"
     },
     "macro_stats": {
         "ntp": {
@@ -2945,63 +2945,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-15T21:51:11.738162"
+            "fetched_at": "2026-07-15T23:52:34.546274"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-15T21:51:11.738162"
+            "fetched_at": "2026-07-15T23:52:34.546274"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-15T21:51:11.738162"
+            "fetched_at": "2026-07-15T23:52:34.546274"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-15T21:51:11.738162"
+            "fetched_at": "2026-07-15T23:52:34.546274"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-15T21:51:11.738162"
+            "fetched_at": "2026-07-15T23:52:34.546274"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-15T21:51:11.738162"
+            "fetched_at": "2026-07-15T23:52:34.546274"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-15T21:51:11.738162"
+            "fetched_at": "2026-07-15T23:52:34.546274"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-15T21:51:11.738162"
+            "fetched_at": "2026-07-15T23:52:34.546274"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-15T21:51:11.738162"
+            "fetched_at": "2026-07-15T23:52:34.546274"
         }
     },
     "scrape_status": {
@@ -3010,5 +3010,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-07-15T21:51:11.738162"
+    "last_updated": "2026-07-15T23:52:34.546274"
 }
