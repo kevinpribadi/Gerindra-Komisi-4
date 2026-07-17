@@ -144,6 +144,13 @@
         ],
         "Kementerian Kehutanan": [
             {
+                "title": "Suhardiman Bantah Tinggalkan Amplop untuk Menteri Kehutanan, Klaim Tak Tahu Isinya - DataRiau.com",
+                "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOblM0QTRNY203eW9lbzVCWVlPdGpwcE1RWmJ2aFJuZ181X2tHRlg1ZXBXREZncWY0UkkwVTJkcHFqU1VGMFA2M01rQ1pqdzlGYUI5LUg4WkRUTWY3YVl2dVNtOGxPRUdNWXp0WDM2M2RxMlRiak84S3JYMjhhdDRwQTNGUlIySHlxUjdtUTFySy1Dck5abWUtVEJpdkd1VkhmTS1USGlCb1VqSkVVYVowbm1ZS1pVQXZRaFNvY29R?oc=5",
+                "link_resolved": "https://www.datariau.com/detail/berita/suhardiman-bantah-tinggalkan-amplop-untuk-menteri-kehutanan--klaim-tak-tahu-isinya",
+                "published": "Fri, 17 Jul 2026 20:18:00 GMT",
+                "fetched_at": "2026-07-17T21:42:45.749339"
+            },
+            {
                 "title": "Wamenhut Tinjau PKRO SOCP dan Orangutan Haven, Empat Orangutan Sumatera Siap Dilepasliarkan ke Jambi - Kementerian Kehutanan",
                 "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOSGFyQ2FtTlMwWWl0Q0h4dlB0SWNvamZ4emw1cTZabW5Ba092OFZVQXJucXJvR0lyMWJmSzZ0UzhrTUN0ZVY3R2pzRXoySVI2TURsSFJuQnR3WWdpdDQxdUU5am44dE5aeTRpUUJfVkh3eVVRTkJMZHhrWGVZbUNXaUdrQjRrWmlwZndTWUhuZlJDaHl2aXBza1RGdm5NSGtKNlZQWEdYSnlsWkljSmswV1pRTVE0b3NrUVRBcGxvUDJ2dlRhaUlJNTcxUkQ?oc=5",
                 "link_resolved": "https://www.kehutanan.go.id/news/wamenhut-tinjau-pkro-socp-dan-orangutan-haven-empat-orangutan-sumatera-siap-dilepasliarkan-ke-jambi",
@@ -275,13 +282,6 @@
                 "link_resolved": "https://mediacenter.riau.go.id/read/data-kemenhut-brin-dan-kemenlh-karhutla-riau-2026-capai-154779-hektare",
                 "published": "Fri, 17 Jul 2026 01:23:00 GMT",
                 "fetched_at": "2026-07-17T01:56:56.558225"
-            },
-            {
-                "title": "Permenhut Diteken Saat Raja Juli ke LN, Titiek Soeharto Pertanyakan Keabsahan - politikindonesia.id",
-                "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOVNpVzlzTHVVbXd5ZS1hclpucm41OFEtQmRXV0tqSzE4WHV0U29IV3VyOTFBTXBib2xqTWhPWGZoNzBsd3c0TURpcjdzbkY0RUVuZWx2QmJZVF9FMEFpYUZaOHdEbzBsUXV4LWN1YWFTbW9YLW91OUFFZXByQ0k5VzZZMkl0VHRiM3JObnAtZjRJOUQyc0RKaFpwdWYySGJjakVUYjlMVGwtZFhk?oc=5",
-                "link_resolved": "https://www.politikindonesia.id/permenhut-diteken-saat-raja-juli-ke-ln-titiek-soeharto-pertanyakan-keabsahan",
-                "published": "Fri, 17 Jul 2026 01:21:55 GMT",
-                "fetched_at": "2026-07-17T01:56:56.558242"
             }
         ],
         "Kementerian Kelautan dan Perikanan": [
@@ -3014,14 +3014,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-17T20:00:44.898172"
+        "fetched_at": "2026-07-17T21:42:44.557080"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-17T20:00:44.898172"
+        "fetched_at": "2026-07-17T21:42:44.557080"
     },
     "macro_stats": {
         "ntp": {
@@ -3029,63 +3029,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-17T20:00:44.898172"
+            "fetched_at": "2026-07-17T21:42:44.557080"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-17T20:00:44.898172"
+            "fetched_at": "2026-07-17T21:42:44.557080"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-17T20:00:44.898172"
+            "fetched_at": "2026-07-17T21:42:44.557080"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-17T20:00:44.898172"
+            "fetched_at": "2026-07-17T21:42:44.557080"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-17T20:00:44.898172"
+            "fetched_at": "2026-07-17T21:42:44.557080"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-17T20:00:44.898172"
+            "fetched_at": "2026-07-17T21:42:44.557080"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-17T20:00:44.898172"
+            "fetched_at": "2026-07-17T21:42:44.557080"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-17T20:00:44.898172"
+            "fetched_at": "2026-07-17T21:42:44.557080"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-17T20:00:44.898172"
+            "fetched_at": "2026-07-17T21:42:44.557080"
         }
     },
     "scrape_status": {
@@ -3094,5 +3094,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-07-17T20:00:44.898172"
+    "last_updated": "2026-07-17T21:42:44.557080"
 }
