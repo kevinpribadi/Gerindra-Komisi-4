@@ -712,6 +712,13 @@
         ],
         "Perum Bulog": [
             {
+                "title": "BULOG Gandeng Kampus Cetak Wirausaha Muda di Sektor Pangan - TIMES Indonesia",
+                "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUGkzMmVTd0t4NWhSc201c2xoODlXN1AzTk9EZ3QyaHp2NXprMVBrLUtTVHI0dXhCaXJYNmh5cTFkcHpPMlN3LWV6Qk5JQXpEdTJicVdWLXBtRzFUVEtkRFZoMWpqNVZvRXhsY2h3cHMyREJNUkgwdTg3VWlYUEhwTEdLSzE0bWhNOS1hZzRDSlh0OFdKS1dOMTFYTWd1NjhEUGh0N1RaNA?oc=5",
+                "link_resolved": "https://timesindonesia.co.id/read/news/599557/bulog-gandeng-kampus-cetak-wirausaha-muda-di-sektor-pangan",
+                "published": "Sat, 18 Jul 2026 00:43:00 GMT",
+                "fetched_at": "2026-07-18T01:46:59.670912"
+            },
+            {
                 "title": "Dirut Bulog: Swasembada pangan perlu sinergi seluruh elemen bangsa - ANTARA News",
                 "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQlJHU1ZTZ3oydkY4Q1o5dktUSDdyV2JnVHYwWmxnM1ZjVHl6QWkxRUg4aVFrOWpudVhwZUJrX055SmoxMnJNRFBrOENTRFVKbmlDT2pWUzAySHVnVVpFVDEybS1YTjQwNVBZRHcwZHVacFBXeVVMVGt3cW5BdE5mZG9NUjk5a01tTlZYdnNfV2M4dHVGVVhROHlLMFlPc0ppRGJBc2h2TldVSVnSAa4BQVVfeXFMUFNLYmtOTmNzUG1sel84U3hVdnZyTVpndVY5Ni1MQzhRUHh6MXNSM0RHcEVrZW9xNHAyeko4OWhlWS1FVXh0eWxycThxcTQwRnVIRHRwcEJBUkxaUVBoSERfSkdyTkdSeHpJYjg0M0NTUm4ySkxJOFVtYUNlUWdaTW0zdUpfUU15WDdjakhhcHFQSUtZZkQ2ajYwMHJUdG8wX1hjMVAxV1NzRzVjRjJn?oc=5",
                 "link_resolved": "https://www.antaranews.com/berita/5654635/dirut-bulog-swasembada-pangan-perlu-sinergi-seluruh-elemen-bangsa",
@@ -843,13 +850,6 @@
                 "link_resolved": "https://www.harianjogja.com/r-1263680/perum-bulog-yogyakarta-raih-penghargaan-penjaga-ketahanan-pangan",
                 "published": "Thu, 16 Jul 2026 09:22:57 GMT",
                 "fetched_at": "2026-07-16T09:59:58.208607"
-            },
-            {
-                "title": "Bulog serap 3.300 ton gabah petani Bangka Selatan - ANTARA News Bangka Belitung",
-                "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZUhYSXBaSE1LTnpTY1dROU1DcDB2TG1Td2lJU2p0dkRWWjMyNDlhTzMyRUFMVGduWW94R3dfcnpBbUg2NnJFVjdvWHBXWi1qaU9rcmpxNVhobklad0p3NENMNElkVzQ2V2JXbmRDTDBpbWtib1hfVEctck5nNXF3bDFGQkh0SEZ6b3lzUUNsVlBxdnE3RVHSAZsBQVVfeXFMTkFTcnhmNlAzODNTN3NLSEloWjBJMTFKN25Mb3ZOaGJkV1VfRTlmS2p5ZGxoYklaejgzcTNYRk5WZVBzWk1oWXNNYmdLNGxUTXFpNzhnRV9ZM3RFT3NNa2hsLUZFNllHMlUzWWgxNHhsS3hSaEd1c0ZBMmdaYjZCSXNsMWdXVjZQTHdnVnllb2pmbUpQV1BMdEZVZUk?oc=5",
-                "link_resolved": "https://babel.antaranews.com/berita/572283/bulog-serap-3300-ton-gabah-petani-bangka-selatan",
-                "published": "Thu, 16 Jul 2026 08:42:07 GMT",
-                "fetched_at": "2026-07-16T09:59:58.208624"
             }
         ]
     },
@@ -3014,14 +3014,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-17T23:44:09.246748"
+        "fetched_at": "2026-07-18T01:46:56.397704"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-17T23:44:09.246748"
+        "fetched_at": "2026-07-18T01:46:56.397704"
     },
     "macro_stats": {
         "ntp": {
@@ -3029,63 +3029,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-17T23:44:09.246748"
+            "fetched_at": "2026-07-18T01:46:56.397704"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-17T23:44:09.246748"
+            "fetched_at": "2026-07-18T01:46:56.397704"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-17T23:44:09.246748"
+            "fetched_at": "2026-07-18T01:46:56.397704"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-17T23:44:09.246748"
+            "fetched_at": "2026-07-18T01:46:56.397704"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-17T23:44:09.246748"
+            "fetched_at": "2026-07-18T01:46:56.397704"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-17T23:44:09.246748"
+            "fetched_at": "2026-07-18T01:46:56.397704"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-17T23:44:09.246748"
+            "fetched_at": "2026-07-18T01:46:56.397704"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-17T23:44:09.246748"
+            "fetched_at": "2026-07-18T01:46:56.397704"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-17T23:44:09.246748"
+            "fetched_at": "2026-07-18T01:46:56.397704"
         }
     },
     "scrape_status": {
@@ -3094,5 +3094,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-07-17T23:44:09.246748"
+    "last_updated": "2026-07-18T01:46:56.397704"
 }
