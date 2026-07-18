@@ -144,6 +144,13 @@
         ],
         "Kementerian Kehutanan": [
             {
+                "title": "Berharap Penyelamatan Gajah pada Instruksi Presiden - Betahita",
+                "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTHhVeWphVGRtRC02WVN5d0hNM2ZRNE9PbDR3bGlzdzJQZXFrSXpndnRsSjJGelFiMml0bDd3ZmZpSUl1MTdIbzczRnZrR2dlT29jWUhGekJzeTNWSmhBSEdtb0VkTXBwSW5HVm1qUkdVcHpzSE01NnVQTmNpbFRiejM1cmxzQ0V3azM2YllhTzNZQQ?oc=5",
+                "link_resolved": "https://www.betahita.id/berita/12204/berharap-penyelamatan-gajah-pada-instruksi-presiden",
+                "published": "Sat, 18 Jul 2026 21:00:30 GMT",
+                "fetched_at": "2026-07-18T21:44:26.044726"
+            },
+            {
                 "title": "Kebijakan Konservasi Gajah Kemenhut Perkuat Posisi Indonesia di Kancah Global - MetroTVNews.com",
                 "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPXzctb3hxWmZ5SHhWOFgydHdGaUluM2ZieVFSbDNqV3luYnJGNFg3cUFaZ2RiZmFFOE1FWTJLcGN5ODNBTUZRR252cGVSMEJ3bkQtVV9MT3JxS1JsNXZYNS1XbG5tWU1ERGpKUzQ3TGhkZTVGQ3ZsRXJVZWRISUFranNQd0FBZnR5cGtVRFlZSHR5YUsydTg5dno0eEdRc0FFdkRLdWo0Y2lXQzRJUzVpWmo2LW5XMG5uSmd3?oc=5",
                 "link_resolved": "https://www.metrotvnews.com/read/NOlC9QyY-kebijakan-konservasi-gajah-kemenhut-perkuat-posisi-indonesia-di-kancah-global",
@@ -275,13 +282,6 @@
                 "link_resolved": "https://www.tempo.co/lingkungan/dua-tersangka-pembalakan-liar-di-hpt-sirih-sirih-ditetapkan-2276450",
                 "published": "Fri, 17 Jul 2026 07:03:21 GMT",
                 "fetched_at": "2026-07-17T07:55:32.190028"
-            },
-            {
-                "title": "Menteri Kehutanan Dorong Perdagangan Karbon untuk Restorasi Hutan - achmadnurhidayat.id",
-                "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ia3oxNlNkekZWU0QxLWhtMDlhNS1VQld1aWdTTlVLVGV0VjYxb1VjSUNReGVwSzRlZlRWaElxcnZ2cEhQTFhqSkpZZ0tGQ0VzSUNKMDJUNlNvRnFHeFZwdWxpeDZVUW14N0JQa0pUaWg5aDJPa0FCUTVKcw?oc=5",
-                "link_resolved": "https://achmadnurhidayat.id/menteri-kehutanan-dorong-perdagangan-karbon",
-                "published": "Fri, 17 Jul 2026 06:44:28 GMT",
-                "fetched_at": "2026-07-17T07:55:32.190008"
             }
         ],
         "Kementerian Kelautan dan Perikanan": [
@@ -3058,14 +3058,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-18T20:00:00.594990"
+        "fetched_at": "2026-07-18T21:44:24.974946"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-18T20:00:00.594990"
+        "fetched_at": "2026-07-18T21:44:24.974946"
     },
     "macro_stats": {
         "ntp": {
@@ -3073,63 +3073,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T20:00:00.594990"
+            "fetched_at": "2026-07-18T21:44:24.974946"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T20:00:00.594990"
+            "fetched_at": "2026-07-18T21:44:24.974946"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T20:00:00.594990"
+            "fetched_at": "2026-07-18T21:44:24.974946"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T20:00:00.594990"
+            "fetched_at": "2026-07-18T21:44:24.974946"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T20:00:00.594990"
+            "fetched_at": "2026-07-18T21:44:24.974946"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T20:00:00.594990"
+            "fetched_at": "2026-07-18T21:44:24.974946"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T20:00:00.594990"
+            "fetched_at": "2026-07-18T21:44:24.974946"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T20:00:00.594990"
+            "fetched_at": "2026-07-18T21:44:24.974946"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T20:00:00.594990"
+            "fetched_at": "2026-07-18T21:44:24.974946"
         }
     },
     "scrape_status": {
@@ -3138,5 +3138,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-07-18T20:00:00.594990"
+    "last_updated": "2026-07-18T21:44:24.974946"
 }
