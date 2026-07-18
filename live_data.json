@@ -286,6 +286,13 @@
         ],
         "Kementerian Kelautan dan Perikanan": [
             {
+                "title": "KKP Tindak Lanjuti Arahan Presiden, Siapkan Skema Penyaluran BBM Khusus bagi Kapal Nelayan 30-200 GT - AFU.id",
+                "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZVpULV9pY2JnYkxHQkxQNnU0cEtCeENpWkExTzY1enJVOHRtNElHZ0NfakE3V3F1MzQ5enJ3dWxHSmR6OW9zRjlaM3otV2YxcEQyOEJ3RjFPS3RhSGNGRTloMXBIWFFHRVJFVDAtTV84eDlKRzladnotbmVIWkZNMl9PQUw4M2NnU2tqVy1UZ1o2S2RCX2ZmMllZR0R6ZldjeVNVTWU2X0hoSzlaN0YzWm5Xcll4a1htSHNObWZpQQ?oc=5",
+                "link_resolved": "https://afu.id/nasional/kkp-tindak-lanjuti-arahan-presiden-siapkan-skema-penyaluran-bbm-khusus-bagi-kapal-nelayan-30200-gt",
+                "published": "Sat, 18 Jul 2026 15:14:04 GMT",
+                "fetched_at": "2026-07-18T16:46:38.610640"
+            },
+            {
                 "title": "Modernisasi Kapal dan Pelatihan Awak sebagai Jalan Nelayan Naik Kelas - Minews ID",
                 "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQ3EweEFyRTlaUUtWbTJYN2RORFh1OVZNUWZuWml6aGtPdm1FRURFUmh3NDZWcVEwVWlIY045M0VkeENJRzVXTVQyNGVkcHFVRFhlVWhMTHhBR1dyX2lyOWRmR3pYV012dnNMOXF2bmVPWHNjV0J5LUZseV9ST0ZnQVlyRDg4bHNSeUdxbVZyS1VwX3V6MUhBY3ZLS3ZJdw?oc=5",
                 "link_resolved": "https://minews.id/cuitan-mi/modernisasi-kapal-dan-pelatihan-awak-sebagai-jalan-nelayan-naik-kelas",
@@ -417,13 +424,6 @@
                 "link_resolved": "https://finance.detik.com/berita-ekonomi-bisnis/d-8578049/nelayan-dapat-harga-bbm-rp-15-000-liter-ini-syaratnya",
                 "published": "Fri, 17 Jul 2026 04:42:39 GMT",
                 "fetched_at": "2026-07-17T05:11:43.795514"
-            },
-            {
-                "title": "Kepri Gaspol Bangun Kampung Nelayan Merah Putih, Gubernur Ansar Usulkan Tambahan 18 Titik ke KKP - Batamnews",
-                "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZE9XdW4yNjVHaHBXTTRTT0l4Yl9ubzZUZ1c3WDFOQ2tvamRrMW43TXdzd0FxekdMU0x5N2RfOFJPMlU2MWh2Vmk2Z3VnbDB4Y2ZzSExJLURMbDYzNzhPaVZ1YWZUS0dLTm1ZUWRmWm12VHNPMWdPZUl6U0t6bG13enpaVUJFZkNfdmw0NWxmWkJyV3JLVFRuVVNlb3BBR2RpVzZZdW52NFZ1X0dmNC1iMlZNSHhPS0NvNHBCUTRITTcxenk2Q0laeXJyTGVtT3NPVTVXWVV6OA?oc=5",
-                "link_resolved": "https://www.batamnews.co.id/feed-128778-kepri-gaspol-bangun-kampung-nelayan-merah-putih-gubernur-ansar-usulkan-tambahan-18-titik-ke-kkp.html",
-                "published": "Fri, 17 Jul 2026 04:33:10 GMT",
-                "fetched_at": "2026-07-17T05:11:43.795525"
             }
         ],
         "Badan Karantina Indonesia": [
@@ -3058,14 +3058,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-18T15:47:01.413893"
+        "fetched_at": "2026-07-18T16:46:36.774825"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-18T15:47:01.413893"
+        "fetched_at": "2026-07-18T16:46:36.774825"
     },
     "macro_stats": {
         "ntp": {
@@ -3073,63 +3073,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T15:47:01.413893"
+            "fetched_at": "2026-07-18T16:46:36.774825"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T15:47:01.413893"
+            "fetched_at": "2026-07-18T16:46:36.774825"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T15:47:01.413893"
+            "fetched_at": "2026-07-18T16:46:36.774825"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T15:47:01.413893"
+            "fetched_at": "2026-07-18T16:46:36.774825"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T15:47:01.413893"
+            "fetched_at": "2026-07-18T16:46:36.774825"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T15:47:01.413893"
+            "fetched_at": "2026-07-18T16:46:36.774825"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T15:47:01.413893"
+            "fetched_at": "2026-07-18T16:46:36.774825"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T15:47:01.413893"
+            "fetched_at": "2026-07-18T16:46:36.774825"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T15:47:01.413893"
+            "fetched_at": "2026-07-18T16:46:36.774825"
         }
     },
     "scrape_status": {
@@ -3138,5 +3138,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-07-18T15:47:01.413893"
+    "last_updated": "2026-07-18T16:46:36.774825"
 }
