@@ -683,6 +683,13 @@
             },
             {
                 "title": "Bapanas Siapkan 997 Ribu Ton Beras Bantuan Pangan Tahap II untuk 33,24 Juta KPM - MetroTVNews.com",
+                "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVFhpRllfUUxSdnZ1T0Y2YjR2UXBJRjg4NUFOalhuSFEtZkNsaXE3aE85MGNNVkRVTnZJbzJlMEZUWmZsbVA1SDhUa0pRUVZjUUw4NGczUFZBSWw5YUwzNUV3dV9vYjAxdTJBRlAtTVFWN0N1NGpzSmhVRFdwZVVqSmtCbTJBNGFNUmlUVV93Skd3aFdFVzZFcDlTa3czVVZVdVJkalk1R0FLQXJpN3cyWkJnRm56dmM1NU9ITnl3?oc=5",
+                "link_resolved": "https://www.metrotvnews.com/read/b7WCmL6e-bapanas-siapkan-997-ribu-ton-beras-bantuan-pangan-tahap-ii-untuk-33-24-juta-kpm",
+                "published": "Thu, 16 Jul 2026 07:34:11 GMT",
+                "fetched_at": "2026-07-18T22:41:40.735175"
+            },
+            {
+                "title": "Bapanas Siapkan 997 Ribu Ton Beras Bantuan Pangan Tahap II untuk 33,24 Juta KPM - MetroTVNews.com",
                 "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPU2M4VEROUjlXc25pVUJ4dG42NzI4d2I2YkZnQWFWNHZGZFZGaUVSU1FtZGVfS0NGQzlrU2VvbW1tUUZuY0hZTTZsd1FsWGdZNUVWc005LTV1eEV4MjQ2dno3YW9IMkJEYjJaY0tDNGphamVkd2FzM1p5VHZvdUp6WjVPcHFtaUFpOFVfRFVYZXNveXF2OHBmSVE5QnhidFpvNTVjZ0JTNlVENmJQRVI3NW9McFlTdGNqcGI5eA?oc=5",
                 "link_resolved": "https://www.metrotvnews.com/read/b7WCmL6e-bapanas-siapkan-997-ribu-ton-beras-bantuan-pangan-tahap-ii-untuk-3324-juta-kpm",
                 "published": "Thu, 16 Jul 2026 07:34:11 GMT",
@@ -701,13 +708,6 @@
                 "link_resolved": "https://www.cnbcindonesia.com/news/20260716120917-4-751282/siap-siap-3324-juta-keluarga-dapat-beras-gratis-30-kg-mulai-agustus/amp",
                 "published": "Thu, 16 Jul 2026 05:13:49 GMT",
                 "fetched_at": "2026-07-16T07:18:01.821353"
-            },
-            {
-                "title": "Bapanas pastikan 997 ribu ton beras bantuan tahap dua siap disalurkan - Elshinta",
-                "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTGljV3BldmVoWGVNRkdISnZQblowc0Z2N240STdoNzR5SUdMSXRZdklzM2RLRG5wNWZxRkJmb01BSXVtR2pOUmNhcndPdm1UVWhhekVaZnlrNXJYTXg3dkdkY2tNQmtnRjhfMUp1NmZMSnUtY3Z1aHRkM1cyaHVBZDFnQXBzTm0zeVlxOVNEWWR0ZUdsVmlHMHB3QmI0LWp4bG9zaWN3VU9sSlZyZEN3alFKMTB6RXQy?oc=5",
-                "link_resolved": "https://elshinta.com/indeks/dalam-negeri/bapanas-pastikan-997-ribu-ton-beras-bantuan-tahap-dua-siap-disalurkan-170434",
-                "published": "Thu, 16 Jul 2026 03:50:38 GMT",
-                "fetched_at": "2026-07-16T09:59:57.704124"
             }
         ],
         "Perum Bulog": [
@@ -3058,14 +3058,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-18T21:44:24.974946"
+        "fetched_at": "2026-07-18T22:41:38.088530"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-18T21:44:24.974946"
+        "fetched_at": "2026-07-18T22:41:38.088530"
     },
     "macro_stats": {
         "ntp": {
@@ -3073,63 +3073,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T21:44:24.974946"
+            "fetched_at": "2026-07-18T22:41:38.088530"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T21:44:24.974946"
+            "fetched_at": "2026-07-18T22:41:38.088530"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T21:44:24.974946"
+            "fetched_at": "2026-07-18T22:41:38.088530"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T21:44:24.974946"
+            "fetched_at": "2026-07-18T22:41:38.088530"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T21:44:24.974946"
+            "fetched_at": "2026-07-18T22:41:38.088530"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T21:44:24.974946"
+            "fetched_at": "2026-07-18T22:41:38.088530"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T21:44:24.974946"
+            "fetched_at": "2026-07-18T22:41:38.088530"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T21:44:24.974946"
+            "fetched_at": "2026-07-18T22:41:38.088530"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-18T21:44:24.974946"
+            "fetched_at": "2026-07-18T22:41:38.088530"
         }
     },
     "scrape_status": {
@@ -3138,5 +3138,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-07-18T21:44:24.974946"
+    "last_updated": "2026-07-18T22:41:38.088530"
 }
