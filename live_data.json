@@ -293,6 +293,13 @@
                 "fetched_at": "2026-07-19T18:54:11.209117"
             },
             {
+                "title": "KKP RI dan Pemprov Kepri Perkuat Penataan Ruang Laut, Pacu Potensi Ekonomi Biru - AFU.id",
+                "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOUV3VjlWZEVLN0o2ZWN1ZmE0c1FpYVdPVG5va25jMnRvdGFyZHk5cE5MU3Z1S0dwLS1JOWkzZGE1NTVUWmVDdm0tZkFTMzRZUW01MXhJNjliZ1JvYVpmU0R4eUpRbU1zMW1lWTd3cEZhaG9lR2pkNlI1M1gyS1pYWHMzYkNJWGJXbWRvSHdWSlRqdnc2aVJTZkphNzFOU0hCZjF0ckRR?oc=5",
+                "link_resolved": "https://afu.id/nusantara/kkp-ri-dan-pemprov-kepri-perkuat-penataan-ruang-laut-pacu-potensi-ekonomi-biru",
+                "published": "Sun, 19 Jul 2026 15:44:31 GMT",
+                "fetched_at": "2026-07-19T20:04:06.632245"
+            },
+            {
                 "title": "Illegal Fishing Masih Rawan, KKP RI Bangun 10 Kapal Pengawas dan Perluas Dermaga Batam - AFU.id",
                 "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWTdXd1FrUmNIZFFBVzlWNWhaVW1WNF82XzZMY3VLTzQ4eWE0TzZYYWhRZ2hNNV9sWFJaQ0FEMFRMeE1PazU0d0lKdFdnbHRFSVNJSU02ZkM0bm5aM1gxdGxfMUtjSHN4eDltVVhsWWNsYW5DNWVrQjBycWtFZTZLZUM1bUhpeEEtTU1BZGE5aU5kcTVVZzIzOTdQUV91cl8wNVo5eFJnOVlRSU1rY3dadDJWUllNUQ?oc=5",
                 "link_resolved": "https://afu.id/hukum-kriminal/illegal-fishing-masih-rawan-kkp-ri-bangun-10-kapal-pengawas-dan-perluas-dermaga-batam",
@@ -417,13 +424,6 @@
                 "link_resolved": "https://banten.antaranews.com/berita/385907/pemkab-pandeglang-usulkan-empat-kampung-nelayan-merah-putih-ke-kkp",
                 "published": "Fri, 17 Jul 2026 11:15:00 GMT",
                 "fetched_at": "2026-07-17T15:07:17.476100"
-            },
-            {
-                "title": "KKP Siapkan Skema BBM Solar Rp15 Ribu bagi Kapal Nelayan di Atas 30 GT - CNN Indonesia",
-                "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZ2JtQ2U2aEtOeEVkWEdmblp4SmxSRl9HS1F4enJRczdpOTFtbnlzdHduY0J3TWZzSDhfcGNCNnpxRUI3ZTJhclpRZU9xRWVocExPcEFVWUNUU0libGp5VkhIRXNremt6Q0ZZaWZaVE40WXdxSFMyRDdVcXc3Slgzdm9mMmRnLUhSbFdMZ0ZXenVVZWJscHREQU9oUUZlLXZQcFA2ZXY3b3hZb09OVFBkdWFDOTNLN01CVllBdi1vemZCU2tmaFUteTJPTy1hZ9IB0wFBVV95cUxNMU1ES01xZi1xaXEzTFRmQjdIU08wMEstbVo2bm5XZXh2bkUxaTJwOUVhRVZnTkdpNnRfdmNNTUpCMTY4UjZOOERjcy1XZVZ1a2lZQW1RZVZWQzJxdHZ6TkJuMkc4d0oxZW1pekFvNnZTR01ScGFjejBzQlUtNWhpNG1BMWdCSGwxWlkzNnc3T1Z5ZmVON0IxSE1KSnZOWUtQUEUtVVhSamxSejlMbThvb2FrWTJlTHBnbkZ0empVZ0tZbXhSNmpzTWRTVk5wNHFOc2Z3?oc=5",
-                "link_resolved": "https://www.cnnindonesia.com/ekonomi/20260717133110-85-1381843/kkp-siapkan-skema-bbm-solar-rp15-ribu-bagi-kapal-nelayan-di-atas-30-gt",
-                "published": "Fri, 17 Jul 2026 09:35:53 GMT",
-                "fetched_at": "2026-07-17T09:50:28.509761"
             }
         ],
         "Badan Karantina Indonesia": [
@@ -3044,14 +3044,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-19T18:54:09.375940"
+        "fetched_at": "2026-07-19T20:04:05.037902"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-19T18:54:09.375940"
+        "fetched_at": "2026-07-19T20:04:05.037902"
     },
     "macro_stats": {
         "ntp": {
@@ -3059,63 +3059,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-19T18:54:09.375940"
+            "fetched_at": "2026-07-19T20:04:05.037902"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-19T18:54:09.375940"
+            "fetched_at": "2026-07-19T20:04:05.037902"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-19T18:54:09.375940"
+            "fetched_at": "2026-07-19T20:04:05.037902"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-19T18:54:09.375940"
+            "fetched_at": "2026-07-19T20:04:05.037902"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-19T18:54:09.375940"
+            "fetched_at": "2026-07-19T20:04:05.037902"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-19T18:54:09.375940"
+            "fetched_at": "2026-07-19T20:04:05.037902"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-19T18:54:09.375940"
+            "fetched_at": "2026-07-19T20:04:05.037902"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-19T18:54:09.375940"
+            "fetched_at": "2026-07-19T20:04:05.037902"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-19T18:54:09.375940"
+            "fetched_at": "2026-07-19T20:04:05.037902"
         }
     },
     "scrape_status": {
@@ -3124,5 +3124,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-07-19T18:54:09.375940"
+    "last_updated": "2026-07-19T20:04:05.037902"
 }
