@@ -2,6 +2,13 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "[HOAKS] Link Klaim Bantuan Pupuk Subsidi Kementan - Tribrata News",
+                "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbTNFVTlTMTNQeXZyaHh4X2ctLS1VQkF3QWl3Rk9KRVdDNWtGQkM3b09aZDI3Ym9PSmE2OFlxYks2dGNmT0VEQkZnanlNdDlZWVA4VWp1X3dtVG9MN3k3d2FDcnJUS1M4OGJCQWtXNlVFajFMTmlpeUI3UHpCTGtTMFV2WkNBaS0wQ0VYb1ZQSzlwOGZwMUx5ZXJzdWhkUkE2bXBBVGJYVnA?oc=5",
+                "link_resolved": "https://tribratanews.polri.go.id/blog/none-22/post/hoaks-link-klaim-bantuan-pupuk-subsidi-kementan-103814",
+                "published": "Mon, 20 Jul 2026 15:00:00 GMT",
+                "fetched_at": "2026-07-20T17:29:54.619177"
+            },
+            {
                 "title": "Kementan Minta Pemda Petakan Wilayah Rawan El Nino - Media Center Riau",
                 "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVWlkQmZPSEM0MkZXbmF6Ukh5ZWpKeDdVWkdBeTN2R0R4LVN5VlN0NHNiZFpkc2dpTDRxOXAyOS1ycFpxS1ZxNG9XVUlVazE2Slc1Ulc1MTN3aEswal9rVWRzLUJHaTE1bDdDcWotM21Lbnc5SFpGaGN0UjNwM0hEOExiU1RCdW9VZ2l0VC1QVQ?oc=5",
                 "link_resolved": "https://mediacenter.riau.go.id/read/kementan-minta-pemda-petakan-wilayah-rawan-el-nino",
@@ -133,13 +140,6 @@
                 "link_resolved": "https://www.komdigi.go.id/berita/berita-hoaks/detail/hoaks-tautan-untuk-klaim-bantuan-pupuk-subsidi-kementan-2026",
                 "published": "Sun, 19 Jul 2026 23:20:56 GMT",
                 "fetched_at": "2026-07-19T23:50:17.980802"
-            },
-            {
-                "title": "Siasati Kekeringan, Bupati Subang Siapkan Berbagai Langkah Antisipasi Untuk Petani - Pemerintah Kabupaten Subang",
-                "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZDFKNkxnNGQ1Tkg0aGN2MUh3SGpOQXpnR1NKY2dTYXp3dEhUNUgtSXprNWpZS0xCVnFjZzRTVFRWNWMtYUwwU0doX1JkM3g2d3c4WUg0UnB5NTFQNFlDMDBCOURpbzQxT0RqZHNlR0RIUF9vMXFfMk9PZjNFQUZ5WFR3bGxJZ3h4djVWWmdwdzhNNGQ4NE1MdWtpSjBZWWJzZlZ0WUZYY0lZSkUyT1lIUTgwM3N1Wi1uSUdRTnlEOWVJWG8t?oc=5",
-                "link_resolved": "https://subang.go.id/public/index.php/berita/siasati-kekeringan-bupati-subang-siapkan-berbagai-langkah-antisipasi-untuk-petani",
-                "published": "Sun, 19 Jul 2026 22:51:04 GMT",
-                "fetched_at": "2026-07-19T23:50:17.980819"
             }
         ],
         "Kementerian Kehutanan": [
@@ -570,11 +570,25 @@
         ],
         "Badan Pangan Nasional": [
             {
+                "title": "Prabowo: Indonesia Swasembada 8 Komoditas Pangan - MetroTVNews.com",
+                "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZm95WUtvSHp4dXBoaUZ2RExjdE9hdExuRXlkaV84MXE1TzFON3JCTlloZlBsT3MzUU5pOVd4ejNUVVhJd1k0SV92cjlqckJmWmVWUGo1N3F3SE9QWGlrLW0wckVXWXAtQlk2dWxrbWFXcWlhM0xYMW5DMm10NzZMQ0owZnZHNk1FY2h3UnRaQkd0cTg?oc=5",
+                "link_resolved": "https://www.metrotvnews.com/read/bD2CwzRZ-prabowo-indonesia-swasembada-8-komoditas-pangan",
+                "published": "Mon, 20 Jul 2026 16:49:20 GMT",
+                "fetched_at": "2026-07-20T17:29:56.810736"
+            },
+            {
                 "title": "Prabowo sebut Indonesia telah capai swasembada 8 komoditas pangan - ANTARA News Megapolitan",
                 "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeVBRX2t0c1FLZDBhX2JpVjExMTZCV0tjeXJXa2VDdDlBRHg1cWRTSWJmUFRReFlMc3BtWnVpN2VtQ20xaWNBYmJCVjhubmNJeW5qTlpnQXJ3cTBZeTI3NXRtZ1dJUHZNeFlZMUxNeGFEWTE1aGtzWTZDOGg3UjBoaHdhS1ZPb3dNaVctRVVrUzlmMEw0ck0wYWliZnR4WXR5M09rbDJFb2o1VzBVZTBpclZLaljSAboBQVVfeXFMTkJJNWlaRkJWaUwxUFV5ZXNzMnNSQ1ZGaHV5RV9rd1h1WUNTcVJqSXlVM2pkallVWS0xOHQ0OG1fNWNxTlJUdlU1OEQwbVNJRElBRVJHSkEwZXlJWWVDRE1QNU96U3A1YTJzdTBlQkhCdUJzTGRLWmVoSXh1U3VUY3A3WUFjNmpWSF9PcWhQZGQ2aWEyU25jdW5mZFRHSjI0VThJMFBtUWVHYzMzYWJqdXk1YmNqbEkyOVpn?oc=5",
                 "link_resolved": "https://megapolitan.antaranews.com/berita/541175/prabowo-sebut-indonesia-telah-capai-swasembada-8-komoditas-pangan",
                 "published": "Mon, 20 Jul 2026 14:44:14 GMT",
                 "fetched_at": "2026-07-20T15:03:49.515328"
+            },
+            {
+                "title": "Prabowo sebut Indonesia telah capai swasembada 8 komoditas pangan - ANTARA News Megapolitan",
+                "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeVBRX2t0c1FLZDBhX2JpVjExMTZCV0tjeXJXa2VDdDlBRHg1cWRTSWJmUFRReFlMc3BtWnVpN2VtQ20xaWNBYmJCVjhubmNJeW5qTlpnQXJ3cTBZeTI3NXRtZ1dJUHZNeFlZMUxNeGFEWTE1aGtzWTZDOGg3UjBoaHdhS1ZPb3dNaVctRVVrUzlmMEw0ck0wYWliZnR4WXR5M09rbDJFb2o1VzBVZTBpclZLalg?oc=5",
+                "link_resolved": "https://megapolitan.antaranews.com/berita/541175/prabowo-sebut-indonesia-telah-capai-swasembada-8-komoditas-pangan",
+                "published": "Mon, 20 Jul 2026 14:44:14 GMT",
+                "fetched_at": "2026-07-20T17:29:56.810724"
             },
             {
                 "title": "Wagub Jihan Dukung Banpang Intervensi Pengendalian Kerawanan Pangan Bapanas, Pengungkit Kesejahteraan Keluarga - Heta News",
@@ -694,20 +708,6 @@
                 "link_resolved": "https://nasional.kontan.co.id/news/bapanas-klaim-stok-beras-aman-indonesia-surplus-beras-3-juta-ton",
                 "published": "Fri, 17 Jul 2026 06:18:50 GMT",
                 "fetched_at": "2026-07-17T07:55:33.975685"
-            },
-            {
-                "title": "Tekan Kerawanan Pangan, Bapanas Salurkan 11.500 Paket Bantuan Pangan - kontan.co.id",
-                "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMm9NblZLeGd6YWk3VmE0cGRaMHNoZGRFMlFybGlVVkhrVnY0UmRCUThlOE5oY096cHZpRktDNGplUVNCdWUyTHZTY1QxMXYtWjR2X3YyRmRJeEhhMkVLRlR4cDNJaWdlUVJYX3p6QjFQLUVhXzd6UHJNRGozSkM2Smd1VGxUSE1XTjlSbDVFRXAtUDFMaERlVGxDdzlUTU50aWZn0gGcAUFVX3lxTFBrRFB0UVRnZmpRUWVtZzNSVF91MmZTczNTTU9tVnBwTnBMZnRfanRPMlNfQ1VVekIzM29vc0R2TmdxVlNfUzJISmZfSVR3SndXM2xyUTU4V1VMOXExTXAtcjduVnp0cEpuYlgwd1ZtVGJaNGZTNUd5amJCUGtNbThLTnZBSkRfLTJFQU9Da212UzRHUHlweW5tVHFXag?oc=5",
-                "link_resolved": "https://nasional.kontan.co.id/news/tekan-kerawanan-pangan-bapanas-salurkan-11500-paket-bantuan-pangan",
-                "published": "Fri, 17 Jul 2026 06:12:30 GMT",
-                "fetched_at": "2026-07-17T07:55:33.975698"
-            },
-            {
-                "title": "Bapanas: Rata-rata harga gabah petani capai Rp7.000/kg - ANTARA News Sultra",
-                "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTDlLa29KR3VZRTE2UUFYRTFRdHJZSnh5SkdxbXRUSDZKTTA1RTZxaWY0eEhMMWJkNV81VnRqRmFpOWxRUDhpa0pnM0EwMy16R3gtQS1ZVi0xd1ZDYUkwaTRLR09kWGt4UjdlNlBiTmtEcXdoRVZEbHNNZEFQT3N6bDduT1hGMWZ3TTFvSU5UMkwzc0otNGRKcU1Saw?oc=5",
-                "link_resolved": "https://sultra.antaranews.com/berita/537280/bapanas-rata-rata-harga-gabah-petani-capai-rp7000kg",
-                "published": "Fri, 17 Jul 2026 05:00:57 GMT",
-                "fetched_at": "2026-07-17T05:11:44.932692"
             }
         ],
         "Perum Bulog": [
@@ -1799,6 +1799,13 @@
             }
         ],
         "Darori Wonodipuro": [
+            {
+                "title": "Darori Ingatkan Ancaman Hama dari Lalu Lintas Komoditas, Barantin Harus Makin Kuat - Gerindra",
+                "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWXVrYVZ2WWFFaFk4Y3VKLUc1QmtnWnh5S1p6M3ZUbnRuc2pCOV9sVWFFWjQxbllRNXB4OWljaEFSWE5yWC1mM0pweVhPTy1JOTY5RzFPRWVJSm1QSGdIMWswa2lOaWtvWTB1UWcydExaRVktWW5LRjYwNlotRkxib2g2aERkWWpBTnF3NVVjU0RROXY4X3ZhTl9wVDY1N0tjMDRPRHRBNkg5TVBrLVhPUGRqWQ?oc=5",
+                "link_resolved": "https://gerindra.id/2026/07/20/darori-ingatkan-ancaman-hama-dari-lalu-lintas-komoditas-barantin-harus-makin-kuat/",
+                "published": "Mon, 20 Jul 2026 15:26:03 GMT",
+                "fetched_at": "2026-07-20T17:30:14.747885"
+            },
             {
                 "title": "Darori Tegaskan Penguatan Karantina untuk Cegah Masuknya Hama dan Penyakit - fraksi gerindra dpr-ri",
                 "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY0pPaTlOSWJiZG9KZXJUbmo5cjJXTzdpLWpncng5TkMxWmh3R25CN1hhMXpyVXZnSWtEMkV3b25lRUlsRldrcWRjUmY1elVPOEFuZXlaRWZXc09aa3Fld0RxTXhUcWZsbE82bEp2c25JcEhtTUMwRlk1MnZzbXlEZUQ3YUpLenZCakhIQm9YamZ0cm4wMi1FTkZJMVFyYURTbVk4c0RXc2k?oc=5",
@@ -3123,14 +3130,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-20T15:03:46.524567"
+        "fetched_at": "2026-07-20T17:29:54.012859"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-20T15:03:46.524567"
+        "fetched_at": "2026-07-20T17:29:54.012859"
     },
     "macro_stats": {
         "ntp": {
@@ -3138,63 +3145,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-20T15:03:46.524567"
+            "fetched_at": "2026-07-20T17:29:54.012859"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-20T15:03:46.524567"
+            "fetched_at": "2026-07-20T17:29:54.012859"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-20T15:03:46.524567"
+            "fetched_at": "2026-07-20T17:29:54.012859"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-20T15:03:46.524567"
+            "fetched_at": "2026-07-20T17:29:54.012859"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-20T15:03:46.524567"
+            "fetched_at": "2026-07-20T17:29:54.012859"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-20T15:03:46.524567"
+            "fetched_at": "2026-07-20T17:29:54.012859"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-20T15:03:46.524567"
+            "fetched_at": "2026-07-20T17:29:54.012859"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-20T15:03:46.524567"
+            "fetched_at": "2026-07-20T17:29:54.012859"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-20T15:03:46.524567"
+            "fetched_at": "2026-07-20T17:29:54.012859"
         }
     },
     "scrape_status": {
@@ -3203,5 +3210,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-07-20T15:03:46.524567"
+    "last_updated": "2026-07-20T17:29:54.012859"
 }
