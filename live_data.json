@@ -9,6 +9,13 @@
                 "fetched_at": "2026-07-20T17:29:54.619177"
             },
             {
+                "title": "Kementan dan Pemprov Sulsel percepat implementasi pertanian modern AAS - ANTARA News Makassar",
+                "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc0QwTjhBeDd4OTE3NDRJaVFOWmlwbUhTaWtEbzF6NDFvZ0ExMG5tMUFMbTZ6M1dtNFZ0eVZqTVpRV1ljdUhqNF9qU2FWVmxOandXSWtrLWllSUN1clRSWm9UODV6MDZBWE03VDlPV0JTblpSdmxFeDFtT2lMUG9KS1hxOHg0dVJPS1hSMmx4OVJLN3BJSEFTX3lRV2MxRGlQM1ptYUJJQURibkxpRld3YThmY3ViUnc?oc=5",
+                "link_resolved": "https://makassar.antaranews.com/berita/634564/kementan-dan-pemprov-sulsel-percepat-implementasi-pertanian-modern-aas",
+                "published": "Mon, 20 Jul 2026 13:33:37 GMT",
+                "fetched_at": "2026-07-20T19:27:57.597207"
+            },
+            {
                 "title": "Kementan Minta Pemda Petakan Wilayah Rawan El Nino - Media Center Riau",
                 "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVWlkQmZPSEM0MkZXbmF6Ukh5ZWpKeDdVWkdBeTN2R0R4LVN5VlN0NHNiZFpkc2dpTDRxOXAyOS1ycFpxS1ZxNG9XVUlVazE2Slc1Ulc1MTN3aEswal9rVWRzLUJHaTE1bDdDcWotM21Lbnc5SFpGaGN0UjNwM0hEOExiU1RCdW9VZ2l0VC1QVQ?oc=5",
                 "link_resolved": "https://mediacenter.riau.go.id/read/kementan-minta-pemda-petakan-wilayah-rawan-el-nino",
@@ -133,13 +140,6 @@
                 "link_resolved": "https://tabloidsinartani.com/detail//indeks/pangan/27729-Kementan-Kerahkan-Petani-hingga-Brigade-Pangan-Banten-Mulai-Tanam-Serentak",
                 "published": "Sun, 19 Jul 2026 23:33:00 GMT",
                 "fetched_at": "2026-07-19T23:50:17.980823"
-            },
-            {
-                "title": "Kementerian Komunikasi dan Digital - Kementerian Komunikasi dan Digital",
-                "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOGdWU014enNnSk5vLUNGMmFUWUxza1c1SWVPNjRSREU0b3gxaU1TdGEzaWZzQ3JyYVEzd0IxUk9FZmlrOTlGeTJVcE9UX2R1cTJkQklCUlRmRE45UUFoR1lMNGZ4NjNCdkdPdzBPaUNYUTBETHZ1RU9lMENJWTZTRlYwRUFVUmxjMURnLW53S3JreXhaWEFyWEg2dDF0OVpJekNuNWNRTS02NDUzSlRWRTlTOA?oc=5",
-                "link_resolved": "https://www.komdigi.go.id/berita/berita-hoaks/detail/hoaks-tautan-untuk-klaim-bantuan-pupuk-subsidi-kementan-2026",
-                "published": "Sun, 19 Jul 2026 23:20:56 GMT",
-                "fetched_at": "2026-07-19T23:50:17.980802"
             }
         ],
         "Kementerian Kehutanan": [
@@ -3130,14 +3130,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-20T17:29:54.012859"
+        "fetched_at": "2026-07-20T19:27:56.938213"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-20T17:29:54.012859"
+        "fetched_at": "2026-07-20T19:27:56.938213"
     },
     "macro_stats": {
         "ntp": {
@@ -3145,63 +3145,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-20T17:29:54.012859"
+            "fetched_at": "2026-07-20T19:27:56.938213"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-20T17:29:54.012859"
+            "fetched_at": "2026-07-20T19:27:56.938213"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-20T17:29:54.012859"
+            "fetched_at": "2026-07-20T19:27:56.938213"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-20T17:29:54.012859"
+            "fetched_at": "2026-07-20T19:27:56.938213"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-20T17:29:54.012859"
+            "fetched_at": "2026-07-20T19:27:56.938213"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-20T17:29:54.012859"
+            "fetched_at": "2026-07-20T19:27:56.938213"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-20T17:29:54.012859"
+            "fetched_at": "2026-07-20T19:27:56.938213"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-20T17:29:54.012859"
+            "fetched_at": "2026-07-20T19:27:56.938213"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-20T17:29:54.012859"
+            "fetched_at": "2026-07-20T19:27:56.938213"
         }
     },
     "scrape_status": {
@@ -3210,5 +3210,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-07-20T17:29:54.012859"
+    "last_updated": "2026-07-20T19:27:56.938213"
 }
