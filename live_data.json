@@ -58,6 +58,13 @@
                 "fetched_at": "2026-07-24T10:56:00.111728"
             },
             {
+                "title": "Kementerian Pertanian dan Lingkungan Hidup akan melatih lebih dari 550.000 petani digital. - Vietnam.vn",
+                "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQY190dGFFYzVmUG92ZktldmcyWFFHQmJGN243MDBpWS1ab2VuRDBhZk1NRDh1T3MteWlKV2pseGQ5bHp1MkpCbWVkeU1ITThsNlZ5Vk5XbW15WU5kOFkzQ2NNNnM0dTlVMzg5eXhTdS0xMEdVanVGUlg5cVBOLUgxODRHOWxtd0dSOTlTR3hDTEZiaU1l?oc=5",
+                "link_resolved": "https://www.vietnam.vn/id/bo-nong-nghiep-va-moi-truong-se-dao-tao-tren-550-000-nong-dan-so",
+                "published": "Fri, 24 Jul 2026 09:56:27 GMT",
+                "fetched_at": "2026-07-24T20:12:42.012614"
+            },
+            {
                 "title": "Program UPLAND Dinilai Sukses, Garut Jadi Percontohan Pengembangan Kentang Nasional - Suara Pemerintah",
                 "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWXBlY2U3c21xNEc1RXcwZ2x1VWZpT2VWanNTVVlhMWdVbnpJR0tWQ1BocnNYLU1vSWtsVktRaVMwOHBzS0ZCUGZXNXJCeVh5ZWtLVEFFcHRhZ0NqaE9CektJV2pLT1FDY0ZtUUh6V2ZSUkZWdGpoU1dwbzVVazgwdGwzZWQwQVFZb0RqamVpSVJZUExhMkNWdTJ4ZDhjMllpYk5BbjFDa1NyOEdiTG41Mm05YUV6OEFiQUE?oc=5",
                 "link_resolved": "https://suarapemerintah.id/2026/07/program-upland-dinilai-sukses-garut-jadi-percontohan-pengembangan-kentang-nasional/",
@@ -133,13 +140,6 @@
                 "link_resolved": "https://bengkulu.antaranews.com/berita/474643/tambah-produksi-pangan-bengkulu-tengah-usulkan-sawah-seluas-200-ha",
                 "published": "Thu, 23 Jul 2026 10:31:32 GMT",
                 "fetched_at": "2026-07-23T11:02:22.108516"
-            },
-            {
-                "title": "Kejar Target Presiden, Sukabumi Ubah Cara Bertani: Dari Sawah Konvensional ke Pertanian Modern - Jurnal Sukabumi",
-                "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNT0lZN0VQWU8tY0RteWx2SW5DRngzQUNMZ004RF9GMG9pYjNwWERJWGwycDFaWVlkYlJYYTBlS0RseDlWY0NyVkRnMVhLeGpBbkFCZjZnYWJ2VXpjd1dGc1BMaTljM2pvM295c0tKM0FDRmk2UWRRVTUtYXZqdVNXdzZZbnhvdTVrZ0xKaUdkWjBqSUFjaXJ4YkJtUlg0akRUS2dRQWxFMDB3bGxQSnEwejZkYTJ1dDJZT092QnFKN05nTHdLUi1YTGx6OA?oc=5",
-                "link_resolved": "https://jurnalsukabumi.com/2026/07/23/kejar-target-presiden-sukabumi-ubah-cara-bertani-dari-sawah-konvensional-ke-pertanian-modern/",
-                "published": "Thu, 23 Jul 2026 08:50:00 GMT",
-                "fetched_at": "2026-07-23T11:02:22.108514"
             }
         ],
         "Kementerian Kehutanan": [
@@ -3298,14 +3298,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-24T18:12:32.947161"
+        "fetched_at": "2026-07-24T20:12:41.417663"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-24T18:12:32.947161"
+        "fetched_at": "2026-07-24T20:12:41.417663"
     },
     "macro_stats": {
         "ntp": {
@@ -3313,63 +3313,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-24T18:12:32.947161"
+            "fetched_at": "2026-07-24T20:12:41.417663"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-24T18:12:32.947161"
+            "fetched_at": "2026-07-24T20:12:41.417663"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-24T18:12:32.947161"
+            "fetched_at": "2026-07-24T20:12:41.417663"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-24T18:12:32.947161"
+            "fetched_at": "2026-07-24T20:12:41.417663"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-24T18:12:32.947161"
+            "fetched_at": "2026-07-24T20:12:41.417663"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-24T18:12:32.947161"
+            "fetched_at": "2026-07-24T20:12:41.417663"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-24T18:12:32.947161"
+            "fetched_at": "2026-07-24T20:12:41.417663"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-24T18:12:32.947161"
+            "fetched_at": "2026-07-24T20:12:41.417663"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-24T18:12:32.947161"
+            "fetched_at": "2026-07-24T20:12:41.417663"
         }
     },
     "scrape_status": {
@@ -3378,5 +3378,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-07-24T18:12:32.947161"
+    "last_updated": "2026-07-24T20:12:41.417663"
 }
