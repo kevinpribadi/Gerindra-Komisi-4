@@ -293,6 +293,13 @@
                 "fetched_at": "2026-07-25T17:03:17.749739"
             },
             {
+                "title": "Ekspor Perikanan ke Tiongkok Raup USD1,2 Miliar, KKP RI Perketat Jaminan Mutu Produk - AFU.id",
+                "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQnBlUXdpdUdSSVF1QlI3S1o3X2JKaHFoblpBLXRRQVQxTGFqU2V2Zk1Iam94ZjdBTFpjR1FrWUpJTDlXY2doSTY3Q3FHY1JXZmdleVJXV2U4Qmk0UEZrNnpHdjNkMUluTkpkUGVta2JfQ2tvRTZUM1JVY19vT1FGSkEwc2ZzSWRsWHRpQUttVWNueEpiOEFkZFhrR3R0ckE2OTJ5bWhzekQ?oc=5",
+                "link_resolved": "https://afu.id/ekonomi/ekspor-perikanan-ke-tiongkok-raup-usd12-miliar-kkp-ri-perketat-jaminan-mutu-produk",
+                "published": "Sat, 25 Jul 2026 15:01:32 GMT",
+                "fetched_at": "2026-07-25T21:45:32.988907"
+            },
+            {
                 "title": "KKP Siapkan Roadmap Ekonomi Biru Indonesia, Ini 5 Langkah Strategisnya - MetroTVNews.com",
                 "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYmNMNnNrcHJlTkEyckxSdHlVUlBsNWRwdlNBWnJQeERadEpKdWJjaVJ1MUdzWXBVWUYzclFZTUpoYmExdFlHRTVnc01TMklhV09vaDk0MkZiZ09HcUtlN2ZCa2pRcVVkV21zVFY3TGJDRUp0bElUYWZQMVlHZ3VJdFFHTTc5dlprVnFtUnJwSkU3SHd3Rmp5SDZWTHNXR1ZINU9fcHBtTTl4ZmRic1JNWA?oc=5",
                 "link_resolved": "https://www.metrotvnews.com/play/bzGCel2l-kkp-siapkan-roadmap-ekonomi-biru-indonesia-ini-5-langkah-strategisnya",
@@ -417,13 +424,6 @@
                 "link_resolved": "https://gorontalo.antaranews.com/berita/415395/mendiktisaintek-penguatan-sdm-kunci-wujudkan-ri-pusat-maritim-dunia",
                 "published": "Thu, 23 Jul 2026 11:35:33 GMT",
                 "fetched_at": "2026-07-24T02:51:59.537375"
-            },
-            {
-                "title": "Kementerian Kelautan dan Perikanan Buka Lowongan Magang Nasional, Ada 1.000 Kuota! - detikcom",
-                "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPa21ndmd2WHVpS2kzUy14Sjl0V091SXRNckRMYWo1Skx5ZHJXVlJaaVlQdUFDcFphSEs1UWNnWW1tM3g2YXBuWHZwRlluaVdJemhfNEZYbnNGVXJOMEVFbmJvd3RDS0pvSGg2aGt1ZGZ5RFJMY21PSDFVdXlBN1FBckpheE90bTVPdzk2RjRqR1Bpb2dkaHdCRkZ3eFJBLUtVamhYQ3pvTGE3OFp2MzhNa2Q2VURIam9ELXg5dTExTTJVZHhCb2fSAcsBQVVfeXFMTi1keURTMVNpNktManVUWVUzV0wxc1VpS2NYS0w2end5a1RXTzJGdnVyVXljc3dodnBOZDJPY2ZKRGF2U0VPeTYza3dGbmFtajV0ck9rNWRlTXFDTHNLYi1BRk00dEhxYVBhaWFnR0ZyX3BRSGZBaE1uUktiVl95RnBLYXBiUGVHZG94WjRhMi1kWEZPeFlaMXRJWHJxTXZobFkyOE5ZM2N2MTJCQWdQU2ZPT1VaOWVhTWxsR0tBVjI0MTZSUURkVUROMlE?oc=5",
-                "link_resolved": "https://www.detik.com/edu/detikpedia/d-8584990/kementerian-kelautan-dan-perikanan-buka-lowongan-magang-nasional-ada-1-000-kuota",
-                "published": "Thu, 23 Jul 2026 10:45:01 GMT",
-                "fetched_at": "2026-07-23T11:02:23.255385"
             }
         ],
         "Badan Karantina Indonesia": [
@@ -3310,14 +3310,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-25T20:08:01.912164"
+        "fetched_at": "2026-07-25T21:45:31.424697"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-25T20:08:01.912164"
+        "fetched_at": "2026-07-25T21:45:31.424697"
     },
     "macro_stats": {
         "ntp": {
@@ -3325,63 +3325,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-25T20:08:01.912164"
+            "fetched_at": "2026-07-25T21:45:31.424697"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-25T20:08:01.912164"
+            "fetched_at": "2026-07-25T21:45:31.424697"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-25T20:08:01.912164"
+            "fetched_at": "2026-07-25T21:45:31.424697"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-25T20:08:01.912164"
+            "fetched_at": "2026-07-25T21:45:31.424697"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-25T20:08:01.912164"
+            "fetched_at": "2026-07-25T21:45:31.424697"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-25T20:08:01.912164"
+            "fetched_at": "2026-07-25T21:45:31.424697"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-25T20:08:01.912164"
+            "fetched_at": "2026-07-25T21:45:31.424697"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-25T20:08:01.912164"
+            "fetched_at": "2026-07-25T21:45:31.424697"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-25T20:08:01.912164"
+            "fetched_at": "2026-07-25T21:45:31.424697"
         }
     },
     "scrape_status": {
@@ -3390,5 +3390,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-07-25T20:08:01.912164"
+    "last_updated": "2026-07-25T21:45:31.424697"
 }
