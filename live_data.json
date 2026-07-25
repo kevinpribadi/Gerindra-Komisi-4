@@ -719,6 +719,13 @@
                 "fetched_at": "2026-07-25T14:56:01.814319"
             },
             {
+                "title": "Bulog Sumut Jual Beras SPHP di Depan Gudang dan Kantor - Seputar Sumut",
+                "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWlhHMUhvRmJROElhMHpKSDdHS2tKSjAtd0VBUndxRXhlTHlKdGJRYWNGalZXYTVCU2tmU3BGVmVKWTU2R0F5YkFVeDEzRmNpSXMwQ21RemdKQzQ3cDAtR0d6amsteThhakNvd0xWSWp4Y3FWb1BiTktSaGRhTzBCbFU1R3UyNjFmWUxrWXp2MWpUNEo0TkE?oc=5",
+                "link_resolved": "https://www.seputarsumut.com/berita/bulog-sumut-jual-beras-sphp-di-depan-gudang-dan-kantor/",
+                "published": "Sat, 25 Jul 2026 14:00:56 GMT",
+                "fetched_at": "2026-07-25T20:08:05.298956"
+            },
+            {
                 "title": "Bulog Serap 87% dari Target 4 Juta Ton Beras Petani - KilasJatim.com",
                 "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcXppdUdFQTI2ZVZaWXFUbUhVR3FpWE00R3E5d3QzanVpckFObVBIUDJ0dF9acXdmbUdvYWFzdm4yejlQUEo3UzRBMUNpLXBObnR1czRjYk1ORWp4aENZQ2szcDI1Mk5vbXRBTm00MTU0ZjNxckoySUlqclN5WU9VLVI0YkVhZld3Rk5XVzhR?oc=5",
                 "link_resolved": "https://kilasjatim.com/2026/07/25/bulog-serap-87-dari-target-4-juta-ton-beras-petani/",
@@ -843,13 +850,6 @@
                 "link_resolved": "https://berandasulsel.com/polisi-selidiki-dugaan-pengoplosan-beras-sphp-di-parepare-bulog-soroti-praktik-repacking/",
                 "published": "Fri, 24 Jul 2026 10:04:01 GMT",
                 "fetched_at": "2026-07-24T12:15:35.926737"
-            },
-            {
-                "title": "Bulog Belitung Tambah 500 Ton Beras Medium, Total Stok 808 Ton Untuk Jaga Stabilitas Harga - Media Daulat Rakyat",
-                "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5zZUVxYnRHYklpbTVVaUhSa0FROFBpV2kwQ3JsdmhmaXJSa21IR3JzYV9FNDNTSk8xRkNBY0hPRUtRM1VfRTFGQWdwdTVlRUdCR25IM1lFbG9DUQ?oc=5",
-                "link_resolved": "https://daulatrakyatco.co.id/2026/07/24/28904/",
-                "published": "Fri, 24 Jul 2026 09:19:35 GMT",
-                "fetched_at": "2026-07-24T10:56:02.753027"
             }
         ]
     },
@@ -3310,14 +3310,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-25T18:55:49.162783"
+        "fetched_at": "2026-07-25T20:08:01.912164"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-25T18:55:49.162783"
+        "fetched_at": "2026-07-25T20:08:01.912164"
     },
     "macro_stats": {
         "ntp": {
@@ -3325,63 +3325,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-25T18:55:49.162783"
+            "fetched_at": "2026-07-25T20:08:01.912164"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-25T18:55:49.162783"
+            "fetched_at": "2026-07-25T20:08:01.912164"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-25T18:55:49.162783"
+            "fetched_at": "2026-07-25T20:08:01.912164"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-25T18:55:49.162783"
+            "fetched_at": "2026-07-25T20:08:01.912164"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-25T18:55:49.162783"
+            "fetched_at": "2026-07-25T20:08:01.912164"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-25T18:55:49.162783"
+            "fetched_at": "2026-07-25T20:08:01.912164"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-25T18:55:49.162783"
+            "fetched_at": "2026-07-25T20:08:01.912164"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-25T18:55:49.162783"
+            "fetched_at": "2026-07-25T20:08:01.912164"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-25T18:55:49.162783"
+            "fetched_at": "2026-07-25T20:08:01.912164"
         }
     },
     "scrape_status": {
@@ -3390,5 +3390,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-07-25T18:55:49.162783"
+    "last_updated": "2026-07-25T20:08:01.912164"
 }
