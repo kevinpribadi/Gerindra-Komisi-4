@@ -2359,6 +2359,13 @@
                 "fetched_at": "2026-07-28T07:36:17.977026"
             },
             {
+                "title": "Anggota DPR RI Jaelani Salurkan Program Gemarikan di Kota Kendari - Sultranesia",
+                "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQallHNnFHWUswc1lfbkd3djlDNW03aEZDUF8wWnJ3MHZHcEU2WFBXeGVTOTUtNUk2cXE1UHlEQXItRk1PdTJTN3hDT0pRaEljTGRUeDhISV9lelMwVFhmcXNGbHh5eUhvRnJYLUl0WFhreFVSOWFWdWJ2bmNSYU1ZRy1ybkRtblo2OTVna1V0WnRGdUs4TFZ4NHBmM2rSAZwBQVVfeXFMUGpZRzZxR1lLMHNZX25Hd3Y5QzVtN2hGQ1BfMFpydzB2R3BFNlhQV3hlUzk1LTVJNnFxNVB5REFyLUZNT3UyUzd4Q09KUWhJY0xkVHg4SElfZXpTMFRYZnFzRmx4eXlIb0ZyWC1JdFhYa3hVUjlhVnVidm5jUmFNWUctcm5EbW5aNjk1Z2tVdFp0RnVLOExWeDRwZjNq?oc=5",
+                "link_resolved": "https://sultranesia.com/anggota-dpr-ri-jaelani-salurkan-program-gemarikan-di-kota-kendari/?amp=1",
+                "published": "Tue, 28 Jul 2026 04:15:11 GMT",
+                "fetched_at": "2026-07-28T22:52:50.278618"
+            },
+            {
                 "title": "Jaelani Sosialisasikan Rehabilitasi Hutan dan Lahan, Bagikan Bibit Produktif di Konsel dan Kendari - Kendariinfo",
                 "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdTF6aXlGMlkwb2x6ZUJRU29qOWt6WjJqdDRuZVQ0RjFILW9qMW9pbm1KTk9HaXQ4dWt2Z01Dak9XTS1NXzNwcE43V2dpdFhFaDRXRnduaHVrUG00bGFmT3VHZEN3d1FqbWhtNnlFeF85dXdxY0ItYkNBRU1pWWZGc0N6WE5OMUxHd1I0cHE2N3MzQ2NSc2hrSmVUTVFhTGdrd0ktaGJ1VDBzTFpwTXN4R0tyWWRUQkVuYmNZZ054ONIBxAFBVV95cUxNQlVmaEVqY1FkVDJjQmVuV2FaT3BvOG5UemlDZ2lqU2lWeUptN1NHY05aQlpGTnBqeVI1TS15ZXJ4VG92blZDbkZDejhQX0J5TS1INGNUNjBqcTZOQTN2YkR6VWV5dzU0ajNUYzRvSWhXX1lWaU1EcWlyN1pqVGNmd3BqRkJuemt5a2VweUNRYlNWUDdEeXllTWwwWUxqSFRPazc3ZTJVUnJSYnZnbzRCNFI5a3JjaDIwX0JvX3hSTG11VlA1?oc=5",
                 "link_resolved": "https://kendariinfo.com/jaelani-sosialisasikan-rehabilitasi-hutan-dan-lahan-bagikan-bibit-produktif-di-konsel-dan-kendari/",
@@ -3417,14 +3424,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-28T21:00:38.387075"
+        "fetched_at": "2026-07-28T22:52:19.457272"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-28T21:00:38.387075"
+        "fetched_at": "2026-07-28T22:52:19.457272"
     },
     "macro_stats": {
         "ntp": {
@@ -3432,63 +3439,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-28T21:00:38.387075"
+            "fetched_at": "2026-07-28T22:52:19.457272"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-28T21:00:38.387075"
+            "fetched_at": "2026-07-28T22:52:19.457272"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-28T21:00:38.387075"
+            "fetched_at": "2026-07-28T22:52:19.457272"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-28T21:00:38.387075"
+            "fetched_at": "2026-07-28T22:52:19.457272"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-28T21:00:38.387075"
+            "fetched_at": "2026-07-28T22:52:19.457272"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-28T21:00:38.387075"
+            "fetched_at": "2026-07-28T22:52:19.457272"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-28T21:00:38.387075"
+            "fetched_at": "2026-07-28T22:52:19.457272"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-28T21:00:38.387075"
+            "fetched_at": "2026-07-28T22:52:19.457272"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-28T21:00:38.387075"
+            "fetched_at": "2026-07-28T22:52:19.457272"
         }
     },
     "scrape_status": {
@@ -3497,5 +3504,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-07-28T21:00:38.387075"
+    "last_updated": "2026-07-28T22:52:19.457272"
 }
