@@ -3233,6 +3233,13 @@
         ],
         "Ahmad Yohan": [
             {
+                "title": "Ahmad Yohan Adakan RDPU untuk Bahas Tata Kelola BBL yang Ideal - Sindikat Post - sindikatpost.com",
+                "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORElLT1EzRUd0R3I5S0F2OXZpTjhveFJpZnBhZVR5QnJnUlJhWUR4Q21fMWFLbTF3cy1OTEktbHVmM2Q2WTJCQVBzQlIyMkFkQWZiUnRUM1pIODNaS081QXRwczlzLWJUTy1fRXBpTGd3UHdES3NuREYzbUtrU05LQjdaQTBCNTBKUTNRVHdXUkNVSFl2NmxDVWpnRWM0TnBMYS1vcTg3Z0pNdU0tRU1n0gG0AUFVX3lxTFByNFQ2UlhnajFSdXdiSFNtSW1LNjYxdjdER2NISEs1VFlOQXJ1TEVXVWY3T2x4QUZGV1Znc3BBaDdwMDJ5SWJXbS03bnhRc01hVnZYbEVkZkFBVzdoSjNNemFVUjZNM3loMFk2Vm8zaVdxY205T2hraG1DY0hJZml4LVE1YU9mdmd1VHJBbTM1aElzOVhaMHNxWWVXazFlMDRMdGl3enNyT1FtaUQtZS1lZGpNMw?oc=5",
+                "link_resolved": "https://www.sindikatpost.com/nasional/782880320/ahmad-yohan-adakan-rdpu-untuk-bahas-tata-kelola-bbl-yang-ideal",
+                "published": "Tue, 21 Jul 2026 05:50:16 GMT",
+                "fetched_at": "2026-07-28T23:53:54.099792"
+            },
+            {
                 "title": "DPR Bentuk Panja BBL, Perkuat Tata Kelola Benur dan Berantas Penyelundupan - Batamtoday.com",
                 "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNXd5dkNERXlPdGVGRTNTbkVSV2tJWFVSalhqTERyUHJVUVVLdXVVdXhYM0ZZeG1qTlBJR1E4UVNZUGtpQWxlMmZDdEhyMHdRRVdSTzYwYzROZ19MVzBGS3liSG1qY3N3NDl2aUVNSzFoM25hczRpS096d29YUGpVY2hyUkcwaEZ6eVBiLXpHQUhCam1HR3YyZTByQldBcTg2Y1Vv?oc=5",
                 "link_resolved": "https://batamtoday.com/news/dpr-bentuk-panja-bbl-perkuat-tata-kelola-benur-dan-berantas-penyelundupan",
@@ -3259,6 +3266,13 @@
                 "link_resolved": "https://voiceindonesia.co/nasional/25000-desa-masuk-kawasan-hutan-dpr-minta-kemenhut-selesaikan-konflik",
                 "published": "Tue, 14 Jul 2026 12:57:46 GMT",
                 "fetched_at": "2026-07-18T23:44:43.857194"
+            },
+            {
+                "title": "Bupati Sumba Barat Bahas Dukungan Pertanian Bersama Ahmad Yohan - RRI.co.id",
+                "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUFlzMGhhSFIzNXZNU1N3ZFZwNjcwOW45MGJ3cEN1ak54UFdoOVpRX283N3htWDJLUkpaMzBXU0d1WUtYN2dSOG8zOWY2ak9zeFY2NXgzX0NIdXhjSFJaR2FLLXNxZERGNmRzU3U5aDhvZmdyLXBwN1VibHY1MlNHLXo5em5BNEpDT1pyNWJvaE0zQk5YZE9mendkbVFmcEVRLXlYSmlYUEw?oc=5",
+                "link_resolved": "https://rri.co.id/kupang/nasional/2534970/bupati-sumba-barat-bahas-dukungan-pertanian-bersama-ahmad-yohan",
+                "published": "Tue, 30 Jun 2026 07:00:00 GMT",
+                "fetched_at": "2026-07-28T23:53:54.099805"
             }
         ],
         "Herry Dermawan": [
@@ -3424,14 +3438,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-28T22:52:19.457272"
+        "fetched_at": "2026-07-28T23:53:13.720880"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-07-28T22:52:19.457272"
+        "fetched_at": "2026-07-28T23:53:13.720880"
     },
     "macro_stats": {
         "ntp": {
@@ -3439,63 +3453,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-28T22:52:19.457272"
+            "fetched_at": "2026-07-28T23:53:13.720880"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-28T22:52:19.457272"
+            "fetched_at": "2026-07-28T23:53:13.720880"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-28T22:52:19.457272"
+            "fetched_at": "2026-07-28T23:53:13.720880"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-28T22:52:19.457272"
+            "fetched_at": "2026-07-28T23:53:13.720880"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-28T22:52:19.457272"
+            "fetched_at": "2026-07-28T23:53:13.720880"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-28T22:52:19.457272"
+            "fetched_at": "2026-07-28T23:53:13.720880"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-28T22:52:19.457272"
+            "fetched_at": "2026-07-28T23:53:13.720880"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-28T22:52:19.457272"
+            "fetched_at": "2026-07-28T23:53:13.720880"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-07-28T22:52:19.457272"
+            "fetched_at": "2026-07-28T23:53:13.720880"
         }
     },
     "scrape_status": {
@@ -3504,5 +3518,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-07-28T22:52:19.457272"
+    "last_updated": "2026-07-28T23:53:13.720880"
 }
