@@ -144,6 +144,13 @@
         ],
         "Kementerian Kehutanan": [
             {
+                "title": "BPHL Wilayah XVIII Manokwari Perkuat Pembinaan Pengelolaan Hutan Lestari di Tanah Papua - Kementerian Kehutanan",
+                "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONDBmZmprb2RudWI5cDBSRXRCUUZPc3NPRVAwVmZMMlN5N0dSMHZFTGE1eE5zRkt0RkVhekNkM0psY2g0S0o5LUkxdVVFZFhMSGZrNnhyOFcyYnNhaTByWkpIMURQLVJiYkpVMGMzSzdmblc0RThuVVl6VkRobFExalUyMVZrUkd3SWY3enVJbDFid2xWYXNmdGhhLWdJYkJCczN3U1JGNTFIdU1QajktUTZtamVtVVB2a1VlRw?oc=5",
+                "link_resolved": "https://www.kehutanan.go.id/news/bphl-wilayah-xviii-manokwari-perkuat-pembinaan-pengelolaan-hutan-lestari-di-tanah-papua",
+                "published": "Sat, 01 Aug 2026 22:55:50 GMT",
+                "fetched_at": "2026-08-01T23:50:32.395042"
+            },
+            {
                 "title": "Perkuat Kesiapsiagaan, Kementerian Kehutanan Dorong Komitmen Zero Karhutla pada PBPH di Provinsi Jambi - Kementerian Kehutanan",
                 "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONkN0XzFLSExxdnIybVY0dldsU0hLS19lSmN2aUE4eVRBX1JheURrUzQzMEFxd3hYVWRKTWw1X29vUG40aHk2TnRzMkVIbVFZWnhXQ0FfclB4cVQtSktrQkc4WXpfQmlxcVp2VEpkUXg4RVAwa0FEaWt6UVdlWnpmNm5ibzVlZk45R2ZJbnZJRHFyU1o0cmtUaDdEeHhZbnpqN0g3dkQ4dmEwNzJ3LVNNVEpSRUp2WnJ3NmR1dVpPbGpma3FMblZNR3hKbXBrNDA?oc=5",
                 "link_resolved": "https://www.kehutanan.go.id/news/perkuat-kesiapsiagaan-kementerian-kehutanan-dorong-komitmen-zero-karhutla-pada-pbph-di-provinsi-jambi",
@@ -275,13 +282,6 @@
                 "link_resolved": "https://www.kehutanan.go.id/news/turun-ke-tapak-itjen-kemenhut-kawal-akuntabilitas-perhutanan-sosial-di-bali",
                 "published": "Fri, 31 Jul 2026 07:30:09 GMT",
                 "fetched_at": "2026-07-31T08:47:35.787799"
-            },
-            {
-                "title": "Perkuat Tata Kelola Kehutanan Berbasis Data - Kementerian Kehutanan",
-                "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQN01JYkNZdjJrM3VfR2tlblJ0NjFlbVVOenFtVWZxR2VJdEtQUXd5a1NMQUpQM3JUY0pLZ2pTQ1B4alBzRm1OaUN0dzVNcjZ5YkNxdGpBRkpYOE1sMjZsaHplczl2d3gwalI0TTlCR1FLbmliWlcxdTB0WGtyaUJna1ZtUEUwY0lIU1BsMHQ0bDROc0tobTZhTEpSX0gzbmdmOEN4UGdYSXdxOVNPVnVPZWlBU2FOM0lReHVCb2MyekxVMUd0Tzg1ZzlFN2QxNTA5bm5HTC1kNlZBeFZqeFZ6bWtNTWkzUQ?oc=5",
-                "link_resolved": "https://www.kehutanan.go.id/news/perkuat-tata-kelola-kehutanan-berbasis-data-kementerian-kehutanan-implementasikan-inventarisasi-hutan-nasional-ihn-2-0",
-                "published": "Fri, 31 Jul 2026 07:30:09 GMT",
-                "fetched_at": "2026-07-31T08:47:35.787787"
             }
         ],
         "Kementerian Kelautan dan Perikanan": [
@@ -3464,14 +3464,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-01T22:45:48.935335"
+        "fetched_at": "2026-08-01T23:50:31.285947"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-01T22:45:48.935335"
+        "fetched_at": "2026-08-01T23:50:31.285947"
     },
     "macro_stats": {
         "ntp": {
@@ -3479,63 +3479,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-01T22:45:48.935335"
+            "fetched_at": "2026-08-01T23:50:31.285947"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-01T22:45:48.935335"
+            "fetched_at": "2026-08-01T23:50:31.285947"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-01T22:45:48.935335"
+            "fetched_at": "2026-08-01T23:50:31.285947"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-01T22:45:48.935335"
+            "fetched_at": "2026-08-01T23:50:31.285947"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-01T22:45:48.935335"
+            "fetched_at": "2026-08-01T23:50:31.285947"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-01T22:45:48.935335"
+            "fetched_at": "2026-08-01T23:50:31.285947"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-01T22:45:48.935335"
+            "fetched_at": "2026-08-01T23:50:31.285947"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-01T22:45:48.935335"
+            "fetched_at": "2026-08-01T23:50:31.285947"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-01T22:45:48.935335"
+            "fetched_at": "2026-08-01T23:50:31.285947"
         }
     },
     "scrape_status": {
@@ -3544,5 +3544,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-01T22:45:48.935335"
+    "last_updated": "2026-08-01T23:50:31.285947"
 }
