@@ -761,6 +761,13 @@
                 "fetched_at": "2026-08-01T05:47:20.799883"
             },
             {
+                "title": "Tanggapi tawaran beras premium Bulog, BGN prioritaskan pangan lokal - ANTARA News Sumbar",
+                "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOXVNNzFBMDdTMGF4cXV5bkVIb0R4NlJIb3l4T1NBZzk1RXdOT002d3RFQUJjNWFhSzAxckJRVDRqaGZ4Y0o1NHJuNmlKMDZjVGxXOHRZcHdDZHBVQllRSExTNmZNei1ZRC1DZmJDMFg1YzcxZ3JJYm5QZXp5VDk5blg5cUo5SVZVLXpzWWZaMk1jamdwME5xR2t3LWloLUdQWlc4UFVWcko3cnBMeXRj?oc=5",
+                "link_resolved": "https://sumbar.antaranews.com/berita/772471/tanggapi-tawaran-beras-premium-bulog-bgn-prioritaskan-pangan-lokal",
+                "published": "Sat, 01 Aug 2026 03:30:34 GMT",
+                "fetched_at": "2026-08-01T20:08:21.692705"
+            },
+            {
                 "title": "BULOG Bali Pastikan Stok Beras Aman hingga 10 Bulan - mcwnews.com",
                 "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWGw1RENLdUxfR01XeHdkcGF3cUVYU1lKMnRIb1JMNFdiQlZEUG56b0JhT3ZPd1FFR3BpVDZtQkp3NUVVcGVyQTd4UUxySnc5VXM4Ym9ZVkJsWExHakRDSjBiejk3eWtyaXlQTVZmVEsxYm5pc2dSUXBPR3BaV21Kdnhsdk9sU0E?oc=5",
                 "link_resolved": "https://www.mcwnews.com/read/bulog-bali-pastikan-stok-beras-aman-hingga-10-bulan",
@@ -843,13 +850,6 @@
                 "link_resolved": "https://finance.detik.com/berita-ekonomi-bisnis/d-8598727/pembangunan-100-gudang-bulog-dikebut-rampung-desember",
                 "published": "Fri, 31 Jul 2026 08:43:46 GMT",
                 "fetched_at": "2026-07-31T11:23:10.073913"
-            },
-            {
-                "title": "BULOG Perluas Pasar HoReCa Lewat Befood di Food & Hospitality Indonesia 2026 - rentak.id",
-                "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZjNtY2hpRXV4d0liVTlsUkJBNDdiZkw0YkNyTy1oUzRxc3dHdUpGN2hnaTZfSVhUSTVMTExTQnotRGMxMjB2S1pBVXg3WWgteFlUUFNMTWdWNHdsclFXVFlVbVcyMTdKcVVjNWdmN3pSdjVMR2pjcDctaUNvTk1jMnc2dmRnZkd3WkVwb2Fwcnd6XzRrQmtwbA?oc=5",
-                "link_resolved": "https://rentak.id/bulog-perluas-pasar-horeca-lewat-befood-di-food-hospitality-indonesia-2026/",
-                "published": "Fri, 31 Jul 2026 08:19:00 GMT",
-                "fetched_at": "2026-07-31T08:47:37.750904"
             }
         ]
     },
@@ -3464,14 +3464,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-01T18:57:04.979407"
+        "fetched_at": "2026-08-01T20:08:18.437851"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-01T18:57:04.979407"
+        "fetched_at": "2026-08-01T20:08:18.437851"
     },
     "macro_stats": {
         "ntp": {
@@ -3479,63 +3479,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-01T18:57:04.979407"
+            "fetched_at": "2026-08-01T20:08:18.437851"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-01T18:57:04.979407"
+            "fetched_at": "2026-08-01T20:08:18.437851"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-01T18:57:04.979407"
+            "fetched_at": "2026-08-01T20:08:18.437851"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-01T18:57:04.979407"
+            "fetched_at": "2026-08-01T20:08:18.437851"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-01T18:57:04.979407"
+            "fetched_at": "2026-08-01T20:08:18.437851"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-01T18:57:04.979407"
+            "fetched_at": "2026-08-01T20:08:18.437851"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-01T18:57:04.979407"
+            "fetched_at": "2026-08-01T20:08:18.437851"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-01T18:57:04.979407"
+            "fetched_at": "2026-08-01T20:08:18.437851"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-01T18:57:04.979407"
+            "fetched_at": "2026-08-01T20:08:18.437851"
         }
     },
     "scrape_status": {
@@ -3544,5 +3544,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-01T18:57:04.979407"
+    "last_updated": "2026-08-01T20:08:18.437851"
 }
