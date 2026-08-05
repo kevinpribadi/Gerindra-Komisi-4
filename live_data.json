@@ -2,6 +2,13 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "Bantuan Pemerintah kepada Petani Kena Pungli, Mentan Amran Lakukan Eksekusi Halaman 1 - Kompasiana.com",
+                "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZ1Z3WXhaWng2a0lrVnJYa0xCT0pyOU9RUEJNSWtzUlBOQnFqYmFXX2d0TDQ4aE5NWWoxaHJFQmRJb3BaMWdCQWRwT1J2Z3FxcFlMbWFPMlg2RUUxWUZTaHg0Z1ZaS3lyV1RibjhSaDNYQ1RIQVlVWEQ0NjgwZ2FYcGFXVUxPNk5vR1RfYkhHa2k1eW9GaTQ1bHVSSDl1WmhrNVVNb3YxTlRYSXprUERqMDB1bTZxUl84LS13RXlrRnJySVB2Yy1QZWlaZ2FYZW1zc0E?oc=5",
+                "link_resolved": "https://www.kompasiana.com/pras02854/6a72845034777c71d2137a77/bantuan-pemerintah-kepada-petani-kena-pungli-mentan-amran-lakukan-eksekusi",
+                "published": "Wed, 05 Aug 2026 00:31:12 GMT",
+                "fetched_at": "2026-08-05T02:09:15.561214"
+            },
+            {
                 "title": "Peternak Rakyat Diperkuat, Harga Telur Ditargetkan Kembali Normal - vibizmedia.com",
                 "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTExxUjUyNlhERG1lQU14ZmVIMll3MC1DZGhGSFJMdTJNdWdZSEJPSEhURWFTU0QxVVZiQkZJS3ZNTlpfM1RKTGZTZlhKUDkxNVdSV0FNMURtdVJQcW1QR0lieXBEM2kxN0pjVmVPME5XOS1hM2VYc3lVRTYwOGMzV0ViUWFPUFhYcVc4Nk9lUXVMSmR2bE9fTUgtRXllSWFYdjNjaUNfTTg4QzZQVlNtZk1Gaw?oc=5",
                 "link_resolved": "https://www.vibizmedia.com/index.php/2026/08/04/peternak-rakyat-diperkuat-harga-telur-ditargetkan-kembali-normal/",
@@ -133,16 +140,16 @@
                 "link_resolved": "https://haluanrakyat.com/marak-beras-fortifikasi-tak-sesuai-sni-dpr-ri-minta-kementan-usut-tuntas",
                 "published": "Mon, 03 Aug 2026 21:17:35 GMT",
                 "fetched_at": "2026-08-03T21:59:49.783622"
-            },
-            {
-                "title": "Harga Telur Anjlok, Kementan Dorong Penyerapan Lewat CPP - Majalah HORTUS Archipelago",
-                "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRXFwYVJ0a1NZUlVGNkIyRXJib3JpdmZFQVFWNTNaZXV3S1NRQ2s1UUdTRUdOdld0SG1sRmVsUE9RZjBPLTQyT21DWkdDb3pYM3YtaUNFR3ZUMlVGUTh0SWVOQURGXzZnQnpqdk9MbG9KZXlFYlVjSElsTlpvZXZXUU9SRzRWeFBZOU5WMjI4REo?oc=5",
-                "link_resolved": "https://news.majalahhortus.com/harga-telur-anjlok-kementan-dorong-penyerapan-lewat-cpp/",
-                "published": "Mon, 03 Aug 2026 16:48:46 GMT",
-                "fetched_at": "2026-08-04T01:47:49.717656"
             }
         ],
         "Kementerian Kehutanan": [
+            {
+                "title": "Kemenhut Raih Opini WTP atas Laporan Keuangan Tahun 2025 - Kementerian Kehutanan",
+                "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQR2l1aHZrMTAzWTRRYXByZlhad1V1WkJCdjFsVmw5VmNoZC1HeW9pV2FlZlV5TkdhbWxoUTEzNnZrR29faURRcVpTUEp1TGtmUDNfR0w0T0o0bkliZkhWNnVXUkNGTzlhdUszbGlvWXM5R3E1NlJ6UGM3UmxTZFJWZGpVbVdmVEdpelhCY25QbUVsWkE?oc=5",
+                "link_resolved": "https://www.kehutanan.go.id/news/kemenhut-raih-opini-wtp-atas-laporan-keuangan-tahun-2025",
+                "published": "Wed, 05 Aug 2026 00:07:33 GMT",
+                "fetched_at": "2026-08-05T02:09:16.151649"
+            },
             {
                 "title": "Kementerian Kehutanan Perkuat Kompetensi GANISPH Pemanfaatan HHBK untuk Dukung Tata Kelola Hutan yang Akuntabel - kehutanan.go.id",
                 "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQUTRmdkxYejF5Z1pxcHFMSmwzY1RVenIybW1zNkhoc3lIZU45ZEI1d2dPRlFaT0VMd2RmOVozdFpUSHVWaXVkemJTZExPVUx5ZG5UOXBkb2Z2aVpYS01UN2tfTDQ2UGlwZXA3SzdOak1wRlFxUF9UTDE3UGhtN1U3dnRfdDJVbzdES1RiVHo4UjdWcU9BNU5WdXRuVlBzSXhMZTVBRHA2SW1nMFZKQjNrVVgtd0F6ZVQ2bTFPSEhmYlprNm0xTFBmeHZnc05uY2toanduNGRBSE1NdTVN?oc=5",
@@ -275,16 +282,16 @@
                 "link_resolved": "https://forestinsights.id/hadapi-musim-kemarau-kemenhut-gandeng-tni-polri-dan-warga-wujudkan-zero-karhutla/",
                 "published": "Sun, 02 Aug 2026 03:33:30 GMT",
                 "fetched_at": "2026-08-02T05:32:14.653505"
-            },
-            {
-                "title": "BPHL Wilayah XVIII Manokwari Perkuat Pembinaan Pengelolaan Hutan Lestari di Tanah Papua - Kementerian Kehutanan",
-                "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONDBmZmprb2RudWI5cDBSRXRCUUZPc3NPRVAwVmZMMlN5N0dSMHZFTGE1eE5zRkt0RkVhekNkM0psY2g0S0o5LUkxdVVFZFhMSGZrNnhyOFcyYnNhaTByWkpIMURQLVJiYkpVMGMzSzdmblc0RThuVVl6VkRobFExalUyMVZrUkd3SWY3enVJbDFid2xWYXNmdGhhLWdJYkJCczN3U1JGNTFIdU1QajktUTZtamVtVVB2a1VlRw?oc=5",
-                "link_resolved": "https://www.kehutanan.go.id/news/bphl-wilayah-xviii-manokwari-perkuat-pembinaan-pengelolaan-hutan-lestari-di-tanah-papua",
-                "published": "Sat, 01 Aug 2026 22:55:50 GMT",
-                "fetched_at": "2026-08-01T23:50:32.395042"
             }
         ],
         "Kementerian Kelautan dan Perikanan": [
+            {
+                "title": "Sulbar Teguhkan Kepastian Hukum Pengelolaan Ruang Laut, DKP Koordinasi dengan KKP RI - Katinting",
+                "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTGJMOFJKX3RVem5JM3hIZTVIWmZCOHNUTHhHRnA1Rjc5S1o0dU1tWnVHUkRpdm10RVFGdk9lYk1ySEtXRjVoYXIxTjZwS2p4dHdXZTd3eENiMnc0djhEcXA2aThJZzlaYVBud1k3N2FVT21NS20tQWI5TnlrMmVhTjhDUGl6d2pMNE5NcmVrR3dwOGl4WjlNbFpSaXA1OC05T20wT1dQOGdVdw?oc=5",
+                "link_resolved": "https://katinting.com/sulbar-teguhkan-kepastian-hukum-pengelolaan-ruang-laut-dkp-koordinasi-dengan-kkp-ri/",
+                "published": "Wed, 05 Aug 2026 00:53:29 GMT",
+                "fetched_at": "2026-08-05T02:09:16.768825"
+            },
             {
                 "title": "Tak Hanya Kapal, Nelayan Ekas Butuh Sentuhan Modernisasi Alat Tangkap - SUARANTB.com",
                 "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYlI2YkxfNkFLbk51eEY4cG1nWGUxdDNoU0o5MjZUeS1CdjZnNTdmZ19QWnlDeXEzb1BmVzNSVHpoMU9aWVFkT1E5dUZYR2RRbUlvQ0s1eWRTdndmcHRKSmMyM00zZUlycEpiZmNhT0JhTnJSdnBXZ3pBUEM4UU94dTFYUVRnWXJDaTN3U1UzSUFFTy1TR1BEZWlWMW0yZUpkSWtR?oc=5",
@@ -417,13 +424,6 @@
                 "link_resolved": "https://www.topsatu.com/sekjen-kementerian-kkp-serahkan-bantuan-alat-berat-kepada-bupati-agam-288812/",
                 "published": "Sun, 02 Aug 2026 11:36:32 GMT",
                 "fetched_at": "2026-08-03T06:12:13.369151"
-            },
-            {
-                "title": "KKP Genjot Tambak Udang Waingapu, Target Produksi 52.800 Ton per Tahun - Warta Ekonomi",
-                "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNWNpcjhjQ2NaY0c2U1ZmV0tKamRQbnNkd0dpZjZfVHQ3c2g3VFlFSXdsNHJOSW0zaEMxOGFjLWZLV19IX3lxMkFpbjNOTTFRUVN4S1pmRWJqemJUM1ljWjhJRkVZZUdYdVlzYWt0YzhCNTBjUVFGWmJEMjJHTzlHcEw0MWJvMTBHWnFmbS13M3E1SFFXZ1pGWlJVbWVmNXJ0MFlvYkRLTUVUZ9IBrwFBVV95cUxOQVpBWG42cl9xZ2c4d2UzYUhiZHBmWVpYYWVlN1UtczRGT3UxUTZsLVFFZ2hOSG9ibGF3S1Z5M2RQN25wY3hfU3daMmJLZy1YUlVXWkljc2RRX1Q4WFUwYm0tVzdBZFpfSzdNRkFyY0cxOWQyS3ZKVFR5dDlqdmFaQm1INGNraXVJb1A2ZWZUanltOC1DSlYya2p3SV83RnlTelNIVlA0MEhSSHV6QkN3?oc=5",
-                "link_resolved": "https://wartaekonomi.co.id/read626149/kkp-genjot-tambak-udang-waingapu-target-produksi-52800-ton-per-tahun",
-                "published": "Sun, 02 Aug 2026 08:20:00 GMT",
-                "fetched_at": "2026-08-02T10:27:00.021651"
             }
         ],
         "Badan Karantina Indonesia": [
@@ -831,6 +831,13 @@
                 "fetched_at": "2026-08-04T04:56:42.777680"
             },
             {
+                "title": "Bulog Manokwari salurkan 1.546,4 ton beras ASN vertikal dan TNI-Polri - ANTARA News Papua Tengah",
+                "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPS3ZnTThBNDgtWDlDWExPNU1IZDFXRUJESkVScnVWQ0pnNkl4UW5QZEVRRnVBcXlnbmhpMDU4RUJvMHJxYXJfbnBMXzZzWDhtVC1haThjd3VPSlBZUjd1OXhlb3JoQm50dGIwMGViSHV0blpsWS1vcGxNQkNmX29ldTZIV0ROdFliS1d5X0ZCN1NwdVREbC1IcllxVmZjaWtHbnlRRkxIRVZuTmxEd1RlT3BVYTBzd9IBuwFBVV95cUxPSm8wbzUwckl1VFYxMzBBbGxiQ09oTnVOcmtwUlBqSFZlVV9wOHdRN3dwR1NOVjdjOV9rd2FtRXZXbVlsRHNSRXhtVUI3VW96d2dMT0NjNGJpTFl6emVQX09POGxQSG9tQl9pVGhWQWlBLWJQTE9KUVA1U3NiTXhWb3NaY0lYd1FINTViT1k0eGhjMDVhOERoYktmV1BFcE1qVXNFZUlDcE4tWGdJOWRvOWcwbFVQdUNweXQ0?oc=5",
+                "link_resolved": "https://papuatengah.antaranews.com/berita/86743/bulog-manokwari-salurkan-15464-ton-beras-asn-vertikal-dan-tni-polri",
+                "published": "Tue, 04 Aug 2026 02:48:06 GMT",
+                "fetched_at": "2026-08-05T02:09:18.377724"
+            },
+            {
                 "title": "Margin Bulog Naik Jadi 7 Persen, Skema Beras Satu Harga Mulai Dibahas - CNN Indonesia",
                 "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcTJXMF9ndUVRQUZyd1c1NUdUU1NjMkZJcnUwZGxZcGlfMzhoNXgwMW54c3JEa1ZiSFRwd1UzTTFxYWw2dDhGY29IenZlZ0pncUVnQmF0ODRzbndNaWNUd1RRYVpscG9HNUtyQXNfUXlaajRHMnhVcXZhUUhSM3RFbHY2MnpSMXlDbFdvRkxoTHlKTVVYTGlVNEdGRnhjb1U5emVhTzF2d0hzQWlJblhlQTNleThFQ1NMUlBmdVdIRzFiaHh2d1JRZHFUONIB0AFBVV95cUxQU0VMdXpHYmdZdlVSNGpKRVBXOG1sWmx1elZfNzBlZUZyWGcwLU9rNHFDX3JZNFVLeVkyTGVvSmJBUk5fZmxObUtRazlKckdILUdGV3NmSnI0TlBnT1FPcHU3YmxYWE9XY1gyQU9ENGZ4UHEzdmxFMzhrUmhfSDFCSEZuSWdiN3l6ZjNxcWpXa1lqREZvV1R4dV9mTWlGYkFRS3NaUW5UX21nTW8tWUNveTdyU0dTelBsbWI0bG1FM3hKQnlqbW13TDg1VFJDNjZl?oc=5",
                 "link_resolved": "https://www.cnnindonesia.com/ekonomi/20260803204116-92-1388191/margin-bulog-naik-jadi-7-persen-skema-beras-satu-harga-mulai-dibahas",
@@ -843,13 +850,6 @@
                 "link_resolved": "https://news.majalahhortus.com/stok-beras-capai-54-juta-ton-bulog-gandakan-anggaran-pemeliharaan-gudang/",
                 "published": "Tue, 04 Aug 2026 02:38:38 GMT",
                 "fetched_at": "2026-08-04T10:28:49.562014"
-            },
-            {
-                "title": "Bulog Jamin Tidak Salurkan Beras Subsidi untuk Dapur MBG - kumparan.com - Kumparan.com",
-                "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZF8xUlFjMHBkRW9zTk5sMG9RZ0MxbkpaTFBYVUNpcVhGZk45aTlra0JCaDVZMC1kbzdoeGNIaUIzZFVyTl9OTS00NlVtY0MwUDZsWVFOR2J0ei1RWURiRzJlRGF4YmE5WVJOX1BDS1pTM0ppdWloZl9nR1ZDUGhCMy1CSXZlUmtpWWtIU3pkRHgydkdTZjYtZERaRjJPYmdvUUlOSzZkc9IBrwFBVV95cUxPMWxCQV81V3ZhenJKczZpaVdHakpHLUNZR1pNdkItTEVVOExXcHB6d09Gdm9QVW5nZkcxZzI3eTNtM2kzMEtwSGNyUkhhWG1ua2FKakM4LU12U1dHcjhlWkVlYnp0QkthbVplQzhNOHBzQXhhT2U2RS1VMlFvcENpZ0dvOW5lT0NYOEVjQmFxNmdzZnh4dXFXMDBQQ1NjV1o2aHNKOURob295Uk4wSUtz?oc=5",
-                "link_resolved": "https://kumparan.com/kumparanbisnis/bulog-jamin-tidak-salurkan-beras-subsidi-untuk-dapur-mbg-27v1d7ucZUq",
-                "published": "Tue, 04 Aug 2026 02:32:00 GMT",
-                "fetched_at": "2026-08-04T04:56:42.777706"
             }
         ]
     },
@@ -1491,20 +1491,6 @@
                 "link_resolved": "https://www.gesuri.id/pemerintahan/i-ketut-suwendra-ingatkan-kelestarian-hutan-kalimantan-di-tengah-pesatnya-pemanfaatan-sda-b2pWHZbgoq",
                 "published": "Mon, 06 Jul 2026 03:01:00 GMT",
                 "fetched_at": "2026-07-06T03:53:50.743744"
-            },
-            {
-                "title": "I Ketut Suwendra Akan Dalami Keluhan Para Pemandu Wisata Soal Penutupan Taman Nasional Kutai - gesuri.id",
-                "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQLWw0UmcwQUdCTDRPSmxrak5vV1p0WTRxVUJGUEQwMEhiMlU0ZkJ3SXRvSHhmLWR4dWZwS2pYNFdIN2M5ODFPNXB0Y0NqWGZuVWlMVFozUVN5Y0lHRnByd0VtY1Q2M0Z0ZGZQVFAyZUxPbXpjVjVKbXJVMlYzblppY0NNRUgxTDJ3cFRyQlQ5OXVVRG83elVjb0lGcXE4MjJyY3FoWW81WmlWU2tiYko0NmVCOC1fMWdqSXBoUll0VkNMaDktay05Ul96OFhORG5PaHBzd0ppeTBkd9IB2gFBVV95cUxQLWw0UmcwQUdCTDRPSmxrak5vV1p0WTRxVUJGUEQwMEhiMlU0ZkJ3SXRvSHhmLWR4dWZwS2pYNFdIN2M5ODFPNXB0Y0NqWGZuVWlMVFozUVN5Y0lHRnByd0VtY1Q2M0Z0ZGZQVFAyZUxPbXpjVjVKbXJVMlYzblppY0NNRUgxTDJ3cFRyQlQ5OXVVRG83elVjb0lGcXE4MjJyY3FoWW81WmlWU2tiYko0NmVCOC1fMWdqSXBoUll0VkNMaDktay05Ul96OFhORG5PaHBzd0ppeTBkdw?oc=5",
-                "link_resolved": "https://www.gesuri.id/amp/pemerintahan/i-ketut-suwendra-akan-dalami-keluhan-para-pemandu-wisata-soal-penutupan-taman-nasional-kutai-b2pWHZbgnX",
-                "published": "Mon, 06 Jul 2026 01:00:00 GMT",
-                "fetched_at": "2026-07-07T11:39:57.213246"
-            },
-            {
-                "title": "I Ketut Suwendra Akan Dalami Keluhan Para Pemandu Wisata Soal Penutupan Taman Nasional Kutai - gesuri.id",
-                "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQmxIaDZZTGkzcFVCVnM3S2FmaWEySzNFNnVzWXFFYWp2RHhVSDVpeHk5QWxmZkYyNTVzcS1MaG9GWHVJVkkzTVZXWnNVVzN1dFdyMTFGTnM3RllmaDROS2dpVE0yN1ExU1JtTnc3d3MtdVZuUC1ra2FkbExfOTZzMDZBbTQ5ZG00ZnRadXhubmhiQThybnI3TjJGNzVSeEkzLTNGeVozS2RqU1E0VDluMENSTlJuRG4tUUpVRThablZEakxUUWRxMEJ4NUE0MGlQUEllMNIB2gFBVV95cUxQLWw0UmcwQUdCTDRPSmxrak5vV1p0WTRxVUJGUEQwMEhiMlU0ZkJ3SXRvSHhmLWR4dWZwS2pYNFdIN2M5ODFPNXB0Y0NqWGZuVWlMVFozUVN5Y0lHRnByd0VtY1Q2M0Z0ZGZQVFAyZUxPbXpjVjVKbXJVMlYzblppY0NNRUgxTDJ3cFRyQlQ5OXVVRG83elVjb0lGcXE4MjJyY3FoWW81WmlWU2tiYko0NmVCOC1fMWdqSXBoUll0VkNMaDktay05Ul96OFhORG5PaHBzd0ppeTBkdw?oc=5",
-                "link_resolved": "https://www.gesuri.id/pemerintahan/i-ketut-suwendra-akan-dalami-keluhan-para-pemandu-wisata-soal-penutupan-taman-nasional-kutai-b2pWHZbgnX",
-                "published": "Mon, 06 Jul 2026 01:00:00 GMT",
-                "fetched_at": "2026-07-06T03:53:50.743734"
             }
         ],
         "Panggah Susanto": [
@@ -3323,6 +3309,13 @@
         ],
         "Bambang Purwanto": [
             {
+                "title": "Marak Kepala Daerah Terjaring KPK, Legislator: Demokrasi Kita Sudah Salah Kaprah, Politik Uang Dimana-mana - Kedai Pena",
+                "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZjJia21wX042SC1EbmgxbVhabEU0ZDh1NVBRdHpjaHdBWDR0dU5XblBZaXRJUmNSTWM1eUtvbkN3SnJnZGJyUFdkSW9YemhoaS03bFRkU3VndUFwa3gwa0Nyc3htdEphY0JTc3kxakRPczF0aDhZTkkxX3Z5MEtLcFNfMjR5c2FJcjNOM3o3TmIzNFJRcDR1QmI2OWhKRm0yMmRxQmRPakItOGxSYWI1RDQyT0sxLVl1YU5ualc0UEdLc3U3RUJLLXNn?oc=5",
+                "link_resolved": "https://www.kedaipena.com/marak-kepala-daerah-terjaring-kpk-legislator-demokrasi-kita-sudah-salah-kaprah-politik-uang-dimana-mana/",
+                "published": "Wed, 05 Aug 2026 00:10:08 GMT",
+                "fetched_at": "2026-08-05T02:09:59.292059"
+            },
+            {
                 "title": "Bambang Purwanto Soroti Maraknya Pemadaman Listrik Bergilir di Sejumlah Wilayah - AKURATNEWS.ID",
                 "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5KeXZ0TUpycEJiX2kxU2JmVk1KOUNaX0ZjUG83RUhGUDNpSFYzUk1MdmduWHp6YTVzN3B1NlZCUEluNjVlem1PRFRjRFBVZUVPT1JEcHBldzBUWnVUQV90TUxPNlhUZkZqRm1tMUxPY3FKcmM1cGx1TTRlTQ?oc=5",
                 "link_resolved": "https://www.akuratnews.id/2026/08/bambang-purwanto-soroti-maraknya.html",
@@ -3403,14 +3396,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-04T23:56:48.859630"
+        "fetched_at": "2026-08-05T02:09:14.876455"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-04T23:56:48.859630"
+        "fetched_at": "2026-08-05T02:09:14.876455"
     },
     "macro_stats": {
         "ntp": {
@@ -3418,63 +3411,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-04T23:56:48.859630"
+            "fetched_at": "2026-08-05T02:09:14.876455"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-04T23:56:48.859630"
+            "fetched_at": "2026-08-05T02:09:14.876455"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-04T23:56:48.859630"
+            "fetched_at": "2026-08-05T02:09:14.876455"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-04T23:56:48.859630"
+            "fetched_at": "2026-08-05T02:09:14.876455"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-04T23:56:48.859630"
+            "fetched_at": "2026-08-05T02:09:14.876455"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-04T23:56:48.859630"
+            "fetched_at": "2026-08-05T02:09:14.876455"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-04T23:56:48.859630"
+            "fetched_at": "2026-08-05T02:09:14.876455"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-04T23:56:48.859630"
+            "fetched_at": "2026-08-05T02:09:14.876455"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-04T23:56:48.859630"
+            "fetched_at": "2026-08-05T02:09:14.876455"
         }
     },
     "scrape_status": {
@@ -3483,5 +3476,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-04T23:56:48.859630"
+    "last_updated": "2026-08-05T02:09:14.876455"
 }
