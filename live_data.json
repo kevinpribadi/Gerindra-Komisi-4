@@ -2,6 +2,13 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "Pemkab Lamtim Gulirkan Program Unik: Listrik Masuk Sawah - inilampung.com",
+                "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa0VqWHEwUFdTM1dWU0NMUy1QY3BDalk3TTRwMmZBSm1aVkFFM0J6MlJsX0wwSlN3d0VNd2pVLWladW01b2t2MTJScmpOdzRVRHpQV2g1SV9xMUNGQUNSYmtzSmwzaUMzRzVySzFabVpreVM3Y3p3RU11a0JLTDNpUw?oc=5",
+                "link_resolved": "https://www.inilampung.com/2026/08/pemkab-lamtim-gulirkan-program-unik.html",
+                "published": "Wed, 05 Aug 2026 17:09:06 GMT",
+                "fetched_at": "2026-08-05T17:22:47.557645"
+            },
+            {
                 "title": "Produktivitas Padi Tembus 10,43 Ton/Ha, PM-AAS Buktikan Modernisasi Pertanian Tingkatkan Hasil Panen - Radar Sulbar",
                 "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVlYxNHliZ2Vtd2V2RnBYaHFGdkItR2JGS3RwV1dBR29BV3M5cEl4ZFRDMG94LTlBRXR3emhGRmpMZW51TmZhQlpvVVRmWHMxODBjazIyTXJ6QkoxT2Q3bFJLUFFSSUxRMWV5Wlh0X3gwd3c2LS1HSGNlQm5YdkFuYk1FRUNjNThSVi1WQ0hsRXk4enN0QkF4NFRubUxaaUxLcjd5clc5NE1aT3gyanNHbjVIR2tRTjJabm1GNzg5R09LaG9NSEVKR1ZoWUl6TGhHc3JGVml2OHYzUQ?oc=5",
                 "link_resolved": "https://radarsulbar.fajar.co.id/2026/08/05/produktivitas-padi-tembus-1043-ton-ha-pm-aas-buktikan-modernisasi-pertanian-tingkatkan-hasil-panen/",
@@ -133,13 +140,6 @@
                 "link_resolved": "https://www.vibizmedia.com/index.php/2026/08/04/peternak-rakyat-diperkuat-harga-telur-ditargetkan-kembali-normal/",
                 "published": "Tue, 04 Aug 2026 16:55:08 GMT",
                 "fetched_at": "2026-08-04T17:36:45.821602"
-            },
-            {
-                "title": "Gubernur Mualem Minta Dukungan Mentan Pulihkan Sawah dan Perkebunan Aceh Pascabencana - Acehinfo",
-                "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeFJwUE1VQWstYWctZjZGYWVGT1JkdTZqUXhmLUhoQnJPaHFMVnlqaF9CRFVpbmdCUk1idTIzWWtsb2NVckdYeXpTUkNhaTFLbzQ2M0pPYTQ2WGFSbmE1VmZVWWhsdnpUVnc3dmpKVUtUX2V3amkxYlJhZkhPRGUySlg3akxzMGs5UGp0bmZOdVdzUVpaNDluakEwV0RvYlZ0UVVTUlJsaVdtZWZadkR3?oc=5",
-                "link_resolved": "https://www.acehinfo.id/gubernur-mualem-minta-dukungan-mentan-pulihkan-sawah-dan-perkebunan-aceh-pascabencana/",
-                "published": "Tue, 04 Aug 2026 13:33:02 GMT",
-                "fetched_at": "2026-08-04T21:03:21.999094"
             }
         ],
         "Kementerian Kehutanan": [
@@ -270,18 +270,18 @@
                 "fetched_at": "2026-08-04T12:53:56.853207"
             },
             {
+                "title": "Kementerian Kehutanan Targetkan Layanan Perizinan Lebih Transparan dalam Enam Bulan - InfoPublik",
+                "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSm9JX3JObDU5VV9LSk5aQTBXSHMyWDUyUEsxSVhxRkRwc0FZSnQ0bFJGa0NoeVg5bU1pUDVOUm9BZF9uUWdSbm9lTV9YemRfQUllREF5c3ZXSm5DbVRfSmU2TnBsOEJ3QTZGb1JxWU9jVFd1V1lfRk54M3BkSXp2VVdUVHU1dzdBVTMwOTBZWjdIbllFX3EwUk4zLTZuSkJKWDhVWHIzWUVTOWtUMjl6Y29Qb0VnUUt4RS02M0RQNl9hSG83RjVtWWR3bUR0LW5rTGdoSjhkNUl4eGVU?oc=5",
+                "link_resolved": "https://infopublik.id/kategori/nasional-sosial-budaya/982100/kementerian-kehutanan-targetkan-layanan-perizinan-lebih-transparan-dalam-enam-bulan",
+                "published": "Tue, 04 Aug 2026 09:16:00 GMT",
+                "fetched_at": "2026-08-05T17:22:48.093597"
+            },
+            {
                 "title": "Perkuat Tata Kelola Kehutanan, Menhut: Layanan Publik Harus Menjadi Prioritas - suarapemerintah.id",
                 "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVkpselVMenloblZpb1ZhS01LMDB2d0VRMzFUWVA3a1FybGtZeHFfTDJBbUFDNV9fVHktRldzZk1pTGx3T083WWRjREo3c1dSbVlkdXg1NVJNTkx5WWt2ZXlwZlB6REEzTWpyV0c5eEx2Q1h0cVVJNGtPY0N4ZnNlSVV6Y3k4Zko1NDVXeGxLbkNzTkYtN1NLSmxhNFdoNF9GdXJZWk5NWlFKS0JJajdNNA?oc=5",
                 "link_resolved": "https://suarapemerintah.id/2026/08/perkuat-tata-kelola-kehutanan-menhut-layanan-publik-harus-menjadi-prioritas/",
                 "published": "Tue, 04 Aug 2026 07:53:17 GMT",
                 "fetched_at": "2026-08-04T10:28:47.484290"
-            },
-            {
-                "title": "Kemenhut Tangkap 3 Pelaku Illegal Logging di SM Kerumutan Riau - SinPo.id",
-                "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWVE1X0t6SlMxTDRfakJaWnNwMzZSLU81dFdDUWc3bzVIN0g5RFNod1NxNFBmWXMzdDd0U2N6NHl5d0dzWndjUnRyM0txYzRWNmFDbzg5cVV4MjVONWx5OER5TDFaVjFMU29Xc0JEdHctMEN5WDVrX0lRbUtSVWNRZEJHMFphRjR0ZVFOMlBybVdRallYeGMtNg?oc=5",
-                "link_resolved": "https://sinpo.id/detail/125663/kemenhut-tangkap-3-pelaku-illegal-logging-di-sm-kerumutan-riau",
-                "published": "Tue, 04 Aug 2026 07:21:36 GMT",
-                "fetched_at": "2026-08-04T07:34:42.273979"
             }
         ],
         "Kementerian Kelautan dan Perikanan": [
@@ -1773,6 +1773,13 @@
                 "fetched_at": "2026-07-29T08:25:15.048817"
             },
             {
+                "title": "Titiek Soeharto Apresiasi Dukungan Norwegia, Tegaskan Komitmen Indonesia Jaga Hutan Tropis - Gerindra",
+                "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaGNWSC1KUUp1a1lfVER2anlpd2tCdXkzc2dvXzdLdnc2d0oyZXloZ1I0TDRsV0hPbTQxb2h5RUl0TnlpRHhtdlU4UUFtc1d5dVB2MUJDRmJUcXdiaTJxRTRHeHN4eXE4ejlvUmVrUENnSUdLNWMya1J3Rk9mSjBtd05wazFMQV9sWHh5MFdQWXkwanpXVHYzT1htSjQwRFBHcDZLSUFMYldTQkNMYjBpUzdjR29FVDZaM3JNX1Nn?oc=5",
+                "link_resolved": "https://gerindra.id/2026/07/27/titiek-soeharto-apresiasi-dukungan-norwegia-tegaskan-komitmen-indonesia-jaga-hutan-tropis/",
+                "published": "Mon, 27 Jul 2026 08:29:00 GMT",
+                "fetched_at": "2026-08-05T17:23:06.240938"
+            },
+            {
                 "title": "Siti Hediati: Indonesia Raih Apresiasi Norwegia atas Keberhasilan Menurunkan Deforestasi Sejak 2015 - Suara Investor",
                 "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaVJLRjgxN2sxQ3dHVnNUaXZRWFkzWHJMTlNFQjVxNDMtaHZIdFkzdmtzVFBjeF9zOG9YS1R4S0hNZzQ2dGlkSmNUWW1rSWRLYUVMeHItSkE3Umc5WTZ1MzNqZGlGX0Z3aS0wODZWRkltTjRQNXRSaHZmNXQ1eE5nOUZQTEY3Z1NCTktNTF84V1NJVmZsdXRjUHRpcHVIR3Exa1JsRUYyY1FZaVFDaW5heW1fZVNma1lEY3k2WUtYVFIwbEV5RlFXMQ?oc=5",
                 "link_resolved": "https://www.suarainvestor.com/siti-hediati-indonesia-raih-apresiasi-norwegia-atas-keberhasilan-menurunkan-deforestasi-sejak-2015/",
@@ -1897,13 +1904,6 @@
                 "link_resolved": "https://suaraindonesia.co.id/amp/news/news/6a61ff5fbedb0/dipimpin-titiek-soeharto-komisi-iv-dpr-ri-kaji-dampak-pertambangan-di-banyuwangi",
                 "published": "Thu, 23 Jul 2026 11:46:00 GMT",
                 "fetched_at": "2026-07-24T02:52:17.368989"
-            },
-            {
-                "title": "Perkuat Sinergi Ekonomi Daerah, Komisi IV DPR RI Kunker ke Banyuwangi - detikcom",
-                "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPV1ptQTZueFpIaGRxWWlUV1puVDZIX3MzNi15X0FlYXF4MHh1Yk03MEFkOENjOFFfT2Z0ZmtKaHhDXzhUaVhCQlNNT0ZqWHl1X0pYQjFaMmxKcmdQYUNwc0xFdzh0MmY4ZVhlU3BHVU42azlZaEVXTy1OUEtZS1RNUFpLa2E0eWFWSk9hM2x4cDVuc1dsZmhxSlNPc1BuYkJ0bG00R0cybU9IRTY0YXh0Slc3VdIBuAFBVV95cUxQTVNzb3NXTTQxS2xYMzVUNHhKTUFaZTg4X1B2aDJYWXlpZlk2cGE1ZHd0QnpxSXBHZGVmQno3Um1RN3dDdENPRGRWdlF3UmFDMXVPclNjckJFVlMzWWJZczhFLTZfQUtJS1B6TGZKRzFYVGxvS0d3ajVUVkdXZFZDSjdPSzZjXy1fYVUwdE1TR1ZqSXlCWEVULXhHWjRGN3JJeTFJalVuSXdMQUZnOWoweldOOTl5UXJY?oc=5",
-                "link_resolved": "https://www.detik.com/jatim/berita/d-8587378/perkuat-sinergi-ekonomi-daerah-komisi-iv-dpr-ri-kunker-ke-banyuwangi",
-                "published": "Thu, 23 Jul 2026 11:45:03 GMT",
-                "fetched_at": "2026-07-23T13:28:54.179251"
             }
         ],
         "Darori Wonodipuro": [
@@ -3338,14 +3338,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-05T16:00:36.521909"
+        "fetched_at": "2026-08-05T17:22:47.010037"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-05T16:00:36.521909"
+        "fetched_at": "2026-08-05T17:22:47.010037"
     },
     "macro_stats": {
         "ntp": {
@@ -3353,63 +3353,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-05T16:00:36.521909"
+            "fetched_at": "2026-08-05T17:22:47.010037"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-05T16:00:36.521909"
+            "fetched_at": "2026-08-05T17:22:47.010037"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-05T16:00:36.521909"
+            "fetched_at": "2026-08-05T17:22:47.010037"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-05T16:00:36.521909"
+            "fetched_at": "2026-08-05T17:22:47.010037"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-05T16:00:36.521909"
+            "fetched_at": "2026-08-05T17:22:47.010037"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-05T16:00:36.521909"
+            "fetched_at": "2026-08-05T17:22:47.010037"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-05T16:00:36.521909"
+            "fetched_at": "2026-08-05T17:22:47.010037"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-05T16:00:36.521909"
+            "fetched_at": "2026-08-05T17:22:47.010037"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-05T16:00:36.521909"
+            "fetched_at": "2026-08-05T17:22:47.010037"
         }
     },
     "scrape_status": {
@@ -3418,5 +3418,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-05T16:00:36.521909"
+    "last_updated": "2026-08-05T17:22:47.010037"
 }
