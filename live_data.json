@@ -3464,14 +3464,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-07T18:42:21.045472"
+        "fetched_at": "2026-08-07T19:45:20.230509"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-07T18:42:21.045472"
+        "fetched_at": "2026-08-07T19:45:20.230509"
     },
     "macro_stats": {
         "ntp": {
@@ -3479,70 +3479,70 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T18:42:21.045472"
+            "fetched_at": "2026-08-07T19:45:20.230509"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T18:42:21.045472"
+            "fetched_at": "2026-08-07T19:45:20.230509"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T18:42:21.045472"
+            "fetched_at": "2026-08-07T19:45:20.230509"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T18:42:21.045472"
+            "fetched_at": "2026-08-07T19:45:20.230509"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T18:42:21.045472"
+            "fetched_at": "2026-08-07T19:45:20.230509"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T18:42:21.045472"
+            "fetched_at": "2026-08-07T19:45:20.230509"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T18:42:21.045472"
+            "fetched_at": "2026-08-07T19:45:20.230509"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T18:42:21.045472"
+            "fetched_at": "2026-08-07T19:45:20.230509"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T18:42:21.045472"
+            "fetched_at": "2026-08-07T19:45:20.230509"
         }
     },
     "scrape_status": {
-        "phase_1_agency": "ok",
-        "phase_2_members": "ok",
+        "phase_1_agency": "failed",
+        "phase_2_members": "partial",
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-07T18:42:21.045472"
+    "last_updated": "2026-08-07T19:45:20.230509"
 }
