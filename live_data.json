@@ -2,6 +2,20 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "Kementan Dan Pemerintah Aceh Bersinergi Percepat Pemulihan Sektor Pertanian Pascabencana - waspada.id",
+                "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMjlhOGxfY0Rlak9qOVh6RTRzT2k5aThBRTl1QUw1cmFrVVJCZUFJb2F6cFRiOHRDUFhfQlVhWjFEajZ5d05QRjR3WkVUYmdGYnNkT1JVNDZ4V1NSejFHQ1RWZlg2OHEtN21ON1dyZjAyS19WblJ4eFM4MEJnQkxOMUFQUENjdmgzUExsekdCVlI3VEliOFg1UnhXbzZVWXc2Qy13YWZ2ODJzcjZqSWFIdTJBZWRIeUFmbGc?oc=5",
+                "link_resolved": "https://www.waspada.id/berita/kementan-dan-pemerintah-aceh-bersinergi-percepat-pemulihan-sektor-pertanian-pascabencana",
+                "published": "Fri, 07 Aug 2026 14:14:29 GMT",
+                "fetched_at": "2026-08-07T15:46:10.189664"
+            },
+            {
+                "title": "Pemerintah Aceh Jelaskan Skema Bantuan Pertanian Rp2,5 Triliun dari Kementan - masakini.co",
+                "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORzFmMzJLaHdSenBfeFFZdjdpOFNCQWsweklFN0FVUG9JY0E0cmJ0cUYtaXRxR294TDhqZXRmeXVJNlM1SGhhQlNHWW14R1d1S25JQkw4TTNqdjZKU19zeHJkY2ZlUEVfMnVWTkNUWTdRTDVkYWFiaWZ0N3hGMVlmcnBVODdubzFOTVpKZWYzbGE0QTNOa29RN3ktcFhZS2lLTmJ0SHFnRloxOVU?oc=5",
+                "link_resolved": "https://masakini.co/2026/08/07/pemerintah-aceh-jelaskan-skema-bantuan-pertanian-rp25-triliun-dari-kementan/",
+                "published": "Fri, 07 Aug 2026 12:50:25 GMT",
+                "fetched_at": "2026-08-07T15:46:10.189691"
+            },
+            {
                 "title": "Gerakan Tanam Kementan Dorong Produktivitas Lahan di Kabupaten Pulang Pisau. - metrokalimantan.com",
                 "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5uR0JQbDF6QXdYMXB1WmxrQlZWb1BLSXRWSUdCX2luMWVISlhwSWpWZFY3RVBnVUJvZnNzUDNFa2VFME43U0xNNzFVZXVwRndUMWhGbWpTVWpWUi15MTFPNGd4b3NPWjU0S0x0bHNqMEp6d1JKWFQ1ZzdVTDFKTkU?oc=5",
                 "link_resolved": "https://www.metrokalimantan.com/2026/08/gerakan-tanam-kementan-dorong.html",
@@ -126,20 +140,6 @@
                 "link_resolved": "https://timesindonesia.co.id/read/news/602546/bangun-integritas-sejak-hari-pertama-polbangtan-malang-bekali-225-mahasiswa-baru-bersama-itjen-kementan",
                 "published": "Thu, 06 Aug 2026 10:10:00 GMT",
                 "fetched_at": "2026-08-06T10:30:49.938138"
-            },
-            {
-                "title": "Pemerintah Aceh Jelaskan Penyaluran Bantuan Kementan untuk Sawah dan Kebun Pascabencana - DINAS PENGAIRAN ACEH",
-                "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQd2hiemlwUmhQRG8yQnZfZ2xUdTNIaXcwT3hfS1ZBOHFiNU9Nd1pJdm1OaHl2bWVwY1RQSENuaUcxcC1Wa3FEdWpmUGpuLUNZQXdVMjVuS3dRcnZqM0R0YkN0b3hTN0J5ai1NTE1mUmJtNUdsaGctNDJhZUdxV3d1OHVqWTE4NUQ5X0N3QjhNd3k2MWlxSEJOenJUSEFtU2xjclAwZzNVOFBMZGI5V0JDeUtDWF8zb3R1ZDZpZTNtTGFPTU5iZjJXdVRBNXExLU0weFozRlo2eXA5ZWFIcExMaHJJZlhFV3c?oc=5",
-                "link_resolved": "https://pengairan.acehprov.go.id/berita/kategori/berita-kegiatan/pemerintah-aceh-jelaskan-penyaluran-bantuan-kementan-untuk-sawah-dan-kebun-pascabencana",
-                "published": "Thu, 06 Aug 2026 08:31:01 GMT",
-                "fetched_at": "2026-08-06T10:30:49.938112"
-            },
-            {
-                "title": "Kementerian Pertanian Republik Indonesia - pertanian.go.id",
-                "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqZENYei1HalZqSlZiWkhBODRUX05JamllVlNJdTdFUktRak92cjJ5aGp0bjc3c19uRy1PSTRjblM3aEdjNXBYMjRPYmhrbW5oUjNGWWpqUFNWUnlIc2QtU0U3TXdmdw?oc=5",
-                "link_resolved": "https://www.pertanian.go.id/?show=news&act=view&id=8022",
-                "published": "Thu, 06 Aug 2026 08:05:43 GMT",
-                "fetched_at": "2026-08-06T23:51:28.629003"
             }
         ],
         "Kementerian Kehutanan": [
@@ -163,6 +163,13 @@
                 "link_resolved": "https://www.kehutanan.go.id/news/pendampingan-lapangan-perkuat-kompetensi-ganis-ph-dalam-mendukung-pengelolaan-hutan-lestari",
                 "published": "Fri, 07 Aug 2026 10:56:36 GMT",
                 "fetched_at": "2026-08-07T11:39:06.605838"
+            },
+            {
+                "title": "Dukung Program ASRI, Kemenhut siapkan 70 juta bibit unggul per tahun - ANTARA News",
+                "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNS3UtbV9EcGFSbm42TVJZUUY5OGx2Z2hyYnRsM3FjTXRDX3NOUEdCQi1NczNDZUZJQTBoa2xPUnlpdzByRmNqcER1bS0tREh1WVF2WVRrRzlCS25rLXZpZkMxY1Q5S2p5M1RXSGhOblE0RS1IQ0QwY0ttWkhwOUFaaUhhaDYzbnN0YWVPZFlaYURmRldTWHRURUZaeVhEeU9YX2JodzhGR2hGYmxJZFHSAbABQVVfeXFMUE10cGdHZl94c1NUSlFiVjZudWU4MmI0YjNWMWZxOWZPQTN4Q0dobXgwbXlHcVc3X01qLS1yMkVKbFVvVFJmZWtRQWR6cVNLZ1VHbjBIQkRkNTJsREZKWkxFSE5SbTFodTdyQnBvVG5MNENOVXFBREhiOXl3SEhrQ3RpVlJWOGxuUWxUSG1vdWJtSVFXQkNUYkRRZ3RRM3pOLXplaHVUZ052eVo5dUhKeWQ?oc=5",
+                "link_resolved": "https://www.antaranews.com/berita/5684475/dukung-program-asri-kemenhut-siapkan-70-juta-bibit-unggul-per-tahun",
+                "published": "Fri, 07 Aug 2026 10:43:57 GMT",
+                "fetched_at": "2026-08-07T15:46:10.721122"
             },
             {
                 "title": "Kemenhut Buka Peluang Investasi Baru Skema Carbon Removal di 2,4 Juta Hektare Hutan - Ecobiz Asia",
@@ -275,13 +282,6 @@
                 "link_resolved": "https://www.kehutanan.go.id/news/kementerian-kehutanan-himpun-masukan-para-pihak-untuk-penyempurnaan-peta-arahan-pemanfaatan-hutan-tahun-2026",
                 "published": "Thu, 06 Aug 2026 10:43:35 GMT",
                 "fetched_at": "2026-08-07T10:43:46.968895"
-            },
-            {
-                "title": "Kementerian Kehutanan - Kementerian Kehutanan",
-                "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOU1h6bElGNTNlQjRaQnBaVWF3QzJ0OHNuQUc0MUpzdnRQYkk4WlVkcU05WDJtZEVfYjFOSC1MS05OcjJJZkxRWjFmRGxWMjBYY0E1aEE0ZklTVm90Tnh5dktvUmFoQ3NlNGFfZDhCem1qblEyQlR6ZlJRVDQ3Zk53NEJsclVzVXZzR0JoeTN1a1F2bWZEeFZIQ0Jn?oc=5",
-                "link_resolved": "https://www.kehutanan.go.id/pers/kemenhut-kerahkan-operasi-terpadu-lindungi-kawasan-konservasi",
-                "published": "Thu, 06 Aug 2026 08:47:01 GMT",
-                "fetched_at": "2026-08-07T04:48:58.632744"
             }
         ],
         "Kementerian Kelautan dan Perikanan": [
@@ -1096,6 +1096,13 @@
                 "fetched_at": "2026-07-28T12:49:12.815943"
             },
             {
+                "title": "Peringati 30 Tahun Kudatuli, Anggota DPR Sonny T. Danaparamita Serukan Semangat \"Kami Tidak Akan Lupa\" - TIMES Indonesia",
+                "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYkhoY19zbUF2c0JiLTJ6ZzhqbThqbjh0TmJwOUJic2pyRGxLV1lZMDdncW91TVM4eXZWeFh1bWxlNTBxSzZSOEpCRTlLTHRKUy1keTJXWWVtYnU1cGlTSzNPc1l1UURyQ2VpdnN6OWZfQnNFMmtrdlFQY1YtbGFUUGhpTUZTOWZFY0FMQ0J4eHlOY1BrZE92UFhkRllEcE1BczBibTF6dm8xeklMcG1wb3ZKMVQtVWdBX09DY0pSa3lMclRaNGdZa1VRMUo0U0pLckNzZmRwaFNKdw?oc=5",
+                "link_resolved": "https://timesindonesia.co.id/politik/601034/peringati-30-tahun-kudatuli-anggota-dpr-sonny-t-danaparamita-serukan-semangat-kami-tidak-akan-lupa",
+                "published": "Tue, 28 Jul 2026 07:00:00 GMT",
+                "fetched_at": "2026-08-07T15:46:14.462903"
+            },
+            {
                 "title": "Peringati 30 Tahun Kudatuli, Sonny T. Danaparamita, Ajak Masyarakat Tolak Kembalinya Watak Otoritarianisme Di Indonesia - IndonesiaPos",
                 "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdU5WMjJMbWNydVhOLWhfNlV3Z29PREFqUndiVXdxUFFHMlVkb3lYZjZaUmk2b3EwZWo1aUlpdW9RdzVCckNMOEFjWlpzS1l5dWV0RDE5UFNTdjFSVlZfbVpZclpyT2diU0JiZURpcFJ2RGRibmFpbE56eGdtTDg2Yk9FOHYzWl9pSXRLWHp3V2kyQ283V2NZVTVJcUF3X3czUWtZRldNTHRMNVZ2QlRMU2labWdjTFVDT0xfUnIySm1KSVBNRzEwdXR6bFFmRWhFTi1DRnJyT3prMmEw?oc=5",
                 "link_resolved": "https://indonesiapos.co.id/peringati-30-tahun-kudatuli-sonny-t-danaparamita-ajak-masyarakat-tolak-kembalinya-watak-otoritarianisme-di-indonesia/",
@@ -1129,13 +1136,6 @@
                 "link_resolved": "https://jatimtimes.com/baca/3331347753/20260728/094700/refleksi-30-tahun-kudatuli-sonny-t-danaparamita-tragedi-kemanusiaan-dan-menjadi-pengingat-penting",
                 "published": "Tue, 28 Jul 2026 02:47:00 GMT",
                 "fetched_at": "2026-08-04T21:03:26.721531"
-            },
-            {
-                "title": "Peringati 30 Tahun Kudatuli, Anggota DPR Sonny T. Danaparamita Serukan Semangat \"Kami Tidak Akan Lupa\" - TIMES Indonesia",
-                "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPc2hzQmxZR3ZWdm43X19YdEV3Qnp3aWRGVEJZazZOdDRlc1c1UHRnMXRHMC1pNzFjbnFFSGRTOHpsVlE1TEZjS1RJbE85RVRuREVHN0dKTTJ2Ylhhb2RpeGxsSzRaSXNwRk1FM2FxLVcyVm82YmdlNWNHUFE0TWRLRk1qbjl6eDVFcEw5VG5sci0yYmlhbTFtb3NXcHlyRWJUNVdnWmExUFZ3UTE3SGlFLXEtaGdPeWlscXYyaW1PbmUxcnFnazhhMDZCRW92c3pPb2N6eWtiaDB5SEdT?oc=5",
-                "link_resolved": "https://timesindonesia.co.id/read/news/601034/peringati-30-tahun-kudatuli-anggota-dpr-sonny-t-danaparamita-serukan-semangat-kami-tidak-akan-lupa",
-                "published": "Tue, 28 Jul 2026 00:51:00 GMT",
-                "fetched_at": "2026-07-28T01:50:09.234958"
             }
         ],
         "Mayjen TNI (Purn) Sturman Panjaitan": [
@@ -3443,14 +3443,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-07T14:06:21.248821"
+        "fetched_at": "2026-08-07T15:46:09.441676"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-07T14:06:21.248821"
+        "fetched_at": "2026-08-07T15:46:09.441676"
     },
     "macro_stats": {
         "ntp": {
@@ -3458,63 +3458,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T14:06:21.248821"
+            "fetched_at": "2026-08-07T15:46:09.441676"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T14:06:21.248821"
+            "fetched_at": "2026-08-07T15:46:09.441676"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T14:06:21.248821"
+            "fetched_at": "2026-08-07T15:46:09.441676"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T14:06:21.248821"
+            "fetched_at": "2026-08-07T15:46:09.441676"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T14:06:21.248821"
+            "fetched_at": "2026-08-07T15:46:09.441676"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T14:06:21.248821"
+            "fetched_at": "2026-08-07T15:46:09.441676"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T14:06:21.248821"
+            "fetched_at": "2026-08-07T15:46:09.441676"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T14:06:21.248821"
+            "fetched_at": "2026-08-07T15:46:09.441676"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T14:06:21.248821"
+            "fetched_at": "2026-08-07T15:46:09.441676"
         }
     },
     "scrape_status": {
@@ -3523,5 +3523,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-07T14:06:21.248821"
+    "last_updated": "2026-08-07T15:46:09.441676"
 }
