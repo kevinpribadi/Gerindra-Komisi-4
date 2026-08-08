@@ -2,6 +2,13 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "Anggaran Pertanian Rp2,5 T: Pusat Makan Nangka, Aceh Kena Getahnya - Waspada Aceh",
+                "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNDBQMHhyWW1LR2EyYXh0Q3pJMDFpYVV5ZkwxXzdCMlduVTVNRmN4UGpGQWJURFVsanZFQjAzREJTYkI3WW1hUm5IRm5ZV1ZIcVpTNWVkMWRJWkNERk1KOEp0eXlfaDc4TmlMSXQ2aW1Ca21jYzNqMEo1c3VUNnRZbFdVa3J1c3lJTlBmWS10d0YyQQ?oc=5",
+                "link_resolved": "https://waspadaaceh.com/anggaran-pertanian-rp25-t-pusat-makan-nangka-aceh-kena-getahnya/",
+                "published": "Sat, 08 Aug 2026 00:47:47 GMT",
+                "fetched_at": "2026-08-08T01:01:15.654059"
+            },
+            {
                 "title": "Kementan tambah bantuan 74 unit irigasi untuk pertanian Solok - sumbar.antaranews.com",
                 "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPLXpZQ0MwZWNqNGdUR2ItdEY2VXM4d20yZWRzdFVNXzhaOEFTazhWYUtyNWZpVW9wZ3ZUM3ZqTlRzRnBhaUNMd05YS053TnBXR0k2M0VmTGlXUjh6VW1zQTFfUlZ0Ymd4Zk9xTVh2OGE0RXB1MGlGdnh5N1MzbldBY25jSG9oTjNNdldPSmI1S0hIM3VxSklQUTR1NWUxd3FmQUdHbDF4SXE?oc=5",
                 "link_resolved": "https://sumbar.antaranews.com/berita/773341/kementan-tambah-bantuan-74-unit-irigasi-untuk-pertanian-solok",
@@ -133,13 +140,6 @@
                 "link_resolved": "https://achmadnurhidayat.id/pemprov-kalteng-buka-vokasi-pertanian",
                 "published": "Thu, 06 Aug 2026 19:05:00 GMT",
                 "fetched_at": "2026-08-06T23:51:28.629066"
-            },
-            {
-                "title": "Adrianus Asia Sidot Salurkan Alsintan ke Kelompok Tani di Sintang, Dorong Produktivitas dan Ketahanan Pangan - Fraksi Partai Golkar",
-                "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOYWtwcS14c1RKLUtMYWplOUxlanMyRy1LeWw2QUlMUEgtcGJ4VkxXeDF0b05MSFh5eVhJbkNMZWFEMFV6U1RESGVQMVJhZjc1ZUg3QUFNeHRKQWZqR3dpU3loUEU5bjg5SG9CX1FzWmdGOHBrMGZEQ0h3d24wa1RtMFNpM0lmYjBBeVhjaWszSER6alhYbzVQTWtRZXZLYkhVODdjeXpIdnZyY1pva1R6ck1JZHZ4cDYySk4tWHBIblF1Z2xfb0pSTjhNUmhkUDRybHhBNGIwY056dw?oc=5",
-                "link_resolved": "https://fraksigolkar.com/read/2426/adrianus-asia-sidot-salurkan-alsintan-ke-kelompok-tani-di-sintang-dorong-produktivitas-dan-ketahanan-pangan",
-                "published": "Thu, 06 Aug 2026 14:03:30 GMT",
-                "fetched_at": "2026-08-06T23:51:28.629021"
             }
         ],
         "Kementerian Kehutanan": [
@@ -3464,14 +3464,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-07T23:26:06.573938"
+        "fetched_at": "2026-08-08T01:01:14.992768"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-07T23:26:06.573938"
+        "fetched_at": "2026-08-08T01:01:14.992768"
     },
     "macro_stats": {
         "ntp": {
@@ -3479,63 +3479,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T23:26:06.573938"
+            "fetched_at": "2026-08-08T01:01:14.992768"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T23:26:06.573938"
+            "fetched_at": "2026-08-08T01:01:14.992768"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T23:26:06.573938"
+            "fetched_at": "2026-08-08T01:01:14.992768"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T23:26:06.573938"
+            "fetched_at": "2026-08-08T01:01:14.992768"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T23:26:06.573938"
+            "fetched_at": "2026-08-08T01:01:14.992768"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T23:26:06.573938"
+            "fetched_at": "2026-08-08T01:01:14.992768"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T23:26:06.573938"
+            "fetched_at": "2026-08-08T01:01:14.992768"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T23:26:06.573938"
+            "fetched_at": "2026-08-08T01:01:14.992768"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-07T23:26:06.573938"
+            "fetched_at": "2026-08-08T01:01:14.992768"
         }
     },
     "scrape_status": {
@@ -3544,5 +3544,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-07T23:26:06.573938"
+    "last_updated": "2026-08-08T01:01:14.992768"
 }
