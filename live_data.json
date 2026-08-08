@@ -3101,6 +3101,13 @@
                 "fetched_at": "2026-08-08T10:23:22.080263"
             },
             {
+                "title": "Audiensi dengan Peternak Petelur Magetan, Riyono Bahas Stabilitas Harga Telur dan Populasi Ayam - lensamagetan.com",
+                "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPRTlzRFU3b1BBY0Zvb1l5MEJtQUw0b3BtNzZLd1FsTlQwWUNxQ2dGa1VVQnVYYi12QXVnU0ctTU9fZUpjekFaLXNCLWJTR1RsN3NOalpVV3otN3A1ZHI2XzRCa2NpSGZBTjY4MVdfbWNpMGttSE1FNWVEb2VJYTdISVo2SnJWV2pxZENzbkdFRnluZDJSNmtkSVF4SUFWWVhVeWRoNXNyWmRvc29yUlJGRFB1RDFIM092WXBhWQ?oc=5",
+                "link_resolved": "https://lensamagetan.com/audiensi-dengan-peternak-petelur-magetan-riyono-bahas-stabilitas-harga-telur-dan-populasi-ayam/",
+                "published": "Sat, 08 Aug 2026 07:27:31 GMT",
+                "fetched_at": "2026-08-08T20:19:55.480913"
+            },
+            {
                 "title": "Riyono Caping: Pengolahan Ikan Untuk Ibu-Ibu Magetan Percepat Budaya Gemarikan - Fraksi PKS",
                 "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMU4tR3U3RTFFSHRsbkV5WmMtWEdyOGplampTV1YzU09HdlNSbXFLZU4xWGk1Y1I2NTg0NWRoeW1sSWNrMXU3dG14MWFKLXRyS1lFb19QX2FhMm5PMlZDelRseHo3bUFCUUoyT0hpZGhnZzE3NmFXd3RVcGhUTW1paE51M2tCRERlSDZqRjNrZDh1clM5Slc4cTJFYnJBQjZRUk5mOHk0NWJzeUJqclNFVQ?oc=5",
                 "link_resolved": "https://fraksi.pks.id/2026/08/07/riyono-caping-pengolahan-ikan-untuk-ibu-ibu-magetan-percepat-budaya-gemarikan/",
@@ -3218,13 +3225,6 @@
                 "link_resolved": "https://www.dpr.go.id/kegiatan-dpr/berita/Riyono-Harga-BBM-Nelayan-Rp15-000-per-Liter-Harus-Diiringi-Jaminan-Stok-dan-Distribusi-67234",
                 "published": "Wed, 15 Jul 2026 11:25:50 GMT",
                 "fetched_at": "2026-07-15T15:20:33.574546"
-            },
-            {
-                "title": "Legislator PKS Apresiasi Kebijakan Harga BBM Untuk Nelayan: Harus Dimanfaatkan Sebaik-baiknya - Kedai Pena",
-                "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdlFpMWZpa0ZET1NzeFhZUUxxYkF4Zk83T0lWU0lSR252VTlzYTF4ai14YlRLUE1lNmhqN0pzZHpMWENzRW9rSzk1OVh5WlBhLS1CTEg5bkJ4VF9MWXo3VmkzTHRWbGJvdXMyMTBHYTlyQVduX2lpblJrQnJHeTQwbHFPZGxMclJkdlhBZHlIWjJjN2pZZjc1RURpU1M0d0VsUENYZ25QazRHWHRlcFl4R2pZNTVsc0JIdGM0?oc=5",
-                "link_resolved": "https://www.kedaipena.com/legislator-pks-apresiasi-kebijakan-harga-bbm-untuk-nelayan-harus-dimanfaatkan-sebaik-baiknya/",
-                "published": "Wed, 15 Jul 2026 08:08:42 GMT",
-                "fetched_at": "2026-07-15T09:53:58.596783"
             }
         ],
         "Rahmat Saleh": [
@@ -3506,14 +3506,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-08T18:24:34.166992"
+        "fetched_at": "2026-08-08T20:19:17.911353"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-08T18:24:34.166992"
+        "fetched_at": "2026-08-08T20:19:17.911353"
     },
     "macro_stats": {
         "ntp": {
@@ -3521,63 +3521,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-08T18:24:34.166992"
+            "fetched_at": "2026-08-08T20:19:17.911353"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-08T18:24:34.166992"
+            "fetched_at": "2026-08-08T20:19:17.911353"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-08T18:24:34.166992"
+            "fetched_at": "2026-08-08T20:19:17.911353"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-08T18:24:34.166992"
+            "fetched_at": "2026-08-08T20:19:17.911353"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-08T18:24:34.166992"
+            "fetched_at": "2026-08-08T20:19:17.911353"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-08T18:24:34.166992"
+            "fetched_at": "2026-08-08T20:19:17.911353"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-08T18:24:34.166992"
+            "fetched_at": "2026-08-08T20:19:17.911353"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-08T18:24:34.166992"
+            "fetched_at": "2026-08-08T20:19:17.911353"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-08T18:24:34.166992"
+            "fetched_at": "2026-08-08T20:19:17.911353"
         }
     },
     "scrape_status": {
@@ -3586,5 +3586,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-08T18:24:34.166992"
+    "last_updated": "2026-08-08T20:19:17.911353"
 }
