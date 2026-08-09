@@ -2,6 +2,13 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "Prosedur pendaftaran tanah di tingkat komune: Kementerian Pertanian dan Lingkungan Hidup menanggapi pertanyaan pemilih di Nghe An. - Vietnam.vn",
+                "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdUtYLWpuamZTVGlGLTMtWk9JX2JnUG8zUzc3U1p2dFVOOVpmeE15cGlNYUVjUmJ0bXR2eThhbk1yZG9USmhxb184SlRVanRmQXlKb3I2QnBNOGlvb0ViSVBjZ1ZZRDNGQ09jZDQtTWg5b29lbkM2cFVDLTRMU3BYcTB4Rm5UdVljNWVmNFVXbkszZUtZaHhxcUNDTEZlbzN1b2RDaHFVQnQ?oc=5",
+                "link_resolved": "https://www.vietnam.vn/id/lam-thu-tuc-dat-dai-tai-xa-bo-nong-nghiep-va-moi-truong-phan-hoi-cu-tri-nghe-an",
+                "published": "Sun, 09 Aug 2026 06:14:32 GMT",
+                "fetched_at": "2026-08-09T06:40:59.135679"
+            },
+            {
                 "title": "Menteri Pertanian Amran Sulaiman Tinjau Harga Beras di Alor NTT - achmadnurhidayat.id",
                 "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1waWFCTm5HUVBlVm1xYTN4WXduVkdTU3BIb1d5U2QyVTFmUi00cUJzQWNOVGp6bmRhcXJZZjBIbmczdmpGRkYxVjBydENyVnFIeTlHQk8wRm4zODdzTXFIR0hfWDVOTGNBM2lkWDNTeFROcWkzOUVhMg?oc=5",
                 "link_resolved": "https://achmadnurhidayat.id/menteri-pertanian-tinjau-harga-beras-alor",
@@ -133,13 +140,6 @@
                 "link_resolved": "https://acehkini.id/rp25-triliun-untuk-pemulihan-pertanian-aceh-pemprov-kelola-alokasi-rp97-miliar/",
                 "published": "Sat, 08 Aug 2026 03:36:53 GMT",
                 "fetched_at": "2026-08-08T04:47:43.598149"
-            },
-            {
-                "title": "Irsyadi : Gubernur Aceh dan Menteri Pertanian Bahas Percepatan Pemulihan Sektor Pertanian Pascabencana - thejurnal.id",
-                "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOVGM4QzRKUGQ1aTZieHB2SGl5dUdGNW5HeDJEamRFMEZEYmllZTFDX3pUV3VLRU9uLUNaZFFGTGJaVUNtWXp2Zzlha1ZQTWdPYUwtQzhqNVFBWktjWXBBQ3pfS0lYUFdGeWZKQ29JLTY4alVkTzlTZjBnUmFNZ29VV2xtUDJkT0RsdGt4N01CWHBwNnZtWkR6WVJlb1lkUzdqSGxEbzVtbE9ZcHV6OVhDM1gwX3JqZGV2WkFvbjF0cXhmWHRNVUhSZjRiSzUyaG11UnRN?oc=5",
-                "link_resolved": "https://thejurnal.id/news/irsyadi-gubernur-aceh-dan-menteri-pertanian-bahas-percepatan-pemulihan-sektor-pertanian-pascabencana/index.html",
-                "published": "Sat, 08 Aug 2026 03:36:03 GMT",
-                "fetched_at": "2026-08-08T04:47:43.598129"
             }
         ],
         "Kementerian Kehutanan": [
@@ -3504,14 +3504,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-09T05:43:15.229193"
+        "fetched_at": "2026-08-09T06:40:58.472181"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-09T05:43:15.229193"
+        "fetched_at": "2026-08-09T06:40:58.472181"
     },
     "macro_stats": {
         "ntp": {
@@ -3519,63 +3519,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T05:43:15.229193"
+            "fetched_at": "2026-08-09T06:40:58.472181"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T05:43:15.229193"
+            "fetched_at": "2026-08-09T06:40:58.472181"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T05:43:15.229193"
+            "fetched_at": "2026-08-09T06:40:58.472181"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T05:43:15.229193"
+            "fetched_at": "2026-08-09T06:40:58.472181"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T05:43:15.229193"
+            "fetched_at": "2026-08-09T06:40:58.472181"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T05:43:15.229193"
+            "fetched_at": "2026-08-09T06:40:58.472181"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T05:43:15.229193"
+            "fetched_at": "2026-08-09T06:40:58.472181"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T05:43:15.229193"
+            "fetched_at": "2026-08-09T06:40:58.472181"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T05:43:15.229193"
+            "fetched_at": "2026-08-09T06:40:58.472181"
         }
     },
     "scrape_status": {
@@ -3584,5 +3584,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-09T05:43:15.229193"
+    "last_updated": "2026-08-09T06:40:58.472181"
 }
