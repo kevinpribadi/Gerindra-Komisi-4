@@ -2,6 +2,13 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "Menteri Pertanian Amran Sulaiman Tinjau Harga Beras di Alor NTT - achmadnurhidayat.id",
+                "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1waWFCTm5HUVBlVm1xYTN4WXduVkdTU3BIb1d5U2QyVTFmUi00cUJzQWNOVGp6bmRhcXJZZjBIbmczdmpGRkYxVjBydENyVnFIeTlHQk8wRm4zODdzTXFIR0hfWDVOTGNBM2lkWDNTeFROcWkzOUVhMg?oc=5",
+                "link_resolved": "https://achmadnurhidayat.id/menteri-pertanian-tinjau-harga-beras-alor",
+                "published": "Sun, 09 Aug 2026 04:53:25 GMT",
+                "fetched_at": "2026-08-09T05:43:17.249456"
+            },
+            {
                 "title": "Kementan Pacu Produktivitas Sawit untuk Penuhi Kebutuhan Pangan, Energi, dan Ekspor - agrofarm.co.id",
                 "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPXzY1VDhvVTlNU0ZsOWhRdjF2MkltclBDX1R4M0d5Y2M4SjZfTWpxd0JHZjFsZnlxUWJ1cEg2N0d4LUJ2TG9xR0tOd2FESEhwLUFOQVNqQzhJM1B6MjZyWGc3N01rWWEwR3RPOWp3UjBSTjRPWlpkMWVscUMwVTFDNW5fTGJjdkpFQ1l5dTZBWE9FSFVOc2FZN1BUMXlDb1RibnZTa0FNSDlSZXRhX1YzLW1udkEwcTQ?oc=5",
                 "link_resolved": "http://www.agrofarm.co.id/2026/08/kementan-pacu-produktivitas-sawit-untuk-penuhi-kebutuhan-pangan-energi-dan-ekspor/",
@@ -49,6 +56,13 @@
                 "link_resolved": "https://kalteng.antaranews.com/berita/837755/mentan-siapkan-10-ribu-hektare-pertanian-untuk-tekan-kemiskinan-alor",
                 "published": "Sat, 08 Aug 2026 22:08:21 GMT",
                 "fetched_at": "2026-08-08T22:19:42.727310"
+            },
+            {
+                "title": "Mentan mempercepat intervensi pertanian untuk tekan kemiskinan di Alor - ANTARA News Ntt",
+                "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWHhPT2NvNDgxLUZhQUY3eWpqa0ZkUW53bHBLWmhXTF9JdmlvaHNQNTlkTV9XNUhKVnN1cklqLWRadk1ick94WEVTaHhjVkxVSXlzRkd4Ukg3NlB3NlUtS1dic1FleUVGZ2NaZGppaUZYcnhpd0pEczhYbk5SWHl1OXRWRzk4NVMzZmhaSnJiTEdoam84NWRqV3dkbHpPbjYyUFNpS2c5dm5EWmMydWFuVzA4N2g?oc=5",
+                "link_resolved": "https://kupang.antaranews.com/berita/196381/mentan-mempercepat-intervensi-pertanian-untuk-tekan-kemiskinan-di-alor",
+                "published": "Sat, 08 Aug 2026 21:46:21 GMT",
+                "fetched_at": "2026-08-09T05:43:17.249445"
             },
             {
                 "title": "Amran Sulaiman Percepat Intervensi Pertanian untuk Tekan Kemiskinan di Alor - voi.id",
@@ -126,20 +140,6 @@
                 "link_resolved": "https://thejurnal.id/news/irsyadi-gubernur-aceh-dan-menteri-pertanian-bahas-percepatan-pemulihan-sektor-pertanian-pascabencana/index.html",
                 "published": "Sat, 08 Aug 2026 03:36:03 GMT",
                 "fetched_at": "2026-08-08T04:47:43.598129"
-            },
-            {
-                "title": "Rp 2,5 Triliun Dana Kementan untuk Bencana, Pemerintah Aceh kelola Rp 9,7 Miliar - nukilan.id",
-                "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX2EwcGxQNFpMdkdfUFgtOGJwTWV3T1N0WU5lcnpURUJXWlFDT0NJSk55MEdkOHZ6MUVPY2N1d2kzWnZnRmMtU2pPbnZuTzN0c0VfZzBxV29pVjNtYVpGVEM3ZVdZV25Vc2RBLWZzUkNwcE4ybHM0U2F0VlEzZGZjYVk4RUdOLW9mYVdaWnRwSHNSVmVIZjVMLWZKZm1DUQ?oc=5",
-                "link_resolved": "https://nukilan.id/rp-25-triliun-dana-kementan-untuk-bencana-pemerintah-aceh-kelola-rp-97-miliar/",
-                "published": "Sat, 08 Aug 2026 02:00:35 GMT",
-                "fetched_at": "2026-08-08T03:17:20.442263"
-            },
-            {
-                "title": "Anggaran Pertanian Rp2,5 T: Pusat Makan Nangka, Aceh Kena Getahnya - Waspada Aceh",
-                "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNDBQMHhyWW1LR2EyYXh0Q3pJMDFpYVV5ZkwxXzdCMlduVTVNRmN4UGpGQWJURFVsanZFQjAzREJTYkI3WW1hUm5IRm5ZV1ZIcVpTNWVkMWRJWkNERk1KOEp0eXlfaDc4TmlMSXQ2aW1Ca21jYzNqMEo1c3VUNnRZbFdVa3J1c3lJTlBmWS10d0YyQQ?oc=5",
-                "link_resolved": "https://waspadaaceh.com/anggaran-pertanian-rp25-t-pusat-makan-nangka-aceh-kena-getahnya/",
-                "published": "Sat, 08 Aug 2026 00:47:47 GMT",
-                "fetched_at": "2026-08-08T01:01:15.654059"
             }
         ],
         "Kementerian Kehutanan": [
@@ -1149,6 +1149,13 @@
         ],
         "Rokhmin Dahuri": [
             {
+                "title": "Rokhmin Dahuri Menantang Mahasiswa FPIK IPB Tidak Hanya Menjadi Pencari Kerja - gesuri.id",
+                "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaGZUUVBIcXZuaHNTVnZhaUFkRW1wemNjNGhEY2lmeTFHX09Hdkw1WEhUWHRSalJQNEtDV01VbVpscGRLcU9fM2YzYVRpblBoRERJWjFzTzQtQmtIalBDcVZaN0pVb0tOdXB0UWp4WkE2VVMtYmQyRU9jQUFCTkdGMm5obkVza3VOc3VjdjFGSXJ0QklSamc4U21CUXdVcnR5R2h3MEJobUlfVnZTYzBBSXRtUXNldUFVS0hCdzlsbUHSAcYBQVVfeXFMTWNMTjl2VF9VZFhPaDY0TVhYc1Zja3l4VUpRWHBKdUZlRVUxNUxkM1pTejQzVzZRUmNtMFpCQnVNcVA4Q0otUU83STJFcGhxTkJ3UTA1QnBKQ1lnRFRfVWtNLXFhUkJaN3BIREMxMXRlSjg5d3hHTkhpNXlxTXpGeXFZSEVITE9uRlBqVTdGWW5rNkpwbzRvTGU1eTI1Nnp3U0dEWmF6ZDlfNmQyeG9wUEdLOGVKdWQ2VmlUYzJFaE9oZ1NVR3d3?oc=5",
+                "link_resolved": "https://www.gesuri.id/pemerintahan/rokhmin-dahuri-menantang-mahasiswa-fpik-ipb-tidak-hanya-menjadi-pencari-kerja-b2pYyZbhcL",
+                "published": "Sun, 09 Aug 2026 05:00:00 GMT",
+                "fetched_at": "2026-08-09T05:43:25.285982"
+            },
+            {
                 "title": "Rokhmin Dahuri: Bangun Indonesia Emas 2045 Harus Miliki Kemampuan Memaafkan - gesuri.id",
                 "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUXZVOXlBNWt6NVdFdU91a3NaU2RhZ1pqSUEtUHZzb042WVlVdEZqU0JEYnBVbWtMNHUzWVc3ZV9VSkVhM21vbWdObFlib1lJaVk1OWFLQ0w5S0sxc3lhaGlXQXg5UHRpZXF0YkRSZTJjUTVpVnZiNFRtbXdTNHJ4QjlGS1lwODg3czJqbjdaaEwydFZuSWRZQVBFU2hIYTVVbFpoY19CcHVaNU93X1RoUUtPZWo0Q0laUnczatIBwgFBVV95cUxOWVdPYzVJVEZPRlBiRWZhaUcxamhmU18zT1BTMEFjb0YweVZzcWZ2VGNubVNXYTNsVzNsR0FmTTFBZE4wOTBNWnpzQ2xqRVU3bVFGOEliblRfTFhUQm0xbGtFX2k3Wm5yUmlJQlZIRENXYnJFcklMdE5KbkxLRVltMVNxS0JiYUpxNmdkQ0UwN2pyTGdGZHVIQlpiaEJZNXpvRHFpS05YUzBPaWlNb2piQUhZcXQ4MFdSQmRUMDFBUlNNdw?oc=5",
                 "link_resolved": "https://www.gesuri.id/pemerintahan/rokhmin-dahuri-bangun-indonesia-emas-2045-harus-miliki-kemampuan-memaafkan-b2pYxZbhbY",
@@ -1280,13 +1287,6 @@
                 "link_resolved": "https://www.askara.co/read/2026/07/30/67494/reses-8-hari-di-cirebon-indramayu-prof-rokhmin-dahuri:-saatnya-belanja-masalah-rakyat-menyerap-aspirasi-dan-merumuskan-solusi",
                 "published": "Wed, 29 Jul 2026 22:34:00 GMT",
                 "fetched_at": "2026-07-30T04:51:22.193175"
-            },
-            {
-                "title": "Rokhmin Dahuri Dorong Lahirnya Lebih Banyak Pengusaha Baru di Sektor Kelautan dan Perikanan - gesuri.id",
-                "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZnFtTGVVQWJ4Tno1YjRUdFNKRGYyb0g2ZTRoQzVqdXdJcEhMbFh3Rm1VV0RVMkVHQW1VVWFFbVpER0lkd0RRa3FvdXpaZDNXSGQ3UmZyWkJVcUMzNk1ZS0hRak02c0t5VTFRLTBrdXJEYS12SzhUUHZram1FZEwzbWxMMksydFNMb0lXRThiU1duRGZuTWw4czZtQldtdkkyWTZXRHJKU1dLSHVqSjBEMGtFVzJGNTMzQUtqMnI5TWNjWTlyZC1DZ0dkZVhjdHZpcnNrSmZWUlPSAdgBQVVfeXFMUGZxbUxlVUFieE56NWI0VHRTSkRmMm9INmU0aEM1anV3SXBITGxYd0ZtVVdEVTJFR0FtVVVhRW1aREdJZHdEUWtxb3V6WmQzV0hkN1JmclpCVXFDMzZNWUtIUWpNNnNLeVUxUS0wa3VyRGEtdks4VFB2a2ptRWRMM21sTDJLMnRTTG9JV0U4YlNXbkRmbk1sOHM2bUJXbXZJMlk2V0RySlNXS0h1akowRDBrRVcyRjUzM0FLajJyOU1jY1k5cmQtQ2dHZGVYY3R2aXJza0pmVlJT?oc=5",
-                "link_resolved": "https://www.gesuri.id/amp/pemerintahan/rokhmin-dahuri-dorong-lahirnya-lebih-banyak-pengusaha-baru-di-sektor-kelautan-dan-perikanan-b2pXcZbgEI",
-                "published": "Tue, 28 Jul 2026 01:00:00 GMT",
-                "fetched_at": "2026-07-28T04:57:06.881276"
             }
         ],
         "I Nyoman Adi Wiryatama": [
@@ -2667,6 +2667,13 @@
                 "fetched_at": "2026-08-08T06:38:10.027432"
             },
             {
+                "title": "PKB Desak Kemenhut Gerak Cepat soal Karhutla di Bromo, Ancaman El Nino Disinggung - GenPI.co - GenPI.co",
+                "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSmZxU1lwbnlVQmE2d1c0QUpuX1dHb3NwLVJIXzgxM1N0ZGZjZElCai02NzNfTG4zZFE0cmZyV1hEdjVnUWhZNV9MNUZmZmdSTXlGbVNmNFpaMFN2X1BpX2xzZ25qTHVzRm03alMwaW5CY01lRVBKNjBrTkFxWUJTRnM4Q2pzdHJFSF85RFd5VE5mLVkyVmRZZ204ZU9YcjNTckR6SldERDl0NDc5d09DWl9CR2tYQlRq0gG-AUFVX3lxTFByRjJ0MklPdFU4S3VIdDJLcVhpZmVXeU4wbW5mNlI3VlpIcXp5bEJxN3dHbTFWUFl2YUR4N0w1SnVfTlI2T0VRNFVLWjY4bVJreGI3MVg1LVdKLVQ2V2FlSTk2WmNFTVBQS1AwMlRzc0w1RHo4V1RmeUpPazZUQjBkMW1OT0owanNtczJYOGdQQlcxdC1Mb3BXWTlKMFVkVEItOUhhVTNJNFZvQVVpYUtXbXJLWGlDdmQ4cHFCc1E?oc=5",
+                "link_resolved": "https://www.genpi.co/polhukam/286172/pkb-desak-kemenhut-gerak-cepat-soal-karhutla-di-bromo-ancaman-el-nino-disinggung",
+                "published": "Sat, 08 Aug 2026 04:20:28 GMT",
+                "fetched_at": "2026-08-09T05:43:59.504465"
+            },
+            {
                 "title": "60 Hektare Bromo Hangus, Hindun Anisah Desak Kemenhut Perkuat Mitigasi Dini Karhutla - Jakartanews.id",
                 "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNQUREeTdWNk02TmZ5ZUZYcTB2V3RPRWhOVG9kSG9DQkY4djZLY0dJQkRULTVXU3JsNC1MQ1ozUnM1NG8wX3RodVRWRWVOUEFfQm01c3NVQlF1ME1wZUFKcDVuR1EyUzB0Uk1hcTB0a0ROTHhUOWFNT3d0R1ltc202Y2R3QjdEWVU4NDgtZVZTcmh1cVhQdjVKbExxeHFPU3Boa2xqUFJYVk1uS3RSMjdLc0QyQk16eWlKNWZFdzZscjJSS3BwUlhr0gHHAUFVX3lxTE1BRER5N1Y2TTZOZnllRlhxMHZXdE9FaE5Ub2RIb0NCRjh2NktjR0lCRFQtNVdTcmw0LUxDWjNSczU0bzBfdGh1VFZFZU5QQV9CbTVzc1VCUXUwTXBlQUpwNW5HUTJTMHRSTWFxMHRrRE5MeFQ5YU1Pd3RHWW1zbTZjZHdCN0RZVTg0OC1lVlNyaHVxWFB2NUpsTHF4cU9TcGhrbGpQUlhWTW5LdFIyN0tzRDJCTXp5aUo1ZkV3NmxyMlJLcHBSWGs?oc=5",
                 "link_resolved": "https://www.jakartanews.id/2026/08/07/60-hektare-bromo-hangus-hindun-anisah-desak-kemenhut-perkuat-mitigasi-dini-karhutla/?amp=1",
@@ -2791,13 +2798,6 @@
                 "link_resolved": "https://jurnalpatrolinews.co.id/nasional/harga-solar-khusus-nelayan-dipangkas-hindun-anisah-ini-langkah-strategis-presiden/",
                 "published": "Tue, 14 Jul 2026 10:39:14 GMT",
                 "fetched_at": "2026-07-14T15:18:41.761229"
-            },
-            {
-                "title": "Presiden Turunkan Harga BBM Khusus Nelayan, Hindun Anisah Komisi IV FKPB: Harus Tepat Sasaran! - FPKB DPR RI",
-                "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPR3hmdXFnMjEwX01nSWhUQzJ4OGdvVlg2akhzYmk3TU9VMWNnQ01Dd282SG51T1pucDA4SUpoQXhSRUxsa2MtLVJnZGhHcWhxcS1kSWFydlBDREdpSHRpSzNaWWY3VXNkZVRjN1RaSG1TdmJEWm9wN2tES3NUaTJTZFFtWjMteFVqaDFMekFEc0M4WHlPRDh1V0x4YkM0UkJiRERqQ04xLW1sSjdWVW1MMkZSSkpBdkxfdk85VXBramtoVkFGWVNmRw?oc=5",
-                "link_resolved": "https://www.fraksipkb.com/2026/07/14/presiden-turunkan-harga-bbm-khusus-nelayan-hindun-anisah-komisi-iv-fkpb-harus-tepat-sasaran/",
-                "published": "Tue, 14 Jul 2026 05:16:37 GMT",
-                "fetched_at": "2026-07-14T07:06:10.641866"
             }
         ],
         "Usman Husin": [
@@ -3350,6 +3350,13 @@
                 "fetched_at": "2026-07-18T15:47:43.738720"
             },
             {
+                "title": "Anggota DPR dukung langkah Kementan perbaiki harga ayam peternak - ANTARA News",
+                "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOY2xzc3FRTzRjR2JlZllLcW1CYXFEdWhzaHFFcE54emMwd0Y2dWR2ZWtIekRFeU9KYkFYRjRIVC1LcnE5UlJFTmc0NTZDN1ZuSElDRFVkdXhMQUlHYzl5dElLYV9qeGYwQWZHeEYtUGFqdnJhVEtLM0hzakJJMlhfOXFFNjVuQzFCS002WFhwU3BTR21jQUlQOVQwbGZEWE1pMzlSZ2FYMHZRd9IBrAFBVV95cUxQbzdZWm9UcEFzS3hISDU4WG9SQVE2TjlkM0RTVm5CcVlaTUdCN3pxWDhBRnNhbnIxNk1EN3lLRjlnZF9kWTN5WGJxb3FYb0tfRTc1Zk5JczN6UWNYTm5fTFc4YlExUmM2ekJVRkl3NHU4SWNKMXRjQmNnUUR2OGJDNF9sbjBkcUE1YlFHVXRZcTVOTkFSNmhjWVAtZHc4UmdtLTZ6ai10d3lzZVdJ?oc=5",
+                "link_resolved": "https://www.antaranews.com/berita/5654976/anggota-dpr-dukung-langkah-kementan-perbaiki-harga-ayam-peternak",
+                "published": "Sat, 18 Jul 2026 07:00:00 GMT",
+                "fetched_at": "2026-08-09T05:44:10.091556"
+            },
+            {
                 "title": "Komisi IV DPR Dukung Langkah Kementan Dongkrak Harga Ayam di Tingkat Peternak - Aktual.com",
                 "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTkU4WkhzTEZCM2l2ZW1IMlA4ZE5kRjVjSlltVmJWTjlkNXJXQ2s5VG52SnJTcFFiMXhWd1ZtbnlPWFltenQwV25qX0xaOFhhSktfMGlpTjZMUGRmT3BSUmJGdkNjb3M2bFhKRmo5Z0FwajZnZnVzSXpDWkM4cUNKd21DVzFwQlZiWEMtUDAwN0FpZHZFQ3NMc0hqTnlGZw?oc=5",
                 "link_resolved": "https://aktual.com/komisi-iv-dpr-dukung-langkah-kementan-dongkrak-harga-ayam-di-tingkat-peternak/",
@@ -3497,14 +3504,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-09T04:56:25.800395"
+        "fetched_at": "2026-08-09T05:43:15.229193"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-09T04:56:25.800395"
+        "fetched_at": "2026-08-09T05:43:15.229193"
     },
     "macro_stats": {
         "ntp": {
@@ -3512,63 +3519,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T04:56:25.800395"
+            "fetched_at": "2026-08-09T05:43:15.229193"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T04:56:25.800395"
+            "fetched_at": "2026-08-09T05:43:15.229193"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T04:56:25.800395"
+            "fetched_at": "2026-08-09T05:43:15.229193"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T04:56:25.800395"
+            "fetched_at": "2026-08-09T05:43:15.229193"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T04:56:25.800395"
+            "fetched_at": "2026-08-09T05:43:15.229193"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T04:56:25.800395"
+            "fetched_at": "2026-08-09T05:43:15.229193"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T04:56:25.800395"
+            "fetched_at": "2026-08-09T05:43:15.229193"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T04:56:25.800395"
+            "fetched_at": "2026-08-09T05:43:15.229193"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T04:56:25.800395"
+            "fetched_at": "2026-08-09T05:43:15.229193"
         }
     },
     "scrape_status": {
@@ -3577,5 +3584,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-09T04:56:25.800395"
+    "last_updated": "2026-08-09T05:43:15.229193"
 }
