@@ -2442,13 +2442,6 @@
                 "link_resolved": "https://m.antaranews.com/amp/berita/5648669/anggota-dpr-ungkap-perjalanan-sulitnya-lulus-dari-universitas-terbuka",
                 "published": "Tue, 14 Jul 2026 08:02:50 GMT",
                 "fetched_at": "2026-07-14T09:49:31.493271"
-            },
-            {
-                "title": "Habibur Rochman Pastikan Bantu Selesaikan 5.506 Sertifikat yang Diblokir di Jambi - Partai NasDem",
-                "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQN25vSGpEQnZLM0ZLXzE4Y3lJTlRmNmFhZENFbEE2UUlscWdYSjlfSjlIbUYtV1FJTE1faEd3Wm5UbC1kUzJzUUxuQzdtMFFqMkgySWRuRF9RWFBwSUdFM282RDI1YmlSOTlWYTNxeFhLS3ZkUFpOYUMxOWNPb1JWeXIyMy1ST25LNkdWS2J0anJ3VnFaVzljZWpJMDlXd3E1aDE3X0wwS1BNWE12TjZ6c2ZPZWVCck5a?oc=5",
-                "link_resolved": "https://partainasdem.id/2026/07/10/habibur-rochman-pastikan-bantu-selesaikan-5-506-sertifikat-yang-diblokir-di-jambi/",
-                "published": "Fri, 10 Jul 2026 12:43:59 GMT",
-                "fetched_at": "2026-07-10T13:06:24.856309"
             }
         ],
         "Jaelani": [
@@ -3483,14 +3476,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-09T12:33:03.254362"
+        "fetched_at": "2026-08-09T13:42:11.985872"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-09T12:33:03.254362"
+        "fetched_at": "2026-08-09T13:42:11.985872"
     },
     "macro_stats": {
         "ntp": {
@@ -3498,70 +3491,70 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T12:33:03.254362"
+            "fetched_at": "2026-08-09T13:42:11.985872"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T12:33:03.254362"
+            "fetched_at": "2026-08-09T13:42:11.985872"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T12:33:03.254362"
+            "fetched_at": "2026-08-09T13:42:11.985872"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T12:33:03.254362"
+            "fetched_at": "2026-08-09T13:42:11.985872"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T12:33:03.254362"
+            "fetched_at": "2026-08-09T13:42:11.985872"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T12:33:03.254362"
+            "fetched_at": "2026-08-09T13:42:11.985872"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T12:33:03.254362"
+            "fetched_at": "2026-08-09T13:42:11.985872"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T12:33:03.254362"
+            "fetched_at": "2026-08-09T13:42:11.985872"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T12:33:03.254362"
+            "fetched_at": "2026-08-09T13:42:11.985872"
         }
     },
     "scrape_status": {
-        "phase_1_agency": "ok",
-        "phase_2_members": "ok",
+        "phase_1_agency": "failed",
+        "phase_2_members": "partial",
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-09T12:33:03.254362"
+    "last_updated": "2026-08-09T13:42:11.985872"
 }
