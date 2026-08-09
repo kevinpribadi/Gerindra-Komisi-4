@@ -3373,6 +3373,13 @@
                 "fetched_at": "2026-08-08T03:18:02.772728"
             },
             {
+                "title": "Silaturahmi ke Karampuang, Ajbar Tegaskan Pengabdian Tak Mengenal Musim Pemilu - KABARDESA.CO.ID",
+                "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBXWFMxMzVRRW9CTFdMeERQdHJDYzVWZTl1NzNaM29YZW1PUTdzZ3NKaGNaR3J6cjdyV1pSbXBUN0N4R21BMkl4VTlZcHFqRXRWRjJQeTBIMm1EMjQxT0VOTExxbU5jNG9DYU8xRzlfY2wzTmhndjd6VlY0TEw?oc=5",
+                "link_resolved": "https://www.kabardesa.co.id/2026/08/silaturahmi-ke-karampuang-ajbar.html",
+                "published": "Fri, 07 Aug 2026 23:48:52 GMT",
+                "fetched_at": "2026-08-09T22:22:00.486942"
+            },
+            {
                 "title": "Ajbar Dorong Hutan Karbon Sulbar Jadi Sumber Nilai Ekonomi Berkelanjutan - beritanasional.id",
                 "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSFl2Y3VubFpVZnhFMjVQaWpkMThtTFZnMnRYOEhEWTEtdHNjMGZJY1ZvTnJnYnNTSC1DQXl2b2JCVzI2UU1tdHliV1piU3pXVFN2U2hkcHRKZkVleDYxdktuT1ZaaXhMNEZuOWtVRG8tZU9NWlhIaUlpY2htM0hxaFlBSXFNcUxCX1NILUptVTJEX0tzcWoxZGkyT2w3dEVh?oc=5",
                 "link_resolved": "https://beritanasional.id/ajbar-dorong-hutan-karbon-sulbar-jadi-sumber-nilai-ekonomi-berkelanjutan/",
@@ -3483,14 +3490,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-09T20:22:10.457853"
+        "fetched_at": "2026-08-09T22:21:11.245705"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-09T20:22:10.457853"
+        "fetched_at": "2026-08-09T22:21:11.245705"
     },
     "macro_stats": {
         "ntp": {
@@ -3498,63 +3505,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T20:22:10.457853"
+            "fetched_at": "2026-08-09T22:21:11.245705"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T20:22:10.457853"
+            "fetched_at": "2026-08-09T22:21:11.245705"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T20:22:10.457853"
+            "fetched_at": "2026-08-09T22:21:11.245705"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T20:22:10.457853"
+            "fetched_at": "2026-08-09T22:21:11.245705"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T20:22:10.457853"
+            "fetched_at": "2026-08-09T22:21:11.245705"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T20:22:10.457853"
+            "fetched_at": "2026-08-09T22:21:11.245705"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T20:22:10.457853"
+            "fetched_at": "2026-08-09T22:21:11.245705"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T20:22:10.457853"
+            "fetched_at": "2026-08-09T22:21:11.245705"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T20:22:10.457853"
+            "fetched_at": "2026-08-09T22:21:11.245705"
         }
     },
     "scrape_status": {
@@ -3563,5 +3570,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-09T20:22:10.457853"
+    "last_updated": "2026-08-09T22:21:11.245705"
 }
