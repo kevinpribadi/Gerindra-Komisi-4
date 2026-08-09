@@ -144,6 +144,13 @@
         ],
         "Kementerian Kehutanan": [
             {
+                "title": "Menhut ajak masyarakat bantu pemerintah cegah karhutla - kalbar.antaranews.com",
+                "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWTZPZFJfQ194Z0MybEFJT255MjhHdzYzQmdpYVVBY0ZYMEk4dUtfS3IzSkY4VzJJXzE4UFlRd2tiZk15aS1pNEpnYmVlWW1RUFpfdDlTYkZvWjhia2lXY0RKV0IzV1lONENJVVhFaEJPSWJfUndQU2EybXRsVmMySU5iVmVoQXBZY0F3QjBHVG1KRWNDR3JPdXI3NlJxUDjSAaQBQVVfeXFMUDBxcjFwY3Q5WFgwekNQaHRGVVRCUG1hanJtTjJTYVBOdElfRnVKU0VWYWNYV2ZJOGVLM3B6Y0VZUGNHRF8xdUJybkE3bFVwZ054MlBSV2dPY181RHR3MlcyVnhCVlkwTG40eG9aYjJHWDIybjVHamE1YW5jdko2dVM1cGlRazVXdm1ISHVZUU9hdHFpaG94Y3NGQzhwRlRwQmticHo?oc=5",
+                "link_resolved": "https://kalbar.antaranews.com/berita/708740/menhut-ajak-masyarakat-bantu-pemerintah-cegah-karhutla",
+                "published": "Sun, 09 Aug 2026 22:42:43 GMT",
+                "fetched_at": "2026-08-09T23:22:37.740506"
+            },
+            {
                 "title": "Kebakaran Bromo, Kemenhut Andalkan Operasi Udara dan Pasukan Darat - MetroTVNews.com",
                 "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPYXAyc0RzN1JDeWpIeVRWalpzdVQ3VlFENHhXcm9LeU1LODRLZFF2aWpDekNpM3VyZ0ZqQjE3UDhMTDV6ODdaMThHcXJ1ZjFmMFVPNGg1NkJQSjFRT0FoQjMzeWhrU0d1ZHFmZS1WdjViSzd4UHQ1b2kyV25SR2lfXzJHTmMyN1BxbE5sTkduUjVjNkZVNTV5TkswOXN4NzVWMXYxeHJEaWRXdlU?oc=5",
                 "link_resolved": "https://www.metrotvnews.com/read/NrWC80JA-kebakaran-bromo-kemenhut-andalkan-operasi-udara-dan-pasukan-darat",
@@ -275,13 +282,6 @@
                 "link_resolved": "https://ksdae.kehutanan.go.id/publikasi/artikel/bksda-kalimantan-timur-gelar-visit-to-school-road-to-hkan-2026-di-balikpapan-selatan-ow5ufdIT/",
                 "published": "Fri, 07 Aug 2026 21:20:29 GMT",
                 "fetched_at": "2026-08-07T23:26:07.576784"
-            },
-            {
-                "title": "Kebakaran Kawah Wadon Terus Ditangani, Keselamatan Pendaki TNGGP Dipastikan - Kementerian Kehutanan",
-                "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSk5URXFqblB3NFZLSkJ0a3ljS1lXVDdKRjItV1hrZFVfX0dqQldhTFhuVG1ucXZMWllWS051SExaaGNBNUFMVHhBZ2hXSTNUQlE1cFdGVjJ2dEhFMU92eTlSZzFndXBfTUM1NVNUVFJaNlZtRVZaLXAzNV9zU1poTTY4d09ET3dDeGVvYll0dlI3MDNXQURiRll3UEU1S3BXRUVwZmlwdDZ1bXM?oc=5",
-                "link_resolved": "https://www.kehutanan.go.id/news/kebakaran-kawah-wadon-terus-ditangani-keselamatan-pendaki-tnggp-dipastikan",
-                "published": "Fri, 07 Aug 2026 16:18:35 GMT",
-                "fetched_at": "2026-08-07T16:43:31.738029"
             }
         ],
         "Kementerian Kelautan dan Perikanan": [
@@ -3490,14 +3490,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-09T22:21:11.245705"
+        "fetched_at": "2026-08-09T23:22:36.485863"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-09T22:21:11.245705"
+        "fetched_at": "2026-08-09T23:22:36.485863"
     },
     "macro_stats": {
         "ntp": {
@@ -3505,63 +3505,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T22:21:11.245705"
+            "fetched_at": "2026-08-09T23:22:36.485863"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T22:21:11.245705"
+            "fetched_at": "2026-08-09T23:22:36.485863"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T22:21:11.245705"
+            "fetched_at": "2026-08-09T23:22:36.485863"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T22:21:11.245705"
+            "fetched_at": "2026-08-09T23:22:36.485863"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T22:21:11.245705"
+            "fetched_at": "2026-08-09T23:22:36.485863"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T22:21:11.245705"
+            "fetched_at": "2026-08-09T23:22:36.485863"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T22:21:11.245705"
+            "fetched_at": "2026-08-09T23:22:36.485863"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T22:21:11.245705"
+            "fetched_at": "2026-08-09T23:22:36.485863"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-09T22:21:11.245705"
+            "fetched_at": "2026-08-09T23:22:36.485863"
         }
     },
     "scrape_status": {
@@ -3570,5 +3570,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-09T22:21:11.245705"
+    "last_updated": "2026-08-09T23:22:36.485863"
 }
