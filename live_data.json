@@ -1149,6 +1149,13 @@
         ],
         "Rokhmin Dahuri": [
             {
+                "title": "Prof Rokhmin Dahuri Ungkap Akar Krisis Pertanian: Bukan Anak Muda Malas ke Sawah, Tapi Sistemnya yang Spekulatif - Askara.co",
+                "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZ0ZkbGdkR2JpZ0EwaXd5c2RjZlE2Ujl6cUtZbEc5Y0ZjR1BhR0lFRnE5Ykp0cXk3dXAxdmxGQmxyWFpPY1BkNm9HUE1DMGZCQ3ZSUjBFczlyYkNmNzhUN25jX3paOTZrQjJmMHVIMXFMUlE3dERYY2FfVUxxSl9rYUo3THRwekFZb0lfeHNVSzNreXFQTzBmQlBDdFYxcmJ0ZFU1cURScmV0Rmo4WmZOUTl5VUhBU1ZxZjNwbHdrLXd5Q0tGQlRVZUx4TVZRZWZja2FIb3VuOU9YQWU2dW9zd3VxZkZzRmZUQ0VB?oc=5",
+                "link_resolved": "https://www.askara.co/read/2026/08/11/67812/prof-rokhmin-dahuri-ungkap-akar-krisis-pertanian:-bukan-anak-muda-malas-ke-sawah-tapi-sistemnya-yang-spekulatif",
+                "published": "Mon, 10 Aug 2026 21:51:00 GMT",
+                "fetched_at": "2026-08-10T22:28:03.183549"
+            },
+            {
                 "title": "Rokhmin Dahuri Tantang KAHMI Jabar Jadi Mesin Pencetak SDM Unggul dan Penggerak Inovasi - gesuri.id",
                 "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPRk9nUGo4ZXpTMDN6VzRseU5OalY0U3ZTNVd0LTVSTjFsbXpzeDVOZF9BbmVXa2dBRHotRVRlakpQU2RDRmJNR3lkd3VhZlQ1QjZMNHpfWFZaTVhJcUFBbHRFd3RHZWk2bHlnMHA0cjdrQ0hjandXUzBHN2h3aU5JWnhXTXJUcEx2RFE0TUJldmRVV1V1dkk4TzdNWFMxYjI3bVJ5eWhtWmlIUFpkNElpTXhQak9XRkFlUTV6V2FtLXYzYTJOSjRfWnhjZms?oc=5",
                 "link_resolved": "https://www.gesuri.id/serba-serbi/rokhmin-dahuri-tantang-kahmi-jabar-jadi-mesin-pencetak-sdm-unggul-dan-penggerak-inovasi-b2pYzZbhev",
@@ -1280,13 +1287,6 @@
                 "link_resolved": "https://www.gesuri.id/pemerintahan/rokhmin-dahuri-sukses-perjuangkan-dua-kampung-nelayan-merah-putih-di-lemahwungkuk-dan-panjunan-cirebon-b2pXfZbgLT",
                 "published": "Thu, 30 Jul 2026 09:00:00 GMT",
                 "fetched_at": "2026-07-30T10:15:19.848382"
-            },
-            {
-                "title": "Rokhmin Dahuri: Menjaga Mangrove Menyelamatkan Masa Depan, Bukan Sekadar Menanam - gesuri.id",
-                "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbm9YMGt6UTN4cWdVS2RPeHJiVjRCUkNjdXRZWTBzMGg3M3B5U1pvY3I5aFNRWE4zVEJNalZNRDhLUnZiTGU5OG9TYy1US3NLNnZ5QzBmQjZXZzNUaFpBTkIwRlRUZ0w2YW9wejJPZzhWcmRQc2tKT1NvQ29TblNqRFBqQU5zbXdQT2k0RklfYzdRWWIwaGpMMjBadFlHajZ2cE9qd291MzV4RmI0N2pzdjhBZWV0RnVES21kWUk5eUpXd9IBxwFBVV95cUxPU0dBejJiQkVXencyZTdKYTdZMmU1RmtIVjllNUdRSGVXdktOcEF0cmhYUjZTbWFTb1lidndaVGJtcjJfeFF3WWxyak1HUElYaGtMbEp1NUw2dXRZeF9xTm0xRXEybVlwSkhIMUo5Sy1kTGNLWGdaZF8zV2ZwQVBlRVRBLUx4a01ibnhlZ2k4czJoYnY5bjlJMFZVMF9STWItMmVGZ19LTjRmckIyLWJVT0VpTDdQSU5rVjA2Q3VOWmtrck41R0dN?oc=5",
-                "link_resolved": "https://www.gesuri.id/pemerintahan/rokhmin-dahuri-menjaga-mangrove-menyelamatkan-masa-depan-bukan-sekadar-menanam-b2pXfZbgLL",
-                "published": "Thu, 30 Jul 2026 03:00:00 GMT",
-                "fetched_at": "2026-07-30T04:51:22.193186"
             }
         ],
         "I Nyoman Adi Wiryatama": [
@@ -3525,14 +3525,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-10T19:48:53.295213"
+        "fetched_at": "2026-08-10T22:27:57.006562"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-10T19:48:53.295213"
+        "fetched_at": "2026-08-10T22:27:57.006562"
     },
     "macro_stats": {
         "ntp": {
@@ -3540,63 +3540,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-10T19:48:53.295213"
+            "fetched_at": "2026-08-10T22:27:57.006562"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-10T19:48:53.295213"
+            "fetched_at": "2026-08-10T22:27:57.006562"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-10T19:48:53.295213"
+            "fetched_at": "2026-08-10T22:27:57.006562"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-10T19:48:53.295213"
+            "fetched_at": "2026-08-10T22:27:57.006562"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-10T19:48:53.295213"
+            "fetched_at": "2026-08-10T22:27:57.006562"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-10T19:48:53.295213"
+            "fetched_at": "2026-08-10T22:27:57.006562"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-10T19:48:53.295213"
+            "fetched_at": "2026-08-10T22:27:57.006562"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-10T19:48:53.295213"
+            "fetched_at": "2026-08-10T22:27:57.006562"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-10T19:48:53.295213"
+            "fetched_at": "2026-08-10T22:27:57.006562"
         }
     },
     "scrape_status": {
@@ -3605,5 +3605,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-10T19:48:53.295213"
+    "last_updated": "2026-08-10T22:27:57.006562"
 }
