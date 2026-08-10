@@ -570,6 +570,13 @@
         ],
         "Badan Pangan Nasional": [
             {
+                "title": "Beras Fortifikasi Palsu Rugikan Konsumen Rp71 Triliun, Bapanas Perketat Pengawasan - Inilah.com",
+                "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNblRKczBEM0VHclZCdW8xcTJlTTllTkQ2ZU9qTGpxMWZEdU9xQUdBNnJTbERKUDhfTlBVUUxHN25ZTnZPcUREOC1tUVFSR2hPbUkwc2owTG5VSUJCWkM4OTNHMXVJU1BRRmNXNTVSSVJwTjdMdkF3ZTJweUdjcDAtR2FsNlR2al9KZ0NWazFvZWxmaHNxcXZhZTdwRUJMdmk4YzcwREhXaw?oc=5",
+                "link_resolved": "https://www.inilah.com/beras-fortifikasi-palsu-rugikan-konsumen-rp71-triliun-bapanas-perketat-pengawasan",
+                "published": "Mon, 10 Aug 2026 23:09:00 GMT",
+                "fetched_at": "2026-08-10T23:26:43.295395"
+            },
+            {
                 "title": "Bapanas tegaskan usut tuntas dugaan kecurangan beras fortifikasi - ANTARA News Yogyakarta",
                 "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcUJ0aGw5M1FEdVpnQklPajdFMC11R01QQUdneklpd3BiMlJwamExN1U0SDJaUHhEZEZWbFFUREdoLUZsQVI2dUswSXNMUFNNaW9WaU5hbjZDVWdIZ2dUMjJUdXg1X29YMkJxbi1udWFZN0pRWFhqWW8zNTM2MXhxdlJWVXg2bVlUd1VNU0luWjFyY1ppUGxMNG42RGl4c04zZURXdU5DWUZnY2c?oc=5",
                 "link_resolved": "https://jogja.antaranews.com/berita/847363/bapanas-tegaskan-usut-tuntas-dugaan-kecurangan-beras-fortifikasi",
@@ -701,13 +708,6 @@
                 "link_resolved": "https://www.inilah.com/kepala-bapanas-dan-dirut-bulog-turun-langsung-ke-alor-serahkan-bantuan-pangan-perdana",
                 "published": "Sat, 08 Aug 2026 09:20:00 GMT",
                 "fetched_at": "2026-08-08T09:29:25.434702"
-            },
-            {
-                "title": "Kepala Bapanas dan Dirut Bulog Turun Langsung ke Alor Pastikan Bantuan Pangan Diterima Masyarakat - Majalah HORTUS Archipelago",
-                "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRzBMY05kZzU4TFZCcWxYR0dqRHBNSTVRU0JTWE10REdfOEdGUHlXYlZoSU9LRWhPY3F6Q2FoNUNSeFRTRWNKQUdHd2tnbXlDYnBJbVh5OERZa1Z1S2hacnd0TVVBUzFhTzZSQjk2aEN3Z3FucngwS3J6eTF3SjRzSWROX1F1QngxNzlvMXRjYlBVTjNkR2QyRGlxUkFrWlUxTXpqUnVVd2tFRTBMeWt4YUlQdkpzQ205T0ZIV1AyNjU2bkhZbmtLSQ?oc=5",
-                "link_resolved": "https://news.majalahhortus.com/kepala-bapanas-dan-dirut-bulog-turun-langsung-ke-alor-pastikan-bantuan-pangan-diterima-masyarakat/",
-                "published": "Sat, 08 Aug 2026 08:50:37 GMT",
-                "fetched_at": "2026-08-08T21:21:47.089234"
             }
         ],
         "Perum Bulog": [
@@ -3525,14 +3525,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-10T22:27:57.006562"
+        "fetched_at": "2026-08-10T23:26:40.463975"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-10T22:27:57.006562"
+        "fetched_at": "2026-08-10T23:26:40.463975"
     },
     "macro_stats": {
         "ntp": {
@@ -3540,63 +3540,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-10T22:27:57.006562"
+            "fetched_at": "2026-08-10T23:26:40.463975"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-10T22:27:57.006562"
+            "fetched_at": "2026-08-10T23:26:40.463975"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-10T22:27:57.006562"
+            "fetched_at": "2026-08-10T23:26:40.463975"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-10T22:27:57.006562"
+            "fetched_at": "2026-08-10T23:26:40.463975"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-10T22:27:57.006562"
+            "fetched_at": "2026-08-10T23:26:40.463975"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-10T22:27:57.006562"
+            "fetched_at": "2026-08-10T23:26:40.463975"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-10T22:27:57.006562"
+            "fetched_at": "2026-08-10T23:26:40.463975"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-10T22:27:57.006562"
+            "fetched_at": "2026-08-10T23:26:40.463975"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-10T22:27:57.006562"
+            "fetched_at": "2026-08-10T23:26:40.463975"
         }
     },
     "scrape_status": {
@@ -3605,5 +3605,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-10T22:27:57.006562"
+    "last_updated": "2026-08-10T23:26:40.463975"
 }
