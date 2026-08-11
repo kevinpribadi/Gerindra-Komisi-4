@@ -2,6 +2,13 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "Lahan Tidur 5.470 Meter Persegi di Lapas Purwodadi Disiapkan Jadi Agrowisata - Kabar Jateng",
+                "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbXRyLUhaVTJfOFVCM0hHWHYyV2d5TzhtT0plcEdhcHhfTHpsZE1YdC1xaXJ4VU9OcVkwTGFVUnkxUXowNnA1a2VES0l4eHRtU0djOVdxN21wc1VvN2Z5UkNRZHEwTTM2X003ZzEtbV8ta2d2UzEzZHltdExBYUJJdGplZmtQVzcwRUdnTkNoYS1FWlh6M0x5c2p3NmJ3UmNGVEhOS0NhcHhjNDhYTUZwZGw1eHRXUTA2UjA2OVdmWGtLTU9pUi1z?oc=5",
+                "link_resolved": "https://kabarjateng.id/kabar-jateng/kabar-grobogan/lahan-tidur-5-470-meter-persegi-di-lapas-purwodadi-disiapkan-jadi-agrowisata/",
+                "published": "Tue, 11 Aug 2026 01:47:00 GMT",
+                "fetched_at": "2026-08-11T03:27:45.819677"
+            },
+            {
                 "title": "Kementan Perbarui Status Penyakit Hewan Nasional - Kompasiana.com",
                 "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdFpzM1RlU0VGWTNCRlpSUDc0MUg0ajVFZ1MwMVVZdmhPUTd3UUxWekprTGUtbEFGZjFsWGZONGRCOHMzMVVxazlvVzM4Vmd4eUJicmxIc0VwYWF1TFFXV3FvUE1IX3ZpVHlncV94cXpqYVdveUctTUlDLVpFUUpTUlMwLUpIOUowQllySGpWeGJWODBFbDRWSXZQZUItRWdMaHNfbFVNc1FfUHhSOXZTWlh4YmVsZw?oc=5",
                 "link_resolved": "https://www.kompasiana.com/alifarjuli9327/6a79d7d834777c77ac707c15/kementan-perbarui-status-penyakit-hewan-nasional",
@@ -133,13 +140,6 @@
                 "link_resolved": "https://nukilan.id/kementan-siapkan-rp17-triliun-sawah-aceh-pascabencana-dipulihkan/",
                 "published": "Mon, 10 Aug 2026 02:00:38 GMT",
                 "fetched_at": "2026-08-10T03:45:31.540945"
-            },
-            {
-                "title": "Kementan Kembali Raih Popular Government Institution Award,Bukti Kepercayaan Publik Menguat - pertanian.go.id",
-                "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQU19hTFg1dVM1MWNEZk5tWGNNWmVkNEF3ZllUNTVJLXE1cXgyank5a1Z1M2dkQlBjOXJ0SzlsNlZHYzVPVXRnTlN5dkJseWVRR1FSejBnVGRwcVJDZk9MYmw3cjVIQmMxYVk1Sk1rSGZLeElUOFBiZkdVT2FJNTJWV3lVUmpWMVNHa29xb05TeVF6cW1mcWtjY3dsdE03UHFwUktMdFpCUVlDVWc2QWIwQjg3c0VDdG85OWc0ZmhEaGNremVtcUFpZkJWMkdVa3VCNWtQYw?oc=5",
-                "link_resolved": "https://bpmsph.ditjenpkh.pertanian.go.id/berita/kementan-kembali-raih-popular-government-institution-awardbukti-kepercayaan-publik-menguat",
-                "published": "Mon, 10 Aug 2026 01:25:00 GMT",
-                "fetched_at": "2026-08-10T05:18:38.596000"
             }
         ],
         "Kementerian Kehutanan": [
@@ -428,6 +428,13 @@
         ],
         "Badan Karantina Indonesia": [
             {
+                "title": "Ekspor Udang Indonesia Tembus Rp148,2 Miliar, Karantina Perkuat Pengawasan - Trubus.id",
+                "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOX3ctd0VTNWZyNDRGc01ON2hxdEw5dFV1U2RPRGQ5b204d1BLOWFoMUJ2S05yQWdJOTJhYVlTcWVfZ1J1ZVMyZVRnckxCak8taEo5NVo5aUtKYlFLdFhMeUhmbENCeDlEOEZNQW9kR29obk9CNUJnTG9kTWt5MUVUN2JEM09FRUhSVmFqeW5jcDRsVXFEMWc?oc=5",
+                "link_resolved": "https://trubus.id/ekspor-udang-indonesia-tembus-rp1482-miliar-karantina-perkuat-pengawasan/",
+                "published": "Tue, 11 Aug 2026 01:47:18 GMT",
+                "fetched_at": "2026-08-11T03:27:47.360729"
+            },
+            {
                 "title": "Optimalkan PAD, Pemkab Parigi Moutong Gandeng Badan Karantina Indonesia - InfoPublik.id",
                 "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNd3NFa3VYS0Z4OW8weUNMSnlRcVN0aWI0SFRmQ2xacjFBVWhwb3RzSDVndHVGOFc1SmxIWnlyNmlIZ2FXTEJYUG9ia0N0X01HOENSQmJEaTFjUzUtQXY0ZjFnR0owSTQ0SnVRdGNqZ0l4WU9kS0RoOEh4bUpWTXBSeVE1SFdGc1A0S3BaVnVudnNSRmxxX29Ga2NDODF5dkNtSHhyR0Y2bnlfZlRERy11MzlSbnJWSGc0dUE?oc=5",
                 "link_resolved": "https://infopublik.id/kategori/nusantara/983127/optimalkan-pad-pemkab-parigi-moutong-gandeng-badan-karantina-indonesia",
@@ -559,13 +566,6 @@
                 "link_resolved": "https://karantinaindonesia.go.id/berita/jaga-pulau-dewata-karantina-bali-gagalkan-penyelundupan-482-burung-tanpa-dokumen-kesehatan-di-karangasem",
                 "published": "Thu, 06 Aug 2026 08:34:36 GMT",
                 "fetched_at": "2026-08-06T10:30:53.158148"
-            },
-            {
-                "title": "Karding Tinjau Dugaan Sertifikat Karantina Palsu di Tanjung Emas Semarang, Barantin Ancam Suspend Importir - Badan Karantina Indonesia",
-                "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONG8zVllnc3pjeFFfX25VUDVJWW5FaFRUR3ktQnBLYUJxNVdVRXB6UW5PX28tcnN1Z2ZtTnRhTkYyY1lNbTNlUWRDZDRxNU12a19NVW1zRG1aSHFyNUJoSHJGa2xaRl8ya0Y2QWNqN1Z4TE9TNkxYUUM2SXhKc3BRUEt4ODBJek9jTXVwQmp2NHN0RmZhUVNwTTVPMENoaW96MzY1bER4eDZseXF1Z1BFQy1aZEVRX0ZuOEZIcmloSU9kMjFsd3FCb0lLVUhJYWxZaVYwYnF2NHo5Y0tuV0E?oc=5",
-                "link_resolved": "https://karantinaindonesia.go.id/berita/karding-tinjau-dugaan-sertifikat-karantina-palsu-di-tanjung-emas-semarang-barantin-ancam-suspend-importir",
-                "published": "Wed, 05 Aug 2026 13:22:19 GMT",
-                "fetched_at": "2026-08-05T13:47:35.617473"
             }
         ],
         "Badan Pangan Nasional": [
@@ -712,11 +712,25 @@
         ],
         "Perum Bulog": [
             {
+                "title": "Polsek Penjaringan dan Bulog Gelar Gerakan Pangan Murah, 248 Pack Beras SPHP Ludes Terjual - Media Budaya Indonesia",
+                "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQSG82QmllODFhLUJsUFlhZWRIMFhNMUVaUVZUbjB5bmhBZGhqZDNBNjBVM29HZnkteHBUZmxmNnhjaURBX21YeE9wR0FUMzdhR2RPa1pDekdlNFNHQ0FLdjVtYU5zcGpPN0hWQ09vWlBmbllaOWQxUXhyc0RCa2VqZjVpQkpXU3B5b0ZZQmN0VTZwbHBTNVRzelBCeFVyM1pvaFk4M2ZHNHJlNFI2ZUQ2dHZKdk02VWRUMkJQSExWcDdkM0J1WXkwUl9STWZ0LU9xRC0xM2RIdGNyQWs?oc=5",
+                "link_resolved": "https://mediabudayaindonesia.com/news/show/1108202604-polsek-penjaringan-dan-bulog-gelar-gerakan-pangan-murah-248-pack-beras-sphp-ludes-terjual",
+                "published": "Tue, 11 Aug 2026 02:28:00 GMT",
+                "fetched_at": "2026-08-11T03:27:48.428287"
+            },
+            {
                 "title": "Resmikan Gudang Bulog di Trenggalek, Emil Pastikan Ketersediaan Beras Aman - jatimnow.com",
                 "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWGRxUzJpWmNXaGI5RHJlT0M5dUU4cGY5TlFMb1BtUjIxNW5XVEIxZ0ZXakVsYmNVYWFoclVKVmJoeTRRRHJ2QUs3MEkwZXMyU1FYYlUzVFlTa3RXUndtZlNfdUtmR1hhSGlQT1Q0Ul9ydUJmeTlCMkVGbGhMRnktNkduVUpENFhZdWJ2aXpKcWFGMlI5dDlLWkdfTThROTViTGtCZzlHT1nSAa4BQVVfeXFMTjF5TWNCeEpJcEdiN196NzROdFh2Wkw1NHVycjVnUnp4Z0tnX1BBcXYzMVBDMGNqUGJJZHdJLWY1M3dyNEZZczE0Um04V0xnTldIcjhWMWhnbXo1Mjc5Y25SR2lYNzZBUXFId1VtY3c2MDBLVTZSMS03UEZTN0dRMWIyLXJ3U01VSk9fVHlQdDdkbUN1UHJvZmdxYkI1bTVBLTlsTTRZZXRFeElYVF9n?oc=5",
                 "link_resolved": "https://jatimnow.com/baca-86644-resmikan-gudang-bulog-di-trenggalek-emil-pastikan-ketersediaan-beras-aman",
                 "published": "Mon, 10 Aug 2026 16:11:00 GMT",
                 "fetched_at": "2026-08-10T16:44:26.661572"
+            },
+            {
+                "title": "Salurkan 3,2 Ribu Ton Beras, Perum Bulog Jamin Kualitas Bantuan Pangan - timesindonesia.co.id",
+                "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMm1zcTN0UDcwTk5kSzFCcFItWXpGaVd0V0pmWnljZF84R1laMnA4cGhfMkJ6QWhIVDQwelhzRW5hNW8zaEIzME9xVUJNVG1TbmV4Wll1Y2ZmbEt2U0tmSlhuZHEzRkFsMDhNODBwTjNGbDBrRHY3VUlKNWxoNDF3V2cxSDJYTWN0bW1vM2w2M2lJaWxmN18tTHMwamp2X0VodmhzalA2WHVTeF9SUUhHSmhJNTBxNVlHOVc4Uy13?oc=5",
+                "link_resolved": "https://timesindonesia.co.id/peristiwa-daerah/603163/salurkan-32-ribu-ton-beras-perum-bulog-jamin-kualitas-bantuan-pangan",
+                "published": "Mon, 10 Aug 2026 15:55:00 GMT",
+                "fetched_at": "2026-08-11T03:27:48.428272"
             },
             {
                 "title": "BULOG Pastikan Beras SPHP Melimpah di Pasar Alor - Tirto.id",
@@ -836,20 +850,6 @@
                 "link_resolved": "https://www.jatimpos.co/jatim/mataraman/21550-bulog-madiun-mulai-salurkan-bantuan-beras-periode-juli-september-107-231-kpm-bakal-terima-30-kg",
                 "published": "Mon, 10 Aug 2026 08:01:13 GMT",
                 "fetched_at": "2026-08-10T09:09:40.443368"
-            },
-            {
-                "title": "Inpres 4/2026 Perkuat Cadangan Beras Nasional, BULOG Jadi Ujung Tombak - Kompasiana.com",
-                "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOU0l5YVotdkhPbGtBQWdyT1J4eWI5ZUpKR28tR3FDa1JnUGczdGRTMGVFU080VU1wYXJMRlIxWmgyMVlfV29sSU5vU0sxdlNwYjZjXzdTWG1oMU5oeUU4cTFiNmtNcF9JTDc2Y2dILThFel9mZHlfVWJTWUdaTDQ3QmRyTjNRZVYzUkdnaXA3eVFUN0RCbERaNGtRdGF0VWV2Tms0aU9obVhNWElKcUw1NnhwS2ZJRzlSSEdYcEFOdElIRkpHYmdtRGUxVnNTSERCcnc?oc=5",
-                "link_resolved": "https://www.kompasiana.com/alifarjuli9327/6a79753634777c633c53c7cc/inpres-4-2026-perkuat-cadangan-beras-nasional-bulog-jadi-ujung-tombak",
-                "published": "Mon, 10 Aug 2026 06:52:38 GMT",
-                "fetched_at": "2026-08-10T16:44:26.661582"
-            },
-            {
-                "title": "Satbinmas Polres Tanjab Barat Sambangi Satpam Bulog, Perkuat Sinergi Jaga Kamtibmas - sekatojambi.com",
-                "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNFA2VVYzTDhBSG0wam1DUU9CLXBOYkFXODQ1QWwxcUJaZVJpVHI2cGM1ZVJrZmNpVTNRQkh2SXg3Q3ktSlowaW9aVnVOenp1dm9ZWVpWRUdEdWlLdEdsbjlIc1VfY1B1RjViRzVINTA5b1J2cnJranFwQlpYc1dtU3pYdU5qamN2ZnotM3lBQ3VqZmp6UWJTWjZ2aV9wbDdIcmRfTFZCMl9nbGM?oc=5",
-                "link_resolved": "https://sekatojambi.com/satbinmas-polres-tanjab-barat-sambangi-satpam-bulog-perkuat-sinergi-jaga-kamtibmas/",
-                "published": "Mon, 10 Aug 2026 06:47:12 GMT",
-                "fetched_at": "2026-08-10T07:15:12.219554"
             }
         ]
     },
@@ -1149,6 +1149,13 @@
         ],
         "Rokhmin Dahuri": [
             {
+                "title": "Prof. Rokhmin Dahuri: Festival Dangdut Adalah Sekolah Karakter Generasi Muda Cirebon - Askara.co",
+                "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPRXJYWWZCVlVvTHM0NzkyVkVhTXZuZUFUeV9kSUFoaXBoT3Z0blV4bDJVaVpEMHBLVHJHcXd6WUcxXzlZdGYzaGhjOE0zLTZzV25Hd0hzLTVlZjE2c1JKcEwxcUptUkw5akJYTUg4bVZrVVBwZXdNUHdwNHhSSWNNbjAtblpYeFZ4ektaUGpjWk1YMWRibWE0eDA3c2xJNDhCYlNwLVYxcWJNNUFCUXoySEJqMXhubm1LbjQ0bWhFajVsXy13YUE?oc=5",
+                "link_resolved": "https://www.askara.co/read/2026/08/11/67814/prof-rokhmin-dahuri:-festival-dangdut-adalah-sekolah-karakter-generasi-muda-cirebon",
+                "published": "Mon, 10 Aug 2026 23:48:45 GMT",
+                "fetched_at": "2026-08-11T03:27:51.595575"
+            },
+            {
                 "title": "Prof Rokhmin Dahuri Ungkap Akar Krisis Pertanian: Bukan Anak Muda Malas ke Sawah, Tapi Sistemnya yang Spekulatif - Askara.co",
                 "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZ0ZkbGdkR2JpZ0EwaXd5c2RjZlE2Ujl6cUtZbEc5Y0ZjR1BhR0lFRnE5Ykp0cXk3dXAxdmxGQmxyWFpPY1BkNm9HUE1DMGZCQ3ZSUjBFczlyYkNmNzhUN25jX3paOTZrQjJmMHVIMXFMUlE3dERYY2FfVUxxSl9rYUo3THRwekFZb0lfeHNVSzNreXFQTzBmQlBDdFYxcmJ0ZFU1cURScmV0Rmo4WmZOUTl5VUhBU1ZxZjNwbHdrLXd5Q0tGQlRVZUx4TVZRZWZja2FIb3VuOU9YQWU2dW9zd3VxZkZzRmZUQ0VB?oc=5",
                 "link_resolved": "https://www.askara.co/read/2026/08/11/67812/prof-rokhmin-dahuri-ungkap-akar-krisis-pertanian:-bukan-anak-muda-malas-ke-sawah-tapi-sistemnya-yang-spekulatif",
@@ -1280,13 +1287,6 @@
                 "link_resolved": "https://www.gesuri.id/kerakyatan/rokhmin-dahuri-jadi-wakil-rakyat-jangan-seperti-kacang-lupa-akan-kulitnya-b2pXfZbgLV",
                 "published": "Thu, 30 Jul 2026 11:00:00 GMT",
                 "fetched_at": "2026-07-30T12:24:58.036679"
-            },
-            {
-                "title": "Rokhmin Dahuri Sukses Perjuangkan Dua Kampung Nelayan Merah Putih di Lemahwungkuk dan Panjunan, Cirebon - gesuri.id",
-                "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNktOdHZUU3ljWTRKTmVkNmp2eEFhQW9Fd0NQaklZQUV1LTBWdENhUVRSdlYwWWJzMV93MGFmSzZhd2x6TnphRlc5QUdKYW1vYjhubUFVQ3Jjb1VVWmRWOFY4cXhtRTNKWmpWZ0tVRVdlbjNRWFBUVVZVU3A0ZW41NTgzcV9sUndEYUpKb045cU9zNUllZUs2RmxoMU9MMVZIb2N1Vmhnbm1oNlVXb3Q5Mjcxdm9keGFJUWVSd2V0SmNUMVBTa3lvSGluYzFkOWRVNklIZHRpVlp2b1puLVVUNHB30gHnAUFVX3lxTFB3bFJ2bGxyMkhxWVBpZmItYWhQRWJyd1E5X1R4SUNyNUhoZWx1RWwydEpiRTJOWlc4YnFVckRxUV8tWHpLLVhMNHNjY0g3WTZRWWZlVDlxRElUUVRabGFNaXktX3BrVlpzMlNDS0s2NFRKbTZjQkFCOXA5WXJDSGpnNVhIeDlNNWMyaDRMWVN2akdrdGZtRjdDbmFJYkxHaWcyMzZzQ0llc2dPNld4NkVDRTV4MWJ2dXFHRDdOVmJBZTYwbVhKcVNFc3c0TWdiQXhpMDZfQy1nYnVxWjRkOGt0TW9XcGhGRQ?oc=5",
-                "link_resolved": "https://www.gesuri.id/pemerintahan/rokhmin-dahuri-sukses-perjuangkan-dua-kampung-nelayan-merah-putih-di-lemahwungkuk-dan-panjunan-cirebon-b2pXfZbgLT",
-                "published": "Thu, 30 Jul 2026 09:00:00 GMT",
-                "fetched_at": "2026-07-30T10:15:19.848382"
             }
         ],
         "I Nyoman Adi Wiryatama": [
@@ -3525,14 +3525,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-11T01:06:03.166797"
+        "fetched_at": "2026-08-11T03:27:45.145978"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-11T01:06:03.166797"
+        "fetched_at": "2026-08-11T03:27:45.145978"
     },
     "macro_stats": {
         "ntp": {
@@ -3540,70 +3540,70 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T01:06:03.166797"
+            "fetched_at": "2026-08-11T03:27:45.145978"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T01:06:03.166797"
+            "fetched_at": "2026-08-11T03:27:45.145978"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T01:06:03.166797"
+            "fetched_at": "2026-08-11T03:27:45.145978"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T01:06:03.166797"
+            "fetched_at": "2026-08-11T03:27:45.145978"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T01:06:03.166797"
+            "fetched_at": "2026-08-11T03:27:45.145978"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T01:06:03.166797"
+            "fetched_at": "2026-08-11T03:27:45.145978"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T01:06:03.166797"
+            "fetched_at": "2026-08-11T03:27:45.145978"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T01:06:03.166797"
+            "fetched_at": "2026-08-11T03:27:45.145978"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T01:06:03.166797"
+            "fetched_at": "2026-08-11T03:27:45.145978"
         }
     },
     "scrape_status": {
-        "phase_1_agency": "failed",
-        "phase_2_members": "partial",
+        "phase_1_agency": "ok",
+        "phase_2_members": "ok",
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-11T01:06:03.166797"
+    "last_updated": "2026-08-11T03:27:45.145978"
 }
