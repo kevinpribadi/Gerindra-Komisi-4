@@ -570,6 +570,13 @@
         ],
         "Badan Pangan Nasional": [
             {
+                "title": "Pemkot Mataram menyalurkan 1.326,06 ton beras bantuan pangan - ANTARA News Mataram",
+                "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaWlMQlJhckpVZHhka2NLVUttQkRNWmhuS0dtLWRWNndRMUdOVnh0VmdvU0Y2QjQ1UDYyTEdwREVreGZlZXVCcExzS3N3b1JLN2FTNERtSkJJdlhPYWlFd1JORExVSVR2bF9rNXViM1haVnN3SGpqOTN0d19RMndwal9pYm1kczdxSGFwX0gxa3JEejhyakMzNnJNXzdSaTZ3RXVWaTZR?oc=5",
+                "link_resolved": "https://mataram.antaranews.com/berita/565763/pemkot-mataram-menyalurkan-132606-ton-beras-bantuan-pangan",
+                "published": "Tue, 11 Aug 2026 14:09:46 GMT",
+                "fetched_at": "2026-08-11T22:33:28.008638"
+            },
+            {
                 "title": "Bapanas: Beras SPHP Tersalur 610,3 Ribu Ton hingga 8 Agustus 2026 - MetroTVNews.com",
                 "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM0dmYXlxenpHa21DdVFTb0JnbVdKLTY2ckpWMjdXVWVsdFU0TnVHeHVkalNpV0ltOWhmc2NOM21ha3NLOEpmLUV0S2dXSC0yTE1DbkVxQUdDMnhoeE9tWUtyN29STElGb0tPY29FZ3FzR1R3X0JCM2QyMjFsLUFCczNoVXQtbVFFVkljUXdCcGJBMTVwUndQNDU4emJ2RzVETGdiSnhFRkhDUQ?oc=5",
                 "link_resolved": "https://www.metrotvnews.com/read/N0BC1dqR-bapanas-beras-sphp-tersalur-610-3-ribu-ton-hingga-8-agustus-2026",
@@ -701,13 +708,6 @@
                 "link_resolved": "https://www.jawapos.com/berita-daerah/2608080297/kepala-bapanas-dan-dirut-bulog-turun-langsung-ke-alor-serahkan-bantuan-pangan-perdana?page=all",
                 "published": "Sat, 08 Aug 2026 12:48:00 GMT",
                 "fetched_at": "2026-08-10T09:09:39.952116"
-            },
-            {
-                "title": "Kepala Bapanas dan Dirut Bulog Serahkan Bantuan Pangan Perdana di Alor - CNN Indonesia",
-                "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZG1iU3hESG1rb3hYUkxVR1AtdFFIcWdIZTF5elZoUjN0NVFxVGFiUldTRjcwLW1lTU9mbXpoQ1NQSnNLbVBEdHhxcVZQc0g4VlAwdHp3aV9OUzNCazZ4cXJGRXNmVEllSFBrNmFwQmw0X0hvMllNLWs1NEhMMy1zQWlrR05EN3FabEpPRGx1OW8zb1FTVWUxY1pjeWZaZHV2czl4WG5zX0s1ajhBUkgtTXFERzF0TVIyYi1WNy11Uy1FMllVbnFKMGRFcTBtd9IB0wFBVV95cUxNMkJESXJCSGYzcFFpbURoejl3cnNvaVBsQWlrNVpIUUhMekM2Y2xKNmNjekMwMm1pZ3Z5NENGRVhvTGtGQTZueWNqNkxCbzRkeWFUMGxtQ2ZIZXlNZVhOZ1RUS2pEeHdlS2l3Mkg4c0xTSzE5MDQxSjZTLUtXR0dxb0xCTVNSOUxBVmdDb1V2aUFMcnhQQXpjREttWllXUWNpM2pvbWlCYnNVNFg3X0ZmZEpHUElZZmRONzl2bzRQc1gwN0lEdWh0eE9ieGdUb21FVFhr?oc=5",
-                "link_resolved": "https://www.cnnindonesia.com/ekonomi/20260808190414-97-1390176/kepala-bapanas-dan-dirut-bulog-serahkan-bantuan-pangan-perdana-di-alor",
-                "published": "Sat, 08 Aug 2026 12:31:14 GMT",
-                "fetched_at": "2026-08-10T11:00:11.687309"
             }
         ],
         "Perum Bulog": [
@@ -3490,14 +3490,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-11T21:37:30.943698"
+        "fetched_at": "2026-08-11T22:33:24.995620"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-11T21:37:30.943698"
+        "fetched_at": "2026-08-11T22:33:24.995620"
     },
     "macro_stats": {
         "ntp": {
@@ -3505,63 +3505,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T21:37:30.943698"
+            "fetched_at": "2026-08-11T22:33:24.995620"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T21:37:30.943698"
+            "fetched_at": "2026-08-11T22:33:24.995620"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T21:37:30.943698"
+            "fetched_at": "2026-08-11T22:33:24.995620"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T21:37:30.943698"
+            "fetched_at": "2026-08-11T22:33:24.995620"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T21:37:30.943698"
+            "fetched_at": "2026-08-11T22:33:24.995620"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T21:37:30.943698"
+            "fetched_at": "2026-08-11T22:33:24.995620"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T21:37:30.943698"
+            "fetched_at": "2026-08-11T22:33:24.995620"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T21:37:30.943698"
+            "fetched_at": "2026-08-11T22:33:24.995620"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T21:37:30.943698"
+            "fetched_at": "2026-08-11T22:33:24.995620"
         }
     },
     "scrape_status": {
@@ -3570,5 +3570,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-11T21:37:30.943698"
+    "last_updated": "2026-08-11T22:33:24.995620"
 }
