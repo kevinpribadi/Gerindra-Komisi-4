@@ -2,6 +2,13 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "Kementan optimalkan rumah pompa untuk 600 hektare sawah di Lamongan - antaranews.com",
+                "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRzVFRmQ1cUNicTAzdE5QM2VRQVg4VklrWlROa2NTWWxZTENPOWllT2lIV3lDQVd5WEp2OXBxRzlMdnRENW5FZUh3SjVPRnhWbHN3LTEyZnFrOGFjd3FlS3lueTVJVFFzaWtIdFdQdnlhT1JfUkVhNjdTQWFZQ2RYY1ZBN1NhNFc1dVo0blYwVXBScXRtVnF0dUN0VkFPeHBmbGtTOWFSendmYUtJc1HSAbABQVVfeXFMTzhENFBQajZybGR5dFpWSUpRM0lIeVlCVjNSa09pTEZodzRURXM3QzV4STNIUVFJS3V3RXF0Mk1aUU5wR2FpbXp0aFRLTWhhUWJxVE4yejB2RUFhX2tOaEZwTnVNY3FGNFlUYUllT0w2REgySkhMcUk3QnEwOFJHVmhodWN2MzUzaXI2X3U5REEtekVfb1pqX0tWbGw5NWpzM3RpTllOa2V1aVVVN2FTWVQ?oc=5",
+                "link_resolved": "https://www.antaranews.com/berita/5689915/kementan-optimalkan-rumah-pompa-untuk-600-hektare-sawah-di-lamongan",
+                "published": "Tue, 11 Aug 2026 13:58:38 GMT",
+                "fetched_at": "2026-08-11T19:56:01.471013"
+            },
+            {
                 "title": "Antisipasi Kekeringan, Pemkab Lamongan Siapkan Irigasi untuk Lahan Sawah - detikcom",
                 "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZmxMMktoc3BIM0JJbWYtN19INExVSmp0c1RzYnVKRV9uMjY4WE5USFhGU0dOOWg3SU83WDRCNDd6QWh0a1BKV3c0Uk1UWHMxdG9QbC1lSjNKZWlibWpzdm1vMGpLZUJldkQ3X1doTmMwdHFCMG9IekNmOVc4OXNTWUd1akRCMDF1QTBPMFJ2enJPZ2F5Zi1IaC1kT0tVOU83SXk4UjVCUlhLX3pfTGlJRUJvWUYzdVXSAbwBQVVfeXFMT1p4SkFuem83eGRKZkVuOTFUUXBXRVlzUHhTbFJGVWFpRGp5OHlPVWhRX0l5R2NsbzFoWEt2VHZQY2xQVVIxZjZmYXNJZFdvSFF3OXdKU05rZy1LM2xKUFh2UjVBd2VpSDFJVzhlOFFHUmE5UUFVanktUGRpdE1EX1MzekNjU2l0UmpLbFNKOFRQeWRTMjBRQVQ3N0NObXMweE04OVlZcjlWQlVvRkNGMHdRUnBkWkJRVFM0a2E?oc=5",
                 "link_resolved": "https://www.detik.com/jatim/berita/d-8614058/antisipasi-kekeringan-pemkab-lamongan-siapkan-irigasi-untuk-lahan-sawah",
@@ -133,13 +140,6 @@
                 "link_resolved": "https://tabloidsinartani.com/detail/indeks/ternak/27909-Kejar-Swasembada-Susu-Kementan-Siap-Kirim-200-Sapi-Perah-ke-Bone",
                 "published": "Tue, 11 Aug 2026 04:15:00 GMT",
                 "fetched_at": "2026-08-11T04:59:34.181550"
-            },
-            {
-                "title": "SIEXPO 2026, Kementan: Kolaborasi Jadi Fondasi Sawit yang Berdaya Saing dan Berkelanjutan - Kantor Berita Sawit",
-                "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWXZzdng0SUNhdXpBRHBaNGRVS0E4Vld1X1dnUHZYRE95VTU5QW9IQ0daRHhWMDVzYzZnQVFIclQ5cGU1dVlMa2V5VzJjRGtHeVRJMHV2T0U3Njd2N1BMTnlwalpJVE0xSVhXTDdhWE10TFpKUDFpdE43U2ZIR0NDc0pfYlFwVzZnQXZqSGdROUR2aVpuSFBrQjJyNUhkQ1lrZ1VSU3BHV3lMcFprUHZuakJXTndxZw?oc=5",
-                "link_resolved": "https://sawitindonesia.com/siexpo-2026-kementan-kolaborasi-jadi-fondasi-sawit-yang-berdaya-saing-dan-berkelanjutan/",
-                "published": "Tue, 11 Aug 2026 04:01:23 GMT",
-                "fetched_at": "2026-08-11T04:59:34.181531"
             }
         ],
         "Kementerian Kehutanan": [
@@ -1834,6 +1834,13 @@
                 "fetched_at": "2026-08-11T17:51:28.613903"
             },
             {
+                "title": "Titiek Soeharto Salurkan Bantuan Alsintan dan Sarana Perikanan untuk Gunungkidul - sorot.co",
+                "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeGZ0QnZLSmU4b1ZYbHFMT2lfc01zLUlQdWNYWUhzSkZ1eWxlSl92VVgzd1ZTejFmbE9lVmJxZ3pQTDhiMGJydi1sRlNKQ0tMenZmdkVpS0JtVmEwTVhqYWpIN1M4SDZSWU1PNDV3ZjhkSFZHX0xwcnhmdF9fTUljV3lSdlZ1SzJrTmhhRk9IUDhoY3BvQWN1N1FWMFhDMy1LQWZoNXVCbw?oc=5",
+                "link_resolved": "https://sorot.co/berita/titiek-soeharto-salurkan-bantuan-alsintan-dan-sarana-perikanan-untuk-gunungkidul",
+                "published": "Tue, 11 Aug 2026 17:36:02 GMT",
+                "fetched_at": "2026-08-11T19:56:21.114482"
+            },
+            {
                 "title": "Titiek Soeharto Salurkan Bantuan Perikanan di Bantul, Dorong Produktivitas dan Ketahanan Pangan - VIVA Jogja",
                 "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUi14a1k2czJHVDBVaDlUOTk2MTI1emhZbkZWeVExUTdjV3UxanZKbUEzU2hCWHVFZjExZ2YwYUdpRnh4QU1hbGhGYVRLX1hQbU1WaHlnT1UyVHY2SnNlMFNpMFVlVHVIV3d5NUNHZ0lXdWZaWkdrNTViS1BMeGtDa25qOHR1RHJNYkN1VEZDUjZLMkk5bk41ak9uZjMtdHRFanVFc2Q5LWczeGhvcUNOZnZFVTktczlLUTFzc05WNlE2a2REczlldkVlUHRfUzRD0gHQAUFVX3lxTE1SLXhrWTZzMkdUMFVoOVQ5OTYxMjV6aFluRlZ5UTFRN2NXdTFqdkptQTNTaEJYdUVmMTFnZjBhR2lGeHhBTWFsaEZhVEtfWFBtTVZoeWdPVTJUdjZKc2UwU2kwVWVUdUhXd3k1Q0dnSVd1ZlpaR2s1NWJLUEx4a0Nrbmo4dHVEck1iQ3VURkNSNksySTluTjVqT25mMy10dEVqdUVzZDktZzN4aG9xQ05mdkVVOS1zOUtRMXNzTlY2UTZrZERzOWV2RWVQdF9TNEM?oc=5",
                 "link_resolved": "https://jogja.viva.co.id/amp/warta/10875-titiek-soeharto-salurkan-bantuan-perikanan-di-bantul-dorong-produktivitas-dan-ketahanan-pangan",
@@ -1951,13 +1958,6 @@
                 "link_resolved": "https://nasional.tvrinews.com/berita/td46899-titiek-soeharto-pertanyakan-manfaat-tambang-emas-bagi-masyarakat-banyuwangi",
                 "published": "Fri, 24 Jul 2026 02:17:00 GMT",
                 "fetched_at": "2026-07-24T10:56:18.185446"
-            },
-            {
-                "title": "Komisi IV DPR serap aspirasi masyarakat sekitar tambang Banyuwangi - Antara News jatim",
-                "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQa2V4MG1PQXFrRTA5RnZxLWRsWktLTjRXbGFDUExuNVo2eVFvYUdTeEo1WTM1a1RfcUJzY0hQS1Ixa0RaMG01d3FtNmFCRWItRDFpdmk3TEhYcmJ0YktEV1BHWE5QUWZtYktQOGd2SmxHRlNzU3dtZG41ZEhZWTJpYndNRHRMX3hzc0VFZld4NW9XYmZ0MTVZdmVxeHh0Q0V3NFEwZExJZ1VQSFA5OFJF0gG0AUFVX3lxTE45NHlUVUFrS2UxdENFYzdwOGlScmo1N21LQ29XMnRyS0xDS24xaTNtSm9uNi13N2RySnRzMzR0cXZncWVUOTI0SW5ScnhTVTB3Rk9ZRndweDFMRHRaR284VU5pdUs4ZHRiVEhaMWRlU1dxalhsSW55ZEZmZkM3aFUtZ3J4RFlHWFRHSkZGRjdwM1pqUW1jODhmTFlhbTBLaHpNVXc2eTdaQTR4aHVRSUZoQlhtSA?oc=5",
-                "link_resolved": "https://jatim.antaranews.com/berita/1084388/komisi-iv-dpr-serap-aspirasi-masyarakat-sekitar-tambang-banyuwangi",
-                "published": "Thu, 23 Jul 2026 15:10:00 GMT",
-                "fetched_at": "2026-07-23T15:49:13.840481"
             }
         ],
         "Darori Wonodipuro": [
@@ -3483,14 +3483,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-11T18:51:12.463783"
+        "fetched_at": "2026-08-11T19:56:00.830100"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-11T18:51:12.463783"
+        "fetched_at": "2026-08-11T19:56:00.830100"
     },
     "macro_stats": {
         "ntp": {
@@ -3498,63 +3498,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T18:51:12.463783"
+            "fetched_at": "2026-08-11T19:56:00.830100"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T18:51:12.463783"
+            "fetched_at": "2026-08-11T19:56:00.830100"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T18:51:12.463783"
+            "fetched_at": "2026-08-11T19:56:00.830100"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T18:51:12.463783"
+            "fetched_at": "2026-08-11T19:56:00.830100"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T18:51:12.463783"
+            "fetched_at": "2026-08-11T19:56:00.830100"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T18:51:12.463783"
+            "fetched_at": "2026-08-11T19:56:00.830100"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T18:51:12.463783"
+            "fetched_at": "2026-08-11T19:56:00.830100"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T18:51:12.463783"
+            "fetched_at": "2026-08-11T19:56:00.830100"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-11T18:51:12.463783"
+            "fetched_at": "2026-08-11T19:56:00.830100"
         }
     },
     "scrape_status": {
@@ -3563,5 +3563,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-11T18:51:12.463783"
+    "last_updated": "2026-08-11T19:56:00.830100"
 }
