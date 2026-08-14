@@ -2,6 +2,13 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "Mentan: Izin Importir Pakan Ayam yang Melanggar Akan Dicabut - kalselpos",
+                "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTkdpcXdtbTZYNDljUUpUampDWHowODh2S2tWOFR5RzRvaDdHVU5qVzMyRXl4a2hQeGZZSUk2bElSaGNmWjFsS1NXb2piY01QSlRFNGVqdXhIblAwd1lKV3pfVDl6cnNzZjRaNWpmeVNDMlQ5c0kwaFpBNTE0dVdKdXR3UkRNRVRUQk5VRGREOTg1Q3NuZHBNV1RIVk5ma0ZWMm5ENG93?oc=5",
+                "link_resolved": "https://kalselpos.com/2026/08/15/mentan-amran-ancam-cabut-izin-importir-pakan-nakal-yang-mainkan-harga/",
+                "published": "Fri, 14 Aug 2026 20:24:05 GMT",
+                "fetched_at": "2026-08-14T21:17:26.100325"
+            },
+            {
                 "title": "Polemik Mentan Amran dan Komnas Perempuan Selesai, Berujung Kolaborasi Perlindungan Perempuan - Agricom.id",
                 "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVEEzczR6Z1NEa1BBRmFPR1ZPN2FXb01RWTgxeHV6THBzT04tanIxWlNRcW1BcXV2LThVUzdSWmNWdkVwR01tMXluSkExVm5NU3ZDQzhQc21QZkpKVGJ0SVJSWGJXb2FMNldabXZ4NmVHRFlXVnNkMURvMkJBTzg2aXBvWWlsWU8zWjZsMWhTeXY0VlNPZGtyVkF4TEowd1hDNVV5azF1ZkZMSDBXeGtDMTNRSlhhR29BaWpqdWJGZ0laME9v?oc=5",
                 "link_resolved": "https://www.agricom.id/news/5131/polemik-mentan-amran-dan-komnas-perempuan-selesai--berujung-kolaborasi-perlindungan-perempuan",
@@ -133,16 +140,16 @@
                 "link_resolved": "https://money.kompas.com/read/2026/08/14/080000426/usai-diperiksa-bpk-kementan-janji-perbaiki-pengelolaan-keuangan-hingga-bantuan",
                 "published": "Fri, 14 Aug 2026 01:00:00 GMT",
                 "fetched_at": "2026-08-14T01:14:42.474043"
-            },
-            {
-                "title": "Bupati Buton Serahkan Bantuan TR4 di Siotapina, Minta Kelompok Tani Jaga dan Maksimalkan Penggunaan - Butonsatu",
-                "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQeXJPWjFWaWxYVU9wejZocVU2OUVxVkNEbTVLT0prT2VMZ1ZQUlZ0akFaeTFROWMzZ3p5VmhXN25Sa0NfT2w2VWxLT012azZmeU4zYWo4Z3RHdkotSHVsZHlVLUIxdjJGQWRRWXdtSVZuY3E0MDhMSnE0Z0hGOUw0SjFVMF9TTjRUbDBMbjA5c3hWTUx5YlVEcWdkRFZzcDJOT0g0eXRVUThsSW1XTGYtMC1Id2VlMEVCYnhSblVjOGotekgzcU8ySg?oc=5",
-                "link_resolved": "https://www.butonsatu.com/read/bupati-buton-serahkan-bantuan-tr4-di-siotapina-minta-kelompok-tani-jaga-dan-maksimalkan-penggunaan",
-                "published": "Fri, 14 Aug 2026 00:54:00 GMT",
-                "fetched_at": "2026-08-14T09:00:26.235562"
             }
         ],
         "Kementerian Kehutanan": [
+            {
+                "title": "9 Forest Heroes Perhutanan Sosial Raih Penghargaan Wana Lestari Tingkat Nasional 2026 - Kementerian Kehutanan",
+                "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOUF2ZDNnVF9leEZ1a2d2T196cHBwSWxZQkRjMjlBVUp5WGl6QU1NbXNfUDJzWGRLR3ZIU3ZITFRsNFpJUFhYLWlvYVpSNVZKZVp4Uk5ZejlSWmpZSFNoaTlJMlE5bFdZeDdDQzE1UDdVTS12ODhXYjM0OGU1N2JweG1EcTctUWlBVldrUUJaeWFZMHJteTFXU1VCTG12cjdZZmNvMXJ4bVM0eWhEanJfX0U5QW9Qc2VCT0E?oc=5",
+                "link_resolved": "https://www.kehutanan.go.id/news/9-forest-heroes-perhutanan-sosial-raih-penghargaan-wana-lestari-tingkat-nasional-2026",
+                "published": "Fri, 14 Aug 2026 20:37:00 GMT",
+                "fetched_at": "2026-08-14T21:17:26.675224"
+            },
             {
                 "title": "BPHL Wilayah VII Perkuat Tata Kelola Perhutanan Sosial melalui Tertib Penatausahaan dan PNBP di Garut - kehutanan.go.id",
                 "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOajBzVmktLVBJUEwtQ09oc0FlcTVveXNNSTBKS2V4MUhMYVcyWGRObWRJc3RFZk1EcHAtQ2R0ZVhyZ2ZXN1haLW1qY2NOaGRvel9GWnZaUlRyeTBNYWp3T3hscnRNUVNrVWd1QWRSYlFCU2I5bm5tMTl5Q0NzNS1SS2phajNEV2hOMlRVUHJUSjM2cFpyUXN3dWFSZVBuY0lDb2RBUmNPRjNWMGJQT3J1WGtMR3JyWG8waW9WbURFbUs0M1BMMlgxRjZ3SjNUUWc?oc=5",
@@ -275,13 +282,6 @@
                 "link_resolved": "https://ksdae.kehutanan.go.id/publikasi/artikel/bukan-sekadar-praktik-hutan-bawean-ubah-cara-pandang-dan-tumbuhkan-keberanian-FxwTTrSA/",
                 "published": "Fri, 14 Aug 2026 07:26:24 GMT",
                 "fetched_at": "2026-08-14T09:00:26.822443"
-            },
-            {
-                "title": "Alamat Baru, Semangat yang Sama, BBKSDA Jawa Timur Perkuat Layanan Digital Konservasi - Direktorat Jenderal KSDAE",
-                "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUnhMRHZlWFFOQkpiNlluYkoxRzM1WjNib3l4X1ZPZzF3c3Q1eGpSY2d1dDl3SUtRSi1Fb2VXUkJBek9makpjcXRSem9RMTVqd0x5SDhXMGU2QTFWMWNiRWVXZzZ4Tzhkal9tX1pMcGpOMmVrR3RvcGdxeUxrYnZIY0xrSFo2cHdGNk03Rk5QLUZZVTc4VDV2dVJ6ZDdvMjBKbFZYTF94TkJNLUlPZ2JGVVd4VWVTQndiblNBbnI2OWtTS09mdk5NaGhURVAyN2VyUl9ycVZ5QWI?oc=5",
-                "link_resolved": "https://ksdae.kehutanan.go.id/publikasi/artikel/alamat-baru-semangat-yang-sama-bbksda-jawa-timur-perkuat-layanan-digital-konservasi-eqqDrkGK/",
-                "published": "Fri, 14 Aug 2026 07:21:19 GMT",
-                "fetched_at": "2026-08-14T09:00:26.822452"
             }
         ],
         "Kementerian Kelautan dan Perikanan": [
@@ -3002,13 +3002,6 @@
                 "link_resolved": "https://fraksi.pks.id/2026/07/16/slamet-stok-beras-tertinggi-harus-berujung-pada-harga-terjangkau-dan-petani-sejahtera/",
                 "published": "Thu, 16 Jul 2026 06:58:24 GMT",
                 "fetched_at": "2026-07-16T20:04:22.176667"
-            },
-            {
-                "title": "Slamet Ariyadi Nahkodai BM PAN 2026-2031, Pengamat: Bisa Jadi Mesin Elektoral PAN Menuju Pemilu 2029 - jatimupdate.id",
-                "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOT0tvX3R5U0ItOUhfdk1PSXR4YjgzT2lTV0lKcDBjU0JXQ1QtY2F4WkhjU2o0THVpNlVYYmhRbHFSczVWNXRWUmdyaGpQYWNWcHNNanVhcUVTUFpJbF9INFNJX0phYkk4elpkVXZYMUlodG4zZXNVUW53WGkzVjBFeG02a1dmdDFyVEZRbTRoTEZaZS02X1NtYy1pV3U1ZldpdWpLOHJJWWFPQ2R5WlVyWFRma2lRUFZXTDF4ZXlEV3FSS2d3SEtWQlhXWks?oc=5",
-                "link_resolved": "https://jatimupdate.id/baca-18163-slamet-ariyadi-nahkodai-bm-pan-2026-2031-pengamat-bisa-jadi-mesin-elektoral-pan-menuju-pemilu-2029",
-                "published": "Wed, 15 Jul 2026 20:28:00 GMT",
-                "fetched_at": "2026-07-16T04:54:36.600635"
             }
         ],
         "Johan Rosihan": [
@@ -3511,14 +3504,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-14T20:22:50.693983"
+        "fetched_at": "2026-08-14T21:17:25.423920"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-14T20:22:50.693983"
+        "fetched_at": "2026-08-14T21:17:25.423920"
     },
     "macro_stats": {
         "ntp": {
@@ -3526,63 +3519,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-14T20:22:50.693983"
+            "fetched_at": "2026-08-14T21:17:25.423920"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-14T20:22:50.693983"
+            "fetched_at": "2026-08-14T21:17:25.423920"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-14T20:22:50.693983"
+            "fetched_at": "2026-08-14T21:17:25.423920"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-14T20:22:50.693983"
+            "fetched_at": "2026-08-14T21:17:25.423920"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-14T20:22:50.693983"
+            "fetched_at": "2026-08-14T21:17:25.423920"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-14T20:22:50.693983"
+            "fetched_at": "2026-08-14T21:17:25.423920"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-14T20:22:50.693983"
+            "fetched_at": "2026-08-14T21:17:25.423920"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-14T20:22:50.693983"
+            "fetched_at": "2026-08-14T21:17:25.423920"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-14T20:22:50.693983"
+            "fetched_at": "2026-08-14T21:17:25.423920"
         }
     },
     "scrape_status": {
@@ -3591,5 +3584,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-14T20:22:50.693983"
+    "last_updated": "2026-08-14T21:17:25.423920"
 }
