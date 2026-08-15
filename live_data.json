@@ -2,6 +2,13 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "Tingkatkan Produksi Daging dan Susu, Kementan Kembangkan Seleksi Genetik » - dialeksis.com",
+                "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNUJ2cnczNGFuUFl3VkM3d3cxVmRRU01nTkJ2TksxUU5JcW4tZWFxb0VuMVQ1OExoYXN1YVRudi00VG5ZalgxVDNvQnNORC0ycjd5OWVLNzdKNmlpdVdYTmljT1BpcFR5UFB0RVRaVlYzd0pJTElsWllaYWVSTkVDZGxOa0JWNlpoUjl6NmptbkJuczNqcnhSd3NTSUdSWGRVc3djLXotcnRkVk3SAbABQVVfeXFMTnktdmZoSm03R1hXeUNCWHhybDdnZ2I1SjhOMURXOGoycTJhMTZvZW02WnM2bFlobHhxQ0VQaW5OdnIzYjc2YzRYZU1WNHhIaFY3SjdobF83c3FCeE02MC1VdHU2VldDdUgtMVh4S0x5U2t3WVdua3hhR1ROTUVpcW5HaS10TV9hcHF6Um9hV01TbUVET3EzbkhtUmpyZVNlelFfRFR3VzZhdFdpQ1dkWDI?oc=5",
+                "link_resolved": "https://dialeksis.com/pemerintahan/tingkatkan-produksi-daging-dan-susu-kementan-kembangkan-seleksi-genetik/",
+                "published": "Sat, 15 Aug 2026 05:13:23 GMT",
+                "fetched_at": "2026-08-15T05:17:32.945526"
+            },
+            {
                 "title": "Wala-Lakessi Jadi Sasaran PM-AAS, Sidrap Perkuat Pertanian Modern - Pemerintah Kabupaten Sidenreng Rappang",
                 "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR0ttVXZuWWZvcFVvdWI5UzNLVTlNVlo3V3hYX0RZdEhheXZ2ZGVrODRBUkZqR1R5SVZyWW04TU0tY3dYb1hMZEtINTg1d0ItWXVxc1U3MnhCakhUTzFWd0ZRSXlRWjAyN2pkM203YXhwcnNiT0s0NDZZX0JXNlhIemtmVFlWYWd0UHItQ1dUdWI2UjNRaHgwbGcwTERTVlFibFpUTzg1RkFaM053LXZtZUhveHN3d1Y4dzVlelJrQWE?oc=5",
                 "link_resolved": "https://sidrapkab.go.id/berita/detail_berita/Berita102513-Wala-Lakessi-Jadi-Sasaran-PM-AAS--Sidrap-Perkuat-Pertanian-Modern",
@@ -133,13 +140,6 @@
                 "link_resolved": "https://magelangekspres.disway.id/readgallery/27212/wisuda-nasional-polbangtan-dan-pepi-cetak-sdm-unggul-pertanian",
                 "published": "Fri, 14 Aug 2026 04:12:13 GMT",
                 "fetched_at": "2026-08-14T05:38:14.637433"
-            },
-            {
-                "title": "Wisuda Nasional Polbangtan dan PEPI, Cetak SDM Unggul Pertanian - magelangekspres.disway.id - magelangekspres.disway.id",
-                "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTjRQUkZwQ2NCVmpJUUFBOHdNUFIyMmhfUl9iLVE0UUs5TGVoWlhnZ2Y3Sk12ZUtpbk1KREtadGFQOEJUbXpGQ3YxczljdXJzTUhzWnRtS196Vm85T0RUVnZFN0xLRUluMFhpaW1acXZJcEZhckM4X29acnBwUUwzYWd0dDBNNXZSdWZPN2JIaXNPVlhoVU9URmQwUzVSa0doa2FqRTM4YlRKX2xEVm80amx3RWZMTWll0gGrAUFVX3lxTE14ckx3bjl0bVJIQ3ZVczZpQ2REYU1EajM2TVFHNlA5M25ncEdJdFN2ejVoekQwQ21JMDBMdGRTc0g4RzZPRzc4elRzVEVUWWloSjJNc1BPcVJfcTh1azEzeFZxZkVqX0pXQnN5TXQ3R213ZDJ3S1Nzb25yWkxvaG5Rd3pLTUluVXdfcmJEdkJXbS1nbW1qdURzeXltQjNtMHFRTlEybnRrb0xxVQ?oc=5",
-                "link_resolved": "https://magelangekspres.disway.id/nasional/read/677664/wisuda-nasional-polbangtan-dan-pepi-cetak-sdm-unggul-pertanian",
-                "published": "Fri, 14 Aug 2026 04:09:00 GMT",
-                "fetched_at": "2026-08-14T15:42:36.211711"
             }
         ],
         "Kementerian Kehutanan": [
@@ -712,6 +712,20 @@
         ],
         "Perum Bulog": [
             {
+                "title": "Bulog Pastikan El Nino dan Ekspor Beras ke Malaysia Tak Ganggu Pasokan dalam Negeri - RCTI+",
+                "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxNUklyNnJJSXBmc25wc29pSUZkN2lFSWsyT2FKS0hjeWgydWZ0eXZnX0FsSGpOOUdyay1HUkdiV0lEOUhGZS1ROWI1cGhkUDlMNGZzZjVyX182MWM3dm5XTUlLRnhVY3BJSnV3M0syUjEwYXJjUENPOGpoYTMyMnpWeXJPZEc2ZFR1dkZxUkY4Z1NmUGE4RldadzhkbEo1R1htM1JIZ1JzLUtrYkkybWQxOUJ5WFhRcndfeWNmVXMzX0VJdGF0bkMzSlVhSW9fSThwX1lCNjc5eTFFQmFTX1gtZm5xemVpU1RZY3k4akp2X0lKd1ctX1NfQ2FKRllHc3pOc1g2bU4tUlNXUnF5azhMMU5Nc3otZXZCUUhkZ0s5SlI4bW5LZTFWbk1wQmpNV3duQTlxcA?oc=5",
+                "link_resolved": "https://m.rctiplus.com/news/detail/ekonomi/5452283/bulog-pastikan-el-nino-dan-ekspor-beras-ke-malaysia-tak-ganggu-pasokan-dalam-negeri?utm_source=mpi_widget&utm_medium=referral&utm_campaign=news_article_5452283",
+                "published": "Sat, 15 Aug 2026 04:29:30 GMT",
+                "fetched_at": "2026-08-15T05:17:35.970172"
+            },
+            {
+                "title": "DKPP Nunukan Pastikan Kualitas Beras Bantuan Pangan Sebelum Disalurkan ke Masyarakat - PusaranMedia.com",
+                "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTEYxQlRYNHJxSlgyalRsbWYzUHBJc3VNNHM2NGptYWU3ZlJOUXV3RVlDUmNPVW9mNU55YlBIZ2s4UWNFWkxVMld5dEkza2piRzhfUkFvYWlBTnViSUtWYVlNbDhjLUlEeVQ3ZzJCdkNNOFFfdDNhN3VRMzVWTGtyX2VtTk04TDF0c3REMXlSeFRiUzRzYnFRZU1yNG5BektObzlYYjVIb3FwTUdzeXpieWxNNTQ2MTM2aG9hTQ?oc=5",
+                "link_resolved": "https://pusaranmedia.com/read/51253/dkpp-nunukan-pastikan-kualitas-beras-bantuan-pangan-sebelum-disalurkan-ke-masyarakat",
+                "published": "Sat, 15 Aug 2026 04:28:40 GMT",
+                "fetched_at": "2026-08-15T05:17:35.970179"
+            },
+            {
                 "title": "Ratusan Warga Krembangan Jombang Terima 30 Kg Beras Gratis dari Bulog - memoexpos.co",
                 "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQY0NyV0xsSXpCa1F3S185eG5QZ19lbUdPdWN3cXVZZzh2cGJxM1UxOTFCUXgtbDNDd0NsMF92NlUwc2ZOUl9RV2xodjVtc0haM0dXbHhuZTZ0MFl2bzZyTW5PTG02bE5rbmhXaHlYUjdXTjcwN3J1WWMzd1ZEZ0JuTUpCMXFzeHVQZlVuRE0wREZRdENhR1prT3RLUmNTS0l4RzAzeQ?oc=5",
                 "link_resolved": "https://memoexpos.co/2026/08/15/ratusan-warga-krembangan-jombang-terima-30-kg-beras-gratis-dari-bulog/",
@@ -724,6 +738,13 @@
                 "link_resolved": "https://www.kabarbisnis.com/read/28136532/bulog-dki-jakarta-banten-prioritaskan-penyaluran-bapang-di-pulau-kelapa-ini-alasannya",
                 "published": "Sat, 15 Aug 2026 01:23:00 GMT",
                 "fetched_at": "2026-08-15T02:09:03.533260"
+            },
+            {
+                "title": "BULOG DKI Jakarta-Banten Prioritaskan Penyaluran Bapang di Pulau Kelapa, Ini Alasannya - kabarbisnis.com",
+                "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTHlqcEp1SmlNRzdVaHBjSUZLZkdsOVBxOURyekUtemMxU1VXTHd4bWJvTHJjclFGV0NCdWZVbGl4cGVHZjZGRUZUZVl0VlA2MFpXOGNxTmRFSUhyaDkxZU5wLUdJNW1kMnFBc3lhSnVqLUpVTzA1djZET3BRdGdJUVRzQVdzS1pCQk1lclRMZk1SWTB6b2F4N3dGSTRueEMxUzkxc0ZIRkhzUVZZaEdFdDF2S2UwZF8xWEpTa1FCRnU?oc=5",
+                "link_resolved": "https://kabarbisnis.com/read/28136532/bulog-dki-jakarta-banten-prioritaskan-penyaluran-bapang-di-pulau-kelapa-ini-alasannya",
+                "published": "Sat, 15 Aug 2026 01:23:00 GMT",
+                "fetched_at": "2026-08-15T05:17:35.970193"
             },
             {
                 "title": "209.646 KPM Jombang Dapat Bantuan 30 Kg Beras, Disalurkan Tiga Bulan Sekaligus - Jombang Banget",
@@ -829,27 +850,6 @@
                 "link_resolved": "https://www.beritainhil.com/2026/08/kabar-baik-bulog-tembilahan-segera.html",
                 "published": "Fri, 14 Aug 2026 07:24:00 GMT",
                 "fetched_at": "2026-08-14T09:00:29.056718"
-            },
-            {
-                "title": "Bulog Bengkalis Siap Salurkan Bantuan Pangan Periode Juli–September untuk 64.550 PBP - Riau Pos",
-                "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPU3FZTEVPeDZFLWR1LWZTM2owNkNJTWlkaThUR2JqVkZ0TXlhaFlHQWJxQ0o4anpSVUZTeHBKMDM2S19ud2R3YklCcmZlZ1cxOUpkbV8zOGhjdTFPVlNBQzBoaGxhVjJnZlB5VjVlamYzRjBsOGMxTjJEeGZKVm5aWTZZMDBQV0xWY2xwbV9DSUQyS2x6ZW9RZG8xdzhGTkMwY0RCODNnMG4teEctM0JOSzI3Y2o1RElNbndqYnYxdzZDd2lpSGdWT0FDdmbSAdIBQVVfeXFMTmx5SU1sR2w4bXBoX21tTFZKTVB3ZEs3V1ZLSzltZ19QdDlRUjk4SVNJeEF5dkhuclNuRHpiWElfSnhvR1hpMFh5Y0J3X0Y5VW1kWGJGOWlkWGU0cWZvaHNHeWotMVhtVGQ5aXZ4UzdRQ2U0cFpLODdDa0FUZGZzQmVWWnY0NEV5c3Y0UFBXZFd6bzE1cnJKVi1JQ0dLZDdNY0ZaclNRUm5VZUY2QnBjWnltMXdycDV1MjhrbWJ2a2pnMVhneEhkX0JKSkp6UFdySk9R?oc=5",
-                "link_resolved": "https://riaupos.jawapos.com/bengkalis/2608140039/bulog-bengkalis-siap-salurkan-bantuan-pangan-periode-juli-september-untuk-64550-pbp",
-                "published": "Fri, 14 Aug 2026 06:38:12 GMT",
-                "fetched_at": "2026-08-14T12:45:26.020281"
-            },
-            {
-                "title": "DPRD Sulsel minta Bulog operasi pasar stabilkan harga - ANTARA News Makassar",
-                "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOR3FyZDZ6QnNTNXllakFHSThhT2FTSld3eGprbDJWalBUeWZIOWlJVEFYZVNhWTFIVUZHWjg4RUR2QXJRdHBSOXJiZHk5TDR3OWJaSGpBVXZqUkNyS2J1TGJHUGVRNXdFWklRRjNFUzhhUTJLZFZIRnZqU1I3Wmc1VjcyazBYWWJyd0RFbTFEV0s4RU1POXFSNUloa3JGUkd3?oc=5",
-                "link_resolved": "https://makassar.antaranews.com/berita/636001/dprd-sulsel-minta-bulog-operasi-pasar-stabilkan-harga",
-                "published": "Fri, 14 Aug 2026 06:19:21 GMT",
-                "fetched_at": "2026-08-14T07:12:25.938191"
-            },
-            {
-                "title": "BULOG Karawang Salurkan Bantuan Pangan Juli-September 2026, Sasar 632.256 Penerima - tvberita.co.id",
-                "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNa0xiWWl0VzFyZVB1SzBaekdGYkIzSDd4U1BNUTNLRXhnai1rUDZIdndpM2hYSVJfeUxiSU42Tjd5b05rdXRMVlZZS2t1aUZMNXRKSjNPU29jZnhqUklDU0s5UjZ3dFZvUjFMMkZROF9HM1lnMUctb19obm1ENTYyRU81d0ZPeFJObzNUS1lwR2xpeVlkM3FaSFpxTVJpZ2hFQWdJVWRpaVhHXzUtM1RTZmR4MnkzV0ZLRWhF?oc=5",
-                "link_resolved": "https://tvberita.co.id/news/regional/bulog-karawang-salurkan-bantuan-pangan-juli-september-2026-sasar-632-256-penerima/",
-                "published": "Fri, 14 Aug 2026 05:43:56 GMT",
-                "fetched_at": "2026-08-14T07:12:25.938214"
             }
         ]
     },
@@ -3532,14 +3532,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-15T04:21:16.504873"
+        "fetched_at": "2026-08-15T05:17:32.339834"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-15T04:21:16.504873"
+        "fetched_at": "2026-08-15T05:17:32.339834"
     },
     "macro_stats": {
         "ntp": {
@@ -3547,63 +3547,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T04:21:16.504873"
+            "fetched_at": "2026-08-15T05:17:32.339834"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T04:21:16.504873"
+            "fetched_at": "2026-08-15T05:17:32.339834"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T04:21:16.504873"
+            "fetched_at": "2026-08-15T05:17:32.339834"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T04:21:16.504873"
+            "fetched_at": "2026-08-15T05:17:32.339834"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T04:21:16.504873"
+            "fetched_at": "2026-08-15T05:17:32.339834"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T04:21:16.504873"
+            "fetched_at": "2026-08-15T05:17:32.339834"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T04:21:16.504873"
+            "fetched_at": "2026-08-15T05:17:32.339834"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T04:21:16.504873"
+            "fetched_at": "2026-08-15T05:17:32.339834"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T04:21:16.504873"
+            "fetched_at": "2026-08-15T05:17:32.339834"
         }
     },
     "scrape_status": {
@@ -3612,5 +3612,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-15T04:21:16.504873"
+    "last_updated": "2026-08-15T05:17:32.339834"
 }
