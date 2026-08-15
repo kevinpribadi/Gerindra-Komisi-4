@@ -1523,6 +1523,13 @@
                 "fetched_at": "2026-08-15T07:22:56.035309"
             },
             {
+                "title": "350 Ribu Benih Ikan Disalurkan ke Warga Dapil II Jabar, Dorong Budidaya - RM.ID",
+                "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOamJ3OTcydTRGb2xfTEVlWkw1TU1CNWdWYm9jWEVUZzM1Z094akpheS1mcG8yQlRGUGNjYVpLUE85VFJabEMxbXJZd3llRVM1QjcwM1gyNXVDSXUxVGFjZjdsTVNNRWpaWlVnMnJRSnM1UGI1X0ZiTDB1TnpLOGVhOUtFR21tR21oMmctdHpBMmw1UkM5NmdoYk92b25KWDFRYVFyX05pdDlhbU9Mem9wbnNB?oc=5",
+                "link_resolved": "https://rm.id/baca-berita/parlemen/321890/350-ribu-benih-ikan-disalurkan-ke-warga-dapil-ii-jabar-dorong-budidaya",
+                "published": "Sat, 15 Aug 2026 06:19:00 GMT",
+                "fetched_at": "2026-08-15T08:17:44.735443"
+            },
+            {
                 "title": "Golkar Tebar 350 Ribu Benih Ikan, Menanam Harapan bagi Ekonomi Warga Jabar - rmoljabar.id",
                 "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbEd3eHFCT181ejJXZmtUWVlBQXVoMU1BN09fQWNGYm8tWmZjeUxPQkJpYVJzcHQ5OWxVbGlLcEZrNk1NRHpaaHpJem5pUGZUc0tZVHgyTDRQdFBsYzY1dEFEc0lwNDhxRWhXZ05qZGZOQm05XzlPaU1laXVxQWFkTC11Z1pEQXRsM0p4QW9uTGNhLUZsM045SWZqRVdHLWM?oc=5",
                 "link_resolved": "https://www.rmoljabar.id/golkar-tebar-350-ribu-benih-ikan-menanam-harapan-bagi-ekonomi-warga-jabar",
@@ -1811,6 +1818,13 @@
                 "link_resolved": "https://mediaindonesia.com/ekonomi/922133/dorong-ekonomi-budi-daya-perikanan-dengan-salurkan-350-ribu-benih-ikan-untuk-masyarakat",
                 "published": "Sat, 15 Aug 2026 06:45:27 GMT",
                 "fetched_at": "2026-08-15T07:23:01.281154"
+            },
+            {
+                "title": "350 Ribu Benih Ikan Disalurkan ke Warga Dapil II Jabar, Dorong Budidaya - RM.ID",
+                "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOamJ3OTcydTRGb2xfTEVlWkw1TU1CNWdWYm9jWEVUZzM1Z094akpheS1mcG8yQlRGUGNjYVpLUE85VFJabEMxbXJZd3llRVM1QjcwM1gyNXVDSXUxVGFjZjdsTVNNRWpaWlVnMnJRSnM1UGI1X0ZiTDB1TnpLOGVhOUtFR21tR21oMmctdHpBMmw1UkM5NmdoYk92b25KWDFRYVFyX05pdDlhbU9Mem9wbnNB?oc=5",
+                "link_resolved": "https://rm.id/baca-berita/parlemen/321890/350-ribu-benih-ikan-disalurkan-ke-warga-dapil-ii-jabar-dorong-budidaya",
+                "published": "Sat, 15 Aug 2026 06:19:00 GMT",
+                "fetched_at": "2026-08-15T08:17:50.296671"
             },
             {
                 "title": "Negara Agraris Harusnya Ekspor, Dadang M. Naser Bongkar Ironi Impor Pangan - Golkarpedia",
@@ -3539,14 +3553,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-15T07:22:45.005879"
+        "fetched_at": "2026-08-15T08:17:32.386369"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-15T07:22:45.005879"
+        "fetched_at": "2026-08-15T08:17:32.386369"
     },
     "macro_stats": {
         "ntp": {
@@ -3554,63 +3568,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T07:22:45.005879"
+            "fetched_at": "2026-08-15T08:17:32.386369"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T07:22:45.005879"
+            "fetched_at": "2026-08-15T08:17:32.386369"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T07:22:45.005879"
+            "fetched_at": "2026-08-15T08:17:32.386369"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T07:22:45.005879"
+            "fetched_at": "2026-08-15T08:17:32.386369"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T07:22:45.005879"
+            "fetched_at": "2026-08-15T08:17:32.386369"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T07:22:45.005879"
+            "fetched_at": "2026-08-15T08:17:32.386369"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T07:22:45.005879"
+            "fetched_at": "2026-08-15T08:17:32.386369"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T07:22:45.005879"
+            "fetched_at": "2026-08-15T08:17:32.386369"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T07:22:45.005879"
+            "fetched_at": "2026-08-15T08:17:32.386369"
         }
     },
     "scrape_status": {
@@ -3619,5 +3633,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-15T07:22:45.005879"
+    "last_updated": "2026-08-15T08:17:32.386369"
 }
