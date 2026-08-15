@@ -144,6 +144,13 @@
         ],
         "Kementerian Kehutanan": [
             {
+                "title": "Hingga Juli 2026, Luas Karhutla Nasional Capai 202.004 Hektare - agrofarm.co.id",
+                "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMHdjbE9yaVNzVDhQV0Q5aFVHaWtGdndwX0U5cVpzSEIzMEIzYTJWUkc3NGpzUllJYkFoMzRpTmN1Z2hkY3IwQXpjMUQ5aGgwcmY5dGxNOGQ4YTJ0QS1ZOHFTUFR4VjhtbGZFUlRFTzZfQWV5TjlCNDctLWhKenRMSGVKS2FPUDV1ZUZmd0swa1JkeTlFTTRzSjRYQW4?oc=5",
+                "link_resolved": "http://www.agrofarm.co.id/2026/08/hingga-juli-2026-luas-karhutla-nasional-capai-202-004-hektare/",
+                "published": "Sat, 15 Aug 2026 16:36:05 GMT",
+                "fetched_at": "2026-08-15T17:13:22.611886"
+            },
+            {
                 "title": "KPK dalami pemberian uang untuk Kemenhut dan pengembaliannya - ANTARA News Sumsel",
                 "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYUlHeHBhSl9wTlE0UWhvRDBBR1Z5VzdiSl9WcDdXYmxJejZpZ0QxVDJvOTllam40UUR1UW5aX3VZd3pxeTlRN29sZXdSNkxsN2lJZElNQjR3MmpaNFp4dC1CVElSdTctc0hwNGZyaHlTOHBIQ1Z4cmhSdDdYVFBuM1JMSjJyNlNiSE5obzFMWXY2X1VwR3ZlaW9RTVpzbURXci1HQ1dJWQ?oc=5",
                 "link_resolved": "https://sumsel.antaranews.com/berita/822916/kpk-dalami-pemberian-uang-untuk-kemenhut-dan-pengembaliannya",
@@ -275,13 +282,6 @@
                 "link_resolved": "https://ksdae.kehutanan.go.id/publikasi/artikel/surabaya-tak-hanya-milik-manusia-dua-alap-alap-sapi-muncul-di-tengah-kepadatan-kota-raYHYvNO/",
                 "published": "Fri, 14 Aug 2026 09:55:18 GMT",
                 "fetched_at": "2026-08-14T10:50:34.141249"
-            },
-            {
-                "title": "Artikel • Puluhan Bibit Ditanam, Giat Pemulihan Dimulai dari Bermi - Direktorat Jenderal KSDAE",
-                "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONjV4UjB3WEtmMWxScTY0QXZ0Z2x5bGF1LU91WndQdUVsSEUybmh0VEJ0LVJyUkRkdDczVmNpeGV4VUNPOWJyUjBPOUV2dmtJeXNDdmdPOXFsc05EdGpGbmlfcWdNQWd1MWJ6LWhpWnJWbThXc3hhOTdDeGR2UjFLWm5mR0VwWG54cFNtbVQ4djBIUGg2UFhPclloMndHbDBQMUF1SDV6S0NIYzUtbG5WU29qTQ?oc=5",
-                "link_resolved": "https://ksdae.kehutanan.go.id/publikasi/artikel/puluhan-bibit-ditanam-giat-pemulihan-dimulai-dari-bermi-WNi7zzWo/",
-                "published": "Fri, 14 Aug 2026 09:19:38 GMT",
-                "fetched_at": "2026-08-14T10:50:34.141253"
             }
         ],
         "Kementerian Kelautan dan Perikanan": [
@@ -3574,14 +3574,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-15T16:14:04.488784"
+        "fetched_at": "2026-08-15T17:13:21.181933"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-15T16:14:04.488784"
+        "fetched_at": "2026-08-15T17:13:21.181933"
     },
     "macro_stats": {
         "ntp": {
@@ -3589,63 +3589,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T16:14:04.488784"
+            "fetched_at": "2026-08-15T17:13:21.181933"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T16:14:04.488784"
+            "fetched_at": "2026-08-15T17:13:21.181933"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T16:14:04.488784"
+            "fetched_at": "2026-08-15T17:13:21.181933"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T16:14:04.488784"
+            "fetched_at": "2026-08-15T17:13:21.181933"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T16:14:04.488784"
+            "fetched_at": "2026-08-15T17:13:21.181933"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T16:14:04.488784"
+            "fetched_at": "2026-08-15T17:13:21.181933"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T16:14:04.488784"
+            "fetched_at": "2026-08-15T17:13:21.181933"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T16:14:04.488784"
+            "fetched_at": "2026-08-15T17:13:21.181933"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-15T16:14:04.488784"
+            "fetched_at": "2026-08-15T17:13:21.181933"
         }
     },
     "scrape_status": {
@@ -3654,5 +3654,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-15T16:14:04.488784"
+    "last_updated": "2026-08-15T17:13:21.181933"
 }
