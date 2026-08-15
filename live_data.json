@@ -2,6 +2,13 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "Swasembada Beras Tercapai, DPR Dorong Pemerintah Antisipasi Dampak El Nino - Suara Pemerintah",
+                "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOazhaSURoZnc5UE54S2N3cnVHci1OSXgzTjAzNDBvMXNRVUhsSHJzR2xBVDlNYUs2d0haQUhqQWxHcDNBR2hTSkpXc19SVUtzVWgtcTJkZmZOZExqX2h1Y0NrUEptaHU0Q0ExZ0lvMmpxWGNhZzNWT0VLeXNJWWcyaXZmWHBLd1N2UEFpNjAwQzFLZk11RUE0aUpBcWdycFhBb1BId0lOOVRTcXRwX2c?oc=5",
+                "link_resolved": "https://suarapemerintah.id/2026/08/swasembada-beras-tercapai-dpr-dorong-pemerintah-antisipasi-dampak-el-nino/",
+                "published": "Sat, 15 Aug 2026 00:05:11 GMT",
+                "fetched_at": "2026-08-15T00:46:41.052242"
+            },
+            {
                 "title": "Mentan: Izin Importir Pakan Ayam yang Melanggar Akan Dicabut - kalselpos",
                 "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTkdpcXdtbTZYNDljUUpUampDWHowODh2S2tWOFR5RzRvaDdHVU5qVzMyRXl4a2hQeGZZSUk2bElSaGNmWjFsS1NXb2piY01QSlRFNGVqdXhIblAwd1lKV3pfVDl6cnNzZjRaNWpmeVNDMlQ5c0kwaFpBNTE0dVdKdXR3UkRNRVRUQk5VRGREOTg1Q3NuZHBNV1RIVk5ma0ZWMm5ENG93?oc=5",
                 "link_resolved": "https://kalselpos.com/2026/08/15/mentan-amran-ancam-cabut-izin-importir-pakan-nakal-yang-mainkan-harga/",
@@ -133,13 +140,6 @@
                 "link_resolved": "https://parepos.fajar.co.id/2026/08/14/raih-wtp-mentan-amran-tegaskan-tata-kelola-kementan-terus-diperkuat/",
                 "published": "Fri, 14 Aug 2026 01:18:59 GMT",
                 "fetched_at": "2026-08-14T03:58:47.793097"
-            },
-            {
-                "title": "Usai Diperiksa BPK, Kementan Janji Perbaiki Pengelolaan Keuangan hingga Bantuan Pemerintah - Kompas.com",
-                "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOV1FZV1JQTnZ2SEdvemhpMkFvTE5HQVZEREdEOHpYTUZXX3dhNWNybGFCN2g2dHc2ak52T3hCQV9sQjg3WXhBUE4teU9MVXc3dmR2ZVBjcmc4T1F4YlhTV1AySTkyTW1abC1RNDJFYVhMd0ZqaU9sWFBHXzB0V0RzalJwZ1dyZlpyZElJZ29raHFuWUM2WTdodmdYeXZFSFZsamJGN0Z5T3ZDWUdwRHQzQkJiN3FtWGphTTQwYXo1N1JyU2Q2LVFFcA?oc=5",
-                "link_resolved": "https://money.kompas.com/read/2026/08/14/080000426/usai-diperiksa-bpk-kementan-janji-perbaiki-pengelolaan-keuangan-hingga-bantuan",
-                "published": "Fri, 14 Aug 2026 01:00:00 GMT",
-                "fetched_at": "2026-08-14T01:14:42.474043"
             }
         ],
         "Kementerian Kehutanan": [
@@ -712,6 +712,13 @@
         ],
         "Perum Bulog": [
             {
+                "title": "Pemkab Nunukan dan Bulog Pastikan Kualitas Beras Sebelum Bantuan Pangan Disalurkan - Berita Nunukan",
+                "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeC1ieTloMVVwMnlQeFhUUXo5b1dsUU1HMlp2MXM4VmIya3h2RXBhdmVpd29GUGo5amJVYUVSLVhOVFpBVEw0TmdvMVVnbUw0Z2FFVy1HZTljN2xUUlhzR1lYOHpfYjkyejVENVZzdUVxX2ZMMVZsb3lNNEtZMFBIT2JRWV9yX3V6cFVNVVJTcGFVTlk5Z2xWR0R4WWVMbHBPZlJpOEpaSllaQmo1SHR4cEZWbHd0SEhvdW04?oc=5",
+                "link_resolved": "https://berita.nunukankab.go.id/view/pemkab-nunukan-dan-bulog-pastikan-kualitas-beras-sebelum-bantuan-pangan-disalurkan",
+                "published": "Fri, 14 Aug 2026 23:25:28 GMT",
+                "fetched_at": "2026-08-15T00:46:43.911527"
+            },
+            {
                 "title": "Bulog: Penyaluran beras di Timika capai 700 ton per bulan - ANTARA News Papua Tengah",
                 "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcFpXNEF0cE5Qc0NFRjluSUxEcDgza3dkU21DYWRqZ0xUQTVYR0V3ZjhDS0xRYW5zLUxNRDZuRWVoMG9XTHpfMFNzdGlKaGNIaWpjOG5Vc2FjRlIxbVhmdnFsWmVDNHF5cU1pLUxFM0IzZWdRVHhYTlphUV9oM0dIODRocnMyWk9tNVluNnkzR2IwRGcxUnZFcl91TzN0QU8zMmJFZkRJRdIBrAFBVV95cUxPbXFTMWpXT21WdnJHSGtKaHFGSmlFQmNSdjV0UTZUMTNRb0RxVnhja2NTMFZsYmVCYVhNWGM4c25lNzRsQnlfWHZpdjVQYWVUb2ZUajBEN3U2TENMUHlxVTkwNUtCWFFHRHpTVU56WmRKTFNBTjFTUGFGLVRhaWNrZ0xOb29KVWJiTTUwQXFFMFZPZzYtLTY2QXlkYnEtdXFOME9tT0xxeEN0bWRv?oc=5",
                 "link_resolved": "https://papuatengah.antaranews.com/berita/87421/bulog-penyaluran-beras-di-timika-capai-700-ton-per-bulan",
@@ -843,13 +850,6 @@
                 "link_resolved": "https://beritakotakendari.fajar.co.id/2026/08/14/bulog-salurkan-985-ton-beras-bantuan-pangan-bagi-32-861-kpm-di-konawe/",
                 "published": "Fri, 14 Aug 2026 02:30:00 GMT",
                 "fetched_at": "2026-08-14T03:58:51.023371"
-            },
-            {
-                "title": "Bulog Jamin Stok Beras Kalteng Cukup untuk 10 Bulan - detik.com",
-                "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTlRNcVdQdEtVVFNLUkdDdmZVLVVSNVBNZHhGNklsYm1UM0s3dzZLbXpBN0d2bUQ5VU44TlNsQ0UzMDY0U1dZYnVlanFob3RjSzgxMk54UXlxU1VaX0NrTUZFZ0ZWWEVoMk1MMjU3eEpULTJoUXpUOXl2VGRaVTlscnNvR1N6NGZVM25fRGo0b2l5dU5YVmVfWDQ5R25WTTNRZm5Z0gGoAUFVX3lxTE1uSnZZdDZzZGk1Yjh5SXd5QU5qbVF1c2ZPQzhGUlhsdG90azZJMFZOb3hmWHR1MGJ1UEtLeTZpMF9zd1BRNldyQXRpV3BFOXE5RUNFZF9pVFllVjFVTlByVWRRVlpmTFlLbWhMalF2TWtCRnhMbFduV3laa1JudHVnQW5KZ2JsMHNiTGFWRHU5d2RWX3czQUxKcTljdEhSVUNtMWY1Wm1NOQ?oc=5",
-                "link_resolved": "https://www.detik.com/kalimantan/bisnis/d-8617674/bulog-jamin-stok-beras-kalteng-cukup-untuk-10-bulan",
-                "published": "Fri, 14 Aug 2026 01:00:45 GMT",
-                "fetched_at": "2026-08-14T01:14:45.257479"
             }
         ]
     },
@@ -1149,6 +1149,13 @@
         ],
         "Rokhmin Dahuri": [
             {
+                "title": "Apresiasi Swasembada Pangan 2026, Prof. Rokhmin Dahuri: Jangan Biarkan Petani Tetap Miskin di Lumbung yang Melimpah - Askara.co",
+                "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOYjk2R1NBYlpnSE1rczhoWXZFT1NpbVRnOU50VHdwaFBlMVo1SHVQeHhta3l4Nk92LTlQV2RSaVNYOUdwTEx3RVR1OUxjSHNOUVZ5SmZIdFRlLVpmeno2OEVpRlNMOEYzTDlKWlVPWTVPWDRLOEpmRGwwcGdrdmcyYWtLakR6T0RuMmZPblRMWVRncThkZ3RrSUFXQ3Z6V1hUN25LajJzeklQeHotZnBXdzVUX1FFT1MzNy1BY2pZUllPdXh5T0gwOXNQeko0eXlwUGxwN0loTFlsSk84R3JEdTJKWGJGVmltU2h5NldR?oc=5",
+                "link_resolved": "https://www.askara.co/read/2026/08/15/67929/apresiasi-swasembada-pangan-2026-prof-rokhmin-dahuri:-jangan-biarkan-petani-tetap-miskin-di-lumbung-yang-melimpah",
+                "published": "Sat, 15 Aug 2026 00:44:20 GMT",
+                "fetched_at": "2026-08-15T00:46:47.331937"
+            },
+            {
                 "title": "Rokhmin Dahuri Ajak Umat Islam Maknai Kemerdekaan Membebaskan Diri dari Segala Bentuk Penghambaan - gesuri.id",
                 "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQU3JYalFmWGtqT0h4WU16RVpyUDdIMk9DeGt0UTZTNGlybEtsc3NWM1JlRlN5YTR6SnRzekFMN05FUWJKWktrSFJCT0F5R1J5WlEyVFAxUUhORkZhUkRfSDFNSmVGRjZfYUZCVnpPb0g3UUExVGxyc0dsX1M4c1A2SENaRmRyTzhHWGVuc2oxQzY4R2s1WVlILVloVXAtZnBEc0lTOXFSV2ZqNnl2SkEyMDFCbUdLdjMtYk1lcUw3bnRwaUsxNXNDM3NvTXZ1Y0EyeFVYaHB4T1lqUdIB3wFBVV95cUxQQVlERF85eHMyaDA3SzN0WVRGdXNtcnFEbkNuQ0VfeHI1OEU3REs4YjJOelBRNm1uWW1tZVdvQXhWYXFXVHFHNjNTd2xwUk04NEdFV1A3dFItWkpEcDlfc2RUdUZjTUcxUDZsQVRkTXhxZGVZZ0tmeHJJRjRZSE5VLUxfS083TVZxSlB1TGp0VTRrRHNsOWlJWFZHRkZIbDk1WDRzUWR0ZG1ZRXdMX3ZmMGpGMlpCaHZMYmZHVFZCTmhnYmF0RnFfRmpBRldrSGdsN3QyWkxjLUgyTDB3RWZz?oc=5",
                 "link_resolved": "https://www.gesuri.id/serba-serbi/rokhmin-dahuri-ajak-umat-islam-maknai-kemerdekaan-membebaskan-diri-dari-segala-bentuk-penghambaan-b2pY4Zbhns",
@@ -1280,13 +1287,6 @@
                 "link_resolved": "https://www.gesuri.id/pemerintahan/rokhmin-dahuri-tegaskan-kampung-nelayan-merah-putih-tidak-boleh-hanya-bangun-infrastruktur-fisik-darat-b2pYwZbgYU",
                 "published": "Fri, 07 Aug 2026 05:00:00 GMT",
                 "fetched_at": "2026-08-07T06:05:41.776465"
-            },
-            {
-                "title": "Wujudkan One Health, Rokhmin Dahuri Komitmen Dukung Penguatan Profesi Dokter Hewan - gesuri.id",
-                "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRnppd1J1azBmWkRaQlBaZ1FjLUpEQ1h3Ml9jVDk3MnJtZWIwektjRDN6a1FGZTNiLXoyYklSaXBBZElnWWxBalVmeGh6UVZPbGpMcjY0cXJGdDJXWkpidUoxNWpFLUZxbFRiTWlIM0ZPd25mcUxoUVc3NVp1UlotUENKUWhBaXJnNGRnb1pKUUMwMG9VQ1JvRmtKUkRGcG8xR3R4YkpZWHJpNDRqeVplUWdTR2JaZFY0MXBVS2RDVEZZVWNVYW9aNWlKTdIBywFBVV95cUxQRnppd1J1azBmWkRaQlBaZ1FjLUpEQ1h3Ml9jVDk3MnJtZWIwektjRDN6a1FGZTNiLXoyYklSaXBBZElnWWxBalVmeGh6UVZPbGpMcjY0cXJGdDJXWkpidUoxNWpFLUZxbFRiTWlIM0ZPd25mcUxoUVc3NVp1UlotUENKUWhBaXJnNGRnb1pKUUMwMG9VQ1JvRmtKUkRGcG8xR3R4YkpZWHJpNDRqeVplUWdTR2JaZFY0MXBVS2RDVEZZVWNVYW9aNWlKTQ?oc=5",
-                "link_resolved": "https://www.gesuri.id/amp/pemerintahan/wujudkan-one-health-rokhmin-dahuri-komitmen-dukung-penguatan-profesi-dokter-hewan-b2pYtZbgT5",
-                "published": "Tue, 04 Aug 2026 13:00:00 GMT",
-                "fetched_at": "2026-08-04T17:36:52.246381"
             }
         ],
         "I Nyoman Adi Wiryatama": [
@@ -3489,6 +3489,13 @@
         ],
         "Ellen Esther Pelealu": [
             {
+                "title": "Swasembada Beras Tercapai, DPR Dorong Pemerintah Antisipasi Dampak El Nino - Suara Pemerintah",
+                "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOazhaSURoZnc5UE54S2N3cnVHci1OSXgzTjAzNDBvMXNRVUhsSHJzR2xBVDlNYUs2d0haQUhqQWxHcDNBR2hTSkpXc19SVUtzVWgtcTJkZmZOZExqX2h1Y0NrUEptaHU0Q0ExZ0lvMmpxWGNhZzNWT0VLeXNJWWcyaXZmWHBLd1N2UEFpNjAwQzFLZk11RUE0aUpBcWdycFhBb1BId0lOOVRTcXRwX2c?oc=5",
+                "link_resolved": "https://suarapemerintah.id/2026/08/swasembada-beras-tercapai-dpr-dorong-pemerintah-antisipasi-dampak-el-nino/",
+                "published": "Sat, 15 Aug 2026 00:05:11 GMT",
+                "fetched_at": "2026-08-15T00:47:26.718823"
+            },
+            {
                 "title": "Febriyanthi Hongkiriwang Resmi Buka Perayaan HUT ke-77 Persekutuan Pemuda GKST Klasis Beteleme - obor motindok",
                 "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZHNFY01jNllYS0VJd1ROZFRvcGowYWxCQUQ0bGI4U0JvX3lTYWpTbFdYSW5HZUVYdkFIWktMSUlIdzczbFpONngyUlg1UkYtbjZUMk81eGRERllzNUZhRkNIQXdwR09sNktCNU90VnJERm9LRU1GbGFHWEw4YklTXzlqSFNnS2Jwc3BEeXItdHEtTktYTzUwTC1zdkdiSmN0M0JETjZlN1RlSVJ2OTk5dEd5TVRmN0IxTVpzNjNnMlcySGdx?oc=5",
                 "link_resolved": "https://www.obormotindok.co.id/febriyanthi-hongkiriwang-resmi-buka-perayaan-hut-ke-77-persekutuan-pemuda-gkst-klasis-beteleme/",
@@ -3511,14 +3518,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-14T23:14:00.560753"
+        "fetched_at": "2026-08-15T00:46:40.400499"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-14T23:14:00.560753"
+        "fetched_at": "2026-08-15T00:46:40.400499"
     },
     "macro_stats": {
         "ntp": {
@@ -3526,63 +3533,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-14T23:14:00.560753"
+            "fetched_at": "2026-08-15T00:46:40.400499"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-14T23:14:00.560753"
+            "fetched_at": "2026-08-15T00:46:40.400499"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-14T23:14:00.560753"
+            "fetched_at": "2026-08-15T00:46:40.400499"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-14T23:14:00.560753"
+            "fetched_at": "2026-08-15T00:46:40.400499"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-14T23:14:00.560753"
+            "fetched_at": "2026-08-15T00:46:40.400499"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-14T23:14:00.560753"
+            "fetched_at": "2026-08-15T00:46:40.400499"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-14T23:14:00.560753"
+            "fetched_at": "2026-08-15T00:46:40.400499"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-14T23:14:00.560753"
+            "fetched_at": "2026-08-15T00:46:40.400499"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-14T23:14:00.560753"
+            "fetched_at": "2026-08-15T00:46:40.400499"
         }
     },
     "scrape_status": {
@@ -3591,5 +3598,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-14T23:14:00.560753"
+    "last_updated": "2026-08-15T00:46:40.400499"
 }
