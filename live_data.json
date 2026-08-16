@@ -2,6 +2,13 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "Arah Ketahanan Pangan 2027: Anggaran Naik, Fokus ke Diferensiasi Bantuan? - bataviapos.id",
+                "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSlhZTjlOcXIyVWZjZlV3NXExdzhldWFwb2hmaXFXNXR2bHZUMGNPNV82d0hkRVVNbHpWRjgzYnA5LUJjWW1xRWFfZjhfN3dTbUVjdUNZSkpXUHd1OUZqQkVZdjZmdHlwckkzR1NLY0daMS1OTzc4VkpYMlZOVC1fVjhIMW1TdkJrbDNHSDAzaW5EOG5XLU1HX1pheTVtbEJhQkpwa3Y2TW5iU3lkX3NrcXk5RUVOdw?oc=5",
+                "link_resolved": "https://bataviapos.id/ella-devianti-effendi/arah-ketahanan-pangan-2027-anggaran-naik-fokus-ke-diferensiasi-bantuan/",
+                "published": "Sun, 16 Aug 2026 22:06:12 GMT",
+                "fetched_at": "2026-08-16T22:12:41.036758"
+            },
+            {
                 "title": "Fokus pada peningkatan produktivitas, kualitas, dan efisiensi produksi durian. - Vietnam.vn",
                 "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaFNjTVF6d3dieUZ6TXdDWkgwWGc4WVE3Um1vb1pJZnU1SzZQV3NoaHRmMlZraWEzY3RPeHJEbkRJcm41M0VadXNieE5rall4d1RfN1luSGR1cXI4MDBMS0IwWExwYTJCbU15S3VFWDVsa3d0R1pkRGc3UncwdEdyY2NHem9OTjd1VzBwVndYRzRTNmtiSkZVSkNfeE4?oc=5",
                 "link_resolved": "https://www.vietnam.vn/id/tap-trung-nang-cao-nang-suat-chat-luong-va-hieu-qua-san-xuat-sau-rieng",
@@ -133,13 +140,6 @@
                 "link_resolved": "https://dialeksis.com/pemerintahan/tingkatkan-produksi-daging-dan-susu-kementan-kembangkan-seleksi-genetik/",
                 "published": "Sat, 15 Aug 2026 05:13:23 GMT",
                 "fetched_at": "2026-08-15T05:17:32.945526"
-            },
-            {
-                "title": "Tingkatkan Produksi Daging dan Susu, Kementan Kembangkan Seleksi Genetik » - dialeksis.com",
-                "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQ2tKSXB3bW9FYkRJdEw0NVdMZE1ONTJJTzZKb3Y5TmxRR0JiSFhiM1JXYVdrODVBaFQ2UTdfVGJEOUtfa0MtZlpCRTFmSTctbHo1cUhXMVo3YUNIdjYtcVJRcWdka09XSEZhZ0tkejZDLW1EMm83MGtqZWxfWTE3b3IwUjhCSHdhOTRwN0FUVXdJMFpSU0JGcjRJV1BocEVnTHI0MnlkQWJSMmg1c3ZlYdIBsAFBVV95cUxOeS12ZmhKbTdHWFd5Q0JYeHJsN2dnYjVKOE4xRFc4ajJxMmExNm9lbTZaczZsWWhseHFDRVBpbk52cjNiNzZjNFhlTVY0eEhoVjdKN2hsXzdzcUJ4TTYwLVV0dTZWV0N1SC0xWHhLTHlTa3dZV25reGFHVE5NRWlxbkdpLXRNX2FwcXpSb2FXTVNtRURPcTNuSG1SanJlU2V6UV9EVHdXNmF0V2lDV2RYMg?oc=5",
-                "link_resolved": "https://www.dialeksis.com/pemerintahan/tingkatkan-produksi-daging-dan-susu-kementan-kembangkan-seleksi-genetik/",
-                "published": "Sat, 15 Aug 2026 05:07:22 GMT",
-                "fetched_at": "2026-08-15T12:20:48.633998"
             }
         ],
         "Kementerian Kehutanan": [
@@ -3525,14 +3525,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-16T21:12:21.192794"
+        "fetched_at": "2026-08-16T22:12:40.550498"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-16T21:12:21.192794"
+        "fetched_at": "2026-08-16T22:12:40.550498"
     },
     "macro_stats": {
         "ntp": {
@@ -3540,63 +3540,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T21:12:21.192794"
+            "fetched_at": "2026-08-16T22:12:40.550498"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T21:12:21.192794"
+            "fetched_at": "2026-08-16T22:12:40.550498"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T21:12:21.192794"
+            "fetched_at": "2026-08-16T22:12:40.550498"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T21:12:21.192794"
+            "fetched_at": "2026-08-16T22:12:40.550498"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T21:12:21.192794"
+            "fetched_at": "2026-08-16T22:12:40.550498"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T21:12:21.192794"
+            "fetched_at": "2026-08-16T22:12:40.550498"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T21:12:21.192794"
+            "fetched_at": "2026-08-16T22:12:40.550498"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T21:12:21.192794"
+            "fetched_at": "2026-08-16T22:12:40.550498"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T21:12:21.192794"
+            "fetched_at": "2026-08-16T22:12:40.550498"
         }
     },
     "scrape_status": {
@@ -3605,5 +3605,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-16T21:12:21.192794"
+    "last_updated": "2026-08-16T22:12:40.550498"
 }
