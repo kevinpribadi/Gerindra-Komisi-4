@@ -2,6 +2,13 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "Fokus pada peningkatan produktivitas, kualitas, dan efisiensi produksi durian. - Vietnam.vn",
+                "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaFNjTVF6d3dieUZ6TXdDWkgwWGc4WVE3Um1vb1pJZnU1SzZQV3NoaHRmMlZraWEzY3RPeHJEbkRJcm41M0VadXNieE5rall4d1RfN1luSGR1cXI4MDBMS0IwWExwYTJCbU15S3VFWDVsa3d0R1pkRGc3UncwdEdyY2NHem9OTjd1VzBwVndYRzRTNmtiSkZVSkNfeE4?oc=5",
+                "link_resolved": "https://www.vietnam.vn/id/tap-trung-nang-cao-nang-suat-chat-luong-va-hieu-qua-san-xuat-sau-rieng",
+                "published": "Sun, 16 Aug 2026 17:30:32 GMT",
+                "fetched_at": "2026-08-16T19:14:52.230702"
+            },
+            {
                 "title": "Dirjen Holtikultura Kementan Sebut 160 Hektar Pengembangan Bawang Putih di Samosir - GoSumut.com",
                 "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObkp0TEV4dlJvS3dEeldPVW44Q29JYnZodEtKVEYweXF4ZzdBbGlSNWZQa2txRWVxY3BQSWJwLTBYWFZhWFRORmM2dVR6TTJ3QkNfZFhGLXNiNGVPaGotcmNYaXZlOEZvZGp2VkFwaWRHMU1reklqTVFqWmpaT1d6ZkVvVk45V2pYS1o3dzV5dlVYc1o3RnM1ZUJ6clI4MVBCVDl4d3l2eS1xck13LVZtVmg2TVhnZnJlUlVXdXdNcTVGU0RmUHZlNg?oc=5",
                 "link_resolved": "https://www.gosumut.com/berita/baca/2026/08/16/dirjen-holtikultura-kementan-sebut-160-hektar-pengembangan-bawang-putih-di-samosir",
@@ -133,13 +140,6 @@
                 "link_resolved": "https://www.dialeksis.com/pemerintahan/tingkatkan-produksi-daging-dan-susu-kementan-kembangkan-seleksi-genetik/",
                 "published": "Sat, 15 Aug 2026 05:07:22 GMT",
                 "fetched_at": "2026-08-15T12:20:48.633998"
-            },
-            {
-                "title": "Pemprov Jatim Percepat Pemetaan Sumber Air untuk Antisipasi Kekeringan Lahan Pertanian - KlikJatim",
-                "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeUsxaEhwRVlCbWlpNTk2bUk2Y2pPbjNYTWVjM3FIdEtDVUJjeFRpbWUxMkNURnlNd18xNFFJVzRITHNQbEIwUm83MEthXzk0MzdvY3N3aW5MREdfVVdqaWxRRU84Z0RLbGNoOE40ME1tVUc1UmktY09TSWtkUXZ2ZUFvV0RGUEtjcEZTSE8yU01vS3h0RVhvZFRFN1Zab19ZaGNwcGwyckxoRGttV0xyendPakhoWmFYT0VB0gHAAUFVX3lxTE5OVUdwaGpHaGNHR2VLd1FkLWhxalRSUXdIaWNQei1zZURIOUFwMnRTLW9sQ0EwcnZ3QWJHc0FTaUlVOENTTXNiR3BqbDlycnFoNlRXRHBZYXEyY3FrRm4tUDFyYmM1TFpRck1OT2hpa0FJbjkxRG4tVUprS0lSWm5MNGJOaVpCanBUTk44MlZwc18zQ3hZSTQxb1pUSWdpSmhXeUtBZld2ZGsyaVBUbjl6M1VGV3o4a3RTUmhRMlZ2cQ?oc=5",
-                "link_resolved": "https://klikjatim.com/news-48986-pemprov-jatim-percepat-pemetaan-sumber-air-untuk-antisipasi-kekeringan-lahan-pertanian",
-                "published": "Sat, 15 Aug 2026 04:21:00 GMT",
-                "fetched_at": "2026-08-15T09:18:02.748078"
             }
         ],
         "Kementerian Kehutanan": [
@@ -3525,14 +3525,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-16T18:16:31.961436"
+        "fetched_at": "2026-08-16T19:14:51.680875"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-16T18:16:31.961436"
+        "fetched_at": "2026-08-16T19:14:51.680875"
     },
     "macro_stats": {
         "ntp": {
@@ -3540,63 +3540,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T18:16:31.961436"
+            "fetched_at": "2026-08-16T19:14:51.680875"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T18:16:31.961436"
+            "fetched_at": "2026-08-16T19:14:51.680875"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T18:16:31.961436"
+            "fetched_at": "2026-08-16T19:14:51.680875"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T18:16:31.961436"
+            "fetched_at": "2026-08-16T19:14:51.680875"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T18:16:31.961436"
+            "fetched_at": "2026-08-16T19:14:51.680875"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T18:16:31.961436"
+            "fetched_at": "2026-08-16T19:14:51.680875"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T18:16:31.961436"
+            "fetched_at": "2026-08-16T19:14:51.680875"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T18:16:31.961436"
+            "fetched_at": "2026-08-16T19:14:51.680875"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T18:16:31.961436"
+            "fetched_at": "2026-08-16T19:14:51.680875"
         }
     },
     "scrape_status": {
@@ -3605,5 +3605,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-16T18:16:31.961436"
+    "last_updated": "2026-08-16T19:14:51.680875"
 }
