@@ -3459,6 +3459,13 @@
         ],
         "Bambang Purwanto": [
             {
+                "title": "Bambang Purwanto Pertanyakan Kelangkaan BBM di Kalteng, Begini Jawaban Bahlil - Jawa Pos",
+                "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYkdicEI3Uk52dWowZ01WQlhqLUEycVREYnZJdzQ3YU1FNFRrdC0xOVJkaF9hRU1fN05jZUU4SWpZQ3dvajlNVi10ZE85TkVhSng4VGUzeFFCdzM1cE5kZEJwNHJGT2kzV2s1OF85LUI3XzFqUTI4RUhZRFItNmdmQUxvTUNhM0VBbE5wRE1iWFl2dTRrTHJQdWR5dGdTWURZRXVwbWIwWXB0ZnRfREQwbFU4akZfZTBGejJjWmVyMDNWaXBMWTl2Y1BNREbSAcwBQVVfeXFMUGJHYnBCN1JOdnVqMGdNVkJYai1BMnFURGJ2SXc0N2FNRTRUa3QtMTlSZGhfYUVNXzdOY2VFOElqWUN3b2o5TVYtdGRPOU5FYUp4OFRlM3hRQnczNXBOZGRCcDRyRk9pM1drNThfOS1CN18xalEyOEVIWURSLTZnZkFMb01DYTNFQWxOcERNYlhZdnU0a0xyUHVkeXRnU1lEWUV1cG1iMFlwdGZ0X0REMGxVOGpGX2UwRnoyY1plcjAzVmlwTFk5dmNQTURG?oc=5",
+                "link_resolved": "https://radarsampit.jawapos.com/amp/nasional/2608150005/bambang-purwanto-pertanyakan-kelangkaan-bbm-di-kalteng-begini-jawaban-bahlil",
+                "published": "Sat, 15 Aug 2026 10:29:51 GMT",
+                "fetched_at": "2026-08-16T23:13:07.982570"
+            },
+            {
                 "title": "Rapat Bersama Menteri ESDM-Bambang Purwanto Pertanyakan Kelangkaan BBM di Kalteng - tabengan.co.id",
                 "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaV9xZkMtMjVDa2R0ZjFuRmlEeHFSb3pQZjY4ZlozaHdCaGRVaXhDX1QxVWkyYnRYLTR4bWlyekxJQWtxcEI3SjhCQ0p3ZXZUc05BLTBOQ0RrOTlVeDRHYVdqSzRJSmNYSkxyZE90ZTZ0THp3QXBrTkVtdElhOHJNVGtLaFUtZ3ExcUZ1M21MaEphNmRQb3VOQkwyWkJJN3VUZF9ieGwwRk91cnNBZEYyOUM1bHI2VGVYRXZJR2RSMl9jRE5mOVE?oc=5",
                 "link_resolved": "https://www.tabengan.co.id/bacaberita/143327/rapat-bersama-menteri-esdm-bambang-purwanto-pertanyakan-kelangkaan-bbm-di-kalteng/",
@@ -3525,14 +3532,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-16T22:12:40.550498"
+        "fetched_at": "2026-08-16T23:12:25.009927"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-16T22:12:40.550498"
+        "fetched_at": "2026-08-16T23:12:25.009927"
     },
     "macro_stats": {
         "ntp": {
@@ -3540,63 +3547,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T22:12:40.550498"
+            "fetched_at": "2026-08-16T23:12:25.009927"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T22:12:40.550498"
+            "fetched_at": "2026-08-16T23:12:25.009927"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T22:12:40.550498"
+            "fetched_at": "2026-08-16T23:12:25.009927"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T22:12:40.550498"
+            "fetched_at": "2026-08-16T23:12:25.009927"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T22:12:40.550498"
+            "fetched_at": "2026-08-16T23:12:25.009927"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T22:12:40.550498"
+            "fetched_at": "2026-08-16T23:12:25.009927"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T22:12:40.550498"
+            "fetched_at": "2026-08-16T23:12:25.009927"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T22:12:40.550498"
+            "fetched_at": "2026-08-16T23:12:25.009927"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T22:12:40.550498"
+            "fetched_at": "2026-08-16T23:12:25.009927"
         }
     },
     "scrape_status": {
@@ -3605,5 +3612,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-16T22:12:40.550498"
+    "last_updated": "2026-08-16T23:12:25.009927"
 }
