@@ -2,6 +2,13 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "Cetak SDM Siap Kerja, Mahasiswa Polbangtan Kementan Resmi Diwisuda - magelangekspres",
+                "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVjVnU19hR3VpLWtoZjV6MTl0OS1WZmZIU0hMWWh2eTlwMTZJd2REVGtYcXMtWmpKdHhpSnJGaXl2bzZUekJmVlBYMndBRVJsMDc4MHNpYWRvcnJTNGlXeEE5dDAyZmZHa1pBd3B1LWhjZ3Zyb2prNTg1bmZPLVp0WkdBbmlDNDlvT19iLWhDd2QxNmF1VDlxbjZFRmV3VXNJUERnYjdNeHVqYXJyeXA1Mlp0akd1ODE4?oc=5",
+                "link_resolved": "https://magelangekspres.disway.id/readgallery/27216/cetak-sdm-siap-kerja-mahasiswa-polbangtan-kementan-resmi-diwisuda",
+                "published": "Sun, 16 Aug 2026 10:26:59 GMT",
+                "fetched_at": "2026-08-16T11:12:40.377317"
+            },
+            {
                 "title": "Pergeseran yang signifikan dari pertumbuhan pesat menuju pembangunan berkelanjutan di industri durian. - Vietnam.vn",
                 "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSGpCUjF6RE1FWWtjRnlDSVpUZWlTYXA4OENOTkpoSEdhbXY5VnhKN1pGVXp6X2ZtM0RxMUhkV0Y2TUNPZ0p6MjJwUUNSam4xODEzU2JxVXNtOUxOQW9WZkJ4c19Gel9McU80TEVVWmU4dFVaT1I3OGRBbkpCeHctZ2VndnhMdlVDM3pCRnFxZ2wyQ3I4S0JVWHRYYWRzOWdKTmtBTVZyOA?oc=5",
                 "link_resolved": "https://www.vietnam.vn/id/chuyen-manh-tu-tang-truong-nhanh-sang-phat-trien-ben-vung-nganh-hang-sau-rieng",
@@ -133,13 +140,6 @@
                 "link_resolved": "https://bataviapos.id/ella-devianti-effendi/di-tangan-mentan-amran-pertanian-berjaya-tapi-nasib-buruh-tani-masih-membuatnya-gelisah/",
                 "published": "Fri, 14 Aug 2026 21:36:12 GMT",
                 "fetched_at": "2026-08-15T02:09:00.965338"
-            },
-            {
-                "title": "Mentan: Izin Importir Pakan Ayam yang Melanggar Akan Dicabut - kalselpos",
-                "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTkdpcXdtbTZYNDljUUpUampDWHowODh2S2tWOFR5RzRvaDdHVU5qVzMyRXl4a2hQeGZZSUk2bElSaGNmWjFsS1NXb2piY01QSlRFNGVqdXhIblAwd1lKV3pfVDl6cnNzZjRaNWpmeVNDMlQ5c0kwaFpBNTE0dVdKdXR3UkRNRVRUQk5VRGREOTg1Q3NuZHBNV1RIVk5ma0ZWMm5ENG93?oc=5",
-                "link_resolved": "https://kalselpos.com/2026/08/15/mentan-amran-ancam-cabut-izin-importir-pakan-nakal-yang-mainkan-harga/",
-                "published": "Fri, 14 Aug 2026 20:24:05 GMT",
-                "fetched_at": "2026-08-14T21:17:26.100325"
             }
         ],
         "Kementerian Kehutanan": [
@@ -286,6 +286,13 @@
         ],
         "Kementerian Kelautan dan Perikanan": [
             {
+                "title": "Menteri KKP: Laut Sumber Kehidupan, Ekonomi Harus Berjalan Seiring dengan Ekologi - pelakita.id",
+                "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNallhclJCYjJaOGpPenl2WGpnRE5iRVNLb0t3bHF6LUZUalZHVHd0TXhFQ1djNHJNdjdJQlg2dm1XYjF4YkVuRnlRd2ZKVGhZeUliZ2RQTHFKM3BkaWM0SkVPckZqb0Vfd2I1SkQ3TTlmeW5WX3RHcy1ZQmdacGk1eHhfQWNtMGdRbV91V0hyMVpXWkJzVHN4U1ZXT3UybUhZTERLSjlRUWl0LTVrSFctbA?oc=5",
+                "link_resolved": "https://pelakita.id/2026/08/16/menteri-kkp-laut-sumber-kehidupan-ekonomi-harus-berjalan-seiring-dengan-ekologi/",
+                "published": "Sun, 16 Aug 2026 07:57:19 GMT",
+                "fetched_at": "2026-08-16T11:12:41.442764"
+            },
+            {
                 "title": "100 Cool Box Disalurkan, Dukung Aktivitas Nelayan Kampung Nelayan Maju Desa Suak Gual - TrawangNews.com",
                 "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaVdaamxqd1l2dEoyM0JMcmZGUFU0QWZ4N3NQQm5CMTJWaDhxcWZvakgtUlhmdzlZRnhQLXhWekpoZ1IwY2o0OExUbTJxaFB6aWFBWXl5QjMzTlY1Ti1OLTVDckhQbmp4WlhhYXdTeU1YM1RDWWJuWGp4UUhwTWJYbVRKM3NjR29GZWU1NDZ0c0cxWU02dWRZSW5vSi1fNnktQ2g5YU1qMmhYVVliOVg4SnhzRQ?oc=5",
                 "link_resolved": "https://www.trawangnews.com/100-cool-box-disalurkan-dukung-aktivitas-nelayan-kampung-nelayan-maju-desa-suak-gual/",
@@ -417,13 +424,6 @@
                 "link_resolved": "https://indonesian.korea.net/NewsFocus/Society/view?articleId=297616",
                 "published": "Tue, 11 Aug 2026 09:41:55 GMT",
                 "fetched_at": "2026-08-11T09:52:38.847112"
-            },
-            {
-                "title": "KKP Selamatkan 1.286 Telur Penyu di Sambas - Tempo.co",
-                "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPalBfY0JVSFZOaEpNMXBwb1diSnhEVFZzNU5wb2Ryb3NIWEJDbGMtVXpkVmVRZ0taaXc0N3p2YWExU0N2M0JLaDIwblUxU0s2WWwtOThQcGNMM0ZzQ21YZHhDWEF6U3UtcGgyMS1ZcVBDamRRaE10RXpJOG91ZGU4bGIzb29tSVFLc3c?oc=5",
-                "link_resolved": "https://www.tempo.co/info-tempo/kkp-selamatkan-1-286-telur-penyu-di-sambas-2281352",
-                "published": "Tue, 11 Aug 2026 08:19:56 GMT",
-                "fetched_at": "2026-08-11T09:52:38.847132"
             }
         ],
         "Badan Karantina Indonesia": [
@@ -2116,13 +2116,6 @@
                 "link_resolved": "https://www.dpr.go.id/kegiatan-dpr/berita/Darori-Wonodipuro-Ingatkan-Ancaman-Hama-dan-Penyakit-dari-Lalu-Lintas-Komoditas-67343",
                 "published": "Fri, 17 Jul 2026 12:25:48 GMT",
                 "fetched_at": "2026-07-17T13:10:27.459634"
-            },
-            {
-                "title": "Kunker Komisi IV DPR RI di Badan Karantina Indonesia, Ingatkan Ancaman Hama dan Penyakit Dari Komoditas Luar Negeri - Trans89.com",
-                "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNdXItdUtWR3VhbXM3YjkyOUJJNXVFUkFXNVp5VTlnRkdMQ1doOEVuVWo5ejhEeWdpQWlXc3gtd3FrbFFYMzJabnBUTkdFRklONEVqRnk4ai03Ty16eTRpZ2FTb3FfVEtqZmdqSDh1M3NuQmR1cU5SZlVxNThQU2dOcG1udUw3bE9iaHB2eWdhQ2FzbUx3WjhLXzBmRzlFRklsbGw4U0J3ZWVMMW82N3YybXVOUFhnUi1td1VNaXdEZFQyb0x6VkdNcVNQQjdPRUJFTGR6blFPZ1FSOG1PSzVmd0V4NNIB4wFBVV95cUxNdXItdUtWR3VhbXM3YjkyOUJJNXVFUkFXNVp5VTlnRkdMQ1doOEVuVWo5ejhEeWdpQWlXc3gtd3FrbFFYMzJabnBUTkdFRklONEVqRnk4ai03Ty16eTRpZ2FTb3FfVEtqZmdqSDh1M3NuQmR1cU5SZlVxNThQU2dOcG1udUw3bE9iaHB2eWdhQ2FzbUx3WjhLXzBmRzlFRklsbGw4U0J3ZWVMMW82N3YybXVOUFhnUi1td1VNaXdEZFQyb0x6VkdNcVNQQjdPRUJFTGR6blFPZ1FSOG1PSzVmd0V4NA?oc=5",
-                "link_resolved": "https://trans89.com/2026/07/17/kunker-komisi-iv-dpr-ri-di-badan-karantina-indonesia-ingatkan-ancaman-hama-dan-penyakit-dari-komoditas-luar-negeri/amp",
-                "published": "Fri, 17 Jul 2026 10:42:00 GMT",
-                "fetched_at": "2026-07-17T17:03:29.909279"
             }
         ],
         "Dwita Ria Gunadi": [
@@ -2993,13 +2986,6 @@
                 "link_resolved": "https://www.radarbangsa.com/news/61576/kunjungi-bkhit-banten-komisi-iv-soroti-peran-barantin-di-gerbang-negara",
                 "published": "Fri, 17 Jul 2026 14:02:00 GMT",
                 "fetched_at": "2026-07-17T15:07:53.915480"
-            },
-            {
-                "title": "Abdul Kharis: Fasilitas Laboratorium Karantina Harus Naik Kelas - DPR RI",
-                "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNHJxMldGMklLbTJ2ZVBoYTRnLXJISUJkalZYUTk5Sl90dk9aYVdtOGVxNG04cmpZWHhVaHZ1NnJpZWhTc3FoZF9feEJtd080OXYwSEdKWURzV04xQmE4YWJfdXRhNGlIQzZMS3A4X0JpVVJ1RTh2aC1VUTlwdDljTUo5TWd3ZENUaEZkSE5wMGdoeXJ0TjFCWXNES01xekEzZldKTFV6R2NFdDdDdHpZ?oc=5",
-                "link_resolved": "https://www.dpr.go.id/kegiatan-dpr/berita/Abdul-Kharis-Fasilitas-Laboratorium-Karantina-Harus-Naik-Kelas-67331",
-                "published": "Fri, 17 Jul 2026 10:35:40 GMT",
-                "fetched_at": "2026-07-17T13:10:44.067245"
             }
         ],
         "Slamet": [
@@ -3400,13 +3386,6 @@
                 "link_resolved": "https://rm.id/baca-berita/parpol/318106/pks-lantik-dewan-pengurus-gema-keadilan-20262031-rahmat-saleh-jadi-ketum",
                 "published": "Fri, 17 Jul 2026 13:24:00 GMT",
                 "fetched_at": "2026-07-17T20:01:27.881858"
-            },
-            {
-                "title": "Rahmat Saleh Pimpin DPP Gema Keadilan Periode 2026 - 2031 - Arunala",
-                "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZUNLb0Zvb2E4X0Q4Z3h4WURBUHdNb2phNlJmR0k3LTFGRUxNTkJKVkN1NFFDaHdYRnZMNlcwR0VLQUxETm0tTWI5RTR1VlB2Y01vdEZ2eWFuVER0SWM2bTgwem9fR19Ja1pjT2d0dlFfTTFBMUtzV00yQy1kSFVKM1VydjhyTkt4OXppVHpjTnctYjhCTnZxVkEtNUNXRlht?oc=5",
-                "link_resolved": "https://www.arunala.com/berita/213809/rahmat-saleh-pimpin-dpp-gema-keadilan-periode-2026--2031.html",
-                "published": "Fri, 17 Jul 2026 10:22:00 GMT",
-                "fetched_at": "2026-07-17T15:07:58.319941"
             }
         ],
         "Ahmad Yohan": [
@@ -3574,14 +3553,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-16T10:15:05.513564"
+        "fetched_at": "2026-08-16T11:12:39.820902"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-16T10:15:05.513564"
+        "fetched_at": "2026-08-16T11:12:39.820902"
     },
     "macro_stats": {
         "ntp": {
@@ -3589,63 +3568,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T10:15:05.513564"
+            "fetched_at": "2026-08-16T11:12:39.820902"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T10:15:05.513564"
+            "fetched_at": "2026-08-16T11:12:39.820902"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T10:15:05.513564"
+            "fetched_at": "2026-08-16T11:12:39.820902"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T10:15:05.513564"
+            "fetched_at": "2026-08-16T11:12:39.820902"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T10:15:05.513564"
+            "fetched_at": "2026-08-16T11:12:39.820902"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T10:15:05.513564"
+            "fetched_at": "2026-08-16T11:12:39.820902"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T10:15:05.513564"
+            "fetched_at": "2026-08-16T11:12:39.820902"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T10:15:05.513564"
+            "fetched_at": "2026-08-16T11:12:39.820902"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T10:15:05.513564"
+            "fetched_at": "2026-08-16T11:12:39.820902"
         }
     },
     "scrape_status": {
@@ -3654,5 +3633,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-16T10:15:05.513564"
+    "last_updated": "2026-08-16T11:12:39.820902"
 }
