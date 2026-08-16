@@ -2,6 +2,13 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "Mentan Amran dan UNESA Bangun Sentra Benih Kedelai, Targetkan Produktivitas hingga 5 Ton per Hektare - Agricom.id",
+                "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTEJBeFVIZlNDc3Rqcm9wQ1JzZ1lvOUJ1N0pYemZOYWhkM24zR2xFeWUyazh4VTFGZE96SWNBQUlzdzdKUjFTTUlIVnppZHptWlZEYzBDVFEzemZMMkpkUUlGRTJ3bU1rY0hWS0UyVzhSNzF0TllPNXY2WUNybUNyUlRrcU1Rb2poNnB1TE83NWRpbGVzSFZ5YkpQSlBseVVjSkhxTHJsd1c4T3g4VlVLSmh6TVdjLThtWHdhUmZxRzZfSWUtM1pySkhOc21oZw?oc=5",
+                "link_resolved": "https://www.agricom.id/news/5136/mentan-amran-dan-unesa-bangun-sentra-benih-kedelai--targetkan-produktivitas-hingga-5-ton-per-hektare",
+                "published": "Sun, 16 Aug 2026 06:10:43 GMT",
+                "fetched_at": "2026-08-16T06:25:34.175541"
+            },
+            {
                 "title": "Transformasi digital lahan: - vietnam.vn",
                 "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE91cFpKYVVLLTVnczFtWm5nMk9SRzZodkhjZDZUbkx3T2YyTWdiZVg2QTI0ZzhRT3NUVDBJWGFzWFJ4MWZiOXVLMW0tN01oVlZKMllUTS1hbG9wZ0U?oc=5",
                 "link_resolved": "https://www.vietnam.vn/id/chuyen-doi-so-dat-dai",
@@ -133,16 +140,16 @@
                 "link_resolved": "https://thestance.id/el-nino-ancam-sektor-pertanian-petani-diminta-sesuaikan-pola-tanam",
                 "published": "Fri, 14 Aug 2026 17:00:15 GMT",
                 "fetched_at": "2026-08-14T17:45:10.995716"
-            },
-            {
-                "title": "Swasembada Pangan Tercapai 1 Tahun, Prabowo Apresiasi Kinerja Mentan Amran - Kosadata",
-                "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaGNld3BGOGZtX2paWGJlT1pjamhkcGZMRVhWRUdRcUgycGFlY0hZU3FvbTFYU09VcEVMNmVhNjVkVjFONnRyUmRldVNoVVJ6SmZIMXpLVXZxa25samd3R0p3MjF4Ui14bTZZSXVVNWZUTGkwM1R1NkxUbEtaQ3czMG42MVVSNy1mUllVV1hraVRjU002T1dKb1B3?oc=5",
-                "link_resolved": "https://kosadata.com/swasembada-pangan-tercapai-1-tahun-prabowo-apresiasi-kinerja-mentan-amran",
-                "published": "Fri, 14 Aug 2026 16:10:00 GMT",
-                "fetched_at": "2026-08-14T20:22:51.367503"
             }
         ],
         "Kementerian Kehutanan": [
+            {
+                "title": "Kemenhut perkuat deteksi dini karhutla, pantau 73 hotspot di Kalsel - ANTARA News",
+                "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZ1JnTHQ5dWRYeDhfVXYyZjk4MWJMajN2dVpaSU1BVWtOcTNYc3R2X3B3Q3ZfdHQzSlpHTi1TcnNwVV9NcVVyLWZPWmZjODFNdE9hX1Z0cGhZdnFHalVCbUdrSzZBNEJMT1RWREVMUEZqeDRUWmFpbDdkVDByXzAyTzVJZm9WLW9SUWZGRFpNR1pQMlhCRzVyUC1RTUlxb0o1MUp2Uk9BcnhYZ0Z1bi1r0gG0AUFVX3lxTE40cDBEWHl6OWhjRzBlX2FxTjJ5a2hmbFZmS2hrUWFITUctR1BjdEtJTE5RcTZqMmFQa01KdVVyRWY2eFA0T3dvYnV2VzhLMVhEcDF4dlEzOHVxMklyZE1jWmtiNTNiaGYyNThtMUp1dXJFRUw4NU85V3E4V1RCanpzbHhPM3VXYmNFbnZoTnRtTXgwdURIWVRLYlJWQjZNOEpaaWxMbVgxTDlSeUpnRUlBbmI1aQ?oc=5",
+                "link_resolved": "https://kalsel.antaranews.com/berita/530609/kemenhut-perkuat-deteksi-dini-karhutla-pantau-73-hotspot-di-kalsel",
+                "published": "Sun, 16 Aug 2026 06:07:28 GMT",
+                "fetched_at": "2026-08-16T06:25:34.636075"
+            },
             {
                 "title": "Sistem Deteksi Dini Karhutla Kalsel Diperkuat Kemenhut - MetroTVNews.com",
                 "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTVVvZUpUVElhaV9ENkNXQmEwMjA4UXZ6TU0zTkMyck9rYUcyNUFDTkRaX25HVTBHWUxRUENVeUQxYUJlSngtazB6YjRoRzhvN0NJS0MtRUQ5eWJaeUlnbm9EVFgzSWhaSHE5LUZ5ajMycm1XTlcyNnJWZF95cHp3TTdxWlQycS1RMnJQYndDcjZ4X2RRMVJJNnVwWWo?oc=5",
@@ -275,13 +282,6 @@
                 "link_resolved": "https://ksdae.kehutanan.go.id/publikasi/artikel/wildlife-academy-membaca-alam-lewat-suara-Bx1farbI/",
                 "published": "Fri, 14 Aug 2026 11:06:23 GMT",
                 "fetched_at": "2026-08-14T12:45:23.730789"
-            },
-            {
-                "title": "Artikel • Lebih dari Dua Dekade Bersama Manusia, Bisakah Elang Laut Kembali ke Alam? - Direktorat Jenderal KSDAE",
-                "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdzlRb0lvdjE3WFhoNXRDUXlrVkJLUTZQcFR2VEpHMFRiTVRuM1BqZi1qLWk0eVp3MEdIcTB3bllTMXJING9HRno2VXJLVkpHbVJEUk90dUhOX1pRbFJJLVlObEY3Vk1WVXZQQW5WY1BMVmNuWmxrcjA4R0R1QXJzMDhxOTBHckNwaTZ0WHVTdjdzOEpWTDhTMjRsWjl4OFlJWUk1QVM0ODVDbWg4SkdiZXUxcXRUSVhPTWIyRGdlM2RWMTNrcnUyNjVB?oc=5",
-                "link_resolved": "https://ksdae.kehutanan.go.id/publikasi/artikel/lebih-dari-dua-dekade-bersama-manusia-bisakah-elang-laut-kembali-ke-alam-lLFN4svH/",
-                "published": "Fri, 14 Aug 2026 11:00:57 GMT",
-                "fetched_at": "2026-08-14T14:10:10.419804"
             }
         ],
         "Kementerian Kelautan dan Perikanan": [
@@ -435,6 +435,13 @@
                 "fetched_at": "2026-08-16T03:40:41.718489"
             },
             {
+                "title": "Balai Karantina Indonesia: Tren Ekspor Lada Babel Meningkat - babelpos.disway.id - Babelpos",
+                "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPU25uMlFpZl9zcmR6Mm16OXJrQl9GZkJKbVpuSEhTZ2RaN1Z6U3dwZDdhY210SlhzMF8tcGVKRDJFR2MzSElMOHBoTV9fMmdXbFh4UEFIOEhrV2hFOUtPVGRSOEpIdXRYZ1MtaVNORThZM2NJSEFNdUpHb1JNdkJMSzJrcDh5MGxxNkRQMUlNZEdDdndWSE1pT01SLTDSAZwBQVVfeXFMT1NubjJRaWZfc3JkejJtejlya0JfRmZCSm1abkhIU2dkWjdWelN3cGQ3YWNtdEpYczBfLXBlSkQyRUdjM0hJTDhwaE1fXzJnV2xYeFBBSDhIa1doRTlLT1RkUjhKSHV0WGdTLWlTTkU4WTNjSUhBTXVKR29STXZCTEsya3A4eTBscTZEUDFJTWRHQ3Z3VkhNaU9NUi0w?oc=5",
+                "link_resolved": "https://babelpos.disway.id/amp/689018/balai-karantina-indonesia-tren-ekspor-lada-babel-meningkat",
+                "published": "Sun, 16 Aug 2026 03:16:00 GMT",
+                "fetched_at": "2026-08-16T06:25:35.634070"
+            },
+            {
                 "title": "Balai Karantina Indonesia: Tren ekspor lada Babel meningkat - ANTARA News",
                 "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSERCeXNpQnVPVGNaTEpGUXR5Y1RORkV5LXdRQXlnZ05mNG1USXdtMm1iU25EYVB6M2JHVmVUQTQ0M0pwRVEzSHVBVnlZSzVoR3dsb3BLdW9qajl0NVk3Qjg2WUhmRm5WSk5fdmEzWEcxM1VreDJDR2hUeU5oUFYyQUdMbV9acDhNUHhOUkJQY1d0WVVCXzlnZTZzYzFnV0pSLTlKRC1wbS3SAagBQVVfeXFMTkhEQnlzaUJ1T1RjWkxKRlF0eWNUTkZFeS13UUF5Z2dOZjRtVEl3bTJtYlNuRGFQejNiR1ZlVEE0NDNKcEVRM0h1QVZ5WUs1aEd3bG9wS3Vvamo5dDVZN0I4NllIZkZuVkpOX3ZhM1hHMTNVa3gyQ0doVHlOaFBWMkFHTG1fWnA4TVB4TlJCUGNXdFlVQl85Z2U2c2MxZ1dKUi05SkQtcG0t?oc=5",
                 "link_resolved": "https://babel.antaranews.com/amp/berita/577191/balai-karantina-indonesia-tren-ekspor-lada-babel-meningkat",
@@ -559,13 +566,6 @@
                 "link_resolved": "https://karantinaindonesia.go.id/berita/karding-kepada-mahasiswa-baru-undip-ai-bisa-cerdas-tapi-tak-bisa-menggantikan-integritas",
                 "published": "Mon, 10 Aug 2026 04:54:55 GMT",
                 "fetched_at": "2026-08-10T05:18:41.632928"
-            },
-            {
-                "title": "Karding Turun Langsung Kawal Karantina Ekspor Udang Makassar, Nilainya Capai Rp148,2 Miliar - Lingkar TV",
-                "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQV1JLYXB6NUI5MnExeG9BZU9jVmoySU44Y2ZFaEJucXN3SWd3SDlUVWFLaVRqS21TUTJXeEZXMUp5UEpVT0RKVTNJaEZpOVlVR2dMSTM5X1BEMXBVWkNaeGR5UzczQUc3QllRU0lMYmpNMzFXa0x5MVNZSENyZW9PVEp4VXR6cEFrbzhCdFpURUh0YUNPRWV2NkpEcUc0U2Zidkp6czI1dzNMaGdhZjNIUXJn?oc=5",
-                "link_resolved": "https://lingkartv.com/karding-turun-langsung-kawal-karantina-ekspor-udang-makassar-nilainya-capai-rp1482-miliar/",
-                "published": "Mon, 10 Aug 2026 03:47:58 GMT",
-                "fetched_at": "2026-08-10T05:18:41.632977"
             }
         ],
         "Badan Pangan Nasional": [
@@ -3444,13 +3444,6 @@
                 "link_resolved": "https://aktual.com/dpr-dukung-penguatan-sdm-dan-digitalisasi-layanan-di-barantin/",
                 "published": "Fri, 17 Jul 2026 10:10:48 GMT",
                 "fetched_at": "2026-07-17T11:17:00.807050"
-            },
-            {
-                "title": "Sumsel Berpeluang Jadi Lumbung Karbon Dunia, Ahmad Yohan: Harus Siap Manfaatkan Perdagangan Karbon - DPR RI",
-                "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNSjY1UnR5TlpTRW5ob0ZnSFBodGt0a2dvMzZ2ZFNlNHgwOVVSZ3V5V09LYkZUVXpITVNrZkZQZGdYRlN4U1pSTDNQSUhCMkFwSVlheklhVzdJX2VXYXpsS3duQVF3T1VESERVUFZmeXZnUXYxS2tFRGFLc2hGdzVUdmNsVXFHS25NdTNwQ0JLdmd0cURxYk9FRWRkOGc4bGtMWGIxYUNOLV9OTEF2NnZyNk1ZYlBvMXIyNzZUNFpoV2o5R3I4NEEwTzZ5YWxqd2d2Tm0tckl0aEg4R3hW?oc=5",
-                "link_resolved": "https://www.dpr.go.id/kegiatan-dpr/berita/Sumsel-Berpeluang-Jadi-Lumbung-Karbon-Dunia-Ahmad-Yohan-Harus-Siap-Manfaatkan-Perdagangan-Karbon-67318",
-                "published": "Fri, 17 Jul 2026 06:25:49 GMT",
-                "fetched_at": "2026-07-17T07:56:15.311530"
             }
         ],
         "Herry Dermawan": [
@@ -3588,14 +3581,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-16T05:20:13.474084"
+        "fetched_at": "2026-08-16T06:25:33.592307"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-16T05:20:13.474084"
+        "fetched_at": "2026-08-16T06:25:33.592307"
     },
     "macro_stats": {
         "ntp": {
@@ -3603,63 +3596,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T05:20:13.474084"
+            "fetched_at": "2026-08-16T06:25:33.592307"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T05:20:13.474084"
+            "fetched_at": "2026-08-16T06:25:33.592307"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T05:20:13.474084"
+            "fetched_at": "2026-08-16T06:25:33.592307"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T05:20:13.474084"
+            "fetched_at": "2026-08-16T06:25:33.592307"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T05:20:13.474084"
+            "fetched_at": "2026-08-16T06:25:33.592307"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T05:20:13.474084"
+            "fetched_at": "2026-08-16T06:25:33.592307"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T05:20:13.474084"
+            "fetched_at": "2026-08-16T06:25:33.592307"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T05:20:13.474084"
+            "fetched_at": "2026-08-16T06:25:33.592307"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-16T05:20:13.474084"
+            "fetched_at": "2026-08-16T06:25:33.592307"
         }
     },
     "scrape_status": {
@@ -3668,5 +3661,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-16T05:20:13.474084"
+    "last_updated": "2026-08-16T06:25:33.592307"
 }
