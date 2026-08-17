@@ -3062,6 +3062,13 @@
         ],
         "Johan Rosihan": [
             {
+                "title": "Johan Rosihan: Usia 81 Tahun Waktu Tepat Pastikan Kemerdekaan Untuk Siapa - Kedai Pena",
+                "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWnlTdzE3bTg3NFotelJvOGx5T3J0alJOOTlPOHljMm9RY1poT09scHo0TVMxQ0xPekFhWTNVYXZyY01NTkd6WHVENVRpeVRHeHlEc2RLc2hBdVBZVlBmYTFkRmF2MmFQLUxqOFAydkE1SmphaTZDYWdJSVRvVldIQUZaMUIwQkExVWM2eWdQMHRxSFM4aXpZZ2FVT0tCWU1Q?oc=5",
+                "link_resolved": "https://www.kedaipena.com/johan-rosihan-usia-81-tahun-waktu-tepat-pastikan-kemerdekaan-untuk-siapa/",
+                "published": "Mon, 17 Aug 2026 02:03:53 GMT",
+                "fetched_at": "2026-08-17T02:16:05.724972"
+            },
+            {
                 "title": "Johan Rosihan: Pidato Prabowo Optimistis, Capaian Pemerintah Dirasakan Rakyat - JPNN.com",
                 "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTGJCbW1QSm1xSkVGSEkwM2NzcTdRUVA1RVA4RGp0dFdMVmxBc1RnQ1VnUWwxbjVNcGkxb012THNQeG15cTBkZzIwb0gxSlFLdkVRODZjbjljeF9RWjU5YVR4VWVUOU1jQ3pkWk95ckk3a2g4VXpDWUlBZG9OWnhHX1g0NWZVVWY0OC1UZzF6TEFUenFKeW9BdzE4dFFHZkVkU2gw0gGmAUFVX3lxTE5kR2RfYjZsQlV3dEk5YWFRclFObnZWSzl4OUtfTXhsSjZqVVFLYjN2Y2NxM3VsMmx2bUh2MG5faEwybFNKVml6ZjE1V2Nybmh0NzZxV05HWjYySTFsalFMdmJTd1ZsZVVvNWxfMHQ3UWJ5S250U0hhbkVxaWVNZy1rMkFwdkRRYjB3ZEZZTmZkU29IV3dpMm0tQUVGMVZxVW4wUU1YaHc?oc=5",
                 "link_resolved": "https://www.jpnn.com/news/johan-rosihan-pidato-prabowo-optimistis-capaian-pemerintah-dirasakan-rakyat",
@@ -3532,14 +3539,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-17T00:46:54.083414"
+        "fetched_at": "2026-08-17T02:15:22.295929"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-17T00:46:54.083414"
+        "fetched_at": "2026-08-17T02:15:22.295929"
     },
     "macro_stats": {
         "ntp": {
@@ -3547,63 +3554,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-17T00:46:54.083414"
+            "fetched_at": "2026-08-17T02:15:22.295929"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-17T00:46:54.083414"
+            "fetched_at": "2026-08-17T02:15:22.295929"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-17T00:46:54.083414"
+            "fetched_at": "2026-08-17T02:15:22.295929"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-17T00:46:54.083414"
+            "fetched_at": "2026-08-17T02:15:22.295929"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-17T00:46:54.083414"
+            "fetched_at": "2026-08-17T02:15:22.295929"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-17T00:46:54.083414"
+            "fetched_at": "2026-08-17T02:15:22.295929"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-17T00:46:54.083414"
+            "fetched_at": "2026-08-17T02:15:22.295929"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-17T00:46:54.083414"
+            "fetched_at": "2026-08-17T02:15:22.295929"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-17T00:46:54.083414"
+            "fetched_at": "2026-08-17T02:15:22.295929"
         }
     },
     "scrape_status": {
@@ -3612,5 +3619,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-17T00:46:54.083414"
+    "last_updated": "2026-08-17T02:15:22.295929"
 }
