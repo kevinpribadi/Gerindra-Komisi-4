@@ -2,6 +2,13 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "Perdana Menteri telah meminta langkah-langkah proaktif untuk menanggapi risiko hujan lebat, banjir bandang, dan tanah longsor. - Vietnam.vn",
+                "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZHNKbXhJSFViTWRXUWNhZk85X2o3Z045aHNOblEyemhiWTNQXzB1aEk5eGFUVElRQ1U2bXM3cG13SDVIdTR4R0xRckdjM2RZVzNYNzRuWnpDOE1CNDd1U0l0cVAyNVVmU0t2TXZSMVVBNWNtSUpHTzRlTUgzNGZHVUF4TzJsc3lKVk9wSDVObEhSbDNMUXE5NFhoSWtVbFZ2UzlPQkZzZWg?oc=5",
+                "link_resolved": "https://www.vietnam.vn/id/thu-tuong-chinh-phu-yeu-cau-chu-dong-ung-pho-nguy-co-mua-lon-lu-quet-sat-lo-dat",
+                "published": "Mon, 17 Aug 2026 18:35:11 GMT",
+                "fetched_at": "2026-08-17T21:18:02.324924"
+            },
+            {
                 "title": "Menuju Mekanisasi Pertanian Adaptif: Dari Hibah ke Sewa Alsintan, Fokus Pada Energi Lokal - bataviapos.id",
                 "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeFJhYTY1VVdIYVFzUkxGbVBvbVpCRmhGRml6cmJlUE5uQXFDd1VSQXo3WURkQzZ0SlJPd0RLeWlFMk5CemFIREVhRTFDaTlTV0NiMmlzeG9iQlRfVXNkYkdTQ2VrUjNMQW1iQlh6ZzRrU2RmZGNITE5CdzJoMEpZX0VIMjRhTXRwdHdmRXhISmE4aEliU3pkYWJ1ckZvb0VJZXFDUVBvdlFiV2M5eHI2WHR0TXljT3N4QjZrUEIxN3hYbDhRbkhHWll4SWg?oc=5",
                 "link_resolved": "https://bataviapos.id/ella-devianti-effendi/menuju-mekanisasi-pertanian-adaptif-dari-hibah-ke-sewa-alsintan-fokus-pada-energi-lokal/",
@@ -133,13 +140,6 @@
                 "link_resolved": "https://magelangekspres.disway.id/nasional/read/677683/cetak-sdm-siap-kerja-mahasiswa-polbangtan-kementan-resmi-diwisuda",
                 "published": "Sun, 16 Aug 2026 10:25:00 GMT",
                 "fetched_at": "2026-08-16T15:13:17.677398"
-            },
-            {
-                "title": "Pergeseran yang signifikan dari pertumbuhan pesat menuju pembangunan berkelanjutan di industri durian. - Vietnam.vn",
-                "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSGpCUjF6RE1FWWtjRnlDSVpUZWlTYXA4OENOTkpoSEdhbXY5VnhKN1pGVXp6X2ZtM0RxMUhkV0Y2TUNPZ0p6MjJwUUNSam4xODEzU2JxVXNtOUxOQW9WZkJ4c19Gel9McU80TEVVWmU4dFVaT1I3OGRBbkpCeHctZ2VndnhMdlVDM3pCRnFxZ2wyQ3I4S0JVWHRYYWRzOWdKTmtBTVZyOA?oc=5",
-                "link_resolved": "https://www.vietnam.vn/id/chuyen-manh-tu-tang-truong-nhanh-sang-phat-trien-ben-vung-nganh-hang-sau-rieng",
-                "published": "Sun, 16 Aug 2026 09:16:18 GMT",
-                "fetched_at": "2026-08-16T09:19:01.660675"
             }
         ],
         "Kementerian Kehutanan": [
@@ -3504,14 +3504,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-17T18:26:12.625257"
+        "fetched_at": "2026-08-17T21:18:01.648565"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-17T18:26:12.625257"
+        "fetched_at": "2026-08-17T21:18:01.648565"
     },
     "macro_stats": {
         "ntp": {
@@ -3519,63 +3519,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-17T18:26:12.625257"
+            "fetched_at": "2026-08-17T21:18:01.648565"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-17T18:26:12.625257"
+            "fetched_at": "2026-08-17T21:18:01.648565"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-17T18:26:12.625257"
+            "fetched_at": "2026-08-17T21:18:01.648565"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-17T18:26:12.625257"
+            "fetched_at": "2026-08-17T21:18:01.648565"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-17T18:26:12.625257"
+            "fetched_at": "2026-08-17T21:18:01.648565"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-17T18:26:12.625257"
+            "fetched_at": "2026-08-17T21:18:01.648565"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-17T18:26:12.625257"
+            "fetched_at": "2026-08-17T21:18:01.648565"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-17T18:26:12.625257"
+            "fetched_at": "2026-08-17T21:18:01.648565"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-17T18:26:12.625257"
+            "fetched_at": "2026-08-17T21:18:01.648565"
         }
     },
     "scrape_status": {
@@ -3584,5 +3584,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-17T18:26:12.625257"
+    "last_updated": "2026-08-17T21:18:01.648565"
 }
