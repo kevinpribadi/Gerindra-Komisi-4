@@ -145,6 +145,13 @@
         "Kementerian Kehutanan": [
             {
                 "title": "Kasus Transfer Pricing PT TPL, Kejagung Periksa 5 Saksi dari Kementerian Kehutanan - Kompas.tv",
+                "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVEZ6VkFRcFphTjl3WENNSWNxc0huT2VqREU3YWswU0NLRkwxMVc4dS1jMVBsSENCMVpLX2F1ZGU5T2U1MUxKY1Z0VmVWWFlQcmpyNkVOT1JjS0tuOFBodktWazkwLXJIVUw4VGNYd0s3TWxwbk5DbmlvVEJCZVQ3UV9ha0tKQkpJYnNhOUhHSjlIWTQ4ZUJVT1lTSFQyRXd2bUNxcEYtWUsxVEJiZlhjeC1wVkM0Q2ExNklsQWJkOHDSAcABQVVfeXFMUFRGelZBUXBaYU45d1hDTUljcXNIbk9lakRFN2FrMFNDS0ZMMTFXOHUtYzFQbEhDQjFaS19hdWRlOU9lNTFMSmNWdFZlVlhZUHJqcjZFTk9SY0tLbjhQaHZLVms5MC1ySFVMOFRjWHdLN01scG5OQ25pb1RCQmVUN1FfYWtLSkJKSWJzYTlIR0o5SFk0OGVCVU9ZU0hUMkV3dm1DcXBGLVlLMVRCYmZYY3gtcFZDNENhMTZJbEFiZDhw?oc=5",
+                "link_resolved": "https://www.kompas.tv/amp/nasional/686214/kasus-transfer-pricing-pt-tpl-kejagung-periksa-5-saksi-dari-kementerian-kehutanan",
+                "published": "Tue, 18 Aug 2026 16:50:00 GMT",
+                "fetched_at": "2026-08-18T20:13:47.778570"
+            },
+            {
+                "title": "Kasus Transfer Pricing PT TPL, Kejagung Periksa 5 Saksi dari Kementerian Kehutanan - Kompas.tv",
                 "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLTFTdC1VWjlfdDh5c0JmWWw0Y3NlVWdTbzlKTDhPWW5nQ3VUSGg0NmYtN3RFVnlyWVQ5VmxuWThFNFJWNVlqZUJha3dWYTBRYmVORHNUc3pXbDRJS2hXRUkzSTdIbldvVzV3ZENPcEd0ZFllT0NPdmF5cTVkOU5XcUxOUDJ1SVpKRmJJc3I5eGU2elYyY3FxMU11RWxJcVltN2haUk03SmtpcVhBRVNKNHZISF9sM01NVU9Z0gHAAUFVX3lxTFBURnpWQVFwWmFOOXdYQ01JY3FzSG5PZWpERTdhazBTQ0tGTDExVzh1LWMxUGxIQ0IxWktfYXVkZTlPZTUxTEpjVnRWZVZYWVByanI2RU5PUmNLS244UGh2S1ZrOTAtckhVTDhUY1h3SzdNbHBuTkNuaW9UQkJlVDdRX2FrS0pCSklic2E5SEdKOUhZNDhlQlVPWVNIVDJFd3ZtQ3FwRi1ZSzFUQmJmWGN4LXBWQzRDYTE2SWxBYmQ4cA?oc=5",
                 "link_resolved": "https://www.kompas.tv/nasional/686214/kasus-transfer-pricing-pt-tpl-kejagung-periksa-5-saksi-dari-kementerian-kehutanan",
                 "published": "Tue, 18 Aug 2026 16:50:00 GMT",
@@ -275,13 +282,6 @@
                 "link_resolved": "https://eksposkaltim.com/berita-18213-di-balik-translokasi-gajah-sumatera-ke-kaltim-jatam-endus-aroma-greenwashing-.html",
                 "published": "Mon, 17 Aug 2026 12:23:43 GMT",
                 "fetched_at": "2026-08-17T12:26:17.802787"
-            },
-            {
-                "title": "Ketika Perusahaan Properti di Batam jadi Tersangka Perusak Hutan - Mongabay.co.id",
-                "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZk03eVlCaUdSNnlFQW9jS2NyTFMzdHF1MHpWYlNCMVJna1BBbENzRklYZzFMNXVqQl9JN3pWUEJaWEpZbjRKTnJ4ejZja29fUGlIOHFXMHJ3SDI3S0dYQ0JSYnJOQmJpQlNfc3RjQnlfRWlnbUtOS25aYkVWb3NVc2tnUm44dU55TFR5Z0FTcW14VldNd3R4dGlGSENKelNQ?oc=5",
-                "link_resolved": "https://mongabay.co.id/2026/08/17/ketika-perusahaan-properti-di-batam-jadi-tersangka-perusak-hutan/",
-                "published": "Mon, 17 Aug 2026 12:18:07 GMT",
-                "fetched_at": "2026-08-17T15:18:03.848715"
             }
         ],
         "Kementerian Kelautan dan Perikanan": [
@@ -3555,14 +3555,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-18T19:21:26.760308"
+        "fetched_at": "2026-08-18T20:13:46.563856"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-18T19:21:26.760308"
+        "fetched_at": "2026-08-18T20:13:46.563856"
     },
     "macro_stats": {
         "ntp": {
@@ -3570,63 +3570,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-18T19:21:26.760308"
+            "fetched_at": "2026-08-18T20:13:46.563856"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-18T19:21:26.760308"
+            "fetched_at": "2026-08-18T20:13:46.563856"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-18T19:21:26.760308"
+            "fetched_at": "2026-08-18T20:13:46.563856"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-18T19:21:26.760308"
+            "fetched_at": "2026-08-18T20:13:46.563856"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-18T19:21:26.760308"
+            "fetched_at": "2026-08-18T20:13:46.563856"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-18T19:21:26.760308"
+            "fetched_at": "2026-08-18T20:13:46.563856"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-18T19:21:26.760308"
+            "fetched_at": "2026-08-18T20:13:46.563856"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-18T19:21:26.760308"
+            "fetched_at": "2026-08-18T20:13:46.563856"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-18T19:21:26.760308"
+            "fetched_at": "2026-08-18T20:13:46.563856"
         }
     },
     "scrape_status": {
@@ -3635,5 +3635,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-18T19:21:26.760308"
+    "last_updated": "2026-08-18T20:13:46.563856"
 }
