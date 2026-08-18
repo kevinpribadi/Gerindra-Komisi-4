@@ -286,6 +286,13 @@
         ],
         "Kementerian Kelautan dan Perikanan": [
             {
+                "title": "KKP Bagikan 4 Ton Ikan Layang di Jakarta - Media Indonesia",
+                "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMXZmRFJGV3cxTnIxMkd1T3Yyek5oSzRac2FIUF9EN1dMOTZNU2pTMU9JWEp3NjhHRGdfLWZNQVhiTnFjQVpSUGVETXlycGxPUkhCc21URC1NS2w1bmNQWjV2YjBYM2lkNDRkdGMxbFJINzVHaUM0dEFsT09CUUhzNWJKbWRNeHVSV3c?oc=5",
+                "link_resolved": "https://mediaindonesia.com/ekonomi/923320/kkp-bagikan-4-ton-ikan-layang-di-jakarta",
+                "published": "Tue, 18 Aug 2026 16:00:30 GMT",
+                "fetched_at": "2026-08-18T18:25:20.248634"
+            },
+            {
                 "title": "KKP Bagikan 4 Ton Ikan Layang untuk Warga Jakarta di Momen Kemerdekaan - Tempo.co",
                 "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQa0VKSWhkVE9FV3lWVFFYYTlBUDVtWjFzQW5jdU1Lb2RQSVNOQ3Q3WU1GcTU5ZlgtcG1tVFdsV3ZTT1J1TDlBRGEza29RbWJwV0NWWE14T3RZYU5Lcm9fNGJGcml1OXRlcDFWN1NNSk42V01SUkMzNzRVS2lFTEtBb3ROMlEwcmRJLTlpallGbzFUUGZMeHdua3lwdGl3TlpxNmU0YVlpbmJlWFhyb0NyazhqMHlSSWVxZENCal9uVl9Rd1I0YnN2Zmd2emtiVzJCU3VsMVVRbldkczRsdUlXR3RmUmhrWFd5ekVDcg?oc=5",
                 "link_resolved": "https://nasional.tempo.co/read/2117797/kkp-bagikan-4-ton-ikan-layang-untuk-warga-jakarta-di-momen-kemerdekaan?utm_source=Digital%20Marketing&utm_medium=Babe",
@@ -417,13 +424,6 @@
                 "link_resolved": "https://www.metrotvnews.com/read/kewCj90Y-kapal-kkp-angkut-bantuan-untuk-warga-terdampak-gempa-ntt",
                 "published": "Mon, 17 Aug 2026 11:21:20 GMT",
                 "fetched_at": "2026-08-17T12:26:18.394018"
-            },
-            {
-                "title": "KKP Kirim 50 Ton Bantuan ke Korban Gempa NTT dengan Kapal Pengawas - Serayu Nusantara",
-                "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUkNTYkpldzdRckFjUkk5ZFdNVExlUndBVjZKeTR1OHZhdkxUZnZkM0JrN2xIdDg1WEdKcXlnbzZiMllhMDdfZVFkVFBOOUV6V3FSQUxaQ29SaFdiNTVjdEREMG1yNGFYQTg0VVEyYWFHSkZUWVNOY0xWaElLTG83cWsyQldrVGd1MnBCTXRPVWQtanJuZi1PZGRhRQ?oc=5",
-                "link_resolved": "https://serayunusantara.com/kkp-kirim-50-ton-bantuan-ke-korban-gempa-ntt-dengan-kapal-pengawas/",
-                "published": "Mon, 17 Aug 2026 11:14:53 GMT",
-                "fetched_at": "2026-08-17T12:26:18.394028"
             }
         ],
         "Badan Karantina Indonesia": [
@@ -1424,13 +1424,6 @@
                 "link_resolved": "https://www.gesuri.id/amp/pemerintahan/dorong-efektivitas-desa-binaan-imigrasi-paolus-hadi-soroti-keterbatasan-sdm-dan-anggaran-b2pY2Zbhja",
                 "published": "Wed, 12 Aug 2026 06:29:00 GMT",
                 "fetched_at": "2026-08-14T07:12:31.982128"
-            },
-            {
-                "title": "Berita Video - Paolus Hadi: HUT Pekong Sanggau Bukti Nyata Bhinneka Tunggal Ika - RRI.co.id",
-                "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU1F3SVd3bTg3UUM0bjh4NTFDcVZ4YUJNS3ZNZGs5TlB5M3pwZXc1ek9lUkFfUzVwLTFxTEFlaGRBbnBtWDFadnlJLU43LVY3UzhNSm1qWFVDWFJFVlBobUgyTE9wOVJ3UzZBNXlEazRmTVI1RDZ2bFZib3NTcFpqdXNER2l5a201N0EyNzRUWVJqMV94anFKcFZCSjZfR3J2S3ktQlFHUU0yd2lyWEE?oc=5",
-                "link_resolved": "https://rri.co.id/entikong/berita-video/46606/paolus-hadi-hut-pekong-sanggau-bukti-nyata-bhinneka-tunggal-ika",
-                "published": "Sun, 19 Jul 2026 17:23:00 GMT",
-                "fetched_at": "2026-07-24T10:56:07.736993"
             }
         ],
         "Agus Ambo Djiwa": [
@@ -3562,14 +3555,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-18T17:19:19.963953"
+        "fetched_at": "2026-08-18T18:25:18.523452"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-18T17:19:19.963953"
+        "fetched_at": "2026-08-18T18:25:18.523452"
     },
     "macro_stats": {
         "ntp": {
@@ -3577,63 +3570,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-18T17:19:19.963953"
+            "fetched_at": "2026-08-18T18:25:18.523452"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-18T17:19:19.963953"
+            "fetched_at": "2026-08-18T18:25:18.523452"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-18T17:19:19.963953"
+            "fetched_at": "2026-08-18T18:25:18.523452"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-18T17:19:19.963953"
+            "fetched_at": "2026-08-18T18:25:18.523452"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-18T17:19:19.963953"
+            "fetched_at": "2026-08-18T18:25:18.523452"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-18T17:19:19.963953"
+            "fetched_at": "2026-08-18T18:25:18.523452"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-18T17:19:19.963953"
+            "fetched_at": "2026-08-18T18:25:18.523452"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-18T17:19:19.963953"
+            "fetched_at": "2026-08-18T18:25:18.523452"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-18T17:19:19.963953"
+            "fetched_at": "2026-08-18T18:25:18.523452"
         }
     },
     "scrape_status": {
@@ -3642,5 +3635,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-18T17:19:19.963953"
+    "last_updated": "2026-08-18T18:25:18.523452"
 }
