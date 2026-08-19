@@ -2,6 +2,13 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "Sembalun Jadi Titik Penguatan Bawang Putih, Kementan Kucurkan Rp55,65 Miliar - insidelombok",
+                "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNczRCVlhoa0pLTUFEbFBZR2VrMDlEeHd4YTJrU09CRXQ5NlFYNmpmUXItMjBzelNjUmxfWFE2MEdDeDRXN2tjbUVwQzNHR3FqRVZIVDNfZXZ2V3l0UnA0R2x3MGRPZDVVVnBOSmdmRXVkbF92Z2stYmZtcEZBZnIwd0NFdFRlbU9OaGNxUm91bVZZVkRyX3VBcWtVZU42bHItNGxfMmlKXzlCdC1zRFVWWFh3?oc=5",
+                "link_resolved": "https://insidelombok.id/lombok-timur/sembalun-jadi-titik-penguatan-bawang-putih-kementan-kucurkan-rp5565-miliar/",
+                "published": "Wed, 19 Aug 2026 20:09:41 GMT",
+                "fetched_at": "2026-08-19T20:17:41.760861"
+            },
+            {
                 "title": "Sekda Aceh M. Nasir Dorong Percepatan Rehabilitasi Lahan Pertanian - acehstandar.com",
                 "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSUZ6U1l6S1A5djFZX3FvcVdyUDNaN0tIc1hlZE1sNWdZNWJUREJRdFotajF0VHpqWkNrTW03WHZZREZ3bVFaalFaMm0tMkFEd1EtUklLSFJ1bDNKdWZUOUFMdUFyZjlucElCOERqRUZMSHV1ZXFaOUoxcmM3azZjYVlEdUJONWZIeTlfbWtFUWFNN2RSV2JVN2VUM2RoVk1FYlprcGtOS3ZCc2xLbGc?oc=5",
                 "link_resolved": "https://www.acehstandar.com/news/sekda-aceh-m-nasir-dorong-percepatan-rehabilitasi-lahan-pertanian/index.html",
@@ -133,13 +140,6 @@
                 "link_resolved": "https://www.detik.com/sumut/berita/d-8623596/terindikasi-korupsi-mentan-non-job-kan-14-pejabat-kementan",
                 "published": "Tue, 18 Aug 2026 14:20:33 GMT",
                 "fetched_at": "2026-08-18T15:22:57.194172"
-            },
-            {
-                "title": "El Nino Kuat hingga Sangat Kuat: Kementerian Pertanian dan Lingkungan Hidup memperingatkan risiko kekeringan dan intrusi air asin. - Vietnam.vn",
-                "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUW5Zc1E4ZU9waTFwbVFMVF9qMXNLNlBhZ2NpRE9fUERfVGFQTEIxLVU0X1FidTRSR3FGaE11RGRsRVFEWkhoc1VSUEFyTmg1QWdyZFMxYzVONkNoeC0xcVA1d3V1c1V6WmhuTzd2RGpsUU1GdjBfYXRGMFRoX3JCTi1MSjl5YlJJQ0xqQTJpdkVqeTVaMjBSc2tRakI1bGpDUVVXMXRUYnZxb2x6Tk5KSXEzMkpjaFIyeEE?oc=5",
-                "link_resolved": "https://www.vietnam.vn/id/el-nino-manh-den-rat-manh-bo-nong-nghiep-va-moi-truong-canh-bao-nguy-co-han-han-xam-nhap-man",
-                "published": "Tue, 18 Aug 2026 13:29:04 GMT",
-                "fetched_at": "2026-08-18T13:35:51.636749"
             }
         ],
         "Kementerian Kehutanan": [
@@ -712,6 +712,13 @@
         ],
         "Perum Bulog": [
             {
+                "title": "Kepala Bapanas dan Dirut BULOG Cek Langsung Penyaluran Bantuan Korban Gempa Flores - jpnn.com",
+                "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOVEyQXQ4MDlJeUlhcUV0d0JOZm9PSVkzRjlKSDgwM2FzOWhzU1B2TVNzU3N3QjJ1R0E2VWhVR2Q1LVhfTzR6ZC1DR2NFTk91NEJLcm5ZeG5PLUt1RVM4bVh0NGI3eHJrTWRueEdoUldUNFowSGVGOVZRbzBDenB3TUNQS1JaQXA5RTRzZ09qakZtdGJPUXRKbU9GbDVrR3pXUXYxRVFadW94MExC?oc=5",
+                "link_resolved": "https://www.jpnn.com/news/kepala-bapanas-dan-dirut-bulog-cek-langsung-penyaluran-bantuan-korban-gempa-flores",
+                "published": "Wed, 19 Aug 2026 14:41:45 GMT",
+                "fetched_at": "2026-08-19T20:17:44.412857"
+            },
+            {
                 "title": "Kepala Bapanas dan Dirut BULOG Cek Langsung Penyaluran Bantuan Korban Gempa Flores - JPNN.com",
                 "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOVEyQXQ4MDlJeUlhcUV0d0JOZm9PSVkzRjlKSDgwM2FzOWhzU1B2TVNzU3N3QjJ1R0E2VWhVR2Q1LVhfTzR6ZC1DR2NFTk91NEJLcm5ZeG5PLUt1RVM4bVh0NGI3eHJrTWRueEdoUldUNFowSGVGOVZRbzBDenB3TUNQS1JaQXA5RTRzZ09qakZtdGJPUXRKbU9GbDVrR3pXUXYxRVFadW94MExC0gGvAUFVX3lxTFBUUE5mdmRUT2ZvQ2lnM3E0SGo2dGtzWlV2a3h5Ml9xcjREQWQxTVFJS2VmbFl0WjREbUp3OWNlN2hYT0xWYXdROE1CSVNhczF6MFFoZnNRUjMxZTU1dUkxSGdqYUZyTkhpeXdUVnFLNDZwcmhhQS1keTctTE1vRzNDTHVOekJGQVFQek9IWGhmVGV3Q1lSUnU0bU5INEREQVdQTGs0UHRrbnZ3OEtfVzg?oc=5",
                 "link_resolved": "https://www.jpnn.com/news/kepala-bapanas-dan-dirut-bulog-cek-langsung-penyaluran-bantuan-korban-gempa-flores",
@@ -843,13 +850,6 @@
                 "link_resolved": "https://waspadaaceh.com/pastikan-bantuan-pangan-tepat-sasaran-bulog-aceh-perkuat-penyaluran-hingga-ke-daerah/",
                 "published": "Tue, 18 Aug 2026 12:17:26 GMT",
                 "fetched_at": "2026-08-18T12:28:20.467863"
-            },
-            {
-                "title": "Pastikan Tepat Sasaran, BULOG Aceh Perkuat Penyaluran Bantuan Pangan hingga Daerah - Acehinfo",
-                "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQU08zSjRGeV9JNFRMWWdDQ054TVhzTW5YaVg4dXBieFRCYnlNZmNDUDVhbkxBWExmY3M3M3h6V2RsejgzSXlqaWs0LXR3UFgybC05U2g2UjREN3pCNFBLSU0yM3ROWUNMal9RX0xmMm1VYkFreDJIWG5TeU5mN1lCX2JPdlZEZm4zelIzbjQzQXlZNWdvZTc5WFpXbUJzWnBnNDRReVlRaDgwdw?oc=5",
-                "link_resolved": "https://www.acehinfo.id/pastikan-tepat-sasaran-bulog-aceh-perkuat-penyaluran-bantuan-pangan-hingga-daerah/",
-                "published": "Tue, 18 Aug 2026 10:03:09 GMT",
-                "fetched_at": "2026-08-18T10:19:42.175418"
             }
         ]
     },
@@ -3562,14 +3562,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-19T19:18:55.256819"
+        "fetched_at": "2026-08-19T20:17:41.138341"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-19T19:18:55.256819"
+        "fetched_at": "2026-08-19T20:17:41.138341"
     },
     "macro_stats": {
         "ntp": {
@@ -3577,63 +3577,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T19:18:55.256819"
+            "fetched_at": "2026-08-19T20:17:41.138341"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T19:18:55.256819"
+            "fetched_at": "2026-08-19T20:17:41.138341"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T19:18:55.256819"
+            "fetched_at": "2026-08-19T20:17:41.138341"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T19:18:55.256819"
+            "fetched_at": "2026-08-19T20:17:41.138341"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T19:18:55.256819"
+            "fetched_at": "2026-08-19T20:17:41.138341"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T19:18:55.256819"
+            "fetched_at": "2026-08-19T20:17:41.138341"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T19:18:55.256819"
+            "fetched_at": "2026-08-19T20:17:41.138341"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T19:18:55.256819"
+            "fetched_at": "2026-08-19T20:17:41.138341"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T19:18:55.256819"
+            "fetched_at": "2026-08-19T20:17:41.138341"
         }
     },
     "scrape_status": {
@@ -3642,5 +3642,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-19T19:18:55.256819"
+    "last_updated": "2026-08-19T20:17:41.138341"
 }
