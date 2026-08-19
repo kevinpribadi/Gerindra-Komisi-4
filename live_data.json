@@ -3376,6 +3376,13 @@
         ],
         "Ahmad Yohan": [
             {
+                "title": "Zulkifli Hasan dan Ahmad Yohan Turun Langsung Bagi Sembako untuk Korban Gempa NTT - Koran NTT",
+                "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbUpQeUVuYmJwYkJkNGpZczk2TVU2cmZacnNoNjF1UmFRMVZQVi11bXY4ZTl4QzRiT3djeW12LTJrV00xZTRWbDluNUlZZmZQV19aWWVzTmRpS1F5RkUwTTBacUluaEJVTlhkZzU4bmNFMTd2dzl4ZFlzNkdiWjVGR09ETWdsR3pQYTVYVFJWQk8xUWY2cVMwT2ppOW5qTTc3ZEl4WXF4VG96VlJsaG1uT3JYLTY?oc=5",
+                "link_resolved": "https://koranntt.com/2026/08/20/zulkifli-hasan-dan-ahmad-yohan-turun-langsung-bagi-sembako-untuk-korban-gempa-ntt/",
+                "published": "Wed, 19 Aug 2026 21:21:57 GMT",
+                "fetched_at": "2026-08-19T22:16:38.381606"
+            },
+            {
                 "title": "Gerak Cepat PAN NTT untuk Korban Gempa Flores, Ahmad Yohan Pimpin Penyaluran 5.000 Paket Sembako di 6 Wilayah - Koran NTT",
                 "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPbnMta2RYZXgyM3VXdWYwZGVWbU1nNEI4aHE0VThKNFZtMFpXdU4wdVZXeExKOWVJTTJCekY0WXAwWlF3cXU0ZC01VFFXMGdpb2JCMzByQWZPOURadmlWaEZVUmR2cXl6aFZmdGJDTzBoN0RVYzY3UklwOXg5YTVFTklwNkJPejBRMFVXUmkxVkdfQ1VFZVdKSDlOTmNNUkZHbXF1cjZsWGt2VllUQ3FHdTd2MTFhR1B5WlpLR3lwYWJ0UE43QVJDNGp0NHRkLXRFNHpNMnU4eWM?oc=5",
                 "link_resolved": "https://koranntt.com/2026/08/19/gerak-cepat-pan-ntt-untuk-korban-gempa-flores-ahmad-yohan-pimpin-penyaluran-5-000-paket-sembako-di-6-wilayah/",
@@ -3562,14 +3569,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-19T20:17:41.138341"
+        "fetched_at": "2026-08-19T22:15:54.405895"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-19T20:17:41.138341"
+        "fetched_at": "2026-08-19T22:15:54.405895"
     },
     "macro_stats": {
         "ntp": {
@@ -3577,63 +3584,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T20:17:41.138341"
+            "fetched_at": "2026-08-19T22:15:54.405895"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T20:17:41.138341"
+            "fetched_at": "2026-08-19T22:15:54.405895"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T20:17:41.138341"
+            "fetched_at": "2026-08-19T22:15:54.405895"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T20:17:41.138341"
+            "fetched_at": "2026-08-19T22:15:54.405895"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T20:17:41.138341"
+            "fetched_at": "2026-08-19T22:15:54.405895"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T20:17:41.138341"
+            "fetched_at": "2026-08-19T22:15:54.405895"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T20:17:41.138341"
+            "fetched_at": "2026-08-19T22:15:54.405895"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T20:17:41.138341"
+            "fetched_at": "2026-08-19T22:15:54.405895"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T20:17:41.138341"
+            "fetched_at": "2026-08-19T22:15:54.405895"
         }
     },
     "scrape_status": {
@@ -3642,5 +3649,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-19T20:17:41.138341"
+    "last_updated": "2026-08-19T22:15:54.405895"
 }
