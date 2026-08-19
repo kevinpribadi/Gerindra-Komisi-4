@@ -2074,13 +2074,6 @@
                 "link_resolved": "https://purbalingga.suaramerdeka.com/purbalingga/107717436233/tingkat-konsumsi-ikan-masih-rendah-darori-bagikan-ikan-di-lokus-penanganan-stunting-di-purbalingga",
                 "published": "Wed, 29 Jul 2026 03:19:15 GMT",
                 "fetched_at": "2026-08-02T05:32:33.339518"
-            },
-            {
-                "title": "Darori Ingatkan Ancaman Hama dari Lalu Lintas Komoditas, Barantin Harus Makin Kuat - Gerindra",
-                "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWXVrYVZ2WWFFaFk4Y3VKLUc1QmtnWnh5S1p6M3ZUbnRuc2pCOV9sVWFFWjQxbllRNXB4OWljaEFSWE5yWC1mM0pweVhPTy1JOTY5RzFPRWVJSm1QSGdIMWswa2lOaWtvWTB1UWcydExaRVktWW5LRjYwNlotRkxib2g2aERkWWpBTnF3NVVjU0RROXY4X3ZhTl9wVDY1N0tjMDRPRHRBNkg5TVBrLVhPUGRqWQ?oc=5",
-                "link_resolved": "https://gerindra.id/2026/07/20/darori-ingatkan-ancaman-hama-dari-lalu-lintas-komoditas-barantin-harus-makin-kuat/",
-                "published": "Mon, 20 Jul 2026 15:26:03 GMT",
-                "fetched_at": "2026-07-20T17:30:14.747885"
             }
         ],
         "Dwita Ria Gunadi": [
@@ -2199,13 +2192,6 @@
                 "link_resolved": "https://www.fraksigerindra.id/pansus-dpr-dorong-ruu-daerah-kepulauan-untuk-percepat-pemerataan-pembangunan/",
                 "published": "Wed, 22 Jul 2026 05:27:46 GMT",
                 "fetched_at": "2026-07-22T08:12:05.530056"
-            },
-            {
-                "title": "Pansus DPR Tegaskan RUU Daerah Kepulauan Penting Wujudkan Keadilan Pembangunan - Batamtoday.com",
-                "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWnJHZmtxTmo4NVpWaW1ZWVBrSkRReUlLNFpfS3hJNjI2RzlxZlhfT1gxV3hpSzFYaVFCeG1SYWlGS3Y0Ym84UF8zcENnWVdHTWttcDYxS1IwR0h0WV96SWc3a2ItYXZDZ2FKWFB2WmxPcFhKckQ3U0pNZFd0MVBYeC1rTWxFZUdLXzN3NG5wblhTZlk0UnJubFFDVFdielFvS2ptNHhQVVBJUQ?oc=5",
-                "link_resolved": "https://batamtoday.com/news/pansus-dpr-tegaskan-ruu-daerah-kepulauan-penting-wujudkan-keadilan-pembangunan",
-                "published": "Mon, 20 Jul 2026 15:28:00 GMT",
-                "fetched_at": "2026-07-21T08:11:37.725795"
             }
         ],
         "Sumail Abdullah": [
@@ -3569,14 +3555,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-19T15:22:32.719910"
+        "fetched_at": "2026-08-19T16:21:16.143234"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-19T15:22:32.719910"
+        "fetched_at": "2026-08-19T16:21:16.143234"
     },
     "macro_stats": {
         "ntp": {
@@ -3584,63 +3570,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T15:22:32.719910"
+            "fetched_at": "2026-08-19T16:21:16.143234"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T15:22:32.719910"
+            "fetched_at": "2026-08-19T16:21:16.143234"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T15:22:32.719910"
+            "fetched_at": "2026-08-19T16:21:16.143234"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T15:22:32.719910"
+            "fetched_at": "2026-08-19T16:21:16.143234"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T15:22:32.719910"
+            "fetched_at": "2026-08-19T16:21:16.143234"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T15:22:32.719910"
+            "fetched_at": "2026-08-19T16:21:16.143234"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T15:22:32.719910"
+            "fetched_at": "2026-08-19T16:21:16.143234"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T15:22:32.719910"
+            "fetched_at": "2026-08-19T16:21:16.143234"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-19T15:22:32.719910"
+            "fetched_at": "2026-08-19T16:21:16.143234"
         }
     },
     "scrape_status": {
@@ -3649,5 +3635,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-19T15:22:32.719910"
+    "last_updated": "2026-08-19T16:21:16.143234"
 }
