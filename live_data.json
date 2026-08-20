@@ -2942,6 +2942,13 @@
                 "fetched_at": "2026-08-07T04:49:32.743665"
             },
             {
+                "title": "Usman Husin Ajak Masyarakat Jaga Hutan, Rehabilitasi Lahan Harus Berdampak pada Ekonomi Warga - Jarrakpos.com",
+                "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNV0gtc1NjUVBTTENQTGUzSDlwYnp3Q1hsMG1QRV9WVElMZFFhWG13MzE0aEIwa1Q2OEZ6Vlhud2kwM3V0c1NTeVVURzNEQnBTZFhRS2ZuaDdJYzY3cmpvSEM3Mm50THBaNUdFRVdaOEh4U3dJUXp0TFZVVUxsSTBQMHpBNWpUYTJCeE9Cdnp2ajVRTjNwS1d5SUowSzIwWmNod1lHYzNXMDlfQ1dtQklTVjh3cFdVWUdFWEpz?oc=5",
+                "link_resolved": "https://www.jarrakpos.com/usman-husin-ajak-masyarakat-jaga-hutan-rehabilitasi-lahan-harus-berdampak-pada-ekonomi-warga/",
+                "published": "Mon, 03 Aug 2026 04:49:02 GMT",
+                "fetched_at": "2026-08-20T18:27:08.600926"
+            },
+            {
                 "title": "Hadapi Ancaman El Nino 2026, Usman Husin Desak Pemerintah Siapkan Mitigasi Darurat - jakartanews.id",
                 "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcUtXYnlWUTJuRDBSNkozZklBaUdtMGtROVptbE1ZQWluSHlKZFJwWXEwTEIySXFUU0ZoREJtUEJ2cDR1dFh2NFUzeUJncXV4RXZTU0xTNzExRllXX1FDRnV2ZGF3cnpoQ2dncnZzdExkaWZCS09PQUNJc0N4LS1DYTc0emVfQnlVWi0xXzJWVHJiX0pwWW1YSWl6Tk5XQ20tRTN4X0pWVGZtTHlfM2MzT3VXYmE1amVuM3QxdnNKZWs1WU5Y0gHEAUFVX3lxTE5xS1dieVZRMm5EMFI2SjNmSUFpR20wa1E5Wm1sTVlBaW5IeUpkUnBZcTBMQjJJcVRTRmhEQm1QQnZwNHV0WHY0VTN5QmdxdXhFdlNTTFM3MTFGWVdfUUNGdXZkYXdyemhDZ2dydnN0TGRpZkJLT09BQ0lzQ3gtLUNhNzR6ZV9CeVVaLTFfMlZUcmJfSnBZbVhJaXpOTldDbS1FM3hfSlZUZm1MeV8zYzNPdVdiYTVqZW4zdDF2c0plazVZTlg?oc=5",
                 "link_resolved": "https://www.jakartanews.id/2026/07/31/hadapi-ancaman-el-nino-2026-usman-husin-desak-pemerintah-siapkan-mitigasi-darurat/?amp=1",
@@ -2954,13 +2961,6 @@
                 "link_resolved": "https://www.jakartanews.id/2026/07/31/hadapi-ancaman-el-nino-2026-usman-husin-desak-pemerintah-siapkan-mitigasi-darurat/",
                 "published": "Fri, 31 Jul 2026 11:09:27 GMT",
                 "fetched_at": "2026-07-31T19:12:46.337278"
-            },
-            {
-                "title": "| Pemerintah Diminta Siapkan Mitigasi Darurat Hadapi Ancaman El Nino 2026 - jurnas.com",
-                "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaGMwWVE3MFFTVV9ubFF0YVRWNGRXUmJ0eVBibDJMc0Vkb3VFbGpDR09lZzFlb0ZyUkJCWlJzaFJNZi1WeDl0d1RWQ1lpRDJ1T3VqYUdybVAwZ2JjRTk0NTRTM05YM0t4S3RNWlhWS0NaNkZkaWtvZ0VuYTlTa1JOVWloRUktNF8yN3ZjMDZhd1JrV05JTExIVlZPUWZIMHU2VnVuWFR3TmVLYUZ2azh1LQ?oc=5",
-                "link_resolved": "https://www.jurnas.com/artikel/1662894/pemerintah-diminta-siapkan-mitigasi-darurat-hadapi-ancaman-el-nino-2026/",
-                "published": "Fri, 31 Jul 2026 06:23:00 GMT",
-                "fetched_at": "2026-07-31T08:48:06.222970"
             }
         ],
         "Rina Sa'adah": [
@@ -3639,14 +3639,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-20T17:20:48.679232"
+        "fetched_at": "2026-08-20T18:26:29.529750"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-20T17:20:48.679232"
+        "fetched_at": "2026-08-20T18:26:29.529750"
     },
     "macro_stats": {
         "ntp": {
@@ -3654,63 +3654,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-20T17:20:48.679232"
+            "fetched_at": "2026-08-20T18:26:29.529750"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-20T17:20:48.679232"
+            "fetched_at": "2026-08-20T18:26:29.529750"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-20T17:20:48.679232"
+            "fetched_at": "2026-08-20T18:26:29.529750"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-20T17:20:48.679232"
+            "fetched_at": "2026-08-20T18:26:29.529750"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-20T17:20:48.679232"
+            "fetched_at": "2026-08-20T18:26:29.529750"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-20T17:20:48.679232"
+            "fetched_at": "2026-08-20T18:26:29.529750"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-20T17:20:48.679232"
+            "fetched_at": "2026-08-20T18:26:29.529750"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-20T17:20:48.679232"
+            "fetched_at": "2026-08-20T18:26:29.529750"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-20T17:20:48.679232"
+            "fetched_at": "2026-08-20T18:26:29.529750"
         }
     },
     "scrape_status": {
@@ -3719,5 +3719,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-20T17:20:48.679232"
+    "last_updated": "2026-08-20T18:26:29.529750"
 }
