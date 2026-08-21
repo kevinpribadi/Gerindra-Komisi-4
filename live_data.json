@@ -145,6 +145,13 @@
         "Kementerian Kehutanan": [
             {
                 "title": "Kementerian Kehutanan - Kementerian Kehutanan",
+                "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPX1JSYnY5RTZ2TlF5eVM5MmllZ09EbUhQYVVFbzhCVFg0WVBpR28xMHB3Q0pDTHJhU3dlRzdlVXh5em9TeEJDeTlEa3pvVTBiTWRfQnNpcDdvUklJMlRzRGpvUXdWMjk5a0h4b3I4dUJCUkZBRnNYNHloUkhTbTlUTjYxYi1Cc3JxdlE3R2RBeGJsOU91VndkZ292UmRyYUpsNWlNTmFR?oc=5",
+                "link_resolved": "https://www.kehutanan.go.id/pers/hotspot-nasional-turun-56-persen-pengendalian-karhutla-tetap-diperkuat",
+                "published": "Fri, 21 Aug 2026 07:13:26 GMT",
+                "fetched_at": "2026-08-21T07:35:38.265061"
+            },
+            {
+                "title": "Kementerian Kehutanan - Kementerian Kehutanan",
                 "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOS0ZZR1VwV3IwOVhZSjdpaUlfcWRWNGV6UTNMZjBPcVQwU05UMUVyUFEzZUMtN1E2YTBkRGNCOUp6NjJwbU5kNWRuQXJ3UkhQMHVFMGRPTGFYbXctUUdEc09SRVR1cjBhTmNOWGw0VWpLeXN5cGgwSFFtYmJkckpNbXdzSk03X2pUSEZCcUtXRFZpRWpOX2VTczNaRDF3U0ZqSHhfSjJOVjhnZmp3UWllVA?oc=5",
                 "link_resolved": "https://www.kehutanan.go.id/pers/hkan-2026-menhut-dorong-evaluasi-dan-transformasi-konservasi-alam-di-indonesia",
                 "published": "Fri, 21 Aug 2026 06:14:43 GMT",
@@ -275,13 +282,6 @@
                 "link_resolved": "https://www.kehutanan.go.id/news/kemenhut-amankan-truk-kayu-diduga-dari-tn-bukit-tigapuluh-penyidik-telusuri-pemasok-hingga-penerima",
                 "published": "Thu, 20 Aug 2026 16:57:42 GMT",
                 "fetched_at": "2026-08-20T17:20:50.183732"
-            },
-            {
-                "title": "Artikel • Tarsius Makassar: Makan Malam Sang Pemburu Senyap - Direktorat Jenderal KSDAE",
-                "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMnNlbXRMWGFFdGY5ZkFEOV9abFZaa1lDM0lxU045UjNqTjlvWjFHSXVhS1J2RjRJNG5zOWY0ZWl2VUxjUnZFUFN1WVM1am5CQ3J6d1VfZGJlOC04bnRqNkdMN2s0RHVGNy0yM05tNDVDaS1naHRsT3Q1dXoyWFJ1OVZfbVRZM21pdmpuRlFUeHFaa1JBSjZlTVJ6djVLUEZ1UkN6RkNkNUNKUQ?oc=5",
-                "link_resolved": "https://ksdae.kehutanan.go.id/publikasi/artikel/tarsius-makassar-makan-malam-sang-pemburu-senyap-HKbnOnNt/",
-                "published": "Thu, 20 Aug 2026 16:17:57 GMT",
-                "fetched_at": "2026-08-20T16:24:29.818046"
             }
         ],
         "Kementerian Kelautan dan Perikanan": [
@@ -428,6 +428,13 @@
         ],
         "Badan Karantina Indonesia": [
             {
+                "title": "Barantin Lepas Ekspor Rp40,8 Miliar, Produk Banten ke Pasar Dunia - Tangerang Online",
+                "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNd24zei1tS1hDMGoxYVJpSDBqYWZoOE9IZ0p2YlR4QllfQUpSZjJ1V1djVktUZk9KelF3VVV0QlgyLVdqcFE3QmdKY2doZ05DbndoS0wzc2hBR2h3N0gxMVVpamZIcFJ0czRjSFI0bGYyVUd3Y3YyaHUweUZfV1RlX1p4VFFDOW9JUGZ0TWw1MGo0bldLU1FQQlhiX2lDaGhsajdLRg?oc=5",
+                "link_resolved": "https://tangerangonline.id/2026/08/21/barantin-lepas-ekspor-rp408-miliar-produk-banten-ke-pasar-dunia/",
+                "published": "Fri, 21 Aug 2026 04:29:35 GMT",
+                "fetched_at": "2026-08-21T07:35:39.201202"
+            },
+            {
                 "title": "Barantin Lepas Ekspor Rp40,8 Miliar, Karding Dorong Produk Banten Tembus Pasar Global - Badan Karantina Indonesia",
                 "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObUF1RUFyMFlqbldSOS1oUDRlc1VPMjIwMm0xUmNLb3ZHQ3RNeUJhOVlsYXhscGhXSUNIVjZKcExSVXhFTGNmZV9PSTBjNEZ2VEdqakVrck13LUtCVi1YVU10Tm1NbGFfZmNDQjUtTTdyaXRvU2MtMWtTMUNJMzhGY2JLQWk4cnBUbGdLeHQxNzI1M04xWDFQOWpkS3FPb1piZ1RXQlZZa1o1aGIzam9jVVVHT2NSczVzcUtUdXAzMTA?oc=5",
                 "link_resolved": "https://karantinaindonesia.go.id/berita/barantin-lepas-ekspor-rp408-miliar-karding-dorong-produk-banten-tembus-pasar-global",
@@ -559,13 +566,6 @@
                 "link_resolved": "https://mantranews.id/2026/08/karantina-banten-gagalkan-pengiriman-36-ton-daging-babi-hutan-dan-labi-labi-ilegal-tujuan-semarang/",
                 "published": "Wed, 19 Aug 2026 08:12:03 GMT",
                 "fetched_at": "2026-08-19T08:26:34.992415"
-            },
-            {
-                "title": "Dari Oleh-oleh jadi Komoditas Ekspor, Barantin Kawal Jengkol Sumbar ke Pasar Jepang - Badan Karantina Indonesia",
-                "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSXM3a19mZVBRRm50dDI1NFdSQkFzTnpnUmtIN3F0TTFHWTV6OWRxeWwtTTNnVzlkU2tIMl8xTTg1ejBtMExuaGxoTl9BbmwtWXJibFhGRWhXVUt6WjQyTEN2bl9HU3hlWndRWHB6dFgwOEpNTHZVQThLUDBqQnNjUFpQOFZaYWxGQkJQZXlBTnZvYWR4SFlvWUxTNTlkSUZNSTlaX1ROcGVBMkhSclJIZGlZWEcyTXMza3c3bmUzQQ?oc=5",
-                "link_resolved": "https://karantinaindonesia.go.id/berita/dari-oleh-oleh-jadi-komoditas-ekspor-barantin-kawal-jengkol-sumbar-ke-pasar-jepang",
-                "published": "Wed, 19 Aug 2026 08:09:41 GMT",
-                "fetched_at": "2026-08-19T08:26:34.992383"
             }
         ],
         "Badan Pangan Nasional": [
@@ -3104,6 +3104,13 @@
         ],
         "Johan Rosihan": [
             {
+                "title": "Johan Rosihan Minta Pemerintah Susun Mitigasi Karhutla Yang Lebih Jelas Dan Terukur - Lintas Lampung",
+                "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT1FHaVpsTGNfRTRIenRYVGp0eUhrNjYwX3MtVkxBdFdueFZveEVEUlFZN0UxeUpwdmZMNFQ0eExITnpMaWp0cHpOak52bGlBeHIxYWJfUUFxbEtLaG4wUVEyUEtQZkMxc19STUlkY2YtTGdSWnJZUjIyeE1xT3J6dTdzTHB6a2VwbmU5dC1fZjNvY0JrTV9HVkxZQ2hkNUVwbjF4Q1ptUGFsX0toRmpoTDctblA?oc=5",
+                "link_resolved": "https://web.lintaslampung.com/johan-rosihan-minta-pemerintah-susun-mitigasi-karhutla-yang-lebih-jelas-dan-terukur/",
+                "published": "Fri, 21 Aug 2026 07:29:00 GMT",
+                "fetched_at": "2026-08-21T07:36:13.662931"
+            },
+            {
                 "title": "Johan Rosihan Dorong Penguatan Karantina NTB Masuk Anggaran 2027 - Fraksi PKS",
                 "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTDBqY0UxaVRZZ2kxbGZhVWNKSEVHLWMyWnRHS0tfQThYcUItUjRqMDFuLUUwZ3YzTFlMNU5MTFNNemxPOHc1VDVSa0FtRjhUZjY0UTl6bV95bUhIeTBsa0wzUE9lLW5mTkgwRng5N0RyMnVsdXpjeHdOMDFCdjAyS2tpcUM3REwyY00teW9qZXpJdXNVS3BLZ29aREpmY0k?oc=5",
                 "link_resolved": "https://fraksi.pks.id/2026/08/20/johan-rosihan-dorong-penguatan-karantina-ntb-masuk-anggaran-2027/",
@@ -3646,14 +3653,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-21T06:32:06.162718"
+        "fetched_at": "2026-08-21T07:35:37.122487"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-21T06:32:06.162718"
+        "fetched_at": "2026-08-21T07:35:37.122487"
     },
     "macro_stats": {
         "ntp": {
@@ -3661,63 +3668,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-21T06:32:06.162718"
+            "fetched_at": "2026-08-21T07:35:37.122487"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-21T06:32:06.162718"
+            "fetched_at": "2026-08-21T07:35:37.122487"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-21T06:32:06.162718"
+            "fetched_at": "2026-08-21T07:35:37.122487"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-21T06:32:06.162718"
+            "fetched_at": "2026-08-21T07:35:37.122487"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-21T06:32:06.162718"
+            "fetched_at": "2026-08-21T07:35:37.122487"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-21T06:32:06.162718"
+            "fetched_at": "2026-08-21T07:35:37.122487"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-21T06:32:06.162718"
+            "fetched_at": "2026-08-21T07:35:37.122487"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-21T06:32:06.162718"
+            "fetched_at": "2026-08-21T07:35:37.122487"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-21T06:32:06.162718"
+            "fetched_at": "2026-08-21T07:35:37.122487"
         }
     },
     "scrape_status": {
@@ -3726,5 +3733,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-21T06:32:06.162718"
+    "last_updated": "2026-08-21T07:35:37.122487"
 }
