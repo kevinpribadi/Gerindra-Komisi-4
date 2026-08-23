@@ -2159,13 +2159,6 @@
                 "link_resolved": "https://portalaceh.inews.id/amp/705125/t-a-khalid-apresiasi-refocusing-anggaran-kkp-untuk-percepat-pemulihan-tambak-pascabencana-di-aceh",
                 "published": "Sat, 25 Jul 2026 02:08:00 GMT",
                 "fetched_at": "2026-07-25T11:03:16.675692"
-            },
-            {
-                "title": "Wakil Ketua DPRA Dukung Upaya TA Khalid Pindahkan Kantor TNGL ke Aceh » - dialeksis.com",
-                "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONDVMaFRqNHQzd2drRG1SbW1IT2FtMElaUHhvQWIwUHBxWEhMYVdxQWlaOUhyeFBjYW9sXzhMOGhuZWJVemlNZGN4UXAyMFBpZ0tIWFdLUEtzeGVxTTRCRTJKQnRCTDlxTHFlVUVDREtQQUtaRFJKUjM0SVh2Z0Z3RmxnR3NXSURVNzJCekllQnRsVW41OWFZbTI2TlZhc2FnYk1N0gGjAUFVX3lxTE5sSjg1ektPN2JNelRFbkJBbXNhZzUwQkFBNVB1VXZrQzBDRnFkN3lueWxWak4zb2UtSkF0czBhdGNMbVR2MDBjS01LNm9XODRaWGdiY1MwOC1pYWw3RHJtSi1Fa1d6MzhNSTZtMmd6NEVidzBiZ2d6TkRmRnNycV9VdkE5eWM2ZXhaaTRRVEhVS193N25Ld3h3OUlZY1JndC1MR1U?oc=5",
-                "link_resolved": "https://ftp.dialeksis.com/aceh/wakil-ketua-dpra-dukung-upaya-ta-khalid-pindahkan-kantor-tngl-ke-aceh/",
-                "published": "Fri, 24 Jul 2026 20:20:27 GMT",
-                "fetched_at": "2026-07-25T05:11:47.160539"
             }
         ],
         "Sumail Abdullah": [
@@ -3618,14 +3611,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-23T19:16:54.746643"
+        "fetched_at": "2026-08-23T21:13:36.989575"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-23T19:16:54.746643"
+        "fetched_at": "2026-08-23T21:13:36.989575"
     },
     "macro_stats": {
         "ntp": {
@@ -3633,63 +3626,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-23T19:16:54.746643"
+            "fetched_at": "2026-08-23T21:13:36.989575"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-23T19:16:54.746643"
+            "fetched_at": "2026-08-23T21:13:36.989575"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-23T19:16:54.746643"
+            "fetched_at": "2026-08-23T21:13:36.989575"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-23T19:16:54.746643"
+            "fetched_at": "2026-08-23T21:13:36.989575"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-23T19:16:54.746643"
+            "fetched_at": "2026-08-23T21:13:36.989575"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-23T19:16:54.746643"
+            "fetched_at": "2026-08-23T21:13:36.989575"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-23T19:16:54.746643"
+            "fetched_at": "2026-08-23T21:13:36.989575"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-23T19:16:54.746643"
+            "fetched_at": "2026-08-23T21:13:36.989575"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-23T19:16:54.746643"
+            "fetched_at": "2026-08-23T21:13:36.989575"
         }
     },
     "scrape_status": {
@@ -3698,5 +3691,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-23T19:16:54.746643"
+    "last_updated": "2026-08-23T21:13:36.989575"
 }
