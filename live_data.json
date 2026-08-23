@@ -228,6 +228,13 @@
                 "fetched_at": "2026-08-22T09:18:52.292113"
             },
             {
+                "title": "Kebakaran Hutan Terjadi di Wilayah Resort Kuala Penet, TN Way Kambas Bersama Para Pihak Lakukan Pemadaman - Kementerian Kehutanan",
+                "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQazZpWTllQ2VTU00ycFNqb2hGVmtSVi1wUUwyMEVfcE44ZG5SNW1rTFd1NDVuRzA1OTZXbzZTTEQtV2ROeWRsMjRtS01XN1RoOXdSb1pkLVpvamhtN05vWmJfWW9VV293VXlsSDRRRXlfWE9XWlhRbWxYWE0xeDlUd0tIbHhXbW1xSjN2alJ6RzlldDdyc29LeUx2bFFuQ2dWNnlLQVVvX19ET3NrSUJ2TlZ3ZFBma2hQTktiSXZYNS10UlNCWG5Md2Viek9NT3NRNDlF?oc=5",
+                "link_resolved": "https://www.kehutanan.go.id/news/kebakaran-hutan-terjadi-di-wilayah-resort-kuala-penet-tn-way-kambas-bersama-para-pihak-lakukan-pemadaman",
+                "published": "Sat, 22 Aug 2026 08:19:29 GMT",
+                "fetched_at": "2026-08-23T18:17:08.621994"
+            },
+            {
                 "title": "Keterangan Pers Nomor 33/HM.00/VIII/2026 Komnas HAM dan... - komnasham",
                 "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNczlEdGxVMGVmbjNUcTJjaGQ1Q1lMMnB6a0NFZ0NqX1MycWp3Z3RpejVTeTF6M3dtOEI5RGNTTXU4X3V4Z3hIV0dlejlGOEtyZU5xbkQ3a0UyQy1fb1BQSl9UcTMxOEREbTJGZkFvQ2QtYjIyM0lSNzgwdllxVTlNakpfa0hSTzNKRkY5dGgzeDh6dmlCYlNMLU51cmUtOUoyMUw3NjNJa3o1eEljdDkteEpuUzQ0aGdZQ3FXMU1RQnEtQkQ1WGJsLWNzOG9vQTVRTnBKYi1FaXdxUHFQYkw2NXVPbUpxTXE2dW54NTE0UmdoV0xuRkVVX2lfLW9UbGNibDVqZGdPNi1aNGFpazZ1LXlaeXBUMnJ6NGR6MUE0UW55ZlpP?oc=5",
                 "link_resolved": "https://www.komnasham.go.id/keterangan-pers-nomor-33-hm-00-viii-2026-komnas-ham-dan-kementerian-kehutanan-perkuat-sinergi-penyelesaian-konflik-agraria-berbasis-ham-dan-pengesahan-ruu-masyarakat-adat",
@@ -275,13 +282,6 @@
                 "link_resolved": "https://www.kehutanan.go.id/news/12-880-personel-gabungan-tangani-karhutla-di-kalimantan-kemenhut-perkuat-operasi-manggala-agni",
                 "published": "Fri, 21 Aug 2026 18:20:42 GMT",
                 "fetched_at": "2026-08-21T18:24:22.488629"
-            },
-            {
-                "title": "Kementerian Kehutanan - Kementerian Kehutanan",
-                "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOT1VXNzY2ZFphNEFEQ0RwWmk3dkt2T293SFprZ29kLWhkazgzMkdLSUMyRG4tZ084VUV5R0x5aV8zLXp3cWhEeFctczJPS19pblNXM3R1Vk1peF8zVWJuN29WWURvTUxHSW9uRTQ5Q2dFYjJLRHNvV2ZBR1VQYUVtd0JveW12NUZhYmJjYWVPT3lmMXdkaThHbUFNYjVINXdrb01iQnY0VGp6Z3o5eVBUNjlOaDdUX0pWVmIzZEFkX3hiMURBOGxFVXF4aXFYUQ?oc=5",
-                "link_resolved": "https://www.kehutanan.go.id/pers/wamenhut-rohmat-marzuki-pengendali-ekosistem-hutan-adalah-avatar-penjaga-keseimbangan-alam-indonesia",
-                "published": "Fri, 21 Aug 2026 10:09:37 GMT",
-                "fetched_at": "2026-08-21T10:21:16.928861"
             }
         ],
         "Kementerian Kelautan dan Perikanan": [
@@ -3618,14 +3618,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-23T16:15:26.040464"
+        "fetched_at": "2026-08-23T18:17:07.583193"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-23T16:15:26.040464"
+        "fetched_at": "2026-08-23T18:17:07.583193"
     },
     "macro_stats": {
         "ntp": {
@@ -3633,63 +3633,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-23T16:15:26.040464"
+            "fetched_at": "2026-08-23T18:17:07.583193"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-23T16:15:26.040464"
+            "fetched_at": "2026-08-23T18:17:07.583193"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-23T16:15:26.040464"
+            "fetched_at": "2026-08-23T18:17:07.583193"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-23T16:15:26.040464"
+            "fetched_at": "2026-08-23T18:17:07.583193"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-23T16:15:26.040464"
+            "fetched_at": "2026-08-23T18:17:07.583193"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-23T16:15:26.040464"
+            "fetched_at": "2026-08-23T18:17:07.583193"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-23T16:15:26.040464"
+            "fetched_at": "2026-08-23T18:17:07.583193"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-23T16:15:26.040464"
+            "fetched_at": "2026-08-23T18:17:07.583193"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-23T16:15:26.040464"
+            "fetched_at": "2026-08-23T18:17:07.583193"
         }
     },
     "scrape_status": {
@@ -3698,5 +3698,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-23T16:15:26.040464"
+    "last_updated": "2026-08-23T18:17:07.583193"
 }
