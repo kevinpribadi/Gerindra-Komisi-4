@@ -712,6 +712,13 @@
         ],
         "Perum Bulog": [
             {
+                "title": "Bulog Sulteng Apresiasi Forkopimda Dukung Serapan Gabah Petani - majalahfakta.id -",
+                "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVUk5TGhqNVdBOHk5TjNrVGI4TVlta1Y2a0RqMk1EZlZTeVFFQlZ1a3U1LUtNZURQVlZNdGtZSnotTU5qNmZRV1ZRWU5XdllCN1dZTzFtOFcwMFVjbzBEU09YSUpKN0g2UVlPM3VJT2JyTzQwbm1hQndVTDVJWEY0RFRlNG03M094S0xqRmNtcVk?oc=5",
+                "link_resolved": "https://majalahfakta.id/bulog-sulteng-apresiasi-forkopimda-dukung-serapan-gabah-petani/",
+                "published": "Mon, 24 Aug 2026 15:11:00 GMT",
+                "fetched_at": "2026-08-24T21:20:35.487283"
+            },
+            {
                 "title": "Bulog Pasok 90 Ribu Ton Beras untuk Korban Bencana di NTT - RCTI+",
                 "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPM256TTRmdlRNdXdWSDdDZVliN0lkTUpoMU5pejZUQmZiMWV1bDBBaWM0Q2x5V0poTHNyOVNBX0VFRDRiQ3BkQU84S3g0Qkx3RWlrX0o5em4yYVpJZjY3THFXQmlobXd1MkRreGdpLWJOdlVzMXdoRkpLUGFmc0ZtNFFsaVFIUHl1T2pOSGhJRmE1R3g4bXJ3Wi1NOEFFMzNmMTNWbG13d0dkZnVMLTYtajBxTEFOU0tIWEE1NkNmTkFkLTVaSHFYbjBiSVNFM2tRTmVlUGhzbHRSdVV3dlI2ODlWbGR5N0pSSzljNUhaZUM0d0NYMElwbXVQY2xpWEVvQzRrOGtUQTZkSFg0c2FRVFl3QVI?oc=5",
                 "link_resolved": "https://www.rctiplus.com/news/detail/ekonomi/5458611/bulog-pasok-90-ribu-ton-beras-untuk-korban-bencana-di-ntt?utm_source=mpi_widget&utm_medium=referral&utm_campaign=news_article_5458611",
@@ -843,13 +850,6 @@
                 "link_resolved": "https://www.bicaraindonesia.net/12-gudang-bulog-di-ntt-rusak-akibat-gempa/",
                 "published": "Mon, 24 Aug 2026 01:59:00 GMT",
                 "fetched_at": "2026-08-24T04:36:36.832703"
-            },
-            {
-                "title": "BULOG Siapkan 93.782 Ton Beras untuk Korban Gempa NTT dan Bantuan Pangan Presiden - KilasJatim.com",
-                "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbzZpUnR5NEZudXEtZ182LWs0Wjdza0wtTzdoalB1aHhacHVUR2pvTFpuUjB6M3JJei11azQxUHFuY2V3NFV6N0Z4V0lSVWlWYkF3bE94ZE1aeWZ1emRvV0Z3cnlFOHA5UXdtZ0FDTW83c0lBXzhaQ0hSbzZlNkZzNm5wSkVPTmhMNTBUc2xCamctZWh6aThSU2VKUVlIUFRNQWFUWHlQRHNWb3VLR01WMkZPS0NfN1E?oc=5",
-                "link_resolved": "https://kilasjatim.com/2026/08/24/bulog-siapkan-93-782-ton-beras-untuk-korban-gempa-ntt-dan-bantuan-pangan-presiden/",
-                "published": "Mon, 24 Aug 2026 00:54:06 GMT",
-                "fetched_at": "2026-08-24T02:18:26.942946"
             }
         ]
     },
@@ -3613,14 +3613,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-24T20:20:21.203020"
+        "fetched_at": "2026-08-24T21:20:29.654974"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-24T20:20:21.203020"
+        "fetched_at": "2026-08-24T21:20:29.654974"
     },
     "macro_stats": {
         "ntp": {
@@ -3628,63 +3628,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-24T20:20:21.203020"
+            "fetched_at": "2026-08-24T21:20:29.654974"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-24T20:20:21.203020"
+            "fetched_at": "2026-08-24T21:20:29.654974"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-24T20:20:21.203020"
+            "fetched_at": "2026-08-24T21:20:29.654974"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-24T20:20:21.203020"
+            "fetched_at": "2026-08-24T21:20:29.654974"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-24T20:20:21.203020"
+            "fetched_at": "2026-08-24T21:20:29.654974"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-24T20:20:21.203020"
+            "fetched_at": "2026-08-24T21:20:29.654974"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-24T20:20:21.203020"
+            "fetched_at": "2026-08-24T21:20:29.654974"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-24T20:20:21.203020"
+            "fetched_at": "2026-08-24T21:20:29.654974"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-24T20:20:21.203020"
+            "fetched_at": "2026-08-24T21:20:29.654974"
         }
     },
     "scrape_status": {
@@ -3693,5 +3693,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-24T20:20:21.203020"
+    "last_updated": "2026-08-24T21:20:29.654974"
 }
