@@ -144,6 +144,13 @@
         ],
         "Kementerian Kehutanan": [
             {
+                "title": "5.000 ASN Kehutanan BKO ke 6 Provinsi untuk Tangani Karhutla - Jurnal Borneo",
+                "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNWZ6UHJKbUxMaDNabzk1WEFyVENfbFc1aDhSRWtuWXN0U2l4dU1KMFQ0c0R5TmY4cWNsaGt0VnJrNzExRklwcjRISlIwcWpoS3ZNWkRDTjN4dnA3QjlidjZkLXBwb2oxTVUtU1d3RGtBcTA4UERZMV9qMmN1VE9mR0M3WHZjNlllZlEyU1dtRQ?oc=5",
+                "link_resolved": "https://jurnalborneo.com/5-000-asn-kehutanan-bko-ke-6-provinsi-untuk-tangani-karhutla/",
+                "published": "Mon, 24 Aug 2026 14:27:38 GMT",
+                "fetched_at": "2026-08-24T14:33:38.068203"
+            },
+            {
                 "title": "Atasi Karhutla, Menhut Tugaskan 5.000 ASN Kehutanan ke 6 Provinsi Prioritas - investor.id",
                 "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLXlNVHd0RU5nRG4zUGp1cXlLQUN5VE1MQkZoNGVIYWwtRWtoUEx0VnB5SmdERVdkRUZlWllFekczdHgyZWJWbkJoVHgyakZ4VEpXQXZXeTlXS01UUXJpUzFHTEl3N3FjcGhMTnZpMk5veW05SlNVM0pnT182OUlRSUY0QW1lVFFMSEZYbkE0S0VfeDBMVXZhVHU3UGlGRkFvMGxaTzZEZi1tT05a?oc=5",
                 "link_resolved": "https://investor.id/national/451480/atasi-karhutla-menhut-tugaskan5000-asn-kehutanan-ke-6-provinsi-prioritas",
@@ -275,13 +282,6 @@
                 "link_resolved": "https://www.kehutanan.go.id/news/api-di-taman-nasional-way-kambas-berhasil-dipadamkan-seluruh-gajah-terpantau-aman",
                 "published": "Sun, 23 Aug 2026 03:55:07 GMT",
                 "fetched_at": "2026-08-23T05:20:57.969753"
-            },
-            {
-                "title": "Kementerian Kehutanan - Kementerian Kehutanan",
-                "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUkJ4MjNFYWZpdXRwdjdEdlZ2R0UxWW5wZ2J2VXJwbTY5Z3FzV2xDaDd1ZldTWGJNMDh4Y2tQTjF5X3YzOWt0a19ITnJUZ0EyaExfbDBSYTNTZkprUHB2TmNyWS12b3VhY1AtMlVCTTcyOUVSZ2ttRzIwOWZGMjMwT3RSSjZsaXFBS05OQk40bFg0cVBtRzJRZHlOQUZvTnBxQkVtT0lBdm9EWE8teHZncHlBQlBIakhQOWtvUS1XZ25qTjln?oc=5",
-                "link_resolved": "https://www.kehutanan.go.id/pers/akselerasi-operasi-terpadu-pengendalian-karhutla-beri-perlindungan-menyeluruh-bagi-masyarakat",
-                "published": "Sat, 22 Aug 2026 13:57:08 GMT",
-                "fetched_at": "2026-08-23T02:19:44.599502"
             }
         ],
         "Kementerian Kelautan dan Perikanan": [
@@ -3606,14 +3606,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-24T13:43:07.559771"
+        "fetched_at": "2026-08-24T14:33:36.958539"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-24T13:43:07.559771"
+        "fetched_at": "2026-08-24T14:33:36.958539"
     },
     "macro_stats": {
         "ntp": {
@@ -3621,63 +3621,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-24T13:43:07.559771"
+            "fetched_at": "2026-08-24T14:33:36.958539"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-24T13:43:07.559771"
+            "fetched_at": "2026-08-24T14:33:36.958539"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-24T13:43:07.559771"
+            "fetched_at": "2026-08-24T14:33:36.958539"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-24T13:43:07.559771"
+            "fetched_at": "2026-08-24T14:33:36.958539"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-24T13:43:07.559771"
+            "fetched_at": "2026-08-24T14:33:36.958539"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-24T13:43:07.559771"
+            "fetched_at": "2026-08-24T14:33:36.958539"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-24T13:43:07.559771"
+            "fetched_at": "2026-08-24T14:33:36.958539"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-24T13:43:07.559771"
+            "fetched_at": "2026-08-24T14:33:36.958539"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-24T13:43:07.559771"
+            "fetched_at": "2026-08-24T14:33:36.958539"
         }
     },
     "scrape_status": {
@@ -3686,5 +3686,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-24T13:43:07.559771"
+    "last_updated": "2026-08-24T14:33:36.958539"
 }
