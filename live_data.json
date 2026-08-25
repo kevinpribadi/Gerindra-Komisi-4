@@ -856,6 +856,13 @@
     "member_news": {
         "Alex Indra Lukman": [
             {
+                "title": "Alex Indra Lukman Desak Audit Korporasi Terduga Pelaku Karhutla yang Ditetapkan Mabes Polri - gesuri.id",
+                "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZ2pSZXQtWlVyMlRWR2pWWUJBXzlaUm00Znh6WjQ0akJTX1FGN0lCZ3Q5LXh2czRrRG0xRWdockt6azJtdnVaNkM4eUdEMmotb0UyZ3JmTHQ4Vk03dHJBYlJlZHZ4UVJTUklKdU1iRXprSy1CMG1yZ3VXamlxbTd4ZjRaWWxlUEd1Q2pfV3R3bWcwTlFPS2ZFMFNuOG1SOE1NRnE1a2MxdXg4STFoNTRPMWlheEwxSm16YjV6YTkybGpJNklJWmJiYms4anVKQXhfUjRiZ3czRVTSAdgBQVVfeXFMT2dqUmV0LVpVcjJUVkdqVllCQV85WlJtNGZ4elo0NGpCU19RRjdJQmd0OS14dnM0a0RtMUVnaHJLemsybXZ1WjZDOHlHRDJqLW9FMmdyZkx0OFZNN3RyQWJSZWR2eFFSU1JJSnVNYkV6a0stQjBtcmd1V2ppcW03eGY0WllsZVBHdUNqX1d0d21nME5RT0tmRTBTbjhtUjhNTUZxNWtjMXV4OEkxaDU0TzFpYXhMMUptemI1emE5MmxqSTZJSVpiYmJrOGp1SkF4X1I0Ymd3M0VU?oc=5",
+                "link_resolved": "https://www.gesuri.id/amp/pemerintahan/alex-indra-lukman-desak-audit-korporasi-terduga-pelaku-karhutla-yang-ditetapkan-mabes-polri-b2pYFZbh2P",
+                "published": "Tue, 25 Aug 2026 15:01:00 GMT",
+                "fetched_at": "2026-08-25T17:24:02.382881"
+            },
+            {
                 "title": "Komisi IV DPR Desak Audit Menyeluruh Korporasi Terduga Pelaku Karhutla - rmolsumsel",
                 "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOXNaMnRHMlVtTzJDcEZwalg3RnJXU2lTWTdDX0kyRlRnRkluWjZHUHpWYWNHeXYwQXB0TWNNc2htV0MtOEpVcEM4WVVuN2p5bVpiSzVNX0ZObHlxUGJHcmsyMjVKU3UwdXMtQlJ4ZEhzUUxCaHQyalJPcW9MRW9tY0lvdE5yWW05MDZmUFZFd3Q3eEdOOE9KTTNjTks?oc=5",
                 "link_resolved": "https://www.rmolsumsel.id/komisi-iv-dpr-desak-audit-menyeluruh-korporasi-terduga-pelaku-karhutla",
@@ -987,13 +994,6 @@
                 "link_resolved": "https://rmol.id/amp/2026/08/21/719075/dpr-desak-pemerintah-serius-atasi-karhutla-kalimantan",
                 "published": "Fri, 21 Aug 2026 04:13:00 GMT",
                 "fetched_at": "2026-08-21T11:18:00.195151"
-            },
-            {
-                "title": "Legislator minta pemerintah bertindak extraordinary atasi karhutla - ANTARA News",
-                "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUmttODNpaXJRM3pOT2xlTzQwaHFRYXpkb2l4OUhGQm03QnJKVGxGQXNxbFpGYVdqelVhMFVXbHR5dk9NcUFEZFlyUWh1dmVpcEpWbV9zc196Q3oyOFByLWRzbzhlZ0wwZERyRTBsRHVUVzNPLWNTN084RzBtYWJ5TDA3SThOa3VrNGdlTnRuUG5xb3BqZ3g0NEV5V1VmY3MtQ0VZcTJCZmdKWTNiTXBR?oc=5",
-                "link_resolved": "https://kalbar.antaranews.com/berita/710185/legislator-minta-pemerintah-bertindak-extraordinary-atasi-karhutla",
-                "published": "Fri, 21 Aug 2026 02:52:05 GMT",
-                "fetched_at": "2026-08-21T03:43:12.181758"
             }
         ],
         "Sonny T. Danaparamita": [
@@ -3606,14 +3606,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-25T16:26:19.577265"
+        "fetched_at": "2026-08-25T17:23:58.674251"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-25T16:26:19.577265"
+        "fetched_at": "2026-08-25T17:23:58.674251"
     },
     "macro_stats": {
         "ntp": {
@@ -3621,63 +3621,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T16:26:19.577265"
+            "fetched_at": "2026-08-25T17:23:58.674251"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T16:26:19.577265"
+            "fetched_at": "2026-08-25T17:23:58.674251"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T16:26:19.577265"
+            "fetched_at": "2026-08-25T17:23:58.674251"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T16:26:19.577265"
+            "fetched_at": "2026-08-25T17:23:58.674251"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T16:26:19.577265"
+            "fetched_at": "2026-08-25T17:23:58.674251"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T16:26:19.577265"
+            "fetched_at": "2026-08-25T17:23:58.674251"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T16:26:19.577265"
+            "fetched_at": "2026-08-25T17:23:58.674251"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T16:26:19.577265"
+            "fetched_at": "2026-08-25T17:23:58.674251"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T16:26:19.577265"
+            "fetched_at": "2026-08-25T17:23:58.674251"
         }
     },
     "scrape_status": {
@@ -3686,5 +3686,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-25T16:26:19.577265"
+    "last_updated": "2026-08-25T17:23:58.674251"
 }
