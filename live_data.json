@@ -712,6 +712,13 @@
         ],
         "Perum Bulog": [
             {
+                "title": "Bulog Tolitoli Tegaskan Tidak Ada Beras Rusak, Penjualan SPHP Capai 80 Persen - Brita.id",
+                "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPemlrbEc1c3BYU2JZdlM2bVM1VTh6TlpOUXNZZWVSYVBlQ01BY3dwWFZrTnNxdmZHc05wZVZDdmJraHFWWi1peWJtbjBqZGhtM0NGVXI0b05nN1BFNnZsR0EwejN0cXV0M2FpRFF1ZWRFT0NibDdKRU1hQTBfQVFVZzdpUF9Ya3hwTW16bWFlSGpSZDFMUmo3RVNwQWtXSmlsZ3c?oc=5",
+                "link_resolved": "https://brita.id/utama/bulog-tolitoli-tegaskan-tidak-ada-beras-rusak-penjualan-sphp-capai-80-persen/",
+                "published": "Tue, 25 Aug 2026 18:01:04 GMT",
+                "fetched_at": "2026-08-25T19:24:33.232220"
+            },
+            {
                 "title": "Bulog Papua optimistis 845.425 penerima bantuan terlayani 100 persen - ANTARA News Papua",
                 "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQanNWdmRJUE5qUXpqN1RzN1k0MlRQVFF5cUhDT2g5MlZVdkRtMFpSVHJ1S3A1M3ZnOEI3MFJjYlpoSWk1MlBVU0hmY1pTa3VWRU5kSVhFd2VKX0pLRzZrXzhvY3AybDB2VEEwcC1hdlFQc3FucjdIV3hlM2otXzBfUXpaNWw5ZHRienRnYjI3S04wYW5Gb0FYYUtFUzM2RDc4RnJ3RTdKZmFQVDc1Wkxz?oc=5",
                 "link_resolved": "https://papua.antaranews.com/berita/767272/bulog-papua-optimistis-845425-penerima-bantuan-terlayani-100-persen",
@@ -843,13 +850,6 @@
                 "link_resolved": "https://kupang.antaranews.com/berita/198004/bulog-ntt-menjaga-stabilitas-pangan-pascagempa-di-flores",
                 "published": "Mon, 24 Aug 2026 09:09:36 GMT",
                 "fetched_at": "2026-08-24T09:38:05.093842"
-            },
-            {
-                "title": "Bulog Serap 3,67 Juta Ton Gabah Setara Beras hingga 9 Agustus 2026 - Bisnis.com - Foto",
-                "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVGtDbXVnUGtaX2xwMmVoclQzbkJhVUw4R1dMRlFlVTBHZnNyU01xbHZpZ2dKTjVFbFQ1OElpRmU2Z2llRG1XWnlNakdmVURYZlQyU1hLLUV2c3ZDQXoxQVI0UFdFeWd1TVNpYUZZZHB0bFNPU1BwVFZBNGtDdkpkM2c2Vi1zWHEweXQ0RVZtTmF4MGZBQmpuX0U5d1ViMnlpNUlZNGEzNVItVjlpQXVKRA?oc=5",
-                "link_resolved": "https://foto.bisnis.com/view/20260824/1998472/bulog-serap-367-juta-ton-gabah-setara-beras-hingga-9-agustus-2026",
-                "published": "Mon, 24 Aug 2026 09:00:40 GMT",
-                "fetched_at": "2026-08-24T09:38:05.093872"
             }
         ]
     },
@@ -3606,14 +3606,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-25T18:27:07.855136"
+        "fetched_at": "2026-08-25T19:24:29.724103"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-25T18:27:07.855136"
+        "fetched_at": "2026-08-25T19:24:29.724103"
     },
     "macro_stats": {
         "ntp": {
@@ -3621,70 +3621,70 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T18:27:07.855136"
+            "fetched_at": "2026-08-25T19:24:29.724103"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T18:27:07.855136"
+            "fetched_at": "2026-08-25T19:24:29.724103"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T18:27:07.855136"
+            "fetched_at": "2026-08-25T19:24:29.724103"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T18:27:07.855136"
+            "fetched_at": "2026-08-25T19:24:29.724103"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T18:27:07.855136"
+            "fetched_at": "2026-08-25T19:24:29.724103"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T18:27:07.855136"
+            "fetched_at": "2026-08-25T19:24:29.724103"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T18:27:07.855136"
+            "fetched_at": "2026-08-25T19:24:29.724103"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T18:27:07.855136"
+            "fetched_at": "2026-08-25T19:24:29.724103"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T18:27:07.855136"
+            "fetched_at": "2026-08-25T19:24:29.724103"
         }
     },
     "scrape_status": {
-        "phase_1_agency": "failed",
-        "phase_2_members": "partial",
+        "phase_1_agency": "ok",
+        "phase_2_members": "ok",
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-25T18:27:07.855136"
+    "last_updated": "2026-08-25T19:24:29.724103"
 }
