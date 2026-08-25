@@ -286,6 +286,13 @@
         ],
         "Kementerian Kelautan dan Perikanan": [
             {
+                "title": "Sebanyak 16 desa pesisir di Kabupaten Bima terima program pembangunan KNMP 2026 - ANTARA News Mataram",
+                "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMHNSOW55WFBUX2Fsb3FVOF9oNWhoWlZXVHVfY3ZpTUViTVVXM1hQQUJRb2tVZDV0UjdWcXlUNGhDTmZCTERwYzY2Njdfa2tsd2R0N2FqdW55SUJrMTVBS3FJd0NVNGtuWXpucDhCcFFqcHE3akx0bU1hUFJfNHVMZUdJUkZ3dXNUYi04T1JyVWdaOEJRdjEwRFlFOTVNM2pZUnFlT1J1VlB2QjR0SVM3Nnd5cEdXcXJ4ZEtNenNtUTd4Zw?oc=5",
+                "link_resolved": "https://mataram.antaranews.com/berita/567525/sebanyak-16-desa-pesisir-di-kabupaten-bima-terima-program-pembangunan-knmp-2026",
+                "published": "Tue, 25 Aug 2026 22:09:03 GMT",
+                "fetched_at": "2026-08-25T22:17:46.129311"
+            },
+            {
                 "title": "Permen KP 2/2026, UMKM Kelautan dan Perikanan Didorong Naik Kelas - Kompasiana.com",
                 "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMTVnaVNEejRjN3lCdzJ0VzFBdTVrUzNJYkdSbVo4OExVT1JkOXJHb0ZDUDI4V0kxWkVFRS1JOEJ1c0VfM2dibHNJbUpHb2ZPMkZUdFk1SWk4WTNmc3ZhUWQ5RDFCT0t1Z2U5cDNkRU56ZDdsMDJpNW52SkVyeFZOYjEzZWstSGtsd0hnMWNhSURLeXAtVlNyUDZ0a2NtWGVteWc3U2hHTGRLRkhVZ0xhNmY0SkM4Q3AyS0lTQzA5YzAyOHBhWlozR28wOA?oc=5",
                 "link_resolved": "https://www.kompasiana.com/alifarjuli9327/6a8d37ee34777c3444544784/permen-kp-2-2026-umkm-kelautan-dan-perikanan-didorong-naik-kelas",
@@ -417,13 +424,6 @@
                 "link_resolved": "https://mediaindonesia.com/ekonomi/923320/kkp-bagikan-4-ton-ikan-layang-di-jakarta",
                 "published": "Tue, 18 Aug 2026 16:00:30 GMT",
                 "fetched_at": "2026-08-18T18:25:20.248634"
-            },
-            {
-                "title": "HUT RI ke-81, KKP dan Warga Rote Ndao Tanam 5.000 Mangrove - Kementerian Kelautan dan Perikanan",
-                "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQVQ5UC1wNUtGQ1ROSUVmRUNPTFlUVnBZYVJUTGNMZk9PSGMzZEdHUC1tWWIyM2V3RzBXWENKYkVQamZRU0NOQXpFc2h0RVBrd1k4QnZlSmo1aF94X3BmUWlhelJ5WXNVaVpFSTFqblIyN2FLQVhfaHpSVzJyWFM3NEtZaU82aFQwSndxNDU5SnZlLTZpaF9SWnM2YzQ?oc=5",
-                "link_resolved": "https://kkp.go.id/djpk/hut-ri-ke-81-kkp-dan-warga-rote-ndao-tanam-5000-mangrove-gn4k/detail.html",
-                "published": "Tue, 18 Aug 2026 15:49:40 GMT",
-                "fetched_at": "2026-08-18T19:21:28.466920"
             }
         ],
         "Badan Karantina Indonesia": [
@@ -3606,14 +3606,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-25T21:19:19.152117"
+        "fetched_at": "2026-08-25T22:17:44.318452"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-25T21:19:19.152117"
+        "fetched_at": "2026-08-25T22:17:44.318452"
     },
     "macro_stats": {
         "ntp": {
@@ -3621,63 +3621,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T21:19:19.152117"
+            "fetched_at": "2026-08-25T22:17:44.318452"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T21:19:19.152117"
+            "fetched_at": "2026-08-25T22:17:44.318452"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T21:19:19.152117"
+            "fetched_at": "2026-08-25T22:17:44.318452"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T21:19:19.152117"
+            "fetched_at": "2026-08-25T22:17:44.318452"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T21:19:19.152117"
+            "fetched_at": "2026-08-25T22:17:44.318452"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T21:19:19.152117"
+            "fetched_at": "2026-08-25T22:17:44.318452"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T21:19:19.152117"
+            "fetched_at": "2026-08-25T22:17:44.318452"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T21:19:19.152117"
+            "fetched_at": "2026-08-25T22:17:44.318452"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T21:19:19.152117"
+            "fetched_at": "2026-08-25T22:17:44.318452"
         }
     },
     "scrape_status": {
@@ -3686,5 +3686,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-25T21:19:19.152117"
+    "last_updated": "2026-08-25T22:17:44.318452"
 }
