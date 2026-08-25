@@ -2,6 +2,13 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "Perpres 4/2026 Perkuat Perlindungan Sawah Nasional - Kompasiana.com",
+                "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdTFvLXFBbi1JbElEVEhtMjFUMWVjLUQyOFFFYVdmRjdfb0NHQVNwVHY1SWk4c2RlblF6dzFXODlpRkZGQlBablNzS3JLdDVrR2tZM0t4UEItNnBwWjdvWGFVZmM1LW0zczE1eXNKLVZqN3locnl4NVJpYW92bHM4a3VtSEZCMzFrcVRad2VaY0RLcjQ4dFhzR1I2SkpzWWdPRnJFZ2tkTmFnRjQzT3lzQUZtOGVwME1u?oc=5",
+                "link_resolved": "https://www.kompasiana.com/alifarjuli9327/6a8d126bed641505bb67c90b/perpres-4-2026-perkuat-perlindungan-sawah-nasional",
+                "published": "Tue, 25 Aug 2026 03:56:27 GMT",
+                "fetched_at": "2026-08-25T04:30:56.459559"
+            },
+            {
                 "title": "Pemkab Kudus salurkan bantuan alsintan untuk memperkuat swasembada pangan - ANTARA News Jateng",
                 "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOc1J6TGtLNGdBelRQdktwc2Uyc3g2Y1JYV3NTWS1aTENEU3A1U1lJQ2hjWm5kQnNSNjhURng2UEk3Y0QwQzJDaUZDMWpBaTdXaXh3MXBvbzZOUk1ZNTVaRTA5el9jRmJXU1R4UmJmZUR5RzgyVnhZT0hwT0dtRWdjMVI1TFNBWmpxMS04NXNLWUdmR25EbnJ2ZUp1VjNSLXhXWTFUYUNQSGJGYmJIeW4yTVVDTGJ5ZUJN?oc=5",
                 "link_resolved": "https://jateng.antaranews.com/berita/642919/pemkab-kudus-salurkan-bantuan-alsintan-untuk-memperkuat-swasembada-pangan",
@@ -133,22 +140,36 @@
                 "link_resolved": "https://ditjenbun.pertanian.go.id/kementan-optimistis-swasembada-gula-konsumsi-2027-produktivitas-tebu-terus-digenjot/",
                 "published": "Sun, 23 Aug 2026 01:08:00 GMT",
                 "fetched_at": "2026-08-23T02:19:43.943954"
-            },
-            {
-                "title": "Kementan Perkuat Kemitraan Tembakau, Jangkau Lebih dari 10.000 Petani di Jateng - kontan.co.id",
-                "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPakR1UGxtZV9ZNU1pdXBTVEZIUEcwcmIwdjR1SlF0eU1Dd0tZM2tReTY4dEdCREI0ek5mNk8yVGIwNFBvTTZFcjRLWDhvQlZRbFpidnV0ZGo3UmV1a0pRTEdzTkpVbU1lWTl6WWotM1p4SzE4U2YzckZhWF9PQVk2dTJJUmtIRTJuVWhYTS05aUV6S2tTWXZldXFBVjdjQ09BZlFDcDFOMjQwcG95azdsVmtR?oc=5",
-                "link_resolved": "https://industri.kontan.co.id/news/kementan-perkuat-kemitraan-tembakau-jangkau-lebih-dari-10000-petani-di-jateng",
-                "published": "Sat, 22 Aug 2026 15:50:01 GMT",
-                "fetched_at": "2026-08-22T19:16:38.673388"
             }
         ],
         "Kementerian Kehutanan": [
+            {
+                "title": "Kementerian Kehutanan - Kementerian Kehutanan",
+                "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYjIwOGVBX3RoMHdFOExnakdIbzVZMUZWM01KbjNrWUpHTUVMLWxrZ1lQdDBZUGQ5Qjl1amJTaHZ5Qk9yeXh6VE1sU0JSZ0hoRXp0YjcxYzFKTlFmaV9MNjloVVZVXzdScFpzVndNV1NXcTFwd1gxRV9FcUxfR2MxYm10bkZzbWhaQVlDRXMwcGFYNk9NTDJoUWtCSXRiS21WRldHMkR5bFRuVmQwZlN0TFdUajhfRUZfX3AxRUpUTUg?oc=5",
+                "link_resolved": "https://www.kehutanan.go.id/pers/kemenhut-jatuhkan-sanksi-6-perusahaan-terkait-karhutla-hingga-pembekuan-perizinan-berusaha",
+                "published": "Tue, 25 Aug 2026 04:14:19 GMT",
+                "fetched_at": "2026-08-25T04:30:57.232229"
+            },
+            {
+                "title": "Kemenhut Kerahkan 5.000 ASN di 6 Provinsi Prioritas, Bantu Penanganan Karhutla - RCTI+",
+                "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOZzNOSU5iN0tFV1BScDFZdlBULTJSb3JFLUwxYXRWOWhjUkl4NHZqTk9PVGNfSTFFUXFQMUVWT3BTczJYOXFUTEk0VTJZUTUzT1o3aWFsMFdqM1NOdkFNOUhvcVFIVUg2Q1pnVUpNS09aTVNRMGViUnk3aUNRTUNXVjhUZjRuejhOMkQxU21VQUtvbDZjbjEyNDBHbGhiZVd5VWJkODViNnJEN2phZGFYdjZ5SDZTZzVSdkpEOUliQ1hNajJhZVU1RWNNMTFWRFNwSjlzdEUweks0WkpLdkJqWVpsbk5IRVlpM2VTX0JQOWFrSjRzRzNWbE5oZG9rU3RmQzRKdTJ3VTJKdkJpWnR5Yy1JS0JPX2dnSkFYNlBxYlU0enE1RW1hcmU0bw?oc=5",
+                "link_resolved": "https://m.rctiplus.com/news/detail/terkini/5458913/kemenhut-kerahkan-5000-asn-di-6-provinsi-prioritas-bantu-penanganan-karhutla?utm_source=mpi_widget&utm_medium=referral&utm_campaign=news_article_5458913",
+                "published": "Tue, 25 Aug 2026 04:14:06 GMT",
+                "fetched_at": "2026-08-25T04:30:57.232263"
+            },
             {
                 "title": "Kemenhut Jatuhkan Sanksi 6 Perusahaan Terkait Karhutla, Hingga Pembekuan Perizinan Berusaha - Kementerian Kehutanan",
                 "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNelg2ZVI3cWtHOUVxQlpfa1ZjSEVFMU5YWGZObDczbFJib1UzWnBab24weEV3MjNIdElPLTVPMTFTNkhtZVJJS0gxcFFPdFhmXzZ5dzEtMXkxRDRNUng2d1Z0NldKYkZmclVBZ2ZXS2VVQ2Z6T080TnRFY2xYM095OEJyYTBVcWhIYlZLTVllSWc3a2FRUWpfUUFkWjJsMlp6UDVLUllBWF9IcWphT0trakczWFlGUHE5M3FiTVRaeTU?oc=5",
                 "link_resolved": "https://www.kehutanan.go.id/news/kemenhut-jatuhkan-sanksi-6-perusahaan-terkait-karhutla-hingga-pembekuan-perizinan-berusaha",
                 "published": "Tue, 25 Aug 2026 03:37:37 GMT",
                 "fetched_at": "2026-08-25T03:41:06.967811"
+            },
+            {
+                "title": "Kemenhut Jatuhkan Sanksi ke 6 Perusahaan Karhutla di Kalbar - SuaraGarut.ID",
+                "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9BVl8zRzRLd0ZzQi1XRlhZN2tSS2FsSjhFVFRubC1kNlBFelVsN2VRU2FIQUU2ZG9NSHZ0UE9pU19tODgzb196VkhiVV9oLVFTQUdxNDItZU8xeTJVcGhZaHRuNDcwRWNUTkdvNy04OA?oc=5",
+                "link_resolved": "https://suaragarut.id/kemenhut-jatuhkan-sanksi-karhutla-kalbar",
+                "published": "Tue, 25 Aug 2026 03:04:55 GMT",
+                "fetched_at": "2026-08-25T04:30:57.232260"
             },
             {
                 "title": "Kemenhut Siapkan 5.000 ASN Bantu Penanganan Karhutla - MetroTVNews.com",
@@ -261,27 +282,6 @@
                 "link_resolved": "https://kalteng.antaranews.com/berita/839613/kemenhut-selidiki-dugaan-pidana-di-balik-karhutla-sejumlah-wilayah",
                 "published": "Mon, 24 Aug 2026 15:02:36 GMT",
                 "fetched_at": "2026-08-24T15:30:57.757630"
-            },
-            {
-                "title": "5.000 ASN Kehutanan BKO ke 6 Provinsi untuk Tangani Karhutla - Jurnal Borneo",
-                "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNWZ6UHJKbUxMaDNabzk1WEFyVENfbFc1aDhSRWtuWXN0U2l4dU1KMFQ0c0R5TmY4cWNsaGt0VnJrNzExRklwcjRISlIwcWpoS3ZNWkRDTjN4dnA3QjlidjZkLXBwb2oxTVUtU1d3RGtBcTA4UERZMV9qMmN1VE9mR0M3WHZjNlllZlEyU1dtRQ?oc=5",
-                "link_resolved": "https://jurnalborneo.com/5-000-asn-kehutanan-bko-ke-6-provinsi-untuk-tangani-karhutla/",
-                "published": "Mon, 24 Aug 2026 14:27:38 GMT",
-                "fetched_at": "2026-08-24T14:33:38.068203"
-            },
-            {
-                "title": "Atasi Karhutla, Menhut Tugaskan 5.000 ASN Kehutanan ke 6 Provinsi Prioritas - investor.id",
-                "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLXlNVHd0RU5nRG4zUGp1cXlLQUN5VE1MQkZoNGVIYWwtRWtoUEx0VnB5SmdERVdkRUZlWllFekczdHgyZWJWbkJoVHgyakZ4VEpXQXZXeTlXS01UUXJpUzFHTEl3N3FjcGhMTnZpMk5veW05SlNVM0pnT182OUlRSUY0QW1lVFFMSEZYbkE0S0VfeDBMVXZhVHU3UGlGRkFvMGxaTzZEZi1tT05a?oc=5",
-                "link_resolved": "https://investor.id/national/451480/atasi-karhutla-menhut-tugaskan5000-asn-kehutanan-ke-6-provinsi-prioritas",
-                "published": "Mon, 24 Aug 2026 13:30:00 GMT",
-                "fetched_at": "2026-08-24T13:43:08.712468"
-            },
-            {
-                "title": "Kemenhut usut dugaan tindak pidana di balik sejumlah karhutla RI - ANTARA News",
-                "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSV9NNnNfVGNtT2FtSEtkeS1nRzVsTUVuWWI0SFpHaTVQOUdYM2RzYWhhX21PQU84WHVHQ1lvbXN1OV9XX3hwUmYzWjhmaDkwTWg0ejNpOFBDdkFDeE5OZHB6akNsak02YUJjUFk4a1JmZ09FX0dxeVBTdG9UWGt6LU9Ld085MHdTRVpnNGVIeGJ6dUF3LW1vYXJiME1vcERfV0hHVXRVOWZrUdIBrAFBVV95cUxOeUVkemRSNmhvYURqcHE1LThhMjBOdC1LbWVMWkxCY3duamFMYkRKVUFhdkpMZGdWeEF4MUJYNncyWU8ycjBxS2NHNldJbTAxUThLeWZVYnF3S0tNdFJTX1c5UXl1REZrSm01anFpWktYb1plVE85azc4T1RzbXhHT2Q0N1NuS0FxOWdMWGJOV3NVUFJZaWJGM21KRmUxWnU5MEloS3VNdDJjNkZG?oc=5",
-                "link_resolved": "https://www.antaranews.com/berita/5709580/kemenhut-usut-dugaan-tindak-pidana-di-balik-sejumlah-karhutla-ri",
-                "published": "Mon, 24 Aug 2026 13:11:24 GMT",
-                "fetched_at": "2026-08-24T13:43:08.712480"
             }
         ],
         "Kementerian Kelautan dan Perikanan": [
@@ -712,6 +712,13 @@
         ],
         "Perum Bulog": [
             {
+                "title": "35.336 Warga Kota Kediri Terima Bantuan Pangan Beras, Total Capai 1.060 Ton - jatimnow.com",
+                "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcHBDRURRRXN0SElMTVhDTmhVOGN4LXdnQ3dMT2FPOEtWR3M2UEtFYzMyY3A3VHJIbWhoN3hYcURTUmNyMEYwMEE2SVhSaW9HYlRvRWl6VkVUcGVUb0ZOa2xBOUVlN1Q1UTZUdUlTTkkyZDFNdU9UYllsWmVXSXNUenlxbWY0SG5oQ3BWR0FXM1pNTm42d2RVdGtFdUVZd0pvaXBmV1hGONIBrAFBVV95cUxPajh2enQzYldseG9aTnVkcXgxSVByWVVXOGdacFI4R0NyNGpuZ0c3ejRINEloS3hRRXU1YU1CT043TnhsMW82NkwwV090djlxTnB6NFM1aHgtZWhicUZBQjRIQW9pYmF1MG1uVU04MG4xdDVJWWVqMENKS1p3d0ZUaHVzMEZhRm1PZ29sMXcxRDJ6QWhBYmpXWGtoNGJESTE5RlByZ0xWSnlEbWw5?oc=5",
+                "link_resolved": "https://jatimnow.com/baca-86997-35336-warga-kota-kediri-terima-bantuan-pangan-beras-total-capai-1060-ton",
+                "published": "Tue, 25 Aug 2026 04:05:00 GMT",
+                "fetched_at": "2026-08-25T04:30:59.347819"
+            },
+            {
                 "title": "Antisipasi Lonjakan Maulid, Bulog NTB Pastikan Stok Beras Aman - insidelombok",
                 "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNT2t5YlduZFU1R1lBWjZnMTI4TW9tOTdiOU5jbC1MQU10dkxmM3RhYTBDX3ZadHFtRk9GeGlocTVTN2E5dXlZQjFXMHRFYVBkd0NFM2xWMmhvRm15SFRLZXNOTjRNUWJYZGhUanVybFhwWVAwa3dpNGloNXlpRXFEZ2ZSNVFVOFBvMUVZWHF3MGZBNElEV2JmWlNn?oc=5",
                 "link_resolved": "https://insidelombok.id/mataram/antisipasi-lonjakan-maulid-bulog-ntb-pastikan-stok-beras-aman/",
@@ -843,18 +850,18 @@
                 "link_resolved": "https://ekbisntb.com/24/08/2026/perkuat-sinergi-penanganan-kebakaran-desa-adat-sade-utusan-khusus-presiden-zita-anjani-salurkan-bantuan-bersama-bulog/",
                 "published": "Mon, 24 Aug 2026 03:02:18 GMT",
                 "fetched_at": "2026-08-24T03:46:23.449073"
-            },
-            {
-                "title": "Bulog, TNI dan pemerintah sediakan dapur umum untuk korban kebakaran Desa Adat Sade - ANTARA News Mataram",
-                "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQTzc3a2tIRHg1eHkxeTR0S2tKRmp5MGtUMEdneVRYWkJxUm90dGRLQ3dBVmJodE5UVnIxcW9xT3dDTGRaTmpmN2tvTE1PRDdHaHd4RDA1cXExYm9BWUUxcUhnYUxiLUlteHFCUUhaQlpmdFktdHZMVVlERTczMzlMd0o1c3FSekhTVE9QenM5b2VEWDF1NXZZTzRnUjRpOTk0Qm1OaGtRdmY3TzRtZ3ZrajE2RFpDNkYyZWFydEtvSDFvYnFGRUE?oc=5",
-                "link_resolved": "https://mataram.antaranews.com/berita/567363/bulog-tni-dan-pemerintah-sediakan-dapur-umum-untuk-korban-kebakaran-desa-adat-sade",
-                "published": "Mon, 24 Aug 2026 02:13:52 GMT",
-                "fetched_at": "2026-08-24T03:46:23.449051"
             }
         ]
     },
     "member_news": {
         "Alex Indra Lukman": [
+            {
+                "title": "Komisi IV DPR Desak Audit Menyeluruh Korporasi Terduga Pelaku Karhutla - Rmol.id",
+                "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWkV5akZlalQwZnl0T2x1TjYxd3NMVm5KNi1mN2RXNlZldlJUZW02NUpQVU1MWm1wc0EtSEZ4VnhVZnJFc1M3NFhoMnppejVhMjNHWlQwSWlPSzF0MUxOcWk2Z0tHMzB2MUNOajVJTzNmMkE5dW1XNXd1SjJwSEV3VHZhNl90dWJHU0tWREpSRVpmazh5WEFxQjdVMlNVQzgycnhPQlpFZ3FZc2VhdWZ6WVo0clkzZG5V?oc=5",
+                "link_resolved": "https://rmol.id/politik/read/2026/08/25/719467/komisi-iv-dpr-desak-audit-menyeluruh-korporasi-terduga-pelaku-karhutla",
+                "published": "Tue, 25 Aug 2026 03:35:00 GMT",
+                "fetched_at": "2026-08-25T04:30:59.859625"
+            },
             {
                 "title": "Komisi IV DPR Desak Audit Menyeluruh Korporasi Terduga Pelaku Karhutla - Rmol.id",
                 "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPUHZxdnRyelA2OXV2TVBMNVpmam1vdFZVZTR3Q2hyakRnUG5lRXdqVkVSWUMyaGZDb3ItdVJ0ZlJEdGpVTW1TMFdncHdSM0tfT0ZsWXcxVlJrRmNVYlBJME9FVGlPbDBJRXRDWW1RaHI1ZzRYTFpvTm00RzNLWXNmVVBNN0pvZ2pPYmxVemFkQWVkVEFzZHhMWU5rdHpuZlAtRFZ0ZlloRjVWNUlBQXc?oc=5",
@@ -987,13 +994,6 @@
                 "link_resolved": "https://mataram.antaranews.com/berita/566845/dpr-minta-pemerintah-bertindak-extraordinary-atasi-karhutla",
                 "published": "Thu, 20 Aug 2026 22:58:37 GMT",
                 "fetched_at": "2026-08-20T23:18:10.899712"
-            },
-            {
-                "title": "Karhutla Kalimantan Capai 1.487 Hotspot, Alex Indra Lukman Desak Penanganan Jadi Prioritas Nasional - HarianSentana.com",
-                "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYnNzbVBwQlEwYzBJT2VTbDJ5djY5a3BGUzJSYlFDdjRyaThXRTIxX3RGOGhleVBvdUhrbzNhOE5lVHU4UExDZThKUktiNTFZNDJXcGhHWm00dVo3aGdUUVMxWWVZd3RJcWc1UjBsdjlETlY0T1RuSHhWWFdtMDdpRDJaQ3pYWGI2QnNJbEllbXFoUktaNlA2b3lMYk05amd6TWc4WUJDLXhNSXRiYS0wT2RtWkVMVUM4M1B6cGh6b1AyWWhZY2pBaQ?oc=5",
-                "link_resolved": "https://www.hariansentana.com/karhutla-kalimantan-capai-1-487-hotspot-alex-indra-lukman-desak-penanganan-jadi-prioritas-nasional/",
-                "published": "Thu, 20 Aug 2026 17:15:00 GMT",
-                "fetched_at": "2026-08-20T20:19:14.732364"
             }
         ],
         "Sonny T. Danaparamita": [
@@ -2978,6 +2978,13 @@
                 "fetched_at": "2026-08-03T18:44:19.617925"
             },
             {
+                "title": "KMM Minta Kejagung Periksa Slamet Ariyadi Terkait Dugaan Jual Beli Titik SPPG - ketik.com",
+                "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWWdaWlI4bXlPRVlFT2Nid1JCUkx0Z3phYWFJZUlxMk1uYzlQcGZ1SkdYcWFGTFJUdW1DMXlLRnpLZGFtNHhMWGN3dHBxUkFOakNhLWN0T3lKcFZXNWpmWWczMGFwbnZ6cDY4dnVlNDlpY1Y1blJBR24xT3V0c0xuN1dlNjRjYTdKMDhacXhpNVhEQ1RrcGdaUkhBeGFEV1ZGekRVN2lmM2FzQXJXN2pJ0gGgAUFVX3lxTE9tQnhYYmxzeDBhNXQtdzZfcjFvcjNqc3ZqUHZ2eVVtcFV1R1UwQzNKRzlCSEFoT05JeXdLYWxQR3RjQ20zTm4xVlBuaGNTQ0NhV1BfTjhnZEcybGlDaERUMUNjSVU1d3VhQW1SYVkzSlhJTXA5VDlqVk9sZWdKSkhjR3VEZ2N5N0dWcnRwQWUzQW94Vm8tQ2xDN2tCSFRSbkY?oc=5",
+                "link_resolved": "https://ketik.com/sampang/daerah/kmm-minta-kejagung-periksa-slamet-ariyadi-terkait-dugaan-jual-beli-titik-sppg",
+                "published": "Mon, 03 Aug 2026 07:00:00 GMT",
+                "fetched_at": "2026-08-25T04:31:34.940782"
+            },
+            {
                 "title": "Tokoh 212 Desak DPR Prioritaskan Pembahasan RUU Anti-LGSP - Rmol.id",
                 "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM05lSDFLSkFRMUNxZVRoRWJrUHhGVGdKOVdJLUFtc29NQ2N1M0FNMlU4OEpOVGdtVTN3anVPaHNHN1cyalY0Q3FrWmlqRk1jVUdwcV9YU3FHTmJJcUpldzh6V0owaUtNVG93WmU4UDdwd2NZcHpCOXJ2N3VkT0R5bnpLc3YwZlI3OGtkVmR3UXNPYm1WZGY0ZzU3SUVpWTNIQ0tnYkpXUQ?oc=5",
                 "link_resolved": "https://rmol.id/politik/read/2026/08/03/716875/tokoh-212-desak-dpr-prioritaskan-pembahasan-ruu-anti-lgsp",
@@ -3620,14 +3627,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-25T03:41:05.727291"
+        "fetched_at": "2026-08-25T04:30:55.861358"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-25T03:41:05.727291"
+        "fetched_at": "2026-08-25T04:30:55.861358"
     },
     "macro_stats": {
         "ntp": {
@@ -3635,63 +3642,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T03:41:05.727291"
+            "fetched_at": "2026-08-25T04:30:55.861358"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T03:41:05.727291"
+            "fetched_at": "2026-08-25T04:30:55.861358"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T03:41:05.727291"
+            "fetched_at": "2026-08-25T04:30:55.861358"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T03:41:05.727291"
+            "fetched_at": "2026-08-25T04:30:55.861358"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T03:41:05.727291"
+            "fetched_at": "2026-08-25T04:30:55.861358"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T03:41:05.727291"
+            "fetched_at": "2026-08-25T04:30:55.861358"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T03:41:05.727291"
+            "fetched_at": "2026-08-25T04:30:55.861358"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T03:41:05.727291"
+            "fetched_at": "2026-08-25T04:30:55.861358"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-25T03:41:05.727291"
+            "fetched_at": "2026-08-25T04:30:55.861358"
         }
     },
     "scrape_status": {
@@ -3700,5 +3707,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-25T03:41:05.727291"
+    "last_updated": "2026-08-25T04:30:55.861358"
 }
