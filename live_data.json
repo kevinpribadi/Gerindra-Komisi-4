@@ -713,6 +713,13 @@
         "Perum Bulog": [
             {
                 "title": "Bulog jamin ketersediaan dan kelancaran distribusi pangan di NTT - ANTARA News",
+                "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQkVSUnlRVFBUTk5ybVl6U0xyYkRDRzdPMHc4Q2tmbS16T0tRaVJEMWZYT3kzblBMS1NJZFRuVFlXb3UwT1pYMmtWUnNfaUhkZkE1MTc0akRGUGIwQm1aV3NhRjlvbmJxTTg4MXFHY0ZMR3RCcUUwWUdqOGpfbzVhdFdtaHMxdWJKS2JDS3N5N1dSQzVHS3JlRElqU01LRE1jd0xRZXh3eHdmUdIBrAFBVV95cUxNRkk0NjdvQmhremNBMHJzcFNSLWZTbHp0UlZ4WFhoLVJpejJ0QmlaYVlOdlhvdjFCNlAwcjZLOURkUXJsSlBDZ0dCTUJWRUo4MzczRmZqZHFsX1lEMmpwb2ltdW1wSW5GUjN6NGJPTllCWjF1UkxkTXRrdVpFeWFpbUNQb0xxZlFYS0ptYkRwSGhXTUZYaDdZLThNaExLa0ZIeXFCdkdHNFlyeUpY?oc=5",
+                "link_resolved": "https://www.antaranews.com/berita/5711207/bulog-jamin-ketersediaan-dan-kelancaran-distribusi-pangan-di-ntt",
+                "published": "Wed, 26 Aug 2026 04:04:09 GMT",
+                "fetched_at": "2026-08-26T05:25:46.523311"
+            },
+            {
+                "title": "Bulog jamin ketersediaan dan kelancaran distribusi pangan di NTT - ANTARA News",
                 "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQkVSUnlRVFBUTk5ybVl6U0xyYkRDRzdPMHc4Q2tmbS16T0tRaVJEMWZYT3kzblBMS1NJZFRuVFlXb3UwT1pYMmtWUnNfaUhkZkE1MTc0akRGUGIwQm1aV3NhRjlvbmJxTTg4MXFHY0ZMR3RCcUUwWUdqOGpfbzVhdFdtaHMxdWJKS2JDS3N5N1dSQzVHS3JlRElqU01LRE1jd0xRZXh3eHdmUQ?oc=5",
                 "link_resolved": "https://www.antaranews.com/berita/5711207/bulog-jamin-ketersediaan-dan-kelancaran-distribusi-pangan-di-ntt",
                 "published": "Wed, 26 Aug 2026 04:04:09 GMT",
@@ -843,13 +850,6 @@
                 "link_resolved": "https://www.rctiplus.com/news/detail/ekonomi/5458611/bulog-pasok-90-ribu-ton-beras-untuk-korban-bencana-di-ntt?utm_source=mpi_widget&utm_medium=referral&utm_campaign=news_article_5458611",
                 "published": "Mon, 24 Aug 2026 14:40:52 GMT",
                 "fetched_at": "2026-08-24T15:31:00.107136"
-            },
-            {
-                "title": "Serapan Beras-Gabah Lokal, Target Tahunan Bulog Sulteng Tercapai - harian mercusuar",
-                "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNEppc2VXU3lXZHdzSWVnaWJVaFNUMi1Paldkb1IwanRYMUo0SWN6RFZRclZ2c3Q1WmgxTHUyMWk0VGFPOHRaRzRXR3pJdVdhSm1LaGRWTUZ0Qk10RkwxWEs2aFJjLVN6c2lfNlhMZ1BEUDNGOTlsaHlOQTRha0lxUlg5T2VfUko4aUNxYUJQNHdiMDR0NTFqanNtSE1McVRaQ253SmF2NEVrZGs?oc=5",
-                "link_resolved": "https://mercusuar.web.id/sulteng-membangun/serapan-beras-gabah-lokal-target-tahunan-bulog-sulteng-tercapai/",
-                "published": "Mon, 24 Aug 2026 14:36:01 GMT",
-                "fetched_at": "2026-08-24T17:23:32.362698"
             }
         ]
     },
@@ -3615,14 +3615,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-26T04:31:36.019051"
+        "fetched_at": "2026-08-26T05:25:43.001123"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-26T04:31:36.019051"
+        "fetched_at": "2026-08-26T05:25:43.001123"
     },
     "macro_stats": {
         "ntp": {
@@ -3630,63 +3630,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-26T04:31:36.019051"
+            "fetched_at": "2026-08-26T05:25:43.001123"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-26T04:31:36.019051"
+            "fetched_at": "2026-08-26T05:25:43.001123"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-26T04:31:36.019051"
+            "fetched_at": "2026-08-26T05:25:43.001123"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-26T04:31:36.019051"
+            "fetched_at": "2026-08-26T05:25:43.001123"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-26T04:31:36.019051"
+            "fetched_at": "2026-08-26T05:25:43.001123"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-26T04:31:36.019051"
+            "fetched_at": "2026-08-26T05:25:43.001123"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-26T04:31:36.019051"
+            "fetched_at": "2026-08-26T05:25:43.001123"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-26T04:31:36.019051"
+            "fetched_at": "2026-08-26T05:25:43.001123"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-26T04:31:36.019051"
+            "fetched_at": "2026-08-26T05:25:43.001123"
         }
     },
     "scrape_status": {
@@ -3695,5 +3695,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-26T04:31:36.019051"
+    "last_updated": "2026-08-26T05:25:43.001123"
 }
