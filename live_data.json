@@ -2,6 +2,13 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "Mahulu Gandeng BRMP Kementan, Teknologi Pertanian Disiapkan Masuk ke Petani - RADAR BONTANG",
+                "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVU5waVd0VHJrVmZic3lfNWhVZ1JzcFNETm1ycjhLSHRkZkF5RGVVdHgwUzdVZExJMHpaY0Yzc1BWTXhZWFNFLXcxTWthTG9ScURUNnlhMks4N1pZelJETDNjTnpPakJsTGF3a19zd05DY1Z2RzJiY0c4aFRYN2pyZGx4Uk4zTU9tZ1JRWjFVa2tWd1pxSEk2YXc2dWp4VXJVb2c?oc=5",
+                "link_resolved": "https://radarbontang.com/mahulu-gandeng-brmp-kementan-teknologi-pertanian-disiapkan-masuk-ke-petani/",
+                "published": "Sun, 30 Aug 2026 23:44:18 GMT",
+                "fetched_at": "2026-08-31T00:04:58.842491"
+            },
+            {
                 "title": "Kementan: 3.233 Hektare Sawah Diselamatkan dari Kekeringan Akibat El Nino - investor.id",
                 "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORThrX2dGMlNhdmxiT0dGTlc4c2JrOTdleGt0X2h2NFNjdVJXMmd1cVE3LUJzQmRUOTMxbFNqUWd4dnR5emRaU0QySlNBZ0FvZ3A1Z0U0Z0hkYjRNcDRhdld5RF9fTGtVc3FQcmZuN2Y4cjdGcGRVSExpS2NUN0d3Q3lUbk44cF9fTEhzaEtLTnhXRlJqVmgyWHY1cGVvSjQwM3M0Um1kUmZXRW8?oc=5",
                 "link_resolved": "https://investor.id/business/452149/kementan-3233-hektare-sawah-diselamatkan-dari-kekeringan-akibat-el-nino",
@@ -133,16 +140,16 @@
                 "link_resolved": "https://deteksi.co/wakil-bupati-dairi-terima-kunjungan-direktur-hilirisasi/",
                 "published": "Fri, 28 Aug 2026 09:03:33 GMT",
                 "fetched_at": "2026-08-28T20:32:13.688627"
-            },
-            {
-                "title": "Kadin Usulkan 4 Program Perkuat Ekosistem Protein untuk Dukung MBG - Infobanknews",
-                "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORkFjS1NFdkc1Zm5QbG9wcVRXVER3V1p3N2llc1lSS205VDEtYXc1QWRHcEdOdl9aUlctbUN5U3lxM1JYZFg0ZWtPdWs0cWs0Yk8yZWlnZ09iaEg5djVZdEdGclJSTHROVG5ybmJmdmFhbm9yT1k2TmtVV3htRlZJaTFnVW1rcnRPUmhMZDlLUWNmNWJ0UFE?oc=5",
-                "link_resolved": "https://infobanknews.com/kadin-usulkan-4-program-perkuat-ekosistem-protein-untuk-dukung-mbg",
-                "published": "Fri, 28 Aug 2026 07:00:00 GMT",
-                "fetched_at": "2026-08-28T20:32:13.688631"
             }
         ],
         "Kementerian Kehutanan": [
+            {
+                "title": "Kementerian Kehutanan - Kementerian Kehutanan",
+                "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTVFJOFdYa09meFlFVXFMdnF5eVUtWXNOMFg4dUszbFBQaU9NYmpaeUZWNl81S185bU9yenJHdkt2WDVXYXRPQzl1UHgxTzNWWWNYUnpIcm03c2R2QWRuQWViYmV1MkJHTnhCUFZlTG9hc1VfMjI3M3ZoN2V1R1VMc1pJbWdQUF9EMGRZZ1Q3OWlPZGFRWUlVNGlFVHBrSHlhMXJnOGNIMlRSMEktWnFxZFFDTURtNXRJX2Y4V3RwZUkyZw?oc=5",
+                "link_resolved": "https://www.kehutanan.go.id/pers/kemenhut-evakuasi-orangutan-dalam-kondisi-lemah-dari-lokasi-terdampak-kebakaran-di-ketapang",
+                "published": "Sun, 30 Aug 2026 22:49:43 GMT",
+                "fetched_at": "2026-08-31T00:04:59.423840"
+            },
             {
                 "title": "Tata Kelola Hutan, Data Geospasial Jadi \"Mata\" Kementerian Kehutanan - indoposco.id",
                 "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYVladEZDRjQ2d3pyR0FZM1Z3UklXWFFOMkg1V1dJYk1LT2FiTHlIZmUzWlJLZVNkaHJiVHNjSS0yVFVtUWF2MFlDNmFrcFJUOUlfODdmUkk3a0JVcXZCQnFKOV9MenJCVEVhVTY4TzBicFByRlpJMTlsTkRRdWNNam02RHpPU3pWaWU2VTVuejBMcG13SF96bGdrSURyQms?oc=5",
@@ -275,16 +282,23 @@
                 "link_resolved": "https://www.kehutanan.go.id/news/forest-youthverse-resilience-peran-strategis-generasi-muda-mitigasi-bencana",
                 "published": "Thu, 27 Aug 2026 09:12:11 GMT",
                 "fetched_at": "2026-08-27T13:24:56.281853"
-            },
-            {
-                "title": "Kemenhut Ajak 60 Genries Kenali Gajah Sumatera, Bergerak untuk Konservasi - Kementerian Kehutanan",
-                "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUGxGd3VtbHBTTGJoSHNrU2lSUTlkaWNNaGlDRXZtYjZ2TU9mdUF3NVF1MHFlSUxKYVktR3hSR0xyNVBoemp4ZXJNQ0VrTEpVMkhpeUsxUng2VlRRT1M5VzFfRGFxUy1FanJoa3BDTm4wUGdad21GOFU2OEhEN3lid3pDeGFVSnNhM1JjQmd2Rml1Y0p4NzBlZkV4Y2NnUEl4ZXAyUE01U0g?oc=5",
-                "link_resolved": "https://www.kehutanan.go.id/news/kemenhut-ajak-60-genries-kenali-gajah-sumatera-bergerak-untuk-konservasi",
-                "published": "Thu, 27 Aug 2026 09:07:10 GMT",
-                "fetched_at": "2026-08-27T13:24:56.281834"
             }
         ],
         "Kementerian Kelautan dan Perikanan": [
+            {
+                "title": "KKP Dorong Sinergi BUMN Percepat Swasembada Garam Nasional 2027 - RRI.co.id",
+                "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPQXpkUUNNOElFMGF4YmU2aUxPTmkxZy1qeU95eGlKbklKU3R3RVYzaWF4UlVxV1ZYNlJyQU9WLVFuUWxnSnVJVzV3bW1GUl9nd2FrZVpXMFZQTng5VU5wejhYM3ZKa1RNNU85OFczZ3YyeXZLcFhUdXdBR1c0M1o0MkRMcE1tQVVVQ3B0c3JXdXRER2hvTFJwLVl3em5MWVlPaHI5ajhuc3d6d1Jw?oc=5",
+                "link_resolved": "https://rri.co.id/baubau/berita-lain/2693322/kkp-dorong-sinergi-bumn-percepat-swasembada-garam-nasional-2027",
+                "published": "Sun, 30 Aug 2026 22:08:00 GMT",
+                "fetched_at": "2026-08-31T00:04:59.937540"
+            },
+            {
+                "title": "Pembangunan Kampung Nelayan Merah Putih di Kota Jayapura rampung pada November 2026 - ANTARA News Papua",
+                "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNaWxhZmVZc0JhbTRkdWFQa3FUWmp4NWlVdnh2RkhKSHRGUjJUdjlvWGd3QUdYWUUxbHFQeXdlOHc1WjRRUXNXa0owS2FrNUwzZkIwUmdmdXhtRW45SDBqRTJjdDQ3NlZ2c29MZVJlbG5BM3BfSGZuenZ4S253WFcyLThTdUh1SzhPcHRmWWtoSUxnOWVlMHVnUW9IWUtDMHp3R0ZIZ3dwVFdsUzhybGZRbDM2djctb2ZhWHZjMzRPbFQ3RmtJ?oc=5",
+                "link_resolved": "https://papua.antaranews.com/berita/767492/pembangunan-kampung-nelayan-merah-putih-di-kota-jayapura-rampung-pada-november-2026",
+                "published": "Sun, 30 Aug 2026 22:00:00 GMT",
+                "fetched_at": "2026-08-31T00:04:59.937525"
+            },
             {
                 "title": "Perlindungan Awak Kapal Perikanan di Bali Terus Menuju Perbaikan - Rmol.id",
                 "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYVJlVnQycHFHblR3YktqZU15VWdaWFlGT0dHNmxwOXZxbTFJMks3b3JPVWdwOE5BWXJ0SHhtQU4wY3pqZTAzSTc1X3oxLW4tQ0dPcFFMQTgwZzV6eTQ5dnA2d2xYLXFoY0lLZ1NsdnRXTEYtZmUxODdwNjBfci1lekpMOEFBSkJ5MFkzSjRmV3FkU2g5aFJGc0Y1MTQtdDFDZXNtS1pnNjNYaXZCb3lNeHk3NA?oc=5",
@@ -410,20 +424,6 @@
                 "link_resolved": "https://www.antaranews.com/berita/5711587/kkp-sediakan-16-klinik-halal-dukung-wajib-halal-pada-oktober-2026",
                 "published": "Wed, 26 Aug 2026 07:58:48 GMT",
                 "fetched_at": "2026-08-26T08:33:18.936437"
-            },
-            {
-                "title": "125 Desa di Lamongan Berburu Ikan Mini RAS Program Bantuan dari Kementerian Kelautan dan Perikanan - Radar Lamongan",
-                "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQM0pVRUpQb2xXaHoyYlg5aklmR2ZpbXRHQ2k0MU1mbzVQV3BUVlFBejExbFBCb2FyQXItNk8zX1VMNl82eHBuT28xNGtqNUYxTWJ1akg4M0FxbVdCbm1hWHQ5MlNjdHE2dkN0NGh1cGZtRDlVMHlZb052dElRLV81WUlUMFc1R01CR0JsbGcyMVRuWTE5andpWmFzZ19Mc0J1LXNyTkZPZlYtR2dSbWw4aVcydWVOdGVMQm90b3NHSi1mNmlCcDJERk9aa2FVV2Z3NjVHeHNZNGNBVVluQ3ZhZGJR0gHnAUFVX3lxTE5ITWphTUYwSGdhUlpSSTFJRkplTGpvczFaNDczak54STlyQTVQd1FlazZweVNBM2FpcVdIYS1jaGVaYTFxUU05WFBja25BaVRHNmVCd2gxZXNDdk1WMUhQLVhYZzZ2QWliOXIyWUZQSkZmLWJoQVJFOEcxdmlTdDNib1hzdXZfX2YteUhXV0tvOHRzRW9qaWNDZnJQdVNpQUZEZEJzV1plU1NJbU5PbmZiZXd3cDh4M2VFU2hCelgtMHAtQWZoc2x3emZOWlF2VjVYMzFSclRJMmdGZVh2M3BDT3E0bF95RQ?oc=5",
-                "link_resolved": "https://radarlamongan.jawapos.com/desa/2608260001/125-desa-di-lamongan-berburu-ikan-mini-ras-program-bantuan-dari-kementerian-kelautan-dan-perikanan",
-                "published": "Wed, 26 Aug 2026 05:36:34 GMT",
-                "fetched_at": "2026-08-26T16:10:57.371468"
-            },
-            {
-                "title": "KKP Terus Validasi Data Nelayan dan Fasilitas Perikanan Yang Terdampak Gempa NTT - pasardana.id",
-                "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbUJRWXZja2FXcW1xWjlpeW1IZmFTZmxIdElIRHZ1VU1iZUNqSVRvYkdjWlgyWW54eXhCMW5UUy1ZMy1vNXMzSXdvRXZvM3pSUG1FZFM2cjJGQ0RVOWJEc29WTjZDRjJSY2s2SkhqRDVraVRsUUFxUzN0emwzcFhLWGU4Zm12NzJKRmc1VVRzLW5PWFphLUFydDRnZENMSjlaQ2o5ZjROaFN5eW9xdDlEQ2VoWWExOU0?oc=5",
-                "link_resolved": "https://pasardana.id/news/2026/8/26/kkp-terus-validasi-data-nelayan-dan-fasilitas-perikanan-yang-terdampak-gempa-ntt",
-                "published": "Wed, 26 Aug 2026 02:30:00 GMT",
-                "fetched_at": "2026-08-26T03:46:05.551982"
             }
         ],
         "Badan Karantina Indonesia": [
@@ -712,6 +712,27 @@
         ],
         "Perum Bulog": [
             {
+                "title": "Bulog Bidik Peluang Ekspor Senilai Rp 3,3 T - RM.ID",
+                "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQb2k3Rm5RWS1ZMDRJMHNNTnk3RkR1aG9wS2FuOXI2Nm5qdDk2c1lvLVZjWGVrN056SWh6anNhdG5yMG5aYjY5QWh4RkdkTjlybEJwMGdFTXY5djZmcGN0Q2hibXduczZvNHM0X0xOTktMUU9VTlRwLU8xSWh0OU1oVkNobDBRQmVMNjI4NXVIcTJRcE5PUHI3b19iTl9iNFRNdkhmRkd0cFFUVDhQWWRuam0xTE5ldUN1OUFEV28xVlAtb1hoTEpnRGJ2WQ?oc=5",
+                "link_resolved": "https://rm.id/baca-berita/ekonomi-bisnis/323936/kirim-1000-ton-beras-premium-ke-malaysia-bulog-bidik-peluang-ekspor-senilai-rp-33-t",
+                "published": "Sun, 30 Aug 2026 23:45:00 GMT",
+                "fetched_at": "2026-08-31T00:05:01.509286"
+            },
+            {
+                "title": "Bulog beli 315 ton jagung pipilan dari petani se-Tanah Papua - ANTARA News Papua",
+                "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMU41VUdfYVI1bXB5aG4zNlpuV01zSVBDSjFteXk0YmxXcmlRNDFoZHlZTlhKcnBJaGFzZXJVZkdGck5HNzdhc0NGbV9YRXpZd2tmWjZ6Qm42Z0xqQ2hjSkdjQTk0TzRsVjV1VDFncjByVVFVRDhHcjBvUVNNSUd3UjFEU0k1RVRfTkVXLUtOMWVaU3dDUXJQb2gwQ0hLMkRfSHd0MmNB?oc=5",
+                "link_resolved": "https://papua.antaranews.com/berita/767504/bulog-beli-315-ton-jagung-pipilan-dari-petani-se-tanah-papua",
+                "published": "Sun, 30 Aug 2026 22:21:44 GMT",
+                "fetched_at": "2026-08-31T00:05:01.509306"
+            },
+            {
+                "title": "Bulog salurkan beras bantuan pangan ke 845.425 KPM di Tanah Papua - ANTARA News Papua",
+                "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNVU3c0NNaHltdThjSl8tS0hsWENad0NSLV8xdjQ3NGY4NjdHODRCOG1raGM1ME1JWXJleEVsc3RKUEc1bXJXb0lHSkc2RXFld0Jhcm9FUVpFVU9OSE1FVk1ONGM2RzVqNHFrSnF1Y0RKU05sMmZCLWtETGNnbUUzQWtpOThWY1paVmxoaVdFNUFhV0lSdjdEdGo2aHdqYXJWcVZ2Znl5WmVkWjQ?oc=5",
+                "link_resolved": "https://papua.antaranews.com/berita/767480/bulog-salurkan-beras-bantuan-pangan-ke-845425-kpm-di-tanah-papua",
+                "published": "Sun, 30 Aug 2026 21:56:15 GMT",
+                "fetched_at": "2026-08-31T00:05:01.509269"
+            },
+            {
                 "title": "Bulog Cabang Rejang Lebong catat penjualan beras SPHP 60 ton per hari - ANTARA News Bengkulu",
                 "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPekFaNkthWFVrNU9PU0NybnZQMmFoYW5rWWZLZnU0TE5FbXAxdGZ2U2JMN0RkRkJROGp3dy1rMUVFUk50MGRwMWdGZWZtUW1IUTU1SkZGXy1GTUFWdzZ6UURidkwxc3l2MjZnVlJ0STRlb0FTQUMzNllqVFREaWwyeTAtWDB1eUx6d3NaUGg3NDhINTJDMmo3RlFweC01ajFFYkNJdEdhM2pGME9BaVE3eDRIb3NId9IBuwFBVV95cUxQaTZZbEduVkNNV0M3VlpzaEJldGgxNWVCWnl3VTE5VG5kVFhGVVVrLWE0cThUNUdNZXFMVVBmbkJlaEpPTDh2dWQ3MWJqNDlyN2w4eVI2ZlppTzczdkdhcDg3T285dWlHb3dJdmRBQmZfYlIxU3NjSlk3cFZTN0FpVXNzVWliVXluN0FpOVZkTl9mODIyaEpNNDB4b0NEZ2EtZElSQlVCZjlGNE9QMWs3VFVtLS1DTjVwYlZz?oc=5",
                 "link_resolved": "https://bengkulu.antaranews.com/berita/478205/bulog-cabang-rejang-lebong-catat-penjualan-beras-sphp-60-ton-per-hari",
@@ -829,27 +850,6 @@
                 "link_resolved": "https://rentak.id/bulog-salurkan-bantuan-beras-untuk-89-231-warga-makassar-ini-rinciannya/",
                 "published": "Sat, 29 Aug 2026 08:00:00 GMT",
                 "fetched_at": "2026-08-29T09:45:42.498019"
-            },
-            {
-                "title": "Bulog Bojonegoro Salurkan 19.200 Ton Beras untuk 640.002 Keluarga, Lamongan Pastikan Tepat Sasaran - Ngopibareng.id",
-                "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTlNiM21RUnVPNUJMX3dKdFFtYzhTR0hQQkMwaXRDREtTckpfdjA5R093ZHBMS0dEeE9ZVXFOb3d6RkdaaWs3WmxGLURYV2pkcVNnTDdPWXBlcU5FSGN6MEVkd3pYMTBTWlU3bUpoUndNeDBxRXZYX0s2VzR3aVIwRm5VSE5JbEFza1FTeXVBcnluWkVEUlRYSzZVR254bzZFaGdQVGdxZWhRWHBISlAxTlJpUVFpYjVsVHZZVWFNd2l0cXJlYmVIOQ?oc=5",
-                "link_resolved": "https://www.ngopibareng.id/read/bulog-bojonegoro-salurkan-19-200-ton-beras-untuk-640-002-keluarga-lamongan-pastikan-tepat-sasaran",
-                "published": "Sat, 29 Aug 2026 07:14:00 GMT",
-                "fetched_at": "2026-08-29T09:45:42.498022"
-            },
-            {
-                "title": "Bulog Ponorogo Salurkan Bantuan Beras, 141.935 KPM Terima Jatah - Sinergia Mediatama",
-                "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQk5CcGNsZHRiblpsRUtMOHNHNmppWU0weEVENmNlLXV5QVhYblZkU2t1Rk9TRnJHS0F6Y2lTTXRjV296RE1yaGhRNXdmNTM2Tmlaek5YbDNyWThranNhOWJ4Z3BlZFp4SUV1SmU1WTdaTWpBTm1haVhiY2VJYXRSYk1LeXdkR3RoeUdDblpYb0ZrRy1aeHExOA?oc=5",
-                "link_resolved": "https://sinergiamediatama.com/bulog-ponorogo-salurkan-bantuan-beras-141-935-kpm-terima-jatah/",
-                "published": "Sat, 29 Aug 2026 06:44:37 GMT",
-                "fetched_at": "2026-08-29T09:45:42.498032"
-            },
-            {
-                "title": "DPR dan Bulog Pastikan Bantuan Pangan Tersalurkan di Lamongan - Malangtimes",
-                "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOd1BPLV80SWdEMm5sb1pyejZIOEF0ZVljTFB6bmQ2MTg0cGNWRXZtNC1VTlZ4YVJiOXZhMnhqdFZCMXdaYm12azgwM0pUZGF2OUlyajZGdEpCSExLSkJEM1BtVlFPbVFDd0tpZEt1TnlWeHUySWt3REVUX0dLTnZ6MTk3MzVQY2RrbzdaY2drS3pVME5oYVpxTlB3bTJlcjhrc3ZmRW9oNUJycldET01FTHozM0pMQWRHcHZ4NHBn0gHDAUFVX3lxTE9FX3BHMkN5WkxUVVZNY1ZmNXNFSHA0UXpySkdWN0I4NGRiODFXNDNzRHh2akhfZVFoX09IZWlZYzUxUkJJSkRIRGZBRjhmaUFieVdKNkNlbGlBMjNyMm94Nk84WDJVUjF1djQ5Z3VlekxteUY1ei1KR1VJdE1uZlJOLVVvdXhTbmNzUXNPSWMyeF9TRnc3c0FUZ1FhM1NwOGwxNTVtQXN5OVRmZFRIWERHQUMtd3ZxQXJ6WmE1SVFYaFhYTQ?oc=5",
-                "link_resolved": "https://www.malangtimes.com/baca/3331349477/20260829/120300/dpr-dan-bulog-pastikan-bantuan-pangan-tersalurkan-di-lamongan",
-                "published": "Sat, 29 Aug 2026 05:03:00 GMT",
-                "fetched_at": "2026-08-29T09:45:42.498027"
             }
         ]
     },
@@ -1517,13 +1517,6 @@
                 "link_resolved": "https://trans89.com/2026/08/01/anggota-dpr-agus-ambo-djiwa-serap-aspirasi-di-pasangkayu-dorong-potensi-pertanian",
                 "published": "Sat, 01 Aug 2026 10:51:30 GMT",
                 "fetched_at": "2026-08-01T18:57:14.278059"
-            },
-            {
-                "title": "Ketua Ijs Pasangkayu Temui Agus Ambo Djiwa, Bahas Dukungan bagi Penguatan Organisasi Wartawan - Kabar Sulbar",
-                "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONkV2SWV3cVd6cUxRekgtbE5FcjRsanB0dWttN0R6N1lNNHF1YzNhUHlEam42UHR6dWExU0tWS0JBbFBWUHZpN1RjRlhlT2ZKZXg5UFg1bXR5NE5xcE1SWXBfUk1URnk0RlR6blZ2LXdhcUhhNkNjRmFkVzgwVUJKQnVqUVFXcVRwOXNscDJPMllLazJjQWQ3S2g0SFZiRTNsRmFKa19FVGh5S2J0WXdqcU1Va3hRRjNZ?oc=5",
-                "link_resolved": "https://kabarsulbar.com/ketua-ijs-pasangkayu-temui-agus-ambo-djiwa-bahas-dukungan-bagi-penguatan-organisasi-wartawan/",
-                "published": "Sat, 01 Aug 2026 00:04:33 GMT",
-                "fetched_at": "2026-08-01T14:53:11.335354"
             }
         ],
         "I Ketut Suwendra": [
@@ -3602,14 +3595,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-30T21:45:44.250182"
+        "fetched_at": "2026-08-31T00:04:58.297850"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-08-30T21:45:44.250182"
+        "fetched_at": "2026-08-31T00:04:58.297850"
     },
     "macro_stats": {
         "ntp": {
@@ -3617,63 +3610,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-30T21:45:44.250182"
+            "fetched_at": "2026-08-31T00:04:58.297850"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-30T21:45:44.250182"
+            "fetched_at": "2026-08-31T00:04:58.297850"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-30T21:45:44.250182"
+            "fetched_at": "2026-08-31T00:04:58.297850"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-30T21:45:44.250182"
+            "fetched_at": "2026-08-31T00:04:58.297850"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-30T21:45:44.250182"
+            "fetched_at": "2026-08-31T00:04:58.297850"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-30T21:45:44.250182"
+            "fetched_at": "2026-08-31T00:04:58.297850"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-30T21:45:44.250182"
+            "fetched_at": "2026-08-31T00:04:58.297850"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-30T21:45:44.250182"
+            "fetched_at": "2026-08-31T00:04:58.297850"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-08-30T21:45:44.250182"
+            "fetched_at": "2026-08-31T00:04:58.297850"
         }
     },
     "scrape_status": {
@@ -3682,5 +3675,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-08-30T21:45:44.250182"
+    "last_updated": "2026-08-31T00:04:58.297850"
 }
