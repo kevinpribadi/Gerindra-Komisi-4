@@ -1380,13 +1380,6 @@
                 "link_resolved": "https://regional.kompas.com/read/2026/08/03/110317878/bupati-jembrana-dan-i-nyoman-adi-wiryatama-serahkan-5-traktor-roda-empat",
                 "published": "Mon, 03 Aug 2026 04:03:00 GMT",
                 "fetched_at": "2026-08-03T06:12:18.863942"
-            },
-            {
-                "title": "Lima Traktor Roda Empat Disalurkan untuk Petani Jembrana - RRI.co.id",
-                "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMG13R1FyUnZSTlI4Z0E1Uzhfby1Ca1pDMDNKNFVHVk1aazVXNExwSUFPR2ZfVFdTa1Z2Wk01Tmw1UFo5SDg3ejNfZHlfclhXeHAxUDNJQkNBRmxHNXF5WmJnTkUxYjgwMndyZ1RFbFZON2d1WENaNkRNWWN2cjVoR1RYYUR2M3kwQWxKV2xKT01ycFVmT1N5SGFOMnVwMzJadjE4?oc=5",
-                "link_resolved": "https://rri.co.id/singaraja/regional/2620880/lima-traktor-roda-empat-disalurkan-untuk-petani-jembrana",
-                "published": "Sun, 02 Aug 2026 12:43:00 GMT",
-                "fetched_at": "2026-08-05T23:52:19.405508"
             }
         ],
         "Paolus Hadi": [
@@ -3286,20 +3279,6 @@
                 "link_resolved": "https://mimbarsumbar.id/rahmat-saleh-minta-efisiensi-bumn-tetap-pertahankan-kualitas-pelayanan-publik/",
                 "published": "Sun, 02 Aug 2026 16:29:58 GMT",
                 "fetched_at": "2026-08-15T23:13:10.877012"
-            },
-            {
-                "title": "BUMN Dipangkas, Rahmat Saleh Minta Kualitas Layanan Publik Tetap Terjaga - ANTARA News Sumbar",
-                "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVXdHbnpBNkpLdjdjd3hRZl9MVlpMTzQ4aEpRQjhLVmYwNzVKLW5OTHJLUlFQa1gxM2ZjZU82ZW9UNGRDdS1NRW5xOTZPWTBTM0RUcC1mTzhBNzBVQzRZeU1jNlJQM21NSWtkNF9IaXVOcWNpOUFvYTU2U24yXzlfN00zZFdCU083X0tpNXZiV2NWOWFVRzVfd3R6Uk9SaURMNmZnbkU1VzRFcm81UjF3UVprOXZiZw?oc=5",
-                "link_resolved": "https://sumbar.antaranews.com/berita/772596/bumn-dipangkas-rahmat-saleh-minta-kualitas-layanan-publik-tetap-terjaga",
-                "published": "Sun, 02 Aug 2026 12:22:45 GMT",
-                "fetched_at": "2026-08-02T13:05:32.381098"
-            },
-            {
-                "title": "BUMN Dipangkas, Rahmat Saleh Minta Kualitas Layanan Publik Tetap Terjaga - Arunala",
-                "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOT2xRZDB3VVR3OVRnMEdCSFFkN1RYc1dtX1puckU4TG9Qczk2MS1VdDM4NVBWdHlIQUR0b3pLYnJmYUhzTTM4MW1faEZaYWxZNW52QlBfdW1TTWhzdjlPWDEwLW5ZY05vRW9uXzgwMTgwRWVWUVh0aTY5al9MS0FWbGNlSHpaejhiSHhvUlNzVFIzVzV1UFVNaWJOd2dRMmNMcWZlWjQ2ZFpBUVJtQnhmUm8xcVc?oc=5",
-                "link_resolved": "https://www.arunala.com/berita/213876/bumn-dipangkas-rahmat-saleh-minta-kualitas-layanan-publik-tetap-terjaga.html",
-                "published": "Sun, 02 Aug 2026 12:06:00 GMT",
-                "fetched_at": "2026-08-10T03:46:09.467611"
             }
         ],
         "Ahmad Yohan": [
@@ -3560,14 +3539,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-09-01T10:52:11.022472"
+        "fetched_at": "2026-09-01T15:20:26.272719"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-09-01T10:52:11.022472"
+        "fetched_at": "2026-09-01T15:20:26.272719"
     },
     "macro_stats": {
         "ntp": {
@@ -3575,70 +3554,72 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-01T10:52:11.022472"
+            "fetched_at": "2026-09-01T15:20:26.272719"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-01T10:52:11.022472"
+            "fetched_at": "2026-09-01T15:20:26.272719"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-01T10:52:11.022472"
+            "fetched_at": "2026-09-01T15:20:26.272719"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-01T10:52:11.022472"
+            "fetched_at": "2026-09-01T15:20:26.272719"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-01T10:52:11.022472"
+            "fetched_at": "2026-09-01T15:20:26.272719"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-01T10:52:11.022472"
+            "fetched_at": "2026-09-01T15:20:26.272719"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-01T10:52:11.022472"
+            "fetched_at": "2026-09-01T15:20:26.272719"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-01T10:52:11.022472"
+            "fetched_at": "2026-09-01T15:20:26.272719"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-01T10:52:11.022472"
+            "fetched_at": "2026-09-01T15:20:26.272719"
         }
     },
     "scrape_status": {
-        "phase_1_agency": "ok",
-        "phase_2_members": "ok",
+        "phase_1_agency": "failed",
+        "phase_2_members": "partial",
         "phase_3_macro": "ok",
-        "errors": []
+        "errors": [
+            "decode link gagal massal (0/3); link_resolved tetap null, berita tidak terdampak"
+        ]
     },
-    "last_updated": "2026-09-01T10:52:11.022472"
+    "last_updated": "2026-09-01T15:20:26.272719"
 }
