@@ -3564,13 +3564,6 @@
                 "link_resolved": "https://www.kedaipena.com/pemerintah-diminta-perkuat-pelayanan-demi-masyarakat-dan-pertumbuhan-ekonomi/",
                 "published": "Sat, 08 Aug 2026 12:22:42 GMT",
                 "fetched_at": "2026-08-08T12:31:19.463283"
-            },
-            {
-                "title": "Marak Kepala Daerah Terjaring KPK, Legislator: Demokrasi Kita Sudah Salah Kaprah, Politik Uang Dimana-mana - Kedai Pena",
-                "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZjJia21wX042SC1EbmgxbVhabEU0ZDh1NVBRdHpjaHdBWDR0dU5XblBZaXRJUmNSTWM1eUtvbkN3SnJnZGJyUFdkSW9YemhoaS03bFRkU3VndUFwa3gwa0Nyc3htdEphY0JTc3kxakRPczF0aDhZTkkxX3Z5MEtLcFNfMjR5c2FJcjNOM3o3TmIzNFJRcDR1QmI2OWhKRm0yMmRxQmRPakItOGxSYWI1RDQyT0sxLVl1YU5ualc0UEdLc3U3RUJLLXNn?oc=5",
-                "link_resolved": "https://www.kedaipena.com/marak-kepala-daerah-terjaring-kpk-legislator-demokrasi-kita-sudah-salah-kaprah-politik-uang-dimana-mana/",
-                "published": "Wed, 05 Aug 2026 00:10:08 GMT",
-                "fetched_at": "2026-08-05T02:09:59.292059"
             }
         ],
         "Ellen Esther Pelealu": [
@@ -3618,14 +3611,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-09-03T22:04:02.714770"
+        "fetched_at": "2026-09-04T00:34:24.255726"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-09-03T22:04:02.714770"
+        "fetched_at": "2026-09-04T00:34:24.255726"
     },
     "macro_stats": {
         "ntp": {
@@ -3633,70 +3626,70 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-03T22:04:02.714770"
+            "fetched_at": "2026-09-04T00:34:24.255726"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-03T22:04:02.714770"
+            "fetched_at": "2026-09-04T00:34:24.255726"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-03T22:04:02.714770"
+            "fetched_at": "2026-09-04T00:34:24.255726"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-03T22:04:02.714770"
+            "fetched_at": "2026-09-04T00:34:24.255726"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-03T22:04:02.714770"
+            "fetched_at": "2026-09-04T00:34:24.255726"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-03T22:04:02.714770"
+            "fetched_at": "2026-09-04T00:34:24.255726"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-03T22:04:02.714770"
+            "fetched_at": "2026-09-04T00:34:24.255726"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-03T22:04:02.714770"
+            "fetched_at": "2026-09-04T00:34:24.255726"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-03T22:04:02.714770"
+            "fetched_at": "2026-09-04T00:34:24.255726"
         }
     },
     "scrape_status": {
-        "phase_1_agency": "ok",
-        "phase_2_members": "ok",
+        "phase_1_agency": "failed",
+        "phase_2_members": "partial",
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-09-03T22:04:02.714770"
+    "last_updated": "2026-09-04T00:34:24.255726"
 }
