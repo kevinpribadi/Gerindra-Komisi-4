@@ -1080,13 +1080,6 @@
                 "link_resolved": "https://www.gesuri.id/pemerintahan/sonny-danaparamita-tegaskan-revisi-uu-kehutanan-harus-perkuat-pro-negara-kepada-rakyat-dan-lingkungan-b2pYJZbh9Q",
                 "published": "Mon, 31 Aug 2026 15:00:00 GMT",
                 "fetched_at": "2026-08-31T20:32:01.436356"
-            },
-            {
-                "title": "Sonny Danaparamita Desak Validasi DTSEN di Banyuwangi, Situbondo, dan Bondowoso - gesuri.id",
-                "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQREkybEZfU0dEWWt6TUZhamFxQlV0OHdncUNWY1hwQUFhZFFfVHJIcks1Wl9PSWlWVF9rTUVIOG9YZjlrMUxzQ2VSRTZBRWV1Ui1pbU5tR1VfOGRLZXMtemlJMmFXMm1zRWE2MDdDTjdhM295b0FrVmYxZVI2RGtWWDV1dFF3bGY5dFl0Y1R3d3hvVm12R0g0VjI5THc0d0FrMGpzZGpCRUgtX0pNaVB0eF9ZVmgzZWVidFNnQlhVR3TSAcYBQVVfeXFMTTA2dlVjS3ZvV2MtTk5VMG1DZ01zajA1VFdlZXowTTFOVjItNm1wYXg5Ql9CSmkxVHZEVmZONzZUY2xxSS01SS03ZVZ4MFJuS1Ixb0RkSE9kQ191c01kVXZmdDVLbGZ1OVlsdS1WRG93XzFZc19QR3V2WGFKLUxEQUpYUzU5Wlp5cEluY2xQLUJ4OER3NlRXWHZJSHJrY1l2Qy12QkNaM3FBcHh6NHc3ZTVmYWFENkowUFV1d09MTHpVSnhQbElB?oc=5",
-                "link_resolved": "https://www.gesuri.id/pemerintahan/sonny-danaparamita-desak-validasi-dtsen-di-banyuwangi-situbondo-dan-bondowoso-b2pYHZbh5U",
-                "published": "Thu, 27 Aug 2026 15:01:00 GMT",
-                "fetched_at": "2026-08-27T23:24:37.680205"
             }
         ],
         "Rokhmin Dahuri": [
@@ -3712,14 +3705,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-09-26T13:31:10.440455"
+        "fetched_at": "2026-09-26T17:31:01.159739"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-09-26T13:31:10.440455"
+        "fetched_at": "2026-09-26T17:31:01.159739"
     },
     "macro_stats": {
         "ntp": {
@@ -3727,70 +3720,72 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-26T13:31:10.440455"
+            "fetched_at": "2026-09-26T17:31:01.159739"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-26T13:31:10.440455"
+            "fetched_at": "2026-09-26T17:31:01.159739"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-26T13:31:10.440455"
+            "fetched_at": "2026-09-26T17:31:01.159739"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-26T13:31:10.440455"
+            "fetched_at": "2026-09-26T17:31:01.159739"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-26T13:31:10.440455"
+            "fetched_at": "2026-09-26T17:31:01.159739"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-26T13:31:10.440455"
+            "fetched_at": "2026-09-26T17:31:01.159739"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-26T13:31:10.440455"
+            "fetched_at": "2026-09-26T17:31:01.159739"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-26T13:31:10.440455"
+            "fetched_at": "2026-09-26T17:31:01.159739"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-09-26T13:31:10.440455"
+            "fetched_at": "2026-09-26T17:31:01.159739"
         }
     },
     "scrape_status": {
-        "phase_1_agency": "ok",
-        "phase_2_members": "ok",
+        "phase_1_agency": "failed",
+        "phase_2_members": "partial",
         "phase_3_macro": "ok",
-        "errors": []
+        "errors": [
+            "decode link gagal massal (0/8); link_resolved tetap null, berita tidak terdampak"
+        ]
     },
-    "last_updated": "2026-09-26T13:31:10.440455"
+    "last_updated": "2026-09-26T17:31:01.159739"
 }
