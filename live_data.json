@@ -2488,13 +2488,6 @@
                 "link_resolved": "https://www.cnnindonesia.com/nasional/20260904162120-32-1400125/anggota-dpr-sentil-dinas-soal-bocah-meninggal-di-tengah-asap-karhutla",
                 "published": "Fri, 04 Sep 2026 09:41:58 GMT",
                 "fetched_at": "2026-09-04T10:16:05.870569"
-            },
-            {
-                "title": "Rusak Paru-paru Dunia, Daniel Johan Desak Pemerintah Tetapkan Karhutla Bencana Nasional - kabarpolitik.com",
-                "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOW1vWG1CdGpFc2s3SFdjQnRZcDRnTzd4Y2xEMGQ0NV9ZN3hNeWpEX1ZVZXhabER1TEtCQ2lSVHdUSzNUWnMtODJ4VGtnSDRuXzNfOUtBZUs4UW1qYTdBY3hDTE1hMkY0aE9nUF9nVHExLUFGYXpxcm9RSTRZME1JT2xQdWRYdHFfajZIYkNnRWZ3WDRhSzRPOTd0Q09wOGl6QTNPcUVkOTBNUHNwM1Q1TUhR?oc=5",
-                "link_resolved": "https://kabarpolitik.com/rusak-paru-paru-dunia-daniel-johan-desak-pemerintah-tetapkan-karhutla-bencana-nasional/",
-                "published": "Thu, 03 Sep 2026 14:11:48 GMT",
-                "fetched_at": "2026-09-03T19:32:31.458294"
             }
         ],
         "Hindun Anisah": [
@@ -3202,13 +3195,6 @@
                 "link_resolved": "https://fraksi.pks.id/2026/09/05/terima-aspirasi-peternak-magetan-riyono-siap-kawal-solusi-harga-telur-dan-kelangkaan-jagung/",
                 "published": "Sat, 05 Sep 2026 04:14:52 GMT",
                 "fetched_at": "2026-09-05T05:07:20.068352"
-            },
-            {
-                "title": "Riyono Ingatkan Ancaman Karhutla Bisa Memuncak pada 2027 - beritajatim.com",
-                "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcS1id3BQemZ0LTFCM2pOdlE2eW9SQ1UxYkh6OFotVm9QZG90RmlEeGp6X1h5ZjBDLVE1MjEtZmYtOW43bHdKY2sxZ0JHVndUOFFuTkpqT2hvYmZPV3d6XzBwNjhoUE56WC11czZxX0xCTXpsbXM4Q3l2anJPcm82TW1Xak5rVWc?oc=5",
-                "link_resolved": "https://beritajatim.com/riyono-ingatkan-ancaman-karhutla-bisa-memuncak-pada-2027",
-                "published": "Thu, 03 Sep 2026 15:20:54 GMT",
-                "fetched_at": "2026-09-03T16:48:09.438484"
             }
         ],
         "Rahmat Saleh": [
@@ -3644,14 +3630,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-10-03T12:54:32.562336"
+        "fetched_at": "2026-10-03T16:53:31.279909"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-10-03T12:54:32.562336"
+        "fetched_at": "2026-10-03T16:53:31.279909"
     },
     "macro_stats": {
         "ntp": {
@@ -3659,70 +3645,70 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-10-03T12:54:32.562336"
+            "fetched_at": "2026-10-03T16:53:31.279909"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-10-03T12:54:32.562336"
+            "fetched_at": "2026-10-03T16:53:31.279909"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-10-03T12:54:32.562336"
+            "fetched_at": "2026-10-03T16:53:31.279909"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-10-03T12:54:32.562336"
+            "fetched_at": "2026-10-03T16:53:31.279909"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-10-03T12:54:32.562336"
+            "fetched_at": "2026-10-03T16:53:31.279909"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-10-03T12:54:32.562336"
+            "fetched_at": "2026-10-03T16:53:31.279909"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-10-03T12:54:32.562336"
+            "fetched_at": "2026-10-03T16:53:31.279909"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-10-03T12:54:32.562336"
+            "fetched_at": "2026-10-03T16:53:31.279909"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-10-03T12:54:32.562336"
+            "fetched_at": "2026-10-03T16:53:31.279909"
         }
     },
     "scrape_status": {
-        "phase_1_agency": "ok",
-        "phase_2_members": "ok",
+        "phase_1_agency": "failed",
+        "phase_2_members": "partial",
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-10-03T12:54:32.562336"
+    "last_updated": "2026-10-03T16:53:31.279909"
 }
