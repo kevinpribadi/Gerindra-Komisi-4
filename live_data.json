@@ -2,6 +2,48 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "Pengembangan ilmu pengetahuan, teknologi, inovasi, dan transformasi digital akan mendorong pertumbuhan sektor pertanian di wilayah selatan. - Vietnam.vn",
+                "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNb3BjREFyNXpIVHdaR3hUd093bEk3TnIzc0FPN0wzZjVVUE9TQTdFU1RBdG9hUFoxVWxxYW9pUlEyWDRXMk14T2N5MXJkRWRtYmpIUWRhbGc1eUFLTjVvODNoRUpJUWpiOUlFTWhubGRHWEJTVDFkdmI2ZXFJbk5EZmFXdE9DZ0stZDIxU292b29sRDhKMnpYMnl4ZXU3M2loV2JXQWdpejFHbFVXaDFoMzZHb05MRVVSai1CNHZMRW5OaDNOX0tGQnU4WHlIQy15cWRTNUFqbnlaVy0xa2c?oc=5",
+                "link_resolved": "https://www.vietnam.vn/id/phat-trien-khoa-hoc-cong-nghe-doi-moi-sang-tao-va-chuyen-doi-so-thuc-day-tang-truong-nganh-nong-nghiep-khu-vuc-phia-nam",
+                "published": "Mon, 02 Nov 2026 11:48:41 GMT",
+                "fetched_at": "2026-11-02T11:53:21.049023"
+            },
+            {
+                "title": "Mengubah ilmu pengetahuan, teknologi, dan inovasi menjadi kekuatan pendorong pertumbuhan pertanian. - Vietnam.vn",
+                "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQUEyN0NlNTZoamV4SS1LX29IWFVpNHdOSkdZak5CeGJNYm9kVldNaXVJWmFZajdoM2F0Vzl2UW1taFBUZUxRaVBWM1pnWV9NeUdfVHdRd2t0RW9zX0NROFgzOGtHNW1fQ2ZpUEdPRXdTdGRpR2NNX09kTlVKc3VJVmxEOGtvNmJVMTZXOTJkRFJHbDlzVkh3VFJoQ3ZsRHpSR0x2WGEtZV9LRlVkZGhDUkJfcHY?oc=5",
+                "link_resolved": "https://www.vietnam.vn/id/bien-khoa-hoc-cong-nghe-doi-moi-sang-tao-thanh-dong-luc-thuc-day-tang-truong-nong-nghiep",
+                "published": "Mon, 02 Nov 2026 10:07:47 GMT",
+                "fetched_at": "2026-11-02T11:53:21.049045"
+            },
+            {
+                "title": "Wakil Perdana Menteri Ho Quoc Dung: Inovasi dan transformasi digital adalah kekuatan pendorong baru bagi pertanian di Korea Selatan. - Vietnam.vn",
+                "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaE1kSHBfTjcyWFpFZWxTNHNmYnBmZ3dUbnJGNmRPS2M5bUpscnV2dW41eXVPV0lDT19obFlDTDc4OU1xbGtYQkgwQ3RmNEdqVjdyM2NNTHlUQ1hicTlXSlMyUWpEOXRLZU9TTklFOEtZZnRKYy1CN1d6TGxJZ2ctR3BuNjJVekpQSUZBQVpHb2swbEtnM1lrOW80SFVlV2o4NVNTODhtWjBjYk5TRlR3eFlVdlhoSEkycXFmcXRORC1GLXV4VWc?oc=5",
+                "link_resolved": "https://www.vietnam.vn/id/pho-thu-tuong-ho-quoc-dung-doi-moi-sang-tao-va-chuyen-doi-so-la-dong-luc-moi-cho-nong-nghiep-phia-nam",
+                "published": "Mon, 02 Nov 2026 10:00:45 GMT",
+                "fetched_at": "2026-11-02T11:53:21.049041"
+            },
+            {
+                "title": "Mendorong pengembangan ilmu pengetahuan, teknologi, dan transformasi digital untuk pembangunan pertanian di wilayah Selatan. - Vietnam.vn",
+                "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZ3kxaUZmSVU3TmU3M2lwanhtcnJvMWJEVXl1RUI2OU1WbktXMnlLQTNmOG9yWjVlVGxZS1FxZzBkQ19qTkZLTlZZaVlKdDJ6N2NLWEJRRzlMR2o0RmNWMUdydVMwNkJOSmJpNXM1WUZmTmVwQlJRSnVRWlRqMUoxcVlMTzZWbVNaQUx6b1M1SjFnNkxOazg4Mk1ROHhDSktI?oc=5",
+                "link_resolved": "https://www.vietnam.vn/id/thuc-day-khoa-hoc-cong-nghe-chuyen-doi-so-phat-trien-nong-nghiep-phia-nam",
+                "published": "Mon, 02 Nov 2026 08:53:23 GMT",
+                "fetched_at": "2026-11-02T11:53:21.049020"
+            },
+            {
+                "title": "Kementerian Pertanian evaluasi progres percepatan program cetak sawah baru di Buol - ANTARA News Sulteng",
+                "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT3p6OHJuZWhTcENQX3g5R1MtT3d3XzM1b2lQbU5sNnRBWUwwT2VnaEFIR2VkZjJ1MXI3bldPcTNPM1VqMlJyNnJhLXNLVUFqcDRWZF9Dam9VdUpETW82Q2NUakFhSWJwcmEtWFhvWDRqODAzLTdhM0ZzeFhGNXRfSjBzSmFiSU9xeHE2TU42eC1IbldreWw5bGlZRmdGOUtDbF9uOG9ZNlNKdzdoWDlFVmhHcm5EUWlZMDdXTkZRRS1HZUx0Z2c?oc=5",
+                "link_resolved": "https://sulteng.antaranews.com/berita/398895/kementerian-pertanian-evaluasi-progres-percepatan-program-cetak-sawah-baru-di-buol",
+                "published": "Mon, 02 Nov 2026 08:33:38 GMT",
+                "fetched_at": "2026-11-02T11:53:21.049011"
+            },
+            {
+                "title": "menteri-zulhas-perkebunan-rakyat-jadi-prioritas-utama-pemerintah - Kementerian Koordinator Bidang Pangan",
+                "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONUJSNEdKUnZveGFXdVRHLVRGUkJhRWRqb182d2xXeUIyQlVDRDBSU2Q1NWQyOHMxandmeFFpYTJ6N3ZKQnUwX3RhcFgteGRRRnMwREF6eG1nLWE3aldvZ3NrR0FzMmlWSE1TUVZ2djZIaVVvNEZHWmpQaXpMTFcteElJV3ZJQVBEemMtUzhuWWNTUjhBd1BFN1ctTmJlZXVUSEluMWt3Ym9fMi0zOTFV?oc=5",
+                "link_resolved": null,
+                "published": "Mon, 02 Nov 2026 04:11:23 GMT",
+                "fetched_at": "2026-11-02T11:53:21.049027"
+            },
+            {
                 "title": "Kementan Pacu Generasi Muda Pertanian Inovatif dan Kompeten melalui PM-AAS - metrokalimantan.com",
                 "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNR3kwcGNyN3pIdktEdFNtaDdSVDZNYlVmTGkzemppNVNQSlg3VnR5d2FESE1sQ0VxQklIellIRHJmemR4dUFDdnZzUEtIemxWdFNLX282SnJVTkJLTWY4N1k1SV9ZME1YNWpDaWlLazkwQlFzdzloZEE3SXJfMnFSQ2trek00ZEFINGc?oc=5",
                 "link_resolved": "https://www.metrokalimantan.com/2026/11/kementan-pacu-generasi-muda-pertanian.html",
@@ -98,51 +140,16 @@
                 "link_resolved": "https://news.majalahhortus.com/kementan-dan-sgn-bongkar-ratoon-dan-salurkan-1-000-pompa-air-di-kediri/",
                 "published": "Sun, 01 Nov 2026 03:26:55 GMT",
                 "fetched_at": "2026-11-01T15:37:59.182132"
-            },
-            {
-                "title": "Target Swasembada Bawang Putih, Kementan Andalkan Budidaya dan Riset - Kompas.com",
-                "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTW5idWgyNjRYcmdmMkNUR2VtUVBYUjRQQTV0VWxWNDR0TjduTXRNRnJ5SjNVc2c5dVhZSGMtYWhQYzBFRDRvTi10WWhidmNPMF9wLU5CVnR2cWFIQ0NNdV9KaHpUNlpyZTh4dTU1ZEZrSkEyQUVkRkhaUzNOWGpaTTF6ZF82eFNXYVMyUExHU3YzaGQ1cllsa3dlV2FEc3I3ZnZmM3JOVS10a3hLVGFVckxjbXRYa0FOaFE?oc=5",
-                "link_resolved": "https://money.kompas.com/read/2026/11/01/101900326/target-swasembada-bawang-putih-kementan-andalkan-budidaya-dan-riset",
-                "published": "Sun, 01 Nov 2026 03:19:00 GMT",
-                "fetched_at": "2026-11-01T08:29:07.468770"
-            },
-            {
-                "title": "Produksi Bawang Putih Nasional Digenjot, Kementerian Pertanian Perkuat Budidaya dan Riset - VOI.ID",
-                "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcWl4d1dLTFltSWJMbHpsNHZjbWJETnR5anB5QnJCenp4OEdWbE1URVkycXR4a0NISG5XS0R1Qzl6TklLLVJzSnpRTmJBSENYeXZ5YkViWWpWMHdtRUYzZjg4bDRzemptMXpGU2txTzVpNGNoM241U3gtd0J3a1ZnYnVER2c4T0dCa05OMU1COE9VdzQ1UzQ5RGNWTzNXNnRCMDJMeEpZMGg3ODJURkQ4cDUtaFppcUFX0gG0AUFVX3lxTE9YZjgtZ1A3YUozNnladzNqVldSeUw5R3lnNlg2UDFwRTE0Z3F0djlRWEVROHphQ050WHhaS1VaQVFLUTVKb0M2dWwyNUZrcXBXZV8wb1hpNk1GQ2h2YmgtUmQ0cWRnV0JXOXRNelhldlZicXBsSVNjR3kxaG4wdXVxSmxCWU55bEdPOW9Ta2xGd3VEYVNIdTdqT2g0SzdwdF85N2xRdXFBUTB2T3ItQ0R3d0dWUw?oc=5",
-                "link_resolved": "https://voi.id/berita/600857/produksi-bawang-putih-nasional-digenjot-kementerian-pertanian-perkuat-budidaya-dan-riset",
-                "published": "Sun, 01 Nov 2026 01:00:00 GMT",
-                "fetched_at": "2026-11-01T01:43:21.708464"
-            },
-            {
-                "title": "Kementerian Pertanian Siapkan 1.463 Hektare Pengembangan Tebu Rakyat di Dompu - VOI.ID",
-                "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPanR6UlVHbUZzN3FVMVBoelFhdGlSTWZYM19PZS1keW9DaGxGMjUyRHdhZFk2RFl4QWluWEt1TVg2bS15TVpqQjh5VFdsT2NMUVlkN3llQ0hCMktWS1VSTndNNzd4YUZaYURMWmJjZUpQX0ZUYXE0akI1aEhmRHNDdUIwUFRaWnFJdUZRLXhGQ0FqRU1kdmpsbk1Iam81SzhBeldVdi1ZUmc3QdIBpgFBVV95cUxQZWFBMVJKZk1ZVDQ0WmFHMm41NWs3RHFWZk83MmlPRFNPMlRlTV9DUl9GRHA4S1d1aUh1aThfM3Brc3dTODZVLW16T2JxSDZMZWtjUWoxRWhGcTN6TGl1U3RJNjZIZWNDakMxZGdFZTZBVEs1NkNteGdiNWpZUkVqcmhaQ3NlLTc5UFpyVnVpOXh3c2tna2NuSGV4ZmpoN0ZSTHNUNUhn?oc=5",
-                "link_resolved": "https://voi.id/berita/600841/kementerian-pertanian-siapkan-1-463-hektare-pengembangan-tebu-rakyat-di-dompu",
-                "published": "Sat, 31 Oct 2026 21:15:00 GMT",
-                "fetched_at": "2026-10-31T22:09:50.917251"
-            },
-            {
-                "title": "Minahasa Usulkan Bantuan Alsintan ke Kementerian Pertanian - RRI.co.id",
-                "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaVVxMmRtQ2VyOGlJOTlpVVBpSnJMT21SMkVZcG9wYUpGWGdJamcyMFY1SzJxc2FYN3c5b2NGOV9tLURDVmVvRER4WHpGS29FLXZrMk1RTDN6TG12MExoX1gwNU85SVNZTVRIS0xzcEpQZ1pVczlUMEVUT0gtY1RoWGJoaDFpVUdSOWQ4ZHgwNFRtQUN1azZzRkhPVHAtYlFmNFE?oc=5",
-                "link_resolved": "https://rri.co.id/manado/regional/2861616/minahasa-usulkan-bantuan-alsintan-ke-kementerian-pertanian",
-                "published": "Sat, 31 Oct 2026 15:37:00 GMT",
-                "fetched_at": "2026-10-31T22:09:50.917248"
-            },
-            {
-                "title": "Mendorong inovasi dan mengintegrasikan teknologi ke dalam kerja sama pertanian ASEAN+3. - Vietnam.vn",
-                "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYUZBTjJiTGdsR1lsMGZtZHNOSTZWU2ZiRlJmZ01kZDktVTZKcVJCaFRmWUV1bWhBbldrOFdLM3B4bXlXVkczckVhSjZuZVByYXNMS2FoVjdvUGU0SllCeVZlMDRrb3l4bUU4Y0hkTFRGZmlFM0t4TU9ZZEg4NXB1cjQzbExQVUpqX1VUZ2RYTnMwWDZjZnFybmRVUFRCZw?oc=5",
-                "link_resolved": "https://www.vietnam.vn/id/thuc-day-doi-moi-sang-tao-dua-cong-nghe-vao-hop-tac-nong-nghiep-asean-3",
-                "published": "Sat, 31 Oct 2026 15:22:07 GMT",
-                "fetched_at": "2026-10-31T22:09:50.917253"
-            },
-            {
-                "title": "Mengintegrasikan teknologi dan inovasi ke dalam kerja sama pertanian ASEAN+3. - Vietnam.vn",
-                "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdnQ2a0pTOGZleU5meFM1TFFmMGU2ODhqRzF2bUlsRWJVZ3lTMUVOaEpDMm5iWVc5YWx1cmhFekJTVkk5ZGQxWEhaV3psMWtfQTBkT2JTejkwYkxLV0kyZWZ4eDFGUHh1Zk5WVDloM1ZDZUQ2cUNaenBWdFNqa0xlekVWYXR4MkVyenFlZS1vaXJlXzJWSVE?oc=5",
-                "link_resolved": "https://www.vietnam.vn/id/dua-cong-nghe-va-doi-moi-sang-tao-vao-hop-tac-nong-nghiep-asean-3",
-                "published": "Sat, 31 Oct 2026 13:27:09 GMT",
-                "fetched_at": "2026-10-31T14:06:51.890857"
             }
         ],
         "Kementerian Kehutanan": [
+            {
+                "title": "Aksi Bersih Sampah Warnai Peringatan HUT ke-22 Taman Nasional Bantimurung Bulusaraung - Direktorat Jenderal KSDAE",
+                "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNU29lUHZWVno1ZkhpYWtqMG9OZEZ4MWVoZXNqdTdpQzdfTThQaGFiR0Y3dlFuQjQxMWF6M0cxd3M2N3JYNDlseDRybjBPOFcteFBaMERBQ2cyZEVoNWtBc0JDUjk4Z1JDbXdvc1owUVgtSUNndEpjcmlJdUZFdW1IN1NDMF83b1hzcW5RdWJTOU52LXJWdzRlNVp4VXRtZHNCbDZhbVU2cUx4S2xsSGQwdjlMS2tIRlZsNy1wMjVTVm01WDNCa2hXbGFYaHltUlVWenlWVXFSTUE5eWM?oc=5",
+                "link_resolved": "https://ksdae.kehutanan.go.id/publikasi/artikel/aksi-bersih-sampah-warnai-peringatan-hut-ke-22-taman-nasional-bantimurung-bulusaraung-1REiXxsw/",
+                "published": "Mon, 02 Nov 2026 09:23:36 GMT",
+                "fetched_at": "2026-11-02T11:53:21.568813"
+            },
             {
                 "title": "Kementerian Kehutanan - Kementerian Kehutanan",
                 "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWUt4ZEJJMk9LbS1vbzRVb3pxSEg0NWxHaUE1NjJ5WjVCMll5NEo0SWJFeGlJWjg2N3J4cFUwaTRVb0hmTnJVUkZqdEFSLUhnS3FacFpZa2UtMVZWZ2pMU1FsMzhvNUdUb1M1Z2N2VkNJbUdzVFI4WjdpQzFhR0oxX19uUUxBRGd3REpsTTBsSkF2cnB3ZVJIR3VDZTRwZHRFQ2lLMk8xNkU1ZDd3eWwtVndXZjR2TkQ1aU41aUl4RGdJcGc?oc=5",
@@ -163,6 +170,13 @@
                 "link_resolved": "https://sipongi.gakkum.kehutanan.go.id/berita/677-direktorat-pkh-dan-balai-dalkarhut-wilayah-sulawesi-bentuk-mpa-di-kabupaten-mamuju",
                 "published": "Sun, 01 Nov 2026 10:40:34 GMT",
                 "fetched_at": "2026-11-01T15:37:59.712426"
+            },
+            {
+                "title": "Hotspot Turun Jadi 96 Titik, Menhut Tinjau Bekas Karhutla dan Perkuat Penegakan Hukum di Kalteng - Kementerian Kehutanan",
+                "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWmttSFVFcXN5VHhqdXM5emdXY0VHSHhLc25OQVJvanNJUzU4bWdLSU5IZFVEVm56T21pZjVnU2NoUjhtLTZYZXpZT0JWUUNoYTJZUmxNbloyS1dRYUhHN1Y5RXlyZ3pHQmk4TTFkUnhZdVFZOWI1ZlFlNENBcnViTVQ5a0kyMFhsX0VqTmV1bmJPQm10WGdOWWtnQjVoOS1idmhlUEw3cFVYRldvUHZuZmRtbnJsbkdLQnp4NHFqa2JjVkRFcS1Z?oc=5",
+                "link_resolved": null,
+                "published": "Sun, 01 Nov 2026 10:25:10 GMT",
+                "fetched_at": "2026-11-02T11:53:21.568820"
             },
             {
                 "title": "Kementerian Kehutanan - Kementerian Kehutanan",
@@ -268,23 +282,30 @@
                 "link_resolved": "https://www.kehutanan.go.id/news/kemenhut-konsolidasikan-pemanfaatan-jasa-lingkungan-85-ribu-hektare-di-khdpk-jawa-barat-dan-banten",
                 "published": "Fri, 30 Oct 2026 12:17:41 GMT",
                 "fetched_at": "2026-10-31T14:06:52.377734"
-            },
-            {
-                "title": "Kementerian Kehutanan dan BeZero Gelar Lokakarya Carbon Rating untuk Tingkatkan Kepercayaan Pembeli dan Buka Peluang Investasi Karbon Indonesia - Kementerian Kehutanan",
-                "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOalhjUmkyMm5mZU1QR0pGRUIwUlBKMGlSNTlqTmJHbnpSZVd6QUc5YmJtejlpTm4wWDI4Z1RyZjU1Y1Zuamtta2V5Tjh2SXBJQTRFV3B2cjhmakNjWDBHX3UyZlJrM1c0alR4OWg1MEZjQ0hhZm9fZDRxLURFNDdONTgtWmQ5Ym5yUGNwbTg3ZWxTeWRVcG9vcXl4ZFVlSlp1Q2ZzbDJzOFdOdnZkY1JSSXVzWG1OdXNrZWE2aEJKVHZRN0pZa1JmenJLYnVxUVZDVGd5NVEzWkpIcy14WkZrdDlDWVRnUzRVS3JZWkMzR3FmSkdFNVdzY1N3U29jZ1BOWkNTbDlxM1A?oc=5",
-                "link_resolved": "https://www.kehutanan.go.id/news/kementerian-kehutanan-dan-be-zero-gelar-lokakarya-carbon-rating-untuk-tingkatkan-kepercayaan-pembeli-dan-buka-peluang-investasi-karbon-indonesia",
-                "published": "Fri, 30 Oct 2026 12:12:39 GMT",
-                "fetched_at": "2026-10-31T14:06:52.377736"
-            },
-            {
-                "title": "Kementerian Kehutanan - Kementerian Kehutanan",
-                "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaHl2QXlud2VBOVFfbjk1ckFqN3hPVlRUZzVyUDc0cVh1clExNXRfNTVrLVlwLWJDZWdQSktEeXBTa3JFcWVOc096OHBpczJnY0Y0dVpvSk82TUdRUDgwXzZQY2p3WUtaMHk0aC04R2l5dHAzWXZCSEdpb012Nlk0LUZLUUFIdTZhTlhqa3FCN2hVTU1PRU5NRkdGSDUzQQ?oc=5",
-                "link_resolved": "https://www.kehutanan.go.id/pers/hotspot-naik-jadi-154-titik-kalteng-jadi-fokus-penguatan-operasi",
-                "published": "Fri, 30 Oct 2026 08:14:37 GMT",
-                "fetched_at": "2026-10-30T10:38:03.983211"
             }
         ],
         "Kementerian Kelautan dan Perikanan": [
+            {
+                "title": "Bulan Mutu Di Merauke, Dorong Masyarakat Konsumsi Produk Perikanan Yang Aman Dan Sehat - Pasific Pos.com",
+                "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNW8xVVRXVlhNcEhENWEycGFORWxJdE5wWFZFZnB6MlBzQmVMN09hSzlMVDB0VlF6WkRRMjRwdWw3UXd4RFl4RkI3ZEVfV19jMmZBWU44RXBnX08xOTRVa1FwRlZtZGlqLTEwelJHaW5HRFFkWXF1bklweVpIcm9qaUE0NkpzdVYzMnZYbnpUa3ZNalk3b1d4LV9qTmRXSW5ia29wNWtHZk9zSkNVZ3U3alNiZw?oc=5",
+                "link_resolved": "https://www.pasificpos.com/bulan-mutu-di-merauke-dorong-masyarakat-konsumsi-produk-perikanan-yang-aman-dan-sehat/",
+                "published": "Mon, 02 Nov 2026 09:39:58 GMT",
+                "fetched_at": "2026-11-02T11:53:22.084124"
+            },
+            {
+                "title": "KKP Buka Jalan Pengembangan Usaha Bagi Pengelola Budidaya Perikanan Darat Tematik & KDKMP - Heta News",
+                "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSkF4R3k3dk9yREtiTjlaQkpZVXZ0cnlIdF9lcmhRejh2QzdmTFdYUkN0aWg4N254YnNkcjAtV2NOcEZaOXhzZHprUlIxems3YjQwUnJWamVhRWdmRlU5V2FOYzgxME15SDFJOTkwSUIzYkI0STM4Sjg0OXV1QXFHb19GQ0pmYWxLeXZTTTBQc0p6X1gxRHk1Y0YySlp6bDc4eEtYWkR1d0ljbUNZaHlGOXNQZXU4Yll3LUNldENIM2ozTzZYcnc?oc=5",
+                "link_resolved": "https://www.hetanews.com/article/312207/kkp-buka-jalan-pengembangan-usaha-bagi-pengelola-budidaya-perikanan-darat-tematik-kdkmp",
+                "published": "Mon, 02 Nov 2026 07:37:32 GMT",
+                "fetched_at": "2026-11-02T11:53:22.084114"
+            },
+            {
+                "title": "Kesejahteraan Nelayan Dinilai Jadi Kunci Keberhasilan Sektor Kelautan - Media Indonesia",
+                "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRlQtU0lWOGJXQ285cVUxXzdkX0FtNFZOSm5XTEV3VmY1ZkNzczdPR19uSS0xWHFXNjRLRU5wRlpmdnZwbXdqWS10MkY3T0Q5WnloVi1PX085RG1BUDB5R3FyNDZGVDVrXzVtOWlwbTFmamIwUXk1STVjT1JfNUJvZ3NCM3RwNjMzY2VORFpvc1ZmNVRnWnExaUZCZ1lnM2ZGWnU2U094RUhXa3JYbTg4QXA2SFA?oc=5",
+                "link_resolved": "https://mediaindonesia.com/nusantara/951245/kesejahteraan-nelayan-dinilai-jadi-kunci-keberhasilan-sektor-kelautan-",
+                "published": "Mon, 02 Nov 2026 05:06:21 GMT",
+                "fetched_at": "2026-11-02T11:53:22.084106"
+            },
             {
                 "title": "KKP bantu mesin kapal untuk nelayan terdampak bencana Pidie Jaya - ANTARA News Aceh",
                 "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWlFnLXdiY3VZRzJoU3ZGeWFiYkRGTnZHcnJHeEZEd1lxM0FRU2tIT3JPS2dJNEplUHZqQU0tbERONWtfOEpLOXBZRmU1a0hOamNxN1k4N2RTa1hBNUlOS2xsdTNMTVozXzNfRU9hWVl1dVRoSl9jRVFoMW9LelBQdUlmT1FTVi1KSjJwbkx2YUYxN3VwVGdWNGFKaEU5X0hnN1pmNzVwOUgzd9IBrwFBVV95cUxPcXlubXBsenV0WVdtU0xaUDRPRzVTalJiRnRmYnU5QWVKZTFoLWdtZHpWVG9DRW9tVlpoTzFDaTlBNHMyQW90UTIzMUowdlc3a3E5RkphcDRFV2VrX3VBWVZwLWVnOHJhYUxpMHhtZ1YtQzhrVC1MZmhOdUpuWGNFdWF6bDBOMnlLb3h6ZzcxdXZMSnhMZUV3RGlSbE9raGVqdWJja29Ta1h2SWg5eGJv?oc=5",
@@ -326,6 +347,13 @@
                 "link_resolved": "https://infopublik.id/kategori/nasional-ekonomi-bisnis/995442/kkp-kumpulkan-6-ton-sampah-dalam-aksi-sebasah-di-pps-nizam-zachman",
                 "published": "Sat, 31 Oct 2026 23:22:00 GMT",
                 "fetched_at": "2026-11-01T01:43:22.729915"
+            },
+            {
+                "title": "APCONF6 di Bali, KKP Perkuat Pelestarian Warisan Maritim dan Ekonomi Biru - InfoPublik",
+                "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNa3I0OHVieGtleUJ1ZVVNd1JDa2tfUFVpVlBCMGUzdXUyclJ2eERLcHhfd2JVdHNkLWNNWWNCTmtja19mNU5KNExjUWlmSGdQZmFXSDhtOW5mVGJiN2F4N3M2S2Z1TFZZX3UyOG5uM3JlaWFXQ3NVR1BRaTRUTE1xRDFjSkFVTU1OaXFVX2ZVNVJfRWx5MG1XXzdpREdQN0loR3IyMERuN1JsRUpFcTJoTDlETm5RNENraTVkb2VWVUdyU3JkYlNlbmItRGVzaHc?oc=5",
+                "link_resolved": null,
+                "published": "Sat, 31 Oct 2026 23:21:00 GMT",
+                "fetched_at": "2026-11-02T11:53:22.084135"
             },
             {
                 "title": "KKP Perkuat Verifikasi Calon Lokasi Kampung Nelayan Merah Putih 2027 - RRI.co.id",
@@ -396,37 +424,30 @@
                 "link_resolved": "https://realita.co/baca-52004-jember-dapat-3-kampung-nelayan-merah-putih-menteri-kkp-targetkan-pembangunan-rampung-akhir-november",
                 "published": "Sat, 31 Oct 2026 02:31:00 GMT",
                 "fetched_at": "2026-10-31T07:48:37.419162"
-            },
-            {
-                "title": "KKP Siapkan 197 Titik Kampung Nelayan Merah Putih di Sulteng untuk 2027 - Lutimterkini",
-                "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcDRDVTA3OXBfaDZnYmplWlJPaGZhTnZMQS1YbnpuZXBzWUlGeW9td2VCZFJUN3luSlg4Q2cxejVfZEFMSUVTbzIyRml1MXBkM0NkMjNyRjBENUxyM3ZHZ3g5M1VWYl9pdmxEQTBZZXRrNkJiak9mSkxWZlk0ZlVxNWluZWRmN3E0RTM4RTBiOFNqQVZ4TkNWTnRlTkVRR2N2SnRRMFI5UU9NdHFaVlU4?oc=5",
-                "link_resolved": "https://lutimterkini.com/kkp-siapkan-197-titik-kampung-nelayan-merah-putih-di-sulteng-untuk-2027-lutimterkini/",
-                "published": "Sat, 31 Oct 2026 01:44:50 GMT",
-                "fetched_at": "2026-10-31T07:48:37.419152"
-            },
-            {
-                "title": "KKP siapkan 1.000 Kampung Nelayan Merah Putih di 2027 - ANTARA News Gorontalo",
-                "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNmtsbjZoakxkek1Ub3k1MTJCUDE5S0RnVG1FRFJqNTIxdTZfTFFQYUQ5Q0JoRFROTGY5WnBlN3MtZnB3Q1IwdlZLZllZTm9PLW5DNzlhOGZWbWxHRXhNbVBOdjhlY0lOai1sNHFsVi1GbEtZSFZXdEdLSlc3V09tTnZNUUQ5OWUzOV9SSlJtUU9Sby1GRHg4NDdOWGhtRWQ50gGmAUFVX3lxTE0tMXR0VTdaanN3V0ItcjZTc2Fsb2JnX2MtNHV1eTdpS056YlZ3WWVldGdUZWEyRV9YU2xyVDE2NVdJQTVWRUd0LXdQaldNRGxIN1NTamtGYzh5andjUVpWRW13ZXk4UTQ2eW1ZMk5lOWV6Z3JpN3dxMXVMVWloMGlYSW1ZaGxZVVdHUjdJTWFtMFZSZnlKekI1TlF2ZUc4UXUwUnhqRmc?oc=5",
-                "link_resolved": "https://gorontalo.antaranews.com/berita/432827/kkp-siapkan-1000-kampung-nelayan-merah-putih-di-2027",
-                "published": "Sat, 31 Oct 2026 01:13:40 GMT",
-                "fetched_at": "2026-10-31T07:48:37.419155"
-            },
-            {
-                "title": "KKP Siapkan Survei 1.000 Kampung Nelayan untuk 2027 - Serayu Nusantara",
-                "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQLWIweDJwaHdMWF9XMzkzVlVJTnZ4YWRLREhTZjVhNmd5VGFsNWhRcWdlV3JfTGpMbkNyTHkzcDlpSzlwZ2MyVGlMY25JbVdISzJZTVFSWUtHWnl1MXhJUVdtMkFST2h1RlpYUll6bDl1amUzZVVXZWlPMzBlLUlocW1zeDl0a0k?oc=5",
-                "link_resolved": "https://serayunusantara.com/kkp-siapkan-survei-1-000-kampung-nelayan-untuk-2027/",
-                "published": "Sat, 31 Oct 2026 01:00:00 GMT",
-                "fetched_at": "2026-10-31T01:17:37.074976"
-            },
-            {
-                "title": "Pemprov Papua Tengah Usulkan Sejumlah Program Strategis Perikanan 2027 ke Kementerian KKP - Tribunpapuatengah.com",
-                "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPakZ2bzdGN0kzUWJscWMyOTkzTjV6THljN1cxX194S1pUeFhYSi1ERlFURzhhOWxydk80YjQtSE14TWVJQVU4M2IzalI4WWU2M2xXdVpXRzN0NDdPZE41UEQ2WWV0OF9Ea1Z5SjJWMWlBNU9NXzRfTmJvOVZVWVVEbjNpZlBUa1lyVEhEVVpTQmhRTDFBUVJRcXRNUXpNc29mZTkyeldpSTgtTV9COW42dGREdFlxYVUzbWRkay1XWC1WUlhVcXU1cjJBZEZQZmNaUW9LN0w4S2hoaFRNNl9iM0JGSUE?oc=5",
-                "link_resolved": "https://papuatengah.tribunnews.com/pemprov-papua-tengah/7950/pemprov-papua-tengah-usulkan-sejumlah-program-strategis-perikanan-2027-ke-kementerian-kkp",
-                "published": "Fri, 30 Oct 2026 22:28:20 GMT",
-                "fetched_at": "2026-10-31T01:17:37.074986"
             }
         ],
         "Badan Karantina Indonesia": [
+            {
+                "title": "Barantin Perkuat Kompetensi Petugas melalui Pelatihan Verifikasi Dokumen dan Segel Karantina - Badan Karantina Indonesia",
+                "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVXVpYzhCajVvTXJPZmM3NG1haDE2OFlVZTIzUDBJb0xSdXNhZE5vUG1Pd0d4MmtfT2loVnAtbDdHUk8zMEhFS1BsSmYxY2o4QzRsbEIzRVI1aTdWRE5zVmpRYnFDOTRWLW45TXN5SmJXeE02TE9qNHpvZkRvZ0pmUm9NYW1yNkoxckhKaFFVbDJaNWFRSWVFY1dyM3R4bEtDRWN6RGFRcVN1TGxJWWdRR0hlUTJVZERFNW5pc3JrOHFCanNHX0ZRZUR6Mkk?oc=5",
+                "link_resolved": "https://karantinaindonesia.go.id/berita/barantin-perkuat-kompetensi-petugas-melalui-pelatihan-verifikasi-dokumen-dan-segel-karantina",
+                "published": "Mon, 02 Nov 2026 08:27:05 GMT",
+                "fetched_at": "2026-11-02T11:53:22.624440"
+            },
+            {
+                "title": "Sertifikat Kesehatan Didorong Jadi Paspor Ikan Hias Kediri - Serayu Nusantara",
+                "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcjU0U042WjhQNTZOanNBdWl0US02a2NCY0JWa1NxbmZjNXl4T1QwVWU0ZnVsRkNmcU1nUEJXUEFBMHJOaVF0R3dZZFFsTVdsTXhpM29DQWxDc3BwUGdqcTdoeUFxZnp3WEtpRlp6akZWNTFpRU0xUno2S2I0OU5fMGJHM2RjRGdaS19Hd1FLb2s?oc=5",
+                "link_resolved": "https://serayunusantara.com/sertifikat-kesehatan-didorong-jadi-paspor-ikan-hias-kediri/",
+                "published": "Mon, 02 Nov 2026 06:00:00 GMT",
+                "fetched_at": "2026-11-02T11:53:22.624461"
+            },
+            {
+                "title": "Dosen Fakultas Kehutanan UGM Perkuat Kompetensi Barantin dalam Pengawasan Kayu dan Biosekuriti Nasional - Fakultas Kehutanan UGM",
+                "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQd0NVdUdBN1NFbWVSVGJRUDhPR0duN3Y2ckhzdU5kWVh1czU3VmlwZ2pQNjZDWnAxdUVfRzlfcUFZNENZcjNiT3Z1SktjWTFyTzJvNjRtTWxMWVBqUFhTNHh5RWo1ZHMwV3pqZ1VZQjBtQXgxVkdGeGk2NWhHMHpwT0FtN25oR2Jpc1ZkcnpqVVNHMURKN2dVcDBzdmxzMHhsR0F5VEdyR2lGNHZ1NHFHdEtUdHh4QVdHRU5IQVZWNTMwUlRPRURlUmt4LTRjZG8zTlMw?oc=5",
+                "link_resolved": null,
+                "published": "Mon, 02 Nov 2026 00:04:00 GMT",
+                "fetched_at": "2026-11-02T11:53:22.624453"
+            },
             {
                 "title": "Karantina Jatim: Sertifikat Kesehatan Jadi “Paspor” Ikan Hias Kediri - Badan Karantina Indonesia",
                 "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaEVsbnY1ZEFySUJ5S3RWWXdtYk1FSzF2X1puc3pzenViYXZRYlhac3REUXVfaGItWGxkU0dYUUNGNG9qbW5HV05HU2UwQWM2UWRkSVU3RlZqdFZnSndWWDBWb04yenM4VDcyUnp3TEx3TTZNeHNicW0wc3VodmN1UG51cFQzdW41NXJqM2pEXzBoZlRMZFBvUDlpMjg5R2cxZGZ3VEpfdHk?oc=5",
@@ -545,30 +566,51 @@
                 "link_resolved": "https://tabloidsinartani.com/detail/industri-perdagangan/karantina/28286-Ekspor-Tanaman-Hias-Takut-Ditolak-Klinik-Ekspor-Barantin-Ada-di-Setiap-Provinsi",
                 "published": "Wed, 28 Oct 2026 07:32:00 GMT",
                 "fetched_at": "2026-10-28T16:55:05.927818"
-            },
-            {
-                "title": "Barantin Hadirkan Klinik Ekspor di Seluruh Provinsi, Bimbing UMKM Taklukkan Pasar Global - Lingkar TV",
-                "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAwbTFCaVUtQzRybVZOY2tmOXJDTngzZVNxX1c2NUtBYlJpMkJpc1Z2VzFJZTJ2dVZMai1tejV6Vy1OMXRnSE9xRDVxcWZISEJPbWZzOWFlT0FfaGR3dkVUanFoaWNyNFZJUzB5Z1BDOVdkNEE?oc=5",
-                "link_resolved": "https://lingkartv.com/barantin-hadirkan-klinik-ekspor-di-seluruh/",
-                "published": "Mon, 26 Oct 2026 14:36:22 GMT",
-                "fetched_at": "2026-10-26T18:22:01.456987"
-            },
-            {
-                "title": "Dari Mutu hingga Sertifikasi, Ini 5 Langkah Memulai Ekspor - mantranews",
-                "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQVRKUXhpbEJIUmJkdk4zQVRDdmF4OFc0eE9wLWVlOW5Zc1JicG5ySDhhdTM4dkc5REJEYk1NUjVJVEM2N05DU0J5Q1VSR2kwdnZKS2lLcU9sc2NGbmNSMlg5ckZ1ZFNkNE5DZDVlZnU5N1ZwSU5CbFdDaTJBOHRuelA5bmo4QjJHR09yRGNHaHh3dw?oc=5",
-                "link_resolved": "https://mantranews.id/2026/10/dari-mutu-hingga-sertifikasi-ini-5-langkah-memulai-ekspor/",
-                "published": "Mon, 26 Oct 2026 14:31:47 GMT",
-                "fetched_at": "2026-10-26T18:22:01.456991"
-            },
-            {
-                "title": "Badan Karantina Indonesia Perkuat Fasilitasi Ekspor - Lintas Lampung",
-                "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMlhMX01xQjAxRWhpVmFqMkFtcTF6V1RFcHEwbEUtTEtiMTRraE11OUFZVW9EUFZ1dXNsUkU1ZDhBVHNpSHVCZHBOQ0RZNzFpUU5PeGctdTNhUU10cEo5XzdmLXk5LWZJSXNnR05Vam94UUNvaElZWWwzblNqM1FoaW5HSHZCY0RDaWF2TA?oc=5",
-                "link_resolved": "https://web.lintaslampung.com/badan-karantina-indonesia-perkuat-fasilitasi-ekspor-2/",
-                "published": "Mon, 26 Oct 2026 12:22:00 GMT",
-                "fetched_at": "2026-10-26T18:22:01.456979"
             }
         ],
         "Badan Pangan Nasional": [
+            {
+                "title": "Beras SPHP Diduga Dioplos, Potensi Kerugian Negara Capai Rp6,07 Miliar per Hari - Suara Surabaya",
+                "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPS3h3VFpnX09XcUlLTnRHQm10Z0xJWndTeHpIeEVvN2EwTlE0Y3FyTVNxYzk0eXhTOXA0bjJWSjdTUjhhc2I0bEQ0MUsxcmxGSWFrUDFlVV9Ga293QXBjZWkyRTg2QmZDMjl2Y3U0c3dDNHQwRHR2XzdNUXlBWFA2UWxwQU56R004d09Ya3dfdlZuX29pN3YwaTBOMEphUmU1aTNsb3A1cHJTT3BWY2pIaFQwRzkyRFZnWmlIdFU2bzJhZHp6RFE?oc=5",
+                "link_resolved": "https://www.suarasurabaya.net/ekonomibisnis/2026/beras-sphp-diduga-dioplos-potensi-kerugian-negara-capai-rp607-miliar-per-hari/",
+                "published": "Mon, 02 Nov 2026 07:45:55 GMT",
+                "fetched_at": "2026-11-02T11:53:23.110453"
+            },
+            {
+                "title": "Bapanas Dorong Penegakan Hukum terhadap Penyelewengan Beras SPHP di Jawa Tengah - Heta News",
+                "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMjZlMzNVSnU5NVBsYW1KUHBEMDVnOW9NUERRQzdISVFUTW1LNk05RkE5a0NlM0tjeTc4djc4OHVMU2pPMEkteTN1RXVrRURZQXRXYTB3d2R3ZHcxZkRFRWJRTmJEczk4NFlBTmVzWG9kUlM3ZjNOaVFLQmJQbnE0bHpxWmFYcjRwUE54aGJpMWo3M1diVWdqTUs5WG81YTRCU2ZzWVhucTJDbk4xZWxWSkRHY3VFWlRqZ2pz?oc=5",
+                "link_resolved": "https://www.hetanews.com/article/312208/bapanas-dorong-penegakan-hukum-terhadap-penyelewengan-beras-sphp-di-jawa-tengah",
+                "published": "Mon, 02 Nov 2026 07:42:03 GMT",
+                "fetched_at": "2026-11-02T11:53:23.110450"
+            },
+            {
+                "title": "Dari Gudang ke Meja Makan: Pelajaran Tata Kelola dari Capaian Pangan Kita - rentak.id",
+                "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVjVhcURxYXN6TkRreDlZaVBwVFREaUoxTlNGQndRUjVjc1FfU2FiTGRnMkMzMXlZNHlSdkdQSFM4LTBvWGRRN0J2eUQ3YXpHUXpEOHFrMXlhOTFFTkhPUkFuQTU3bFp1bUtBMWpiOFJ1ZkxsZHNPTHprbEhRbi01V19NQVIwb1dsbk03VjR6UHVTU2ZFRFE?oc=5",
+                "link_resolved": "https://rentak.id/dari-gudang-ke-meja-makan-pelajaran-tata-kelola-dari-capaian-pangan-kita/",
+                "published": "Mon, 02 Nov 2026 07:22:00 GMT",
+                "fetched_at": "2026-11-02T11:53:23.110457"
+            },
+            {
+                "title": "Lagi! Polri Temukan Kasus Beras Fortifikasi Abal-abal dan SPHP Dioplos - CNBC Indonesia",
+                "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONy1SSVkwRmNzbTdpOF9CT2hqR19NWkN3T3VqTHBXaUVmWUNGV2pDejVhV2s4aVk0MXNEcWh3R2MxZHlwU0Z2dWVWLS1SeFJPWU9wRUpVRmlocGdXLU1BSTZSUnVsUWlwV0hwMHBVaG9wbF9sNGJ6bWNDYTVKSzFlNFVxenctRmI4dkdVSDlxei05Q3dKaVRYV2MyTC1Dd3NrbDljSHFSdnpycmxpY0RFay1OeWQ0ZHZyRHYwU0FCRU55OGVNZ0130gHMAUFVX3lxTE9RMHZnSFlYS0tRUHVSaUhXT2xUazNpY0pObGVCVlY0dGhCcklwbG9LTUFfZHNqMUdLUUNsWnpSZ0hRQ3RSMFpLTG5ZSWMwaEYtZWxUMUpxRXZGbmQ1M3NWZUdsVUNxUE8yMTlsaEsxMzh4YUFsbHgyQThxc1kwUGlCMThvY3hhd3JSM0lEV0E1WnZ5SWJmYVoxRXdsdmoxNUYyaDY5U3loRHdNU21Sc2dQSDFDanJhc2xfNkxGbVIyZDh2N2lMZzZfVkY2VQ?oc=5",
+                "link_resolved": "https://www.cnbcindonesia.com/news/20261102101802-4-781428/lagi-polri-temukan-kasus-beras-fortifikasi-abal-abal-dan-sphp-dioplos",
+                "published": "Mon, 02 Nov 2026 05:10:00 GMT",
+                "fetched_at": "2026-11-02T11:53:23.110443"
+            },
+            {
+                "title": "Bapanas memperkuat mitigasi ancaman krisis pangan di Timor Tengah Selatan - ANTARA News",
+                "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaE5LV25xZHZRb0c5WkllRmItSjY5czA0WlhZVHhRMXllZDcyc29FYTNfVDl2OFliSkZ3VDlmQm9DU01Ma1hQSENFNlRqVEFJbU1ud3U3WVdvTi1mM0V0OXRpWUM4YkV6ZGo0a0UxVml4cmVoNVBIYjFoOGk3UEtHY0x3S3oyQ1ZQVm44WVVuWTU0VXFuVEJJcnZFSUcwWWtSaFlfWjVjNWdMVEVVeUZxQUFJQkwteG94?oc=5",
+                "link_resolved": "https://kupang.antaranews.com/berita/204127/bapanas-memperkuat-mitigasi-ancaman-krisis-pangan-di-timor-tengah-selatan",
+                "published": "Mon, 02 Nov 2026 05:01:09 GMT",
+                "fetched_at": "2026-11-02T11:53:23.110425"
+            },
+            {
+                "title": "Bapanas Perketat Pengawasan Beras SPHP, Temuan Oplosan Rugikan Rp6,07 Miliar per Hari - Indragirione.com",
+                "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPR29PcGRNRnd6N3l1UnNIZDFseXlTUzdfRkJEVWRZek9wOWM4YXVJT2JURy1vZWtwYzMxZ3FfYlRTbTVsaFI4Zy1CRVZZZGtYaERDQWVhdmJtcG42SW1ETkw2WDdXWWVsbE0zZEVlXzAxSjVyUGZrbTR2VkpTYU9jSVBoVmdXUDQ5T2ZxN25jX3J6cDNJWHFLamNwRnZsdF9BN0VPRnpPRUxyVmh5RVU5TUJIQml4dVZ1MkJVNNIBwgFBVV95cUxQOHRTUm9RQTlrc0QxU3lZYUxSVS1tM2dhMUJYbThCXzhMYWZ4Sk9RUUhBZmxSU3MtOW1yakZVc3l1SUZDbG5sWVhoa3FVR2tEWGZVQlJFXzNOVGFES0ZMR3ZJQ0hZT3R3clh1XzRQbjVGSUhmcG9DUnhub2JSLWxFOXN6N2l3Z1ZJVmJyd1NabGZVLTNSb1E1Mm5PMlRfaEJ5aXQySngzeUpzc2RLejlXNFM2cURQT2xsSW5CM0VrZVdmZw?oc=5",
+                "link_resolved": null,
+                "published": "Mon, 02 Nov 2026 04:21:01 GMT",
+                "fetched_at": "2026-11-02T11:53:23.110467"
+            },
             {
                 "title": "Jelang Nataru, Bapanas Pastikan Stok Beras Jawa Timur Aman Hingga 14 Bulan - Info Ekonomi",
                 "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMWpwLUdNemVUQ00xOENfaXFuUndnZ3o5Tm5KYVcwQmVEX2ZFMUFKajlyV3RfVWxGdnQ2VHpQajFRUFo4X3J2a2NnMVpQZWRZdF9obWRubTJZYnpTaGpzTkctemh1NV84REFmZk1zT3gwUl8tUWRrZk85MF9fRFdhUW5ocmJUQWc1UHNoaWdZODFGRmhJZ1Vic2JsaVVvMmhoOHFaZ3dRQlQ?oc=5",
@@ -596,6 +638,13 @@
                 "link_resolved": "https://koran.pikiran-rakyat.com/ekonomi/pr-30310536920/inflasi-beras-kuartal-ketiga-2026-terendah-tanpa-impor",
                 "published": "Sun, 01 Nov 2026 22:00:00 GMT",
                 "fetched_at": "2026-11-01T23:26:09.101202"
+            },
+            {
+                "title": "Bapanas Minta Satgas Pangan Hukum Pelaku Penyelewengan Beras SPHP - Majalah HORTUS Archipelago",
+                "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNEZUQl9kM3J4dTUxY0haN3R5TEppVXN2cWlzV2EzbWFhNXQyX2h4dEdYdjdzWUNoN1VqWTVEQXBoV1AxR2NXMHdITkhSREFRNldIQ2Q2Rmx3WFM1eDhYTHJLdnFSTGg4Yk1KTVg4UlBXaXd5VWxmbE1RTU9ZWjJmd0FQRk80WHVQMGtkWVBZMUtCMngxX1lyWmQzS1ZvQQ?oc=5",
+                "link_resolved": null,
+                "published": "Sun, 01 Nov 2026 21:47:01 GMT",
+                "fetched_at": "2026-11-02T11:53:23.110447"
             },
             {
                 "title": "Stok Beras Melimpah, Pemerintah Andalkan Bantuan Pangan dan SPHP - rmol jateng",
@@ -659,58 +708,51 @@
                 "link_resolved": "https://kupang.antaranews.com/berita/204003/bapanas-temuan-600-ton-beras-sphp-dioplos-merugikan-negara-rp33-miliar",
                 "published": "Sat, 31 Oct 2026 22:06:51 GMT",
                 "fetched_at": "2026-11-01T01:43:23.685598"
-            },
-            {
-                "title": "Amran Moratorium Izin dan Tindak Produsen Beras Fortifikasi - Majalah HORTUS Archipelago",
-                "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaTUwSlFOSUpqWVlELWVuRXRuLVUwNDY5NFlWTVpISjFwZEVXUjlHRXR4ZFRxRFAxNlFYcFBBZEg3Z2dHUlUzS2lMUlBWdmJUR0VNYmhNWGNhRHZva3pSUHBpVGF1MkRxRnQ0Mk9EV0ZPNXVMTEs1OWJ3bnlKRElJb2dfNGwySzVIVFhLdkhyblJkNkF3TUE?oc=5",
-                "link_resolved": "https://news.majalahhortus.com/amran-moratorium-izin-dan-tindak-produsen-beras-fortifikasi/",
-                "published": "Sat, 31 Oct 2026 21:33:12 GMT",
-                "fetched_at": "2026-11-01T08:29:09.584991"
-            },
-            {
-                "title": "Dukung Ketahanan Pangan Masyarakat, Kasrem 072/Pamungkas Hadiri Penyaluran Bantuan Beras di Gedongtengen - korem072.tni-ad.mil.id",
-                "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObkNfNDZTMHEwTnQ1eXZGM29RMWZabXNJWHlWQkVoN20tVXRBNEVfN2gwQ2lfcERCSzNSd1RwaVVKeHgxNW0wU0gzWmYtTTRCeU8wMU55YjF3SWsxVzhmSXdTaU1TOGRkN0V0cGYtb2g1eFc3UFBPUjJBUW1nQWJ5aUpCb0ljOWpHQlhwWS00WTU5dkNnWWRhNVlzeWIwc05LemNjbTVTU2hKa0h4akxLWFZQbmVwWlQwdm9vSG1UanNfSHgzWmpHNExlYlI2Mi1H?oc=5",
-                "link_resolved": "https://korem072.tni-ad.mil.id/dukung-ketahanan-pangan-masyarakat-kasrem-072-pamungkas-hadiri-penyaluran-bantuan-beras-di-gedongtengen/",
-                "published": "Sat, 31 Oct 2026 12:03:51 GMT",
-                "fetched_at": "2026-10-31T18:57:03.972123"
-            },
-            {
-                "title": "Bareskrim Ungkap Produksi 525 Ton Beras Fortifikasi Bodong di Sumatera Utara - MOST 1058",
-                "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcVBuUlRFVmZDUUItejl0LWtSWXZrVmxRQWpWellyblNUSEkwaEFYaC1ySlV3SGwyX3B3N1hJLWxtZTA3bHIxNDc3Yy1XbHNfZUNnQjlsYW1xWUlzWHAxTUNUQktoNVA0N3Q0em1sdEU0U3JnVjc4LXdaSm01Y245b29RRFJObE5fQ3lONVBOeVZRY3ZpT2lOZjNsbXlGbUxqYmJHQ3BVZkljUnpk?oc=5",
-                "link_resolved": "https://most1058fm.com/2026/10/bareskrim-ungkap-produksi-525-ton-beras-fortifikasi-bodong-di-sumatera-utara/",
-                "published": "Sat, 31 Oct 2026 10:10:52 GMT",
-                "fetched_at": "2026-10-31T18:57:03.972126"
-            },
-            {
-                "title": "600 Ton Beras Subsidi Disulap Jadi Beras Premium di Matraman, 10 Pejabat Bulog dan Bapanas Ditindak - Aktual.com",
-                "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeE9WTGE2VmpOTnA0UkJNalBVQjdGSjZsa3ZhbWUwM3QxSlFKSVdFS05POXR3Q0xIcHlLWnV1WEhJTWk5LXJZc1B2a2hDTm1GR1pXbzUtZjRKOGRsTTJCN2dwTUpRR01fLWYzZFVkb1VfM3E0R2ZnaE5JUUJvRVZCQk96MUduM2ZWRE9ocVFBUkFITjRnV1g3Z3I4T1hNZHcyRTM3Q2EwUGJUSnNWWWZMUDlxaFJxQWE3eFE?oc=5",
-                "link_resolved": "https://aktual.com/600-ton-beras-subsidi-disulap-jadi-beras-premium-di-matraman-10-pejabat-bulog-dan-bapanas-ditindak/",
-                "published": "Sat, 31 Oct 2026 04:40:03 GMT",
-                "fetched_at": "2026-10-31T07:48:38.314087"
-            },
-            {
-                "title": "Beras SPHP Dijual Harga Premium, Mentan Copot 8 Pegawai Bulog dan Bapanas - Jawa Pos",
-                "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLXBTcnlCeEtkRnZqNGRXb0dBNGJva3R1Y1NQQWNScW1ZTUpVR1prZkliZGRFZEdNVXlMXzZqOGdNQVdLQ0RKQjN2bDlWYjlYTVR1RUxFY1d2bXBYMElXNy1xaEl3N194c2lCRlYwQm1ObnBhTlo2bGVzOVZvbjZPcmFHT3FleXFRY0xRS1RnWUFiSXU5UERDb2JKVFpzTlgyTkNYM0Y3bGw5UUJ0NzExNzBUZkdQYUV0Z3pfc0l5U05wQQ?oc=5",
-                "link_resolved": "https://www.jawapos.com/ekonomi/2610290257/beras-sphp-dijual-harga-premium-mentan-copot-8-pegawai-bulog-dan-bapanas?page=all",
-                "published": "Fri, 30 Oct 2026 16:55:15 GMT",
-                "fetched_at": "2026-10-30T21:15:57.082889"
-            },
-            {
-                "title": "Dua Tahun Pemerintahan Prabowo, Bergerak Menuju Kemandirian Pangan - CNN Indonesia",
-                "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYW9oelh4c0VYN3ZpcUNSczU4NmZXQlhoOTE5WEo1cmdTU2JLcXBHbm9RSmlOY0w4SnE5QkRPcXNmSTJyTWI5M0QwWXdVY1llbVp3bTM4dU1XeHN5d1NDLW9tQjE2dkU0M21CT3lQQ0liZ284MU5aTXBqVFZVQXVmekFBYnRWSVBJZG5MRFJfemljUkkwc3F4Zm9TdUFuaHBNS1BEMEo4bXFDT1plU1h3V2w3WEdYS09jNmh5QVprVFJZTE4wbkx30gHMAUFVX3lxTFAybHJUNEVpMWd5dU1hWklJUTJsZ3JBdW0tWnFvUzVSYXVyT3V0b3Q5ckthOVFRQlFfQnVTTEFtUlI3UWpaMl8ySGhQZEl4Y3NSOThITy1pU0lrY0kwYjE0NzBwQnZNTmRaTDdndlpMZUhZNVplcG05X2wzbmRldl85bWRRRWFSc2xGelRBVjFjcmg4cmoxdU5TVEhsNEdFTmlfWFlIb3RTeDU4Smdlay01c3NNR2RTcmNYTndDVVBXSmNwczFmR0EwbURXbg?oc=5",
-                "link_resolved": "https://www.cnnindonesia.com/ekonomi/20261030184606-97-1421614/dua-tahun-pemerintahan-prabowo-bergerak-menuju-kemandirian-pangan",
-                "published": "Fri, 30 Oct 2026 12:08:00 GMT",
-                "fetched_at": "2026-10-30T16:54:00.394917"
-            },
-            {
-                "title": "APKEPI Soroti Ketahanan Pangan Nasional 2026–2027, Harga dan Keamanan Pangan Jadi Tantangan - Sinar Pagi News -",
-                "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWEtrMzV4SzhlN3JUeDdGakxQa1NOeXJ3dnRQSHo5WDRISjVEd2R6YlJuT3hTdC1tUjhFNjlPeGk3dGs0Nm1WeHNFekY5QWFJZG5OeVVQelE4N295UUhkM2IwS0gyTzFTYzhoYmlkUHBCb2U5VV9fZ2hxU2k4OW8teWZ6M0s3dV83TlUxSDRYYTB4QUlOT3NnNGppZFJkN1E5TEd4RGdQM3VIVW9wMlNiLVduMHYxVlNE?oc=5",
-                "link_resolved": "https://sinarpaginews.com/apkepi-soroti-ketahanan-pangan-nasional-2026-2027-harga-dan-keamanan-pangan-jadi-tantangan/",
-                "published": "Fri, 30 Oct 2026 09:48:58 GMT",
-                "fetched_at": "2026-10-30T16:54:00.394920"
             }
         ],
         "Perum Bulog": [
+            {
+                "title": "Cegah Penyalahgunaan Beras SPHP, Bulog NTB Bentuk Satgas Khusus - insidelombok",
+                "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMG43Q2hSNWpGT2h4VmVBWDhORmpCeFNuVElRNHl3YW5id2Q1QTk0ekhYWWNvMDNaZW91a2xZOEZNZkRnM3RNcXFVQjRXSTctQk9iR3preTZwbFN4NGQxWk9lVGNuNDdpakVTbmxjLWdnM0s2Q0h4THhtS2J5cnVlUkxvdGNIcVdPZTlPNGdnd1BSc0g3ekdvREJodw?oc=5",
+                "link_resolved": "https://insidelombok.id/mataram/cegah-penyalahgunaan-beras-sphp-bulog-ntb-bentuk-satgas-khusus/",
+                "published": "Mon, 02 Nov 2026 10:59:58 GMT",
+                "fetched_at": "2026-11-02T11:53:23.538238"
+            },
+            {
+                "title": "Bulog Natuna tambah pasokan 91.000 liter minyak goreng - ANTARA News Kepri",
+                "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQU00MDBlX3JrZVZKRm0xMFVqbTZHc29PU25RVVRoWGc3RkRNZ0hsR2lKQ1BPRnZCSjFzMVNUbUR1WWItM1h1bWdFUTVkb1JFY3dxTW1QVTRSZlhjYmZvY0twa21nUnhCUjBkRHM3VDJXc3dGS3BVVlhScFR1NzliZUtTQkpUZWpSQXJ2UWY3TkJxc0E4X09vSUJRUXQ?oc=5",
+                "link_resolved": "https://kepri.antaranews.com/berita/272159/bulog-natuna-tambah-pasokan-91000-liter-minyak-goreng",
+                "published": "Mon, 02 Nov 2026 10:48:49 GMT",
+                "fetched_at": "2026-11-02T11:53:23.538224"
+            },
+            {
+                "title": "Bulog Serang: 200 Ton Beras SPHP Akan Diedarkan di Serang dan Cilegon - MediaBanten.Com",
+                "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSGJWcUxMX1ZPS0FjcGlURXp0YmlQRThRbmV3cmpaWnMyYThISzYycFJsNkVuUk5BLXg0RHRHTzhKQ0oxaXFZVkEzazRZR1VQSW5xeUpIcUlpazdkNGl3MmhPOXFYMDkzbTJvbVFSWlZpVUwtVFlSZGh4QVZhRG1DT1RjR2Zzak1hb0ZDSTlEVmFtbTNCeDhqcA?oc=5",
+                "link_resolved": "https://mediabanten.com/bulog-serang-200-ton-beras-sphp-akan-diedarkan-di-serang-dan-cilegon/",
+                "published": "Mon, 02 Nov 2026 09:10:31 GMT",
+                "fetched_at": "2026-11-02T11:53:23.538256"
+            },
+            {
+                "title": "VIDEO: Jemput Gabah, Strategi Bulog Kejar Serapan 4 Juta Ton - CNN Indonesia",
+                "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYnY1RkVtQ2Exb2ZvcTBnc3A3bTNJQkkzVkJYTHlLWS02dnBHLXh2SDFOa3dyUS1PWlJoNndtRkY0T3JSX3ZkZzhpRHpMLU5ueDhLQmhxZ3Y0SldJMXVwNlZjLXcyX2trdUQwQ2RaWFVHZ2doOUd1WW4tckUxMFRsZzVhYUx0U3lGUDNsNi1LSlZjSHVJVkVUUFZhSFdCWkV3b2NXQ1NfbHk0VXdGaXBreWlHTlFyUmJh?oc=5",
+                "link_resolved": "https://www.cnnindonesia.com/tv/20261102134135-402-1422293/video-jemput-gabah-strategi-bulog-kejar-serapan-4-juta-ton",
+                "published": "Mon, 02 Nov 2026 07:15:29 GMT",
+                "fetched_at": "2026-11-02T11:53:23.538246"
+            },
+            {
+                "title": "Stabilkan Harga Telur di Pasar, Bulog Medan Maksimalkan Penyaluran Jagung SPHP ke Peternak - Koran Jakarta ®",
+                "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZTlUTV9LeS1Ed3llUTJJTWU5QjRSdTIxRmFvRDdsWHRraHRLZUE0MFVwaFplUG01Mnh1eUN6ejJCRGZHZWJsY3ZQYjEyQngzVXNJd0dJd3JFQ1VKY3czS3ZpQ2hObmxSUGJmdV9wWkREOGM1MWpPUU80UXVZUmJScW02ZDI5Q2p1YnpWRktaRHg3ZW5fRF8yVUJEa0I5TDhrR1pnTmt1WktsY1NoN3FlYU15R0JJS05NSmVKSGxZTHVUd25s0gHKAUFVX3lxTE9BLTZZYUxfV29tdnBxY2NSUFg0NzVuVXlTR1cxTmp4eFBNZmc5RlBnY3oxVUtZOGFKbEdudHdGb1JkamhZZXVZY2V6bGU0OGFtbEtHckFRVHJSX0U0bXFuT2h6TUVNZDBORWJwWldsUjBqcGw0dHREODNLSkhFSC1oRVpnR1RkbFF1bUl4dXR2aTBvaGxNRkQzTF9JLU9oZXI5TmNOWWxmQnFpb2k2MHhSUFRtMWQzMGx0OWRXdE9RUHpVR3RtWTVkWXc?oc=5",
+                "link_resolved": "https://koran-jakarta.com/2026-11-02/stabilkan-harga-telur-di-pasar-bulog-medan-maksimalkan-penyaluran-jagung-sphp-ke-peternak",
+                "published": "Mon, 02 Nov 2026 06:26:00 GMT",
+                "fetched_at": "2026-11-02T11:53:23.538262"
+            },
+            {
+                "title": "Sanggau dan Sekadau Jadi Sasaran Penyerapan Jagung Bulog - RRI.co.id",
+                "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQUNCQ3k4MEpyUVJ6bDJuVDZlRW9EbW01Yy01SGZ2YzNZWjcxclBSOFZuNmQ4UWZjZnRBZEk0UlpYOG5XbENrYm5TRkoxT1AzSkppUmxra3NmSERxNEE1TXZNVkNRU1l6YlJhU0RvZ0dhV3k0UDdWaWg3REZ0QU04VlkyQWluNEh0cFVnU0E1SERZbUllbVBxYXhSTlB3dUp0?oc=5",
+                "link_resolved": "https://rri.co.id/sanggau/regional/2863695/sanggau-dan-sekadau-jadi-sasaran-penyerapan-jagung-bulog",
+                "published": "Mon, 02 Nov 2026 05:09:00 GMT",
+                "fetched_at": "2026-11-02T11:53:23.538259"
+            },
             {
                 "title": "Jelang Nataru, Bapanas Pastikan Stok Beras Jawa Timur Aman Hingga 14 Bulan - Info Ekonomi",
                 "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMWpwLUdNemVUQ00xOENfaXFuUndnZ3o5Tm5KYVcwQmVEX2ZFMUFKajlyV3RfVWxGdnQ2VHpQajFRUFo4X3J2a2NnMVpQZWRZdF9obWRubTJZYnpTaGpzTkctemh1NV84REFmZk1zT3gwUl8tUWRrZk85MF9fRFdhUW5ocmJUQWc1UHNoaWdZODFGRmhJZ1Vic2JsaVVvMmhoOHFaZ3dRQlQ?oc=5",
@@ -808,48 +850,6 @@
                 "link_resolved": "https://journalarta.com/news/2026/11/01/cegah-penyalahgunaan-bulog-oku-bentuk-satgas-khusus-awasi-penyaluran-beras-sphp/",
                 "published": "Sun, 01 Nov 2026 04:59:00 GMT",
                 "fetched_at": "2026-11-01T08:29:10.104767"
-            },
-            {
-                "title": "Bulog Cianjur Bentuk Satgas Khusus, Perketat Pengawasan Distribusi Beras SPHP - Pakuan Raya",
-                "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRHpVYnRHLWFJUlpDejRlcDF3VEFWS0hSdktfTDNyOFJsQTMwekE0SXVUSHRJZEFmTUNOTWZQT2NGTDhzZUhGRHhyRVpSa0l4M2pLWHRRTlRYaGRwanBaM0RQQjM4X2pNc1lBZGdwZXdzOGJ3N3J4eW1LdEVTdFlwU19TbHF3SzlDWTVPekFVRnZhU3ZjdXlXR1duTnNOTFZXSnc?oc=5",
-                "link_resolved": "https://pakuanraya.com/bulog-cianjur-bentuk-satgas-khusus-perketat-pengawasan-distribusi-beras-sphp/",
-                "published": "Sun, 01 Nov 2026 03:38:36 GMT",
-                "fetched_at": "2026-11-01T08:29:10.104769"
-            },
-            {
-                "title": "Bulog Bali bentuk satgas awasi distribusi beras SPHP cegah terjadinya pengoplosan - ANTARA News Bali",
-                "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVDRGQjE1Mk5fUVhFMFVFQWdXR3BRd2NrVGRQZGJTWnJ1aFRqODUycE1GTzZ0emRwZ2sxYjBkYlRiYTBVaDBRYVEzeUVGSW1ZdHI2NXFnVk9ldFJjaGluckYxcVIwRFVjamhMXzRaTHdZR0VVZzd2R3ZKOGRUWTNxMWdoVXpJUE5ldFZ1Sldoa2U1bWNuMnB5Q3Uza1E2ejlTbUhYb1dHamh1XzBYei16R0NZNXNwXzBDdWpWWTlQSjDSAcYBQVVfeXFMTmxydVZyXzBYQjBXQWdiWlVSdU85cEpwV1M2QnFVMkJWdHNrRExERkhkX3lENjU5TG1xLUJsWDZlT3FpZFFjVmt1MnJNdXFJZjdIR1RER1VLUXNIWkhwWXZfYnoxSHRXZjNfOU1qRjlKaWhBX0R5MGcxd1pzakdiOXZBdmFZQlRzdmNCNVd6M0NJMzZxNXRiV3pmUTVPWVRIaUs3Y3VadktBaVQwZkpFdFd2T1hET2JBb0RtVWNxb0pHOWozOXF3?oc=5",
-                "link_resolved": "https://bali.antaranews.com/berita/417531/bulog-bali-bentuk-satgas-awasi-distribusi-beras-sphp-cegah-terjadinya-pengoplosan",
-                "published": "Sat, 31 Oct 2026 22:19:12 GMT",
-                "fetched_at": "2026-11-01T01:43:24.161767"
-            },
-            {
-                "title": "Bulog Bali bentuk satgas awasi pengoplosan beras SPHP - ANTARA News Bali",
-                "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcXR3MktCQkRhVmJZcVpaS2pzUWRod3VrUmxJbktjd0syWEVDNTBTM3YtQXZMdkZvVDlpQW4zcGJvNWt6dDluNmJUZmJ2R2dlQ3RWQlpsaFhvNlBETWxvR3FNZnVoSFRQWGZPVDVEMS1RZ1hyMUljZzdfQmExMXB1SFJmNmNqN0JxSXhxdnQ5eWQwU1BIWE02TWQ4c9IBoAFBVV95cUxNY01zVFV4TFVOSWZud015SmMyT0ZNVk1wc3dMazhRc1MyVDRncHkzbFZQdk9pT1hmSVhYeV9HUWtEejZDUGpZRHJfcFVoeUxsdnBGa0xIbS1lVkQ5YVY3VlRpUHl2QjFQeXotRE9YenhCMG01M0JxV3VIN3NDRVNTNHdkTDhzeF9DUkFDQ2h4Q005a183YVhYcTBkR2tyejlE?oc=5",
-                "link_resolved": "https://bali.antaranews.com/berita/417531/bulog-bali-bentuk-satgas-awasi-pengoplosan-beras-sphp",
-                "published": "Sat, 31 Oct 2026 22:19:12 GMT",
-                "fetched_at": "2026-11-01T08:29:10.104776"
-            },
-            {
-                "title": "Jaga Stabilitas Harga Pangan, Bulog Lebak-Pandeglang Awasi Harga SPHP Di Lapangan - Teras Media",
-                "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbzMyUlE2VDJKam5ocWVLTXhMWGphNGdFbWpzV3kzVnQ5SVA3cDdEWFBfbzBUUXphbTJ4X2dfSnp4bGhlbGVZN19NWHVQUktPUm1VTllnaTRRVWpwWXRBQXdZMzBwZVZxWGMtcUF0akNQeFVrUXNrdTJhVWZHQ2UtaFphMlU4aU9NcGd5cER2TUdyMllBekg3dEZpY1ZBenBTSzRlZ3RUbU1uZmdFSXlCUGpTZ1MtejQ?oc=5",
-                "link_resolved": "https://terasmedia.co/daerah/45094/jaga-stabilitas-harga-pangan-bulog-lebak-pandeglang-awasi-harga-sphp-di-lapangan/",
-                "published": "Sat, 31 Oct 2026 16:17:23 GMT",
-                "fetched_at": "2026-10-31T18:57:04.462072"
-            },
-            {
-                "title": "Hingga Akhir Oktober, Perum Bulog Semarang Serap 188 Ribu Ton Gabah Petani - Koran Jakarta ®",
-                "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZzNEemlGeHZlNnBTc28wTDEtRnc4U18wNU14WE5LWXd5TjhMWjZPY1JXbmE3UlZza1FGT2xWNWNnWkUwZmxoZno3Tk1SQkd1elJxTjhMYU5QM1RaLUxZZTVhMDZnRFh4ZWNkaUQxWnFWVVEwOHByZnJya1VpZFMwWWQtMXJpdHRIRzMtNGF5SmppSnFSSjFYTEQ1SlFNNXpWSjBPc1hxTHhYTFktVGVj0gG0AUFVX3lxTE94T1JLQjd5WHlTTzJOT0JjRDRseE9OWWI0NU5lZTVDancyd3pUQklHQzljQ01MWDJJT08xQkkzMi0tY05fcmJyeGdpZnhCU2xsODU0TzlIU3R6NEZMU0FjZUt1SnNaZmxMWmI4czhWQWpfdTNUWVVmQWJHaGxBMkt4Ml9oVWVrYmhmWlZNX2taOWtSbG96V1RDZWVHWVVqNnJoWGdJTnIyenJFLWxCZ0FqaGNYUQ?oc=5",
-                "link_resolved": "https://koran-jakarta.com/2026-10-31/hingga-akhir-oktober-perum-bulog-semarang-serap-188-ribu-ton-gabah-petani",
-                "published": "Sat, 31 Oct 2026 16:06:00 GMT",
-                "fetched_at": "2026-10-31T18:57:04.462048"
-            },
-            {
-                "title": "Jaga Stabilitas Harga Beras, Perum Bulog Kalsel Perketat Distribusi SPHP - Koran Jakarta ®",
-                "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNU2tLMHpVeEtKQXliU2Zoc1BwQS1uRVA2bTJHT01GNkpmSUhPSnZGSG1vakdULUNKSXlWakNvaHg5ZGZZZVFUMzMxNnhpN2NhYkJuYy1MdzgtcF94VUxlbVlYZnJvRkxuWWJ3eGhjdVVvckhJdnRTdl9LTzRWWFA4aGR4VzZPOHA2Q3NfNjBmWFRHUVlpVmdneks2ejI2aUZrMnFNZUFaaW90NFV40gGyAUFVX3lxTE1Zcjc4RmR5c2tfNklLUVA4ZWJ3VkZQenB6Q0RMd25xeHJLNUdzV3llcTdKRW1Ydm01VzZzSkN5ZlJoaFZvMG40bWdvR2tiSVZYeWZ3R2FhclBpWGxER2RZelpuS2VGS2Q1bW14ODZIQjBPVWxZSzMzYy05aEp6elh0cGsxUS1ObGpScGtCQWVmWGR3S1BFejAtSlpTbzM4T243aUVCSFJ6SFNBbHJBNDAzcnc?oc=5",
-                "link_resolved": "https://koran-jakarta.com/2026-10-31/jaga-stabilitas-harga-beras-perum-bulog-kalsel-perketat-distribusi-sphp",
-                "published": "Sat, 31 Oct 2026 14:53:00 GMT",
-                "fetched_at": "2026-10-31T18:57:04.462075"
             }
         ]
     },
@@ -998,6 +998,13 @@
         ],
         "Sonny T. Danaparamita": [
             {
+                "title": "Sonny Danaparamita Salurkan 37 Alsintan pada 36 Kelompok Tani Bondowoso - Suara Pemerintah",
+                "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONUtRc01OQXVCWVFTS3F1ajI4TE9zWElabDZnVTU0OHhMM0NadHNsd2l5M2FTejc5VzdKVGo3TkZmM1FkSFA4bU8xQlBBSi1uaXRtMkRyUWxWY1phcWh1cDFIelM5dWFxOTZJUG1mTThDbDdtaVl1TnJLODBfazZrZ0RSQjJ3UDdyMUgzdWpLN2xCM2NFNnpxOElmRzNkT1ZMQXNmQVdGY3VzUE0?oc=5",
+                "link_resolved": "https://suarapemerintah.id/2026/11/sonny-danaparamita-salurkan-37-alsintan-pada-36-kelompok-tani-bondowoso/",
+                "published": "Mon, 02 Nov 2026 09:44:11 GMT",
+                "fetched_at": "2026-11-02T11:53:24.877078"
+            },
+            {
                 "title": "Peternak Ayam Petelur Merana, Sonny Desak Pemerintah Kendalikan Harga Telur dan Pakan - gesuri.id",
                 "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRE9KSC03ZGJUU0ZacnhFWGl4LUxRd3BwU0xFVjBqbFZ0ZFVZQWwwT0c0UU5nR0VDZ0dMOUR5cTNNYm9DOWZ3b01pMjRYZDVBYTRmSXFMdFBrYnp4Zm1tblBnUlQzbVdXTFd6MS15Q19Vclo3anRCSnZHX25meTdKWmxuTVRrT2dqcW5ZM0RJNllxb2U3TXdEV1ZtdXRoaV92NFZDc1lJTWplamtYanhSVzVEcGR0RzZ5OWVDbjAxRWo3ZjdFRW82WnN30gHPAUFVX3lxTE43YTBrSkpxWlhzRXo3LU5wZ3drcTRCVlU5V2F0WkVOdV9mNEt2MDVyclFDeGtORU1wckhlc0tYcmJyT0dtTklVUndzRGlmNndlcm40NVViTVRKSHJjLW9qZHptY3R3cEJfWXRwenFBb0RUTkpaZ3RQMF9oOXJxakhQbkdTTkUwczVVZTdHVEZ3RExOVlF3ZG9ITVhEbkV2SDJFeWlwdkZvMy1oQ3RsV21ScjN3V2dvMjQzRkJDU3IzRDFqTUlmOGtnQWdDU1hJWQ?oc=5",
                 "link_resolved": "https://www.gesuri.id/pemerintahan/peternak-ayam-petelur-merana-sonny-desak-pemerintah-kendalikan-harga-telur-dan-pakan-b2qdcZbjcJ",
@@ -1129,13 +1136,6 @@
                 "link_resolved": "https://suarapemerintah.id/2026/10/cegah-kebakaran-hutan-sonny-danaparamita-dukung-penguatan-masyarakat-peduli-api/",
                 "published": "Wed, 21 Oct 2026 09:43:11 GMT",
                 "fetched_at": "2026-10-21T10:54:54.000107"
-            },
-            {
-                "title": "Sonny Danaparamita Tegaskan Tidak Ada Pungutan Apapun Terhadap Penerimaan Bantuan Alsintan - gesuri.id",
-                "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPaVRyMUxNd2k2QW5VWE5OUmhOM2FFVVRvUjR3SWRKY0Y0emdNYWVWSXpDS243bVZ6RmRxWDZsTzBsU3JrUnpWN20zb2hGSjJjXzhUWEl4cUNSYk5KeDU1VVN1Z1ZFdHhPd0RxLXNQSHBrV2FPT3J5Rk1NT1NwT2g2MHRrSVBZYnBlNHBsU0E0VjRGWjVZZ2p3cEpSdUp5bGlpamxpZVVOSlhrOEJUWW0zRm41MjV3N2Nwam1BVFRhWjdwNXItRlI4NlJiaXZpSW_SAdQBQVVfeXFMTnNaWFRMSEhSb0RJcmxpZWttWG5nMHoyMGVsZlNTdVJ1Mlhib3l0NzdpTG4xY2V0TmstXzJtb3o1cERWWk9Hci1wYmZObFVCZFdZMWVQMHJKN0JGQ3Q3QUNULWctMGR4NVNPalBBcks2OUtuSEUwUlBQc012NXM3ZHEzdU1lYVJ6UTlKZDRxOVdjOHF5LUF2U0VQVzNXWkNPWXBTWnE4bThsMG9veGxxdzZUbTlrZDRXQ3VvOExiN2VlOEpqVDRGN3Y0cTVCQjJqZ0ktSnU?oc=5",
-                "link_resolved": "https://www.gesuri.id/kerakyatan/sonny-danaparamita-tegaskan-tidak-ada-pungutan-apapun-terhadap-penerimaan-bantuan-alsintan-b2qcSZbiMA",
-                "published": "Wed, 21 Oct 2026 09:02:00 GMT",
-                "fetched_at": "2026-10-21T22:55:38.761966"
             }
         ],
         "Mayjen TNI (Purn) Sturman Panjaitan": [
@@ -1585,13 +1585,6 @@
                 "link_resolved": "https://www.lensaindonesia.com/bakar-hutan-modus-murah-meriah-buka-lahan-sawit-dpr-f-golkar-tata-kelolanya-harus-dievaluasi/",
                 "published": "Mon, 12 Oct 2026 07:00:00 GMT",
                 "fetched_at": "2026-10-26T22:57:49.999761"
-            },
-            {
-                "title": "Sidak Impor Daging di Tanjung Priok, Firman Soebagyo: Jangan Ada Kongkalikong di Barantin - beritabuana.co",
-                "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRGRvTXhEc1d0TVptZk9fM0NZS1NFd3BDWHAzR1FQb3JyQ19PSHkyaHdDdUowbk9LN0hjS1ZSMUdybXprU3VjQUNzMmR0YVZMZ0NldzBWZGNNWTh4aTN1Q1VoSnh5eElKUlBDODcxVFVVUE5MTHRtV1VrWVVuYWIzT25uMlVfWk5BMFNyMGMwbGI2WHV1OXdFZC1TdXNNU1ZDUzV6SUE5aVdRUmFKazVYRktJemwwcnBvQmM5OU9sOA?oc=5",
-                "link_resolved": "https://beritabuana.co/2026/10/03/sidak-impor-daging-di-tanjung-priok-firman-soebagyo-jangan-ada-kongkalikong-di-barantin/",
-                "published": "Sat, 03 Oct 2026 06:36:46 GMT",
-                "fetched_at": "2026-10-04T09:10:28.654829"
             }
         ],
         "Alien Mus": [
@@ -1608,16 +1601,16 @@
                 "link_resolved": "https://www.harapanrakyat.com/2026/10/patroli-lumpuh-alien-mus-amuk-kkp-soal-laut-maluku/",
                 "published": "Tue, 13 Oct 2026 05:51:34 GMT",
                 "fetched_at": "2026-10-13T08:46:17.280770"
-            },
-            {
-                "title": "Sekda Rizal Hadiri Sosialisasi Ikan Sehat Bulan Mutu KKP Bersama Alien Mus - HalmaheraPost.com",
-                "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWWlYZm56R0JacWlWVlJyYV84NzVna29NR2tSVldjbFFGblZONUJjbjhXLXFiak81c2RDUVFjbEFfTnJNN29PUV9kd2xKdy1rbFoxaFlVSW9vcEFWQTZSUnVHRm9WUUdBODFRdy1EazhWLU1odGl3Mk52NDNMTGJHOVRDdlNuakt5MXgwX3N2UU9Fa1NZRHJhSWw4b1pKQVhJb1BsR2hkU3N2UFNkSWl1X293?oc=5",
-                "link_resolved": "https://halmaherapost.com/2026/10/03/sekda-rizal-hadiri-sosialisasi-ikan-sehat-bulan-mutu-kkp-bersama-alien-mus/",
-                "published": "Sat, 03 Oct 2026 04:43:20 GMT",
-                "fetched_at": "2026-10-10T03:37:26.517178"
             }
         ],
         "Dadang M Naser": [
+            {
+                "title": "Dadang M. Naser dan Pupuk Indonesia Gelar Bimtek Penyaluran Pupuk Bersubsidi bagi Kelompok Tani - Fraksi Partai Golkar",
+                "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbHBXZXZsY2ZGajlHZjZld2pZbnNMWFdTdEpyRWRIZkoycTA3SDEwYTU3UV9mU2ZEb0ZyLUtzd1g2eHVsOC1RckR2YnU3Rm05c0VNYkhKQlJ2ZUk0VXpCdnJTaDFPeWNFQ0ZTamRlZ1ZibHZ1TXpUNnU3Y3piZ0lDaUdsTTJBNklsTHczemZpbDdXME1QRC1MMUNZSEV5LW16YjIzQXBRRW1iVzhuYk9FSERWbVRUdU1KVDIyTDVNTGFfX0FSUTNsSw?oc=5",
+                "link_resolved": "https://fraksigolkar.com/read/2809/dadang-m-naser-dan-pupuk-indonesia-gelar-bimtek-penyaluran-pupuk-bersubsidi-bagi-kelompok-tani",
+                "published": "Mon, 02 Nov 2026 10:10:05 GMT",
+                "fetched_at": "2026-11-02T11:53:36.998693"
+            },
             {
                 "title": "Dadang M. Naser Dorong Penguatan UMKM Lewat Gerakan Pasar Murah di Kabupaten Bandung - Fraksi Partai Golkar",
                 "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaDJMN2NFS2Vjd3B1Z1dqUTVfMXlaMUhCcWZQaXdVSVdvYVloZTl2aWNGeFNmenluNEk1Wk9JR0daZW52S3FVbU5kX0FTcmtqYlJxWDFFcWdfeVF6MkJLdVdONVJwRjdYUS1MZnFaYk9jQlU3eDA0TEQwQzVFTW1ia2pkcjBZLUczMmU5SWE3TjZiRWRuUnI3cjV2enZsQXBZSXhmNEVlZmdDX2N6elpSSEswTC1xZm0xa0E?oc=5",
@@ -1952,13 +1945,6 @@
                 "link_resolved": "https://belarakyat.com/darori-wonodipuro-dorong-komoditas-karet-masuk-skema-bpdp/",
                 "published": "Tue, 06 Oct 2026 07:00:00 GMT",
                 "fetched_at": "2026-10-08T06:53:28.005995"
-            },
-            {
-                "title": "DPR Dorong Penguatan Kelembagaan hingga Desa Cegah Karhutla - Bela Rakyat",
-                "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQN3ctVUdoNlcyRUZQc3M0UWJMSHJBa2ZjZ3o3VWtkNi1nbnU1ZnVzcGhWT1NaeFhuWW82VHRSbVBzYllMVGlJNVN4Vm05dGthWnRlcmItcUh4M0VCWGRxamJxN1JVNkZ1X0h0ZXBQaEdPQ2NxbFd6Sk9EYWFqdXVWblBJX3U1MVdGLUlv?oc=5",
-                "link_resolved": "https://belarakyat.com/dpr-dorong-penguatan-kelembagaan-hingga-desa-cegah-karhutla/",
-                "published": "Sat, 03 Oct 2026 11:26:15 GMT",
-                "fetched_at": "2026-10-03T12:54:54.735925"
             }
         ],
         "Dwita Ria Gunadi": [
@@ -1998,16 +1984,16 @@
                 "link_resolved": "https://pakuanraya.com/endang-thohari-ajak-warga-balumbangjaya-rutin-konsumsi-ikan/",
                 "published": "Sat, 03 Oct 2026 15:16:54 GMT",
                 "fetched_at": "2026-10-03T19:37:15.214200"
-            },
-            {
-                "title": "Endang S Thohari Ajak Warga Kota Bogor Gemar Makan Ikan - Emsatunews",
-                "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRXVSRWViSl9USVdWLXFIUUVDZHFkZmdCVXZiNFhPal8tX1cyaUhxczRXQlRhZlFJaXBCc2dnWkpHUUlxWTFfQWhzc2FpbWdrRGdEX0xQRklYVDdHUGxNejI0T2VIQW8yNTZxaXZLWXFSNkdGTzljWGFlTzMyRk42djBlR2I0MEZaSzdLV25vVE52V1k3b0MtXw?oc=5",
-                "link_resolved": "https://emsatunews.co.id/2026/10/endang-s-thohari-ajak-warga-kota-bogor-gemar-makan-ikan.html",
-                "published": "Sat, 03 Oct 2026 09:57:54 GMT",
-                "fetched_at": "2026-10-27T01:49:36.215807"
             }
         ],
         "TA Khalid": [
+            {
+                "title": "Peduli Lingkungan, TA Khalid Ajak Mahasiswa Bersihkan Pantai Banda Aceh - Kabarpolitik.com",
+                "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSkNPVy1GQnFPa2dsejdDcFdKdDVnU3pqQTZseDFybjZCNjlkYUwwZVV6WWEwY0tYOVQ0THhvbWpfUFgyTXpDRmp0NTAzLUwtUmhwdGJyQjZ2VkRyeVI1ZUx5X3lVX3ZRMk1sa2RSQV91ZUVLNmxIbWZZNnE2al8wNFYtNTRfSUhoLUZ2RHlnUWFLVGxTSElUcEtuUGs?oc=5",
+                "link_resolved": "https://kabarpolitik.com/peduli-lingkungan-ta-khalid-ajak-mahasiswa-bersihkan-pantai-banda-aceh/",
+                "published": "Mon, 02 Nov 2026 10:51:56 GMT",
+                "fetched_at": "2026-11-02T11:53:42.154538"
+            },
             {
                 "title": "TA Khalid Gelar Aksi Gotong Royong Bersihkan Kawasan Pantai Banda Aceh - fraksi gerindra dpr-ri",
                 "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQR05PTU9jbGQzSGwtNTM5RU44MU1NblNxbGZBX1BNVnFrX25HSUFPRnlTVzRMb3J5VWt1bHRpc0Z3eHZrejdCa2x2RzJjZWVYRFd4QXZfQnB0d3RYSEJrWURCQmRKV2dQcW5MUzFmVm9NZ2g4Q05GbHRMa3MxY01TVkE2eV9pSjdCaml1eFRIM01MUG1Sc0U3aEhFWUdLelhTaHVr?oc=5",
@@ -2232,6 +2218,27 @@
         ],
         "Sulaeman L Hamzah": [
             {
+                "title": "Bimtek Kewirausahaan dan Akses Permodalan Dilaksanakan, Sulaeman L Hamzah Sebut Pelaku Usaha Sebagai Petarung - Surya Papua",
+                "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbUNNV3VjZkFnbWp1YktYVllHeUdKU0szNy1UcHM3ckZvOFVGclVwT2hRZ1pGbnp4NGRKX3czXzBZaXlGbzNGN1dzd1ptdHhPN21jNHl2blZYcUVyalJFaWczX3RXVlRiVXhudEZPckQyTFhheXU2N1h2Q29xWkREcGI1ODUtRy15SWs0UkZJRGtHNEZRNGxheW1QOVNzYzVucWpsX0pOMjZuSWRNbzhoYnN4MzIzZzhHVUlUSDhBX0lGNVBTMHJQTEcwTUE?oc=5",
+                "link_resolved": "https://suryapapua.com/bimtek-kewirausahaan-dan-akses-permodalan-dilaksanakan-sulaeman-l-hamzah-sebut-pelaku-usaha-sebagai-petarung/",
+                "published": "Mon, 02 Nov 2026 06:11:02 GMT",
+                "fetched_at": "2026-11-02T11:53:44.911205"
+            },
+            {
+                "title": "Pelaku Usaha Perikanan Sasaran Bimtek Kewirausahaan Dan Akses Permodalan - Pasific Pos.com",
+                "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVVBJQnYzZkRaakp1QXhkX1hZUnVaVWxEdzhUejRZZHcwNkgxcE1hUng3SWw1OUw5ZlFnNEstQ195Y1FYdXBPQUxKUEg0Qjh0QXlSNmJJXzBwc3UxbDFiZ0tDcWxBeVY2N3djck91a25SX3BYS2Rla2VkYmc4aTBuaHBvQnlWSkg3TFhTQTVPNjBuUUJDRVBOMDZWbm5odFkyaEE?oc=5",
+                "link_resolved": "https://www.pasificpos.com/pelaku-usaha-perikanan-sasaran-bimtek-kewirausahaan-dan-akses-permodalan/",
+                "published": "Mon, 02 Nov 2026 05:38:10 GMT",
+                "fetched_at": "2026-11-02T11:53:44.911209"
+            },
+            {
+                "title": "Sulaeman Hamzah Perkuat Akses Permodalan bagi UMKM Perikanan di Merauke - Fraksi Nasdem",
+                "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTWtZZUF4cGpaeEFydjI2NFY2THo2cVdka3pUYnNINlU4cE1FYkpuclFhMVdaa2VidUtEVzNPUVU0S3lHNURqLWlGYV85ampZLWxFaWpjMEgwSWs0eDlZbjJrVThkeDVLdzRjQ2R1RFNFb0k4aldJZWpKUkQySDgxdWZHN3Vlb2tlQjZvcG1SS2ctaTlZaVNBZHl2WUN6Nmp0RUtR?oc=5",
+                "link_resolved": null,
+                "published": "Mon, 02 Nov 2026 03:35:03 GMT",
+                "fetched_at": "2026-11-02T11:53:44.911191"
+            },
+            {
                 "title": "Sulaeman: Putra Lembata Mendunia, Saatnya Bersinergi Bangun Daerah - InvestorTrust",
                 "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdDk1QVJQNzNmTktwTEV4d3BhVFBXN1BnbmNSeGFRY0VEUWg0WUVPMWI0LXpmaHlZMGtZWm9vdkdHV05ZbEp1WFBWbWZHQkhIVHpCNmdQNUlkTDZtOVNQSGEzQ2VjczdrcWhRTG1XX0o5dDQxNnBQcVJrek5aZG1vUGFiYUhXS1BjQUxyWWVhNzNpdkd3WVZiZWhsVUtmZ2cyWlItVldHbkw?oc=5",
                 "link_resolved": "https://investortrust.id/national/118996/sulaeman-putra-lembata-mendunia-saatnya-bersinergi-bangun-daerah",
@@ -2270,6 +2277,27 @@
             }
         ],
         "Rajiv": [
+            {
+                "title": "Jelang HUT Ke-15 NasDem, Rajiv Rapatkan Barisan kader / Relawan di Si Jalak Harupat - kumparan.com - kumparan",
+                "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQ0FSTlZtTDAwOHhyWXdibWk0S2pJN3A1VTd2QjkwUFBHSjBwdklNUjlNNHRzak1DR0FadDNqT3RqQWJMNlg3dmxzVXhMOGpuVlRYUlZNUTVtTThQa3pWU1hzU0VEUzJsMTJHSUlDMWdPbno4WG1Bd2swV19KSlg3TUlMZEIxdnkwTF9BMjJhRjQ5VE1jYWNCbjZKTWRmVEJvakRocXR5RFZ6cGtyaDdkUTFhZ1huS3RqWHRNSW9xdy1lcjcw0gHMAUFVX3lxTE5rTVBvNjRnV2N5dXJWN1VGWDdZZGNUMTRNQlVwbmFOMkprYmM5Y0dRRFpTS0VMRWUxUWYzU2I5d3VWVlZYMVN2MWFTTThwRFFydktIRjhBQXBWaC1QZmlTc3FpY2lJUHpMV29NaXF2WHpSYU9lR3FBNklMZGF1bExLQlVVbGE4UHV2amZ0ZzNLMWc5Z3ZNZFIwVkpfc1M1NGZFM2pMam15endTcFNFXzMyS3hOODBvUkVPM2cwbTRoeXRyOFpYMTRXa2R4NA?oc=5",
+                "link_resolved": "https://kumparan.com/kumparannews/jelang-hut-ke-15-nasdem-rajiv-rapatkan-barisan-kader-relawan-di-si-jalak-harupat-28UmfYYUpuB",
+                "published": "Mon, 02 Nov 2026 11:02:00 GMT",
+                "fetched_at": "2026-11-02T11:53:47.520882"
+            },
+            {
+                "title": "Anggota DPR Rajiv Salurkan Rp 100 Juta untuk Warga Terdampak Karhutla - detikNews",
+                "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbVlWeE9OM1ZCLV8yajYtbTFneUNLRjlDdG5KU2d4ckZjNmVoMjdFQ3NBMXBKQzdsSkk5ZWJDVTRSWGFtR1J0ZlVHdDhSMHBTbGZhNDZ0M255cXNQZFB2Qi1JNGJFbi1GeTJyQ0tTMXFXeE9ETi1BX1NvNlB3WVRaNmxRODZKMGxJeGFlY1FONVpIMEdZVFF1b1lsalpBZy1lREdKUlFfWDFLeUNmWGc?oc=5",
+                "link_resolved": "https://news.detik.com/berita/d-8735194/anggota-dpr-rajiv-salurkan-rp-100-juta-untuk-warga-terdampak-karhutla",
+                "published": "Mon, 02 Nov 2026 10:32:50 GMT",
+                "fetched_at": "2026-11-02T11:53:47.520897"
+            },
+            {
+                "title": "Rajiv Konsolidasikan Ribuan Relawan, Targetkan Dua Kursi NasDem di Bandung dan Bandung Barat pada 2029 - Aktual.com",
+                "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZmVRUGZva3NKVFdqcFRaSnhZYkFnbHBHaTlRdnFwQXNIYy1LZXRwWTBtMThzRDloRXphaFdta1BqVzRrQ3pUVXhNcUZOWTZ4MDQwbER2cVNiZzF0d2FkcmVlVXkxUGFGVWRXUFFFdndYQVdUX2V6OEtRT3VhMXc5a0JvdW53MDVpOVM4VnQtLW9fVmpSMGtsdEllc2NwMVV5UnhoWGJfNHJZVE9IZ25RWllwcXd4bTJjTUlvM2VB?oc=5",
+                "link_resolved": "https://aktual.com/rajiv-konsolidasikan-ribuan-relawan-targetkan-dua-kursi-nasdem-di-bandung-dan-bandung-barat-pada-2029/",
+                "published": "Mon, 02 Nov 2026 06:30:35 GMT",
+                "fetched_at": "2026-11-02T11:53:47.520901"
+            },
             {
                 "title": "Tembus 555 Titik, Rajiv Minta Relawan Kawal Keluhan Warga Kabupaten Bandung dan Bandung Barat - kumparan.com - kumparan",
                 "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOa2lrRWV4U05NSmxEc2FYMG12TjBfNk5JdHYtZGZnVDhEU1hLVXJ6WUJiMXQwY25iYW9rdUVVcGtyVFlGcmcwejFrb3JQZDdlWElPTUE3OVl2RXBFb241UDRfa2xtc2E5VlpkeV9iTlV2eHhtdEh1cUNkNUlpeHMzZW1PTFl4UmQxZ1V5eTVJY1ZVc205djJBbUpIQ00wVFlnVnFUYnR4ZnVKVjBybGo1Z0FIT2RHakZqeHF6czJ4OVhzOEpwU1RVVWtkRG5vMG1rV29uZNIB3AFBVV95cUxNU1BzaEItZjhDeWc0a09nRVJzZGM1TnFvbzFaeHlSTWN3VUpiWGNiTUNRX29jaERSWEFDRnRJcXpBLVpyblVxNEI4RXZfUFlnZ2UzVzJZXzQzWmt1aEs5U0ZUVGczNnhZMFJCd1NTdmZ4bkNIbGNhbVNvVWE1YzVuU3U4ZlJsZ1JmSWZyTXotdTNzSlV1Z2lXMHRxZ3hkbTM5blRmRDlnSnV0c2F3ckVxOUhVTVAzcHZOalZqSGtpWXVvbWIweTZzQVdYeTlFSjJmYWphdU9OemRDemMy?oc=5",
@@ -2388,27 +2416,6 @@
                 "link_resolved": "https://jurnalpolisi.co.id/pererat-silaturahmi-dengan-warga-kunjungan-anggota-dpr-ri-rajiv-sing-di-mekarsaluyu-berlangsung-aman-dan-kondusif/",
                 "published": "Sat, 17 Oct 2026 12:23:03 GMT",
                 "fetched_at": "2026-10-17T14:44:20.355791"
-            },
-            {
-                "title": "Pererat Silaturahmi dengan Warga, Kunjungan Anggota DPR RI Rajiv Sing di Mekarsaluyu Berlangsung Aman dan Kondusif - Katerciko -",
-                "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNazhieEJhMDRiNmlZQmNlTHpvVWZOS19WaTVNbkV2ZWdhaURzaEtmLUhleUVOQVNTN2FyQkhRV3dJNFdFQnFaelVza2dNSkpxWGhXbE10T3RnNmRkQVB5T1NUR0JGYVN5X3RPalJyRS1fcUxuOGt4dHBqZWhDb3JTcjRTLWV6WkhncGpscU1mUTJHSE94OUp1ZUMtSTd2MHVFVlEyR2hxc3dQX3Y0dGtsejYzSkVFdms5N2c4cG1SSGNJTU9WQnhQY0piRHRZMUs3d1E?oc=5",
-                "link_resolved": "https://katerciko.com/pererat-silaturahmi-dengan-warga-kunjungan-anggota-dpr-ri-rajiv-sing-di-mekarsaluyu-berlangsung-aman-dan-kondusif/",
-                "published": "Sat, 17 Oct 2026 10:09:06 GMT",
-                "fetched_at": "2026-10-17T11:53:37.768242"
-            },
-            {
-                "title": "Karhutla Makin Meluas, DPR Desak Kemenhut Bergerak Cepat! - news.okezone.com",
-                "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPS0E4MUNvbTlSRk5GXzdURkstanZyZUYweDlsWUk1cWZpVlpHdkl4Y0g0R3ozaFU4NTMtYVVnRS1FTmRRcmpld21ESWNZTC1tWUhmTUxGYU92V1JBbHVVNTROWWlLVGhMRlhGWlVucmhCSHdUbjQ1aHpxd2lPTFhoQTFXRVR5R09QZDBvS3pvRERMSGZMaE56MVZMSHRjcXhBU2RCOVdEZ056X21u0gGrAUFVX3lxTE0yVTNDWW1CNkdsX1p4UHAzRW54QU1ndnZBT0xJcmRiOC1RQ0VSRmlaV2pKakRBZXYxbnBwb25LZlN0WkZpWGtfNFRjTk1nUFFxSnBYWkQ2bWI3cHdjVmRkNHN6cUw4dlhGTjBjeVVsSVJCcllIMUEtQkF6eG1DTW1KVFF5MGxleGV0UzJUd1F4SWhjVnJDMDQ3YnVRSmljcHk4S2hlS0FQRHNIOA?oc=5",
-                "link_resolved": "https://news.okezone.com/read/2026/10/16/337/3248358/karhutla-makin-meluas-dpr-desak-kemenhut-bergerak-cepat",
-                "published": "Fri, 16 Oct 2026 10:48:20 GMT",
-                "fetched_at": "2026-10-18T07:36:48.964179"
-            },
-            {
-                "title": "Rajiv Minta Kemenhut Pimpin Koordinasi Lintas Lembaga Tangani Karhutla - detikNews",
-                "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNEh0VUd3bTV6bWdfcmhpa2owNHBKdlZrV29jVWNCRi1fTWh6dVVYT1lXMDRPTEhoblpHY3pOc1BWX2NjYzlrb1pWNXd5bjh0MF9TSURxcGd0Sm5ZdjBSdmFEaGVERlpneDBUTVZYQ21xSlM2NkF3VDJyNGtTZXROTHVPNkJQS05GUExIUkN1QmtOWlZqTGJ2cnpvdkt5UDQtQXF3QVhDTlVJbW01a2Rv0gG0AUFVX3lxTE9DejNZVi1ua0Z6QzAtWmdqWnowcEZ4eGZ5UUpEcFUwbkFnMlp3N3dpWFFiWS1RcERWblc1OWlEY1hXSFZtUXJ1bldXOU1ZM1VNN2xhYlVzWW04c1BoalFEU1dGaV85YUlmVGRrTTgySlNQcDlWM2VYNTRZaEtYYXVxdWZOcHU4MVlLVmN1WEhKMUZ3RGxrNlc0NFloQ29JQzdIeEszOWlDRS13dkdaeUVZaDFvVg?oc=5",
-                "link_resolved": "https://news.detik.com/berita/d-8710348/rajiv-minta-kemenhut-pimpin-koordinasi-lintas-lembaga-tangani-karhutla",
-                "published": "Fri, 16 Oct 2026 09:25:25 GMT",
-                "fetched_at": "2026-10-16T17:07:11.779983"
             }
         ],
         "Arief Rahman": [
@@ -2546,13 +2553,6 @@
                 "link_resolved": "https://sultranesia.com/hadiri-wakatobi-wave-jaelani-bawa-bantuan-untuk-nelayan-dan-petani/",
                 "published": "Sun, 04 Oct 2026 12:19:05 GMT",
                 "fetched_at": "2026-10-06T04:06:15.573137"
-            },
-            {
-                "title": "Jaelani Serahkan Coolbox kepada Nelayan Wakatobi - SultraKini.com",
-                "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUGlTaGI2SHY2bXZ3emE1MDd2UTN0YU92bWdDN1kteUZsZWlsMFJPOGhNRkNyYkJ5djBYU3g3NHFMNUJGcWRsN0pGalFmbUFOaHp0N21adFNJcmoteTlWMFNBdTB3bFZkbWlWbjhrcTJKMmZtRW9FOTM5eDMtSGJvUkNZWmrSAYQBQVVfeXFMTlBpU2hiNkh2Nm12d3phNTA3dlEzdGFPdm1nQzdZLXlGbGVpbDBSTzhoTUZDcmJCeXYwWFN4NzRxTDVCRnFkbDdKRmpRZm1BTmh6dDdtWnRTSXJqLXk5VjBTQXUwd2xWZG1pVm44a3EySjJmbUVvRTkzOXgzLUhib1JDWVpq?oc=5",
-                "link_resolved": "https://sultrakini.com/jaelani-serahkan-coolbox-kepada-nelayan-wakatobi/?amp=1",
-                "published": "Sat, 03 Oct 2026 09:04:35 GMT",
-                "fetched_at": "2026-10-03T12:55:06.541852"
             }
         ],
         "Daniel Johan": [
@@ -3686,14 +3686,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-11-02T03:41:04.793030"
+        "fetched_at": "2026-11-02T11:53:20.506599"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-11-02T03:41:04.793030"
+        "fetched_at": "2026-11-02T11:53:20.506599"
     },
     "macro_stats": {
         "ntp": {
@@ -3701,63 +3701,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-11-02T03:41:04.793030"
+            "fetched_at": "2026-11-02T11:53:20.506599"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-11-02T03:41:04.793030"
+            "fetched_at": "2026-11-02T11:53:20.506599"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-11-02T03:41:04.793030"
+            "fetched_at": "2026-11-02T11:53:20.506599"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-11-02T03:41:04.793030"
+            "fetched_at": "2026-11-02T11:53:20.506599"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-11-02T03:41:04.793030"
+            "fetched_at": "2026-11-02T11:53:20.506599"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-11-02T03:41:04.793030"
+            "fetched_at": "2026-11-02T11:53:20.506599"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-11-02T03:41:04.793030"
+            "fetched_at": "2026-11-02T11:53:20.506599"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-11-02T03:41:04.793030"
+            "fetched_at": "2026-11-02T11:53:20.506599"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-11-02T03:41:04.793030"
+            "fetched_at": "2026-11-02T11:53:20.506599"
         }
     },
     "scrape_status": {
@@ -3766,5 +3766,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-11-02T03:41:04.793030"
+    "last_updated": "2026-11-02T11:53:20.506599"
 }
