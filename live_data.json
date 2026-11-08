@@ -2,6 +2,13 @@
     "agency_news": {
         "Kementerian Pertanian": [
             {
+                "title": "Mentan Amran Tegaskan Bantuan Alsintan Gratis, Laporkan Jika Ada Pelanggaran - Inilah.com",
+                "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdTdISTNDWkc4N3QzWHliOGNEZ0dkejVfRFdSRFFwWlFPeUpVLVJmS0VOSl9hRmwyNGpjOXdlcl95VUx0d3dWMk8zTEVNR1g4dkJJcnMzc09fWGJuNVRaaV9NLWNvZHUtVkQ5dmZPY252NXoyWkNKaXNlOGVfUWJVX1Nnd2g0aktZdkljTHRIeFNUNGg3RmlDTFB2OGxXbkk?oc=5",
+                "link_resolved": "https://www.inilah.com/mentan-amran-tegaskan-bantuan-alsintan-gratis-laporkan-jika-ada-pelanggaran",
+                "published": "Sun, 08 Nov 2026 19:03:00 GMT",
+                "fetched_at": "2026-11-08T20:54:54.454395"
+            },
+            {
                 "title": "Delegasi dari Kementerian Pertanian dan Lingkungan mengunjungi Stasiun Penelitian Pohon Buah Prefektur Yamanashi. - Vietnam.vn",
                 "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSVZtOHpKTGhnYm9KYzlzREp0VTRXeXdrNFJRbEFfdFQ5dk5oVzRIZWJfQzdoY3JRc0dxcTFxaVl2d25zT2RzVk1OdENJTjZwcGNJYTM1NE9qNHdlT3VYd05TYlB0MElfVlRMbE5kWkZvWjg5LWhPY3N0V0JqQVY1b0VvcGRQTW5TM3Bfc1lTUlVySlkwNmZocnN2M0Y4cVdfUG93QVVrOU1HWTBjY0lNbFptTWtnby1oZko0Xw?oc=5",
                 "link_resolved": "https://www.vietnam.vn/id/doan-cong-tac-bo-nong-nghiep-va-moi-truong-tham-quan-tram-nghien-cuu-cay-an-qua-tinh-yamanashi",
@@ -133,13 +140,6 @@
                 "link_resolved": "https://www.inilah.com/bangun-ekosistem-usaha-mentan-amran-pastikan-stok-jagung-sphp-aman",
                 "published": "Sun, 08 Nov 2026 01:56:00 GMT",
                 "fetched_at": "2026-11-08T03:39:52.167144"
-            },
-            {
-                "title": "Kementan Perluas Tanam Padi di Lampung dan Sumsel - cwibc.co.id",
-                "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9OX2NkWkRqRjVDMFVXVWlvRjRSRHdaNllBUmNLbFJDTENjX0Vjc1ZjQzI3NEVtX1cxc3VwQllrc2l1T3p4Y1RfUlczYU9hLWpVWGNvSmRId01hV3ZIeElIMGczUVUxM2VsRDBXUy0tMA?oc=5",
-                "link_resolved": "https://cwibc.co.id/kementan-perluas-tanam-padi-lampung-sumsel",
-                "published": "Sun, 08 Nov 2026 00:03:12 GMT",
-                "fetched_at": "2026-11-08T03:39:52.167135"
             }
         ],
         "Kementerian Kehutanan": [
@@ -570,6 +570,13 @@
         ],
         "Badan Pangan Nasional": [
             {
+                "title": "Serapan gabah Bulog capai 4,4 juta ton, tertinggi sepanjang sejarah - Elshinta",
+                "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOUJvQmFCU01CNTBJZW1WZm9lOWxONm05WGNWY0RIcHpMaHdwSU54R0k4LTlTRTh0bXp0WDVzNGY0cm5rZ2VWc0RQQmhxZHFZTTBDY1R1SWMyMDBHbEh3VkxHdGVyTHIzWG9QOE84Q2R2TGQ1UzN0aDdUay1paXBfSTNLY25KRk1tc2ZkOG1lUU9DTXctYjhYb3BMcnczWGZpNWJwWF9pT3U1UQ?oc=5",
+                "link_resolved": "https://elshinta.com/kategori/1/ekonomi/bulog-serapan-gabah-petani-tembus-4-4-juta-ton-setara-beras-184272",
+                "published": "Sun, 08 Nov 2026 19:50:00 GMT",
+                "fetched_at": "2026-11-08T20:54:56.296387"
+            },
+            {
                 "title": "Amran Ultimatum Mafia Pangan, 13 Orang Jadi Tersangka - RRI.co.id",
                 "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZDFOMjlyWGVNbEdOMFZVaExCSDZ0T2l2VkxoWkltZmh5REp0VjlvTUtIWUlGcjBqZy1ZQ21rUk9OT3ZlQmg3RG5FRGd1cFU0NzRlWnJfbFUxWV9tN21HXzRTT3I2akltWUNMT0hjNGluc1U2VDk4Tk44VDl0d0s3TFhpSXhUMEQ1UjMxVTZyZGM?oc=5",
                 "link_resolved": "https://rri.co.id/nasional/2880473/amran-ultimatum-mafia-pangan-13-orang-jadi-tersangka",
@@ -701,16 +708,30 @@
                 "link_resolved": "https://www.hetanews.com/article/312364/bapanas-dan-satgas-pangan-polri-perketat-pengawasan-beras-sphp-rpk-dengan-pemesanan-tak-wajar-jadi-sasaran",
                 "published": "Fri, 06 Nov 2026 09:41:05 GMT",
                 "fetched_at": "2026-11-06T10:36:44.519883"
-            },
-            {
-                "title": "Bapanas Percepat Distribusi Beras SPHP dan Bantuan Pangan Tekan Harga Beras di Zona 2-3 - Suara Surabaya",
-                "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWmZLTml4RWFlNWVOQ3RWb3BsT1JmV0FEd2pseGFXMDYtTjMtU1hTeUR1bWRsb0pmdWZsUjVscWVkTW9Ga3lwN05QYUc0NkhHVUY0amJaYTBsVGJ3MC0tZ25PRExRWVFwTmc4RkhINXhROWJVSEJyZ0VaclpESTBReG93ckY4SGRGdjNzWE1nQ1dHVk84SVhEbXByTVU1WEtxcGZiUjd1SGF4cWxNZVNFRFI5czAyTzBEMi1NZWNjWDhtTmNxaE9ldXdmQWxsZDg?oc=5",
-                "link_resolved": "https://www.suarasurabaya.net/kelanakota/2026/bapanas-percepat-distribusi-beras-sphp-dan-bantuan-pangan-tekan-harga-beras-di-zona-2-3/",
-                "published": "Fri, 06 Nov 2026 08:42:29 GMT",
-                "fetched_at": "2026-11-06T10:36:44.519875"
             }
         ],
         "Perum Bulog": [
+            {
+                "title": "Serapan gabah Bulog capai 4,4 juta ton, tertinggi sepanjang sejarah - Elshinta",
+                "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOUJvQmFCU01CNTBJZW1WZm9lOWxONm05WGNWY0RIcHpMaHdwSU54R0k4LTlTRTh0bXp0WDVzNGY0cm5rZ2VWc0RQQmhxZHFZTTBDY1R1SWMyMDBHbEh3VkxHdGVyTHIzWG9QOE84Q2R2TGQ1UzN0aDdUay1paXBfSTNLY25KRk1tc2ZkOG1lUU9DTXctYjhYb3BMcnczWGZpNWJwWF9pT3U1UQ?oc=5",
+                "link_resolved": "https://elshinta.com/kategori/1/ekonomi/bulog-serapan-gabah-petani-tembus-4-4-juta-ton-setara-beras-184272",
+                "published": "Sun, 08 Nov 2026 19:50:00 GMT",
+                "fetched_at": "2026-11-08T20:54:56.825642"
+            },
+            {
+                "title": "Bos Bulog Sebut Penyerapan Gabah Petani Setara Dengan Beras, Lebih Dari 4,4 Juta Ton. - Pasardana",
+                "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdGs5MWdDTXFUTG1FanQ1NDJxeVVnRENYR1dOek1zR2pGanRSa1VlNjFKTnV6azhOUThoUC1mZmJzX282UVVCdXMyRDNNZldKVnAtano3OXJCUUx1RnlYZUYydkdKTm5CVVRrYVZqX2Vuc1BFMGVqTHlNcEpMcnhwaUJMOFNVRjZMWHBpTnBVU3BfSHgxS1JlcDdQdnJJbHZzUVFjdDRWUDB5Ty1GZEhSRC1obGw4V2RIUVRr?oc=5",
+                "link_resolved": "https://pasardana.id/news/2026/11/9/bos-bulog-sebut-penyerapan-gabah-petani-setara-dengan-beras-lebih-dari-4-4-juta-ton",
+                "published": "Sun, 08 Nov 2026 19:22:00 GMT",
+                "fetched_at": "2026-11-08T20:54:56.825621"
+            },
+            {
+                "title": "Bulog Siapkan Sertifikasi Mitra Penggilingan Padi demi Jaga Mutu Beras Nasional - republika.co.id",
+                "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeEpQTjN6U0VudTRqUVNHV1dZVXBfckJuby1xMjctR29DZURZaVRKYVNLNUoxTERPRzVnNlFpYWVUSl9IX3VsdGJuV29MSmc3V2p4N21hNmVxb1REWGFLb25KMnFNWnNVSXVHSTJhOUhTN1ZIX3JaWE5IMHNKeW1BU1JKTVIxdUEteXo2Nlh3X3dKNl9ldFpPVFVMUnRVSktKeU94VVF4MHp0WTlKeWd4Y1pDcFN3SnBWTW1NMWhCSE1HQm9mdS1oZw?oc=5",
+                "link_resolved": "https://news.republika.co.id/berita/to743t4030000/bulog-siapkan-sertifikasi-mitra-penggilingan-padi-demi-jaga-mutu-beras-nasional",
+                "published": "Sun, 08 Nov 2026 18:16:41 GMT",
+                "fetched_at": "2026-11-08T20:54:56.825639"
+            },
             {
                 "title": "Awasi Distribusi Beras SPHP, Bulog Perkuat Sinergi dengan Polda NTB - SUARANTB.com",
                 "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTFJLOEJMcFZKNHUzWFNOdG5pYTVhcWhSZlZpMS0yZDI1SGRITGVNZkdIWVFsOEpJVl9oZ0FPeWhFb08yZ0JQR2N2SDZNSUpLSFFyeGd5aW1IbXBCT19CQUtxSFF0Y0c4bWlJU1E3b3ptdUVqRmRfeGZCNXRGSzUtUm5nTFkwOHB1Zmp0aExQTE93OWVKNmJyQ0Yxbmt3Ymc3?oc=5",
@@ -829,27 +850,6 @@
                 "link_resolved": "https://insidelombok.id/daerah/bulog-ntb-terapkan-metode-cocoon-simpan-beras/",
                 "published": "Sat, 07 Nov 2026 05:23:46 GMT",
                 "fetched_at": "2026-11-07T09:28:09.066859"
-            },
-            {
-                "title": "Sinergi Semen Tonasa dan BULOG, 580 Ton Pangan Disalurkan ke... - SINDOmakassar",
-                "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRVpWTVhDeUZkSGZ2d25XMWhBaTVzaEVjandoYVlMTGd6LWpnYjF5YjRvbHRlZ2RqN09WX2FoZ3g2OVBxVnVkVUhaQjMxTHJuYWhWc1g2WldOQmhDRlI1STZfZFgxY3pZeDhFX2JhQlBHdE5hdlUzZ1piNl9zTm15V0tPNzV0TEl6VDlBVDlIU21ITHlIdzYtVXlDRWpHblp6WnRVNjRMUmtqSkZwTWFvUDlzbzhmTUJYWUxINERYRELSAccBQVVfeXFMTlFfQ0VfekNHYjBYU2hoNUE2aGlYYng4akZjYWpLR2pOTWs5ZHl5RWMxNUdJSC1fRXFCNEEzc3k5Y1A2SWEyOFVuNURWM1p2R0dIX1VfR0hPdW10U1RNbk9ZeEI4dXNIWkJxeURLUDkwdjUtTEZCWUQ0MGFtbjhkNXZmYVBJMHpQQlJ0STJDYkU4NnVSRG1RLUg2bFRSZVZqV3VpSGVMRndBbENRQURkSFdZenNYUWV2MlQyUTNQdzZOOF92STEwaw?oc=5",
-                "link_resolved": "https://sindomakassar.com/read/news/29405/sinergi-semen-tonasa-dan-bulog-580-ton-pangan-disalurkan-ke-masyarakat-1794024719",
-                "published": "Sat, 07 Nov 2026 05:04:20 GMT",
-                "fetched_at": "2026-11-07T09:28:09.066856"
-            },
-            {
-                "title": "Bulog Apresiasi Polda NTB, Sinergi Ketat Kawal Distribusi Beras SPHP Demi Lindungi Masyarakat - EkbisNTB.com",
-                "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZEpvUmF5X0NTd2x6dUdjZFlzN0syNHY3X3RfMFFBTHBvMGVwbEtlNjRaWWgyWnhHMEdaekVJcWJvNDcxLVRjdnRsMFhYTy1jaExkNnZrOUFEZ1N5VnBfOHRNRE1SUWRVR3QySFFhSE9LcUxvYUxSMGI3UlJUUE5vcHVhZG9UdGZlemFveTZ2TEJhNWFRZmUwNFdfRUlBRHFod3hFeG9FcU1SM0cwMTF3V3hBQ1VLOGIyUWFiaTFqbEhLNTg?oc=5",
-                "link_resolved": "https://ekbisntb.com/07/11/2026/bulog-apresiasi-polda-ntb-sinergi-ketat-kawal-distribusi-beras-sphp-demi-lindungi-masyarakat/",
-                "published": "Sat, 07 Nov 2026 02:35:27 GMT",
-                "fetched_at": "2026-11-07T09:28:09.066854"
-            },
-            {
-                "title": "BULOG NTB Puji Polda Bongkar Penyalahgunaan Beras SPHP - RRI.co.id",
-                "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOFNhSEpoMmxJdTZ3QWVIeDVrUzJsZ2F2R3VxbjNob3EwNGs3UHdhYWx4ak5tRGgydElZVzA3Vm5oMVB1RnhKU1djRjhNUDZ1ck9XLTU3bmdWdDBWYmh3RkMtbnpGV0Fqb1lVVFVkd2NXUWo4V2Z3OWZKb0ZlWjR3ak1HMDRMZTBmTDRQUGYyUU43QW5QSWszWHU0WXpaUQ?oc=5",
-                "link_resolved": "https://rri.co.id/mataram/regional/2877637/bulog-ntb-puji-polda-bongkar-penyalahgunaan-beras-sphp",
-                "published": "Sat, 07 Nov 2026 02:04:00 GMT",
-                "fetched_at": "2026-11-07T02:29:01.756349"
             }
         ]
     },
@@ -3251,13 +3251,6 @@
                 "link_resolved": "https://fraksi.pks.id/2026/10/10/jagung-pasar-rp8-000-sphp-rp5-000-johan-rosihan-pastikan-selisih-harga-dinikmati-peternak-rakyat/",
                 "published": "Sat, 10 Oct 2026 08:46:58 GMT",
                 "fetched_at": "2026-10-10T16:03:53.354633"
-            },
-            {
-                "title": "Johan Rosihan; Ekspor Tuna Sulut Harus Sejahterakan Nelayan Lokal - Harapan Rakyat",
-                "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLXg5NFJaWFFEUkRoWUNZVlJVZ0pBNl9ZUWhNbkdpRl8wd3pKSm9fR1J0aEVOUDA2ajhEZkZXRXRRdEdIeldnaGVaMGkycjRXM0tsaHZiM0xZU3hmclJnSl9Fa3JDcVFId2JjY19TbEViTGo1cERuaUtscnVRUzYwUTYxUDJsRjR0c21sZmxDcmRSZ09jUFE?oc=5",
-                "link_resolved": "https://www.harapanrakyat.com/2026/10/johan-rosihan-ekspor-tuna-harus-sejahterakan-nelayan/",
-                "published": "Fri, 09 Oct 2026 17:47:47 GMT",
-                "fetched_at": "2026-10-09T19:57:23.115298"
             }
         ],
         "Riyono": [
@@ -3658,14 +3651,14 @@
         "source": "BAPANAS, nilai fallback statis",
         "source_url": "https://panelharga.badanpangan.go.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-11-08T16:53:50.441121"
+        "fetched_at": "2026-11-08T20:54:53.871375"
     },
     "stok_bulog": {
         "value": 1250000,
         "source": "Bulog, nilai fallback statis",
         "source_url": "https://www.bulog.co.id/",
         "confidence": "FALLBACK",
-        "fetched_at": "2026-11-08T16:53:50.441121"
+        "fetched_at": "2026-11-08T20:54:53.871375"
     },
     "macro_stats": {
         "ntp": {
@@ -3673,63 +3666,63 @@
             "source": "BPS, nilai fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-11-08T16:53:50.441121"
+            "fetched_at": "2026-11-08T20:54:53.871375"
         },
         "luas_panen_padi": {
             "value": "10.2 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-11-08T16:53:50.441121"
+            "fetched_at": "2026-11-08T20:54:53.871375"
         },
         "produksi_beras": {
             "value": "31.5 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-11-08T16:53:50.441121"
+            "fetched_at": "2026-11-08T20:54:53.871375"
         },
         "luas_panen_jagung": {
             "value": "4.1 Juta Ha",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-11-08T16:53:50.441121"
+            "fetched_at": "2026-11-08T20:54:53.871375"
         },
         "produksi_jagung": {
             "value": "14.4 Juta Ton",
             "source": "BPS, fallback statis",
             "source_url": "https://www.bps.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-11-08T16:53:50.441121"
+            "fetched_at": "2026-11-08T20:54:53.871375"
         },
         "kampung_nelayan": {
             "value": "12 Lokasi Selesai",
             "source": "KKP, fallback statis",
             "source_url": "https://kkp.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-11-08T16:53:50.441121"
+            "fetched_at": "2026-11-08T20:54:53.871375"
         },
         "harga_pangan_avg": {
             "value": "Stabil (Inflasi 0.2%)",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-11-08T16:53:50.441121"
+            "fetched_at": "2026-11-08T20:54:53.871375"
         },
         "bantuan_pangan": {
             "value": "85% Tersalurkan",
             "source": "BAPANAS, fallback statis",
             "source_url": "https://badanpangan.go.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-11-08T16:53:50.441121"
+            "fetched_at": "2026-11-08T20:54:53.871375"
         },
         "realisasi_sphp": {
             "value": "750.000 Ton",
             "source": "Bulog, fallback statis",
             "source_url": "https://www.bulog.co.id/",
             "confidence": "FALLBACK",
-            "fetched_at": "2026-11-08T16:53:50.441121"
+            "fetched_at": "2026-11-08T20:54:53.871375"
         }
     },
     "scrape_status": {
@@ -3738,5 +3731,5 @@
         "phase_3_macro": "ok",
         "errors": []
     },
-    "last_updated": "2026-11-08T16:53:50.441121"
+    "last_updated": "2026-11-08T20:54:53.871375"
 }
